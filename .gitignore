@@ -1,0 +1,15 @@
+*.json
+*.bin
+*.mat
+*.h5
+*.pyc
+*-checkpoint.ipynb
+*~
+*.swp
+
+*.zip
+*.tar.gz
+
+
+data/*
+datasets/ReferIt/*
