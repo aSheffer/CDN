@@ -53,6 +53,10 @@ In addition we add attention over B's outputs on the un-edited query.<br>
 
 A does not 'see' any of the words nor any of the images. This means that A can't learn a good languish model nor does it know anything on B's task (since it doesn't 'see' the images), therefore A can't learn how to attentionally interfere B's learning a good languish model. Actually, the only thing A can learn is to recognize overfitting patterns by looking at B's features, so A might give us some insight of how B's working considering the huge variance in both vision and languish.
 
+# Baseline
+
+As a baseline we used a pre-trained w2v model to initialize the word embadding. We then train a model that calculate cosine similarity between the average of a query's words vectors and a progection of the bboxes vectors. 
+
 # Runnging The Models
 
 You can find the models codes and results in the notebooks folder.
@@ -63,4 +67,13 @@ You'll need Opencv, Keras, Tensorflow and python 3+
 
 ## Preprocess
 
-1. Download the ReferIt dataset: ./datasets/ReferIt/ReferitData/download_referit_dataset.sh and ./datasets/ReferIt/ImageCLEF/download_data.sh
+1. Download the ReferIt dataset: ./datasets/ReferIt/ReferitData/download_ReferitData.sh and ./datasets/ReferIt/ImageCLEF/download_data.sh
+2. Preprocess the ReferIt dataset to generate metadata needed for training and evaluation: python ./preprocess_dataset.py
+3. Cache the bbox features for train/test sets to disk: python ./exp-referit/train_cache_referit_local_features.py and python ./exp-referit/test_cache_referit_local_features.py
+4. Build dataset: python ./exp-referit/cache_referit_training_batches.py
+5. Train word2vec: python ./exp-referit/w2v.py
+6. Build w2v baseline dataset: python ./exp-referit/w2v_train_cache_referit_local_featurs.py
+
+# Notebooks
+
+All the codes and the results can be founds in the notebooks folder.
