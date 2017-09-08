@@ -20,7 +20,8 @@ data/metadata/*
 data/resized_imcrop/*
 data/test_referit_local_features/*
 data/training/*.txt
-data/training/models
+data/training/models/*
+data/training/models/All/base/*
 data/trainval_referit_local_features/*
 
 datasets/ReferIt/*
