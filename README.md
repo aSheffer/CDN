@@ -47,6 +47,6 @@ Then we run B and A together. At the end of this run we get B's loss on the edit
 ### A inputs
 
 At each time step A gets - B's rnn output for that time step, the reward dor editing a word, B's loss on the un-edited query.
-In addition we add attention over B's outputs on the un-edited query.<br><br>
+In addition we add attention over B's outputs on the un-edited query.<br>
 
 <b>NOTE:</b> that A does not 'see' any of the words nor any of the images. This means that A can't learn a good languish model nor does it know anything on B's task (since it doesn't 'see' the images), therefore A can't learn how to attentionally interfere B's learning a good languish model. Actually, the only thing A can learn is to recognize overfitting patterns by looking at B's features, so A might give us some insight of how B's working considering the huge variance in both vision and languish
