@@ -24,4 +24,5 @@ data/training/models/*
 data/training/models/All/base/Bi_hidden:50
 data/trainval_referit_local_features/*
 
-datasets/ReferIt/*
+datasets/ReferIt/ImageCLEF/*
+datasets/ReferIt/ReferitData/*.txt
