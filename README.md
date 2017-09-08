@@ -1,4 +1,4 @@
-# Where am i
+# Where am I?
 
 This is an analysis of performances and overfitting of text grounding in images using deep learning.<br>
 Some of the code are from [here](https://github.com/andrewliao11/Natural-Language-Object-Retrieval-tensorflow)
@@ -15,3 +15,17 @@ We use the supervised model discribed in [Grounding of Textual Phrases in Images
 Reconstruction](https://arxiv.org/pdf/1511.03745.pdf).<br> 
 Here's an image from the paper which illustrates the model:<br>
 ![ill](./images/base_model.png)
+<ul>
+<li>We use RNN to embed the query (LSTM)</li>
+<li>We use CNN (VGG16) to embed each of bboxes</li>
+<li>We use attention mechanism to get the score of each bbox, given the query, and the highest scored bbox is our winer! </li> 
+</ul>
+
+# Regularization
+
+We examine state-of-the-art regularization techniques as [batch normalization](https://arxiv.org/abs/1502.03167), [dropout](https://arxiv.org/pdf/1207.0580.pdf), normal noise, L2 and gradient cliping. In additioin we porpuse a new technick that might shed some light on the model's performances useing reinforcment in adversarial setting. 
+
+## Players A and B
+We trun this problem into a game.<br>
+Player B's model is our base, it job is to ground a given query into an image.<br>
+Player A's job is to make B fail by changing some of the words. 
