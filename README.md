@@ -14,4 +14,4 @@ The model needs to find the correct bounding box.
 We use the supervised model discribed in [Grounding of Textual Phrases in Images by
 Reconstruction](https://arxiv.org/pdf/1511.03745.pdf).<br> 
 Here's an image from the paper which illustrates the model: 
-![ill](https://github.com/aSheffer/GAB/tree/master/images/base_model.png?raw=true)
+![ill](GAB/images/base_model.png)
