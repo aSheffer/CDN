@@ -51,4 +51,16 @@ In addition we add attention over B's outputs on the un-edited query.<br>
 
 ### NOTE
 
-A does not 'see' any of the words nor any of the images. This means that A can't learn a good languish model nor does it know anything on B's task (since it doesn't 'see' the images), therefore A can't learn how to attentionally interfere B's learning a good languish model. Actually, the only thing A can learn is to recognize overfitting patterns by looking at B's features, so A might give us some insight of how B's working considering the huge variance in both vision and languish
+A does not 'see' any of the words nor any of the images. This means that A can't learn a good languish model nor does it know anything on B's task (since it doesn't 'see' the images), therefore A can't learn how to attentionally interfere B's learning a good languish model. Actually, the only thing A can learn is to recognize overfitting patterns by looking at B's features, so A might give us some insight of how B's working considering the huge variance in both vision and languish.
+
+# Runnging The Models
+
+You can find the models codes and results in the notebooks folder.
+
+## Requirement
+
+You'll need Opencv, Keras, Tensorflow and python 3+  
+
+## Preprocess
+
+1. Download the ReferIt dataset: ./datasets/ReferIt/ReferitData/download_referit_dataset.sh and ./datasets/ReferIt/ImageCLEF/download_data.sh
