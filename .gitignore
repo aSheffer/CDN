@@ -10,6 +10,10 @@
 *.zip
 *.tar.gz
 
+data/metadata/*
+data/resized_imcrop/*
+data/test_referit_local_features/*
+data/training/*.txt
+data/trainval_referit_local_features/*
 
-data/*
 datasets/ReferIt/*
