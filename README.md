@@ -35,8 +35,8 @@ We examine state-of-the-art regularization techniques as [batch normalization](h
 We add to our model another player, we call it A, while the base model is called B.<br>
 While B's rnn process the query, at each time step B's output is the input of A's rnn (again, LSTM). A's rnn output is then projectes to two values, one for each of the two possible actions:<br>
 1. Change the query's word (in time step t) to the word 'unk' and run B again with 'unk' as the input word instead of the original word - this will now be the B's output for time step t and get negative reward.
-2. Do nothing and get zero reward. <br><br>
-A  will take the action with the higer value and by that potentially making B's loss higher. 
+2. Do nothing and get zero reward. 
+<p>A  will take the action with the higer value and by that potentially making B's loss higher.</p>
 
 ### In more details
 
