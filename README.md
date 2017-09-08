@@ -41,4 +41,12 @@ While B's rnn process the query, at each time step B's output is the input of A'
 ### In more details
 
 Before we start A, we start by running B on the original query (with no edits). This will give us B's loss and outputs (on the un-edited query). If A decides to edit a word it will get a reward equals to this loss divided by the number of words and multiplied by some negative number, this means that editing a word becomes less attractive as the un-edited loss gets bigger and/or the number of words gets smaller.<br>
-Then we run B and A together. At the end of this run we get B's loss on the edited query and use it as the final reward. Using bellman equation, we calculate the value of each time step and the loss in time step t is the MSE between it and the A's value for the chosen action 
+
+Then we run B and A together. At the end of this run we get B's loss on the edited query and use it as the final reward. Using bellman equation, we calculate the value of each time step and the loss in time step t is the MSE between it and the A's value for the chosen action.
+
+### A inputs
+
+At each time step A gets - B's rnn output for that time step, the reward dor editing a word, B's loss on the un-edited query.
+In addition we add attention over B's outputs on the un-edited query.<br><br>
+
+<b>NOTE:</b> that A does not 'see' any of the words nor any of the images. This means that A can't learn a good languish model nor does it know anything on B's task (since it doesn't 'see' the images), therefore A can't learn how to attentionally interfere B's learning a good languish model. Actually, the only thing A can learn is to recognize overfitting patterns by looking at B's features, so A might give us some insight of how B's working considering the huge variance in both vision and languish
