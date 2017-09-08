@@ -23,9 +23,11 @@ Here's an image from the paper which illustrates the model:<br>
 
 # Regularization
 
-We examine state-of-the-art regularization techniques as [batch normalization](https://arxiv.org/abs/1502.03167), [dropout](https://arxiv.org/pdf/1207.0580.pdf), normal noise, L2 and gradient cliping. In additioin we porpuse a new technick that might shed some light on the model's performances useing reinforcment in adversarial setting. 
+We examine state-of-the-art regularization techniques as [batch normalization](https://arxiv.org/abs/1502.03167), [dropout](https://arxiv.org/pdf/1207.0580.pdf), normal noise, L2 and gradient cliping. In additioin we porpuse a new technick that might shed some light on the model's performances useing reinforcment in an adversarial setting. 
 
-## Players A and B
-We trun this problem into a game.<br>
-Player B's model is our base, it job is to ground a given query into an image.<br>
-Player A's job is to make B fail by changing some of the words. 
+## Player A
+
+We add to our model another player, we call it A, while the base model is called B.<br>
+While B's rnn process the query, at each time step B's output is the input of A's rnn (again, LSTM). A's rnn output is then projectes to two values, one for each of the two possible actions:<br>
+1. Change the query's word (in time step t) to the word 'unk' and run B again with 'unk' as the input word instead of the original word - this will now be the B's output for time step t.
+2. Do nothing. 
