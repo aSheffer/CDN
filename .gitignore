@@ -16,4 +16,13 @@ data/test_referit_local_features/*
 data/training/*.txt
 data/trainval_referit_local_features/*
 
+<<<<<<< HEAD
+=======
+data/metadata/*
+data/resized_imcrop/*
+data/test_referit_local_features/*
+data/training/*.txt
+data/trainval_referit_local_features/*
+
+>>>>>>> a3bafee04828fc9144755deb1ea122f5dd4bbb44
 datasets/ReferIt/*
