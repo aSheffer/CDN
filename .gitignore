@@ -13,5 +13,15 @@
 
 testing/*
 
-data/*
-datasets/*
+data/metadata/*
+data/resized_imcrop/*
+data/test_referit_local_features/*
+data/training/*.txt
+data/training/models/*
+data/training/models/All/base/Bi_hidden:50
+data/trainval_referit_local_features/*
+
+datasets/ReferIt/ImageCLEF/images/*
+datasets/ReferIt/ImageCLEF/mask/*
+datasets/ReferIt/ReferitData/*.txt
+
