@@ -9,14 +9,10 @@ Given a query that refers to an object in an image, we want to find the bounding
 We use [Referit dataset](http://tamaraberg.com/referitgame/) in which each data point contains an image, a textual reference to an object in that image and the spatial boundaries of the object's bounding box.<br>
 Most images in the Referit dataset have more than one referential objects, we use that fact to build our on dataset in the following way: Each image with n (n>1) referential objects is divided to n sub-images, one per referential object, with this each of our data point contains
 <ul>
-<il>The query</il>
-<il>A list of size n. The i'th item in the list contains [a sub-image, its bouding box bounderies in the image]</il>
-<li>The number of the list's item to which the query refers to.</il>
+<li>The query</li>
+<li>A list of size n. The i'th item in the list contains the tuple [a sub-image, its bouding box bounderies in the image]</li>
+<li>The number of the list's item to which the query refers to.</li>
 </ul>
-
-a query and all  all images with more the one  Each image in the Referit dataset has multiple  
-Using Referit dataet, we build our on dataset where each data point contains a query and all the bounding boxes of its image.
-The model needs to find the correct bounding box.
 
 # The base
 We use the supervised model discribed in [Grounding of Textual Phrases in Images by
@@ -24,9 +20,9 @@ Reconstruction](https://arxiv.org/pdf/1511.03745.pdf).<br>
 Here's an image from the paper which illustrates the model:<br>
 ![ill](./images/base_model.png)
 <ul>
-<il>We use RNN to embed the query (LSTM)</il>
-<il>We use CNN (VGG16) to embed each of bboxes</il>
-<il>We use attention mechanism to get the score of each bbox, given the query, and the highest scored bbox is our winer! </il> 
+<li>We use RNN to embed the query (LSTM)</li>
+<li>We use CNN (VGG16) to embed each of bboxes</li>
+<li>We use attention mechanism to get the score of each bbox, given the query, and the highest scored bbox is our winer! </li> 
 </ul>
 
 ## Base on Steroids 
