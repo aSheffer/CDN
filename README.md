@@ -1,65 +1,54 @@
 # Where am I?
 
-In this work we analys the performances of text grounding in images using deep learning.<br>
+In this work we analys the performances of text grounding in images using deep learning. The motivation for this work is the huge variance in both language and image in contrast to the relatively small size of the available datasets. This means that good regularization must be found before we can find a good solution for this problem.<br>
 Some of the code are from [here](https://github.com/andrewliao11/Natural-Language-Object-Retrieval-tensorflow)
 
 ## The Task
 
 Given a query that refers to an object in an image, we want to find the bounding box of that object.<br>
 We use [Referit dataset](http://tamaraberg.com/referitgame/) in which each data point contains an image, a textual reference to an object in that image and the spatial boundaries of the object's bounding box.<br>
-Most images in the Referit dataset have more than one referential objects, we use that fact to build our on dataset in the following way: Each image with n (n>1) referential objects is divided to n sub-images, one per referential object, with this each of our data point contains
+Most images in the Referit dataset have more than one referential objects, we use that fact to build our on dataset in the following way: Each image with n (n>1) referential objects is divided to n sub-images, one per referential object, with this in mind, each one of our data point contains
 <ul>
 <li>The query</li>
 <li>A list of size n. The i'th item in the list contains the tuple [a sub-image, its bouding box bounderies in the image]</li>
-<li>The number of the list's item to which the query refers to.</li>
+<li>aAn index of the list's item to which the query refers to.</li>
 </ul>
 
-# The base
-We use the supervised model discribed in [Grounding of Textual Phrases in Images by
+# The Grounder
+The model is based on the supervised model, discribed in [Grounding of Textual Phrases in Images by
 Reconstruction](https://arxiv.org/pdf/1511.03745.pdf).<br> 
-Here's an image from the paper which illustrates the model:<br>
+The following image from the paper illustrates the model:<br>
 ![ill](./images/base_model.png)
 <ul>
-<li>We use RNN to embed the query (LSTM)</li>
-<li>We use CNN (VGG16) to embed each of bboxes</li>
+<li>We use RNN (LSTM) to embed the query</li>
+<li>We use CNN (VGG16) to embed each of one the sub-images</li>
 <li>We use attention mechanism to get the score of each bbox, given the query, and the highest scored bbox is our winer! </li> 
 </ul>
 
-## Base on Steroids 
+## Grounder on Steroids 
 
-We also try the add the base model attention on the word level, that is, each time step attend on all the bboxes and by that we ground the words and not only tahe entire query. <br>
-We also try to use bi-directional rnn since the relation between an object deccribed in time step t to other objects might be written in time steps smaller and/or higher than t. 
+We test the model with different hyperparameters and different regularization techniques such as [batch normalization](https://arxiv.org/abs/1502.03167), [dropout](https://arxiv.org/pdf/1207.0580.pdf), normal noise, L2 and gradient cliping. In additioin we porpuse a new regularization technique, that might shed some light on the model's performances, using reinforcment in an adversarial setting (see the next section).<br>
+The problem's nature to overfit might lead us to pass on good models just because of their size, Therefore we also examine the model performence after replacing the RNN by a bi-directional RNN and adding a word level attention mechanism (i.e. at each time step we use attention over all the sub-images) there by adding a word level grounding. We test these models with and without reularization.
 
-# Regularization
+## Reinforcment  as a Regularization
 
-We examine state-of-the-art regularization techniques as [batch normalization](https://arxiv.org/abs/1502.03167), [dropout](https://arxiv.org/pdf/1207.0580.pdf), normal noise, L2 and gradient cliping. In additioin we porpuse a new technick that might shed some light on the model's performances useing reinforcment in an adversarial setting. 
+To make things a bit harder for the grounder, we add another player - A. While the Grounder run its RNN, at time step t A can do one of two actions, depending on the Grounder's RNN t'th output:
+<ol> 
+<li>Edit the t'th word to 'unk'. This forces the Grounder to run the t'th time step again with the word 'unk', ignoring it's privious result. This action comes with some negative reward for A.</li>
+<li> Do nothing. This has a zero reward.
+</ol>
+When the Grounder finishes to process the query, A gets a reward equals to the Grounder loss<br><br>
+A follows a Q-earning mechanism in which it tries to predict the value for each <state, action> pair (where the state is the Grounder RNN's output) and chooses the action with the higher value. 
 
-## Player A
+###  Implementation notes
 
-We add to our model another player, we call it A, while the base model is called B.<br>
-While B's rnn process the query, at each time step B's output is the input of A's rnn (again, LSTM). A's rnn output is then projectes to two values, one for each of the two possible actions:<br>
-1. Change the query's word (in time step t) to the word 'unk' and run B again with 'unk' as the input word instead of the original word - this will now be the B's output for time step t and get negative reward.
-2. Do nothing and get zero reward. 
-<p>A  will take the action with the higer value and by that potentially making B's loss higher.</p>
+In time step t we feed the query t'th word to the Grounder and its output to A's RNN cell. But at each iteration, before activating A, we feed the un-edited query to the Grounder, A uses an attention mechanism over these un-edited outputs. A will then decide on an action and the Grounder will act as explained above.<br><br>
 
-### In more details
-
-Before we start A, we start by running B on the original query (with no edits). This will give us B's loss and outputs (on the un-edited query). If A decides to edit a word it will get a reward equals to this loss divided by the number of words and multiplied by some negative number, this means that editing a word becomes less attractive as the un-edited loss gets bigger and/or the number of words gets smaller.<br>
-
-Then we run B and A together. At the end of this run we get B's loss on the edited query and use it as the final reward. Using bellman equation, we calculate the value of each time step and the loss in time step t is the MSE between it and the A's value for the chosen action.
-
-### A inputs
-
-At each time step A gets - B's rnn output for that time step, the reward dor editing a word, B's loss on the un-edited query.
-In addition we add attention over B's outputs on the un-edited query.<br>
-
-### NOTE
-
-A does not 'see' any of the words nor any of the images. This means that A can't learn a good languish model nor does it know anything on B's task (since it doesn't 'see' the images), therefore A can't learn how to attentionally interfere B's learning a good languish model. Actually, the only thing A can learn is to recognize overfitting patterns by looking at B's features, so A might give us some insight of how B's working considering the huge variance in both vision and languish.
+Note that A does not 'see' any of the words nor any of the possible sub-images. This means that A can't learn a good languish model nor does it know anything on the Grounder's task (since it doesn't 'see' the 'labels'), therefore A can't learn how to attentionally interfere the Grounder from learning a good languish model. Actually, the only thing A can learn is to recognize overfitting patterns by looking at the Grounder outputs features, so A might give us some insight on how the Grounder works considering the huge variance in both vision and languish.
 
 # Baseline
 
-As a baseline we used a pre-trained w2v model to initialize the word embadding. We then train a model that calculate cosine similarity between the average of a query's words vectors and a progection of the bboxes vectors. 
+As a baseline we used a pre-trained w2v model to initialize the words embadding. We then build a model that calculates the cosine similarity between the average of a query's words vectors and the bboxes vectors projection. This model is trained to maximize the cosine similarity between the query and the true bbox while minimizing the cosine similarity between the query and the others bboxes.
 
 # Runnging The Models
 
@@ -77,7 +66,3 @@ You'll need Opencv, Keras, Tensorflow and python 3+
 4. Build dataset: python ./exp-referit/cache_referit_training_batches.py
 5. Train word2vec: python ./exp-referit/w2v.py
 6. Build w2v baseline dataset: python ./exp-referit/w2v_train_cache_referit_local_featurs.py
-
-# Notebooks
-
-All the codes and the results can be founds in the notebooks folder.
