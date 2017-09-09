@@ -1,13 +1,21 @@
 # Where am I?
 
-This is an analysis of performances and overfitting of text grounding in images using deep learning.<br>
+In this work we analys the performances of text grounding in images using deep learning.<br>
 Some of the code are from [here](https://github.com/andrewliao11/Natural-Language-Object-Retrieval-tensorflow)
 
 ## The Task
-Given an image and a query that refers to an object in the image, we want to find the bounding box of the object.<br>
-We use [Referit dataset](http://tamaraberg.com/referitgame/) which contains a set of images and for each image a set of 
-queries that refere to an object in that image. The data set contains the boundaries of the bounding box for each query.
-We use Referit to build our on dataset where each data point contains a query and all the bounding boxes of its image.
+
+Given a query that refers to an object in an image, we want to find the bounding box of that object.<br>
+We use [Referit dataset](http://tamaraberg.com/referitgame/) in which each data point contains an image, a textual reference to an object in that image and the spatial boundaries of the object bounding box.<br>
+Most images in the Referit dataset have more then one referential objects, we use that fact to build our on dataset. Each image with n (n>1) referential objects is divided to n sub-images, one per referential object. With this in mind we build our dataset where each data point contains
+<ul>
+<il>The query</il>
+<il>A list of size n. The i'th item in the list contains [a sub-image, its bouding box bounderies in the image]</il>
+<li>The number of the list's item to which the query refers to.</il>
+</ul>
+
+a query and all  all images with more the one  Each image in the Referit dataset has multiple  
+Using Referit dataet, we build our on dataset where each data point contains a query and all the bounding boxes of its image.
 The model needs to find the correct bounding box.
 
 # The base
