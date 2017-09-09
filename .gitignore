@@ -27,3 +27,5 @@ data/trainval_referit_local_features/*
 datasets/ReferIt/ImageCLEF/images/*
 datasets/ReferIt/ImageCLEF/mask/*
 datasets/ReferIt/ReferitData/*.txt
+
+testing/*
