@@ -6,8 +6,8 @@ Some of the code are from [here](https://github.com/andrewliao11/Natural-Languag
 ## The Task
 
 Given a query that refers to an object in an image, we want to find the bounding box of that object.<br>
-We use [Referit dataset](http://tamaraberg.com/referitgame/) in which each data point contains an image, a textual reference to an object in that image and the spatial boundaries of the object bounding box.<br>
-Most images in the Referit dataset have more then one referential objects, we use that fact to build our on dataset. Each image with n (n>1) referential objects is divided to n sub-images, one per referential object. With this in mind we build our dataset where each data point contains
+We use [Referit dataset](http://tamaraberg.com/referitgame/) in which each data point contains an image, a textual reference to an object in that image and the spatial boundaries of the object's bounding box.<br>
+Most images in the Referit dataset have more than one referential objects, we use that fact to build our on dataset in the following way: Each image with n (n>1) referential objects is divided to n sub-images, one per referential object, with this each of our data point contains
 <ul>
 <il>The query</il>
 <il>A list of size n. The i'th item in the list contains [a sub-image, its bouding box bounderies in the image]</il>
@@ -24,9 +24,9 @@ Reconstruction](https://arxiv.org/pdf/1511.03745.pdf).<br>
 Here's an image from the paper which illustrates the model:<br>
 ![ill](./images/base_model.png)
 <ul>
-<li>We use RNN to embed the query (LSTM)</li>
-<li>We use CNN (VGG16) to embed each of bboxes</li>
-<li>We use attention mechanism to get the score of each bbox, given the query, and the highest scored bbox is our winer! </li> 
+<il>We use RNN to embed the query (LSTM)</il>
+<il>We use CNN (VGG16) to embed each of bboxes</il>
+<il>We use attention mechanism to get the score of each bbox, given the query, and the highest scored bbox is our winer! </il> 
 </ul>
 
 ## Base on Steroids 
