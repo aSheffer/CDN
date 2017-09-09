@@ -44,7 +44,7 @@ A follows a Q-earning mechanism in which it tries to predict the value for each 
 
 In time step t we feed the query t'th word to the Grounder and its output to A's RNN cell. But at each iteration, before activating A, we feed the un-edited query to the Grounder, A uses an attention mechanism over these un-edited outputs. A will then decide on an action and the Grounder will act as explained above.<br><br>
 
-Note that A does not 'see' any of the words nor any of the possible sub-images. This means that A can't learn a good languish model nor does it know anything on the Grounder's task (since it doesn't 'see' the 'labels'), therefore A can't learn how to attentionally interfere the Grounder from learning a good languish model. Actually, the only thing A can learn is to recognize overfitting patterns by looking at the Grounder outputs features, so A might give us some insight on how the Grounder works considering the huge variance in both vision and languish.
+Note that A does not 'see' any of the words nor any of the possible sub-images. This means that A can't learn a good languish model nor does it know anything on the Grounder's task (since it doesn't 'see' the 'labels'), therefore A can't learn how to intentionally interfere the Grounder from learning a good languish model. Actually, the only thing A can learn is to recognize overfitting patterns by looking at the Grounder outputs features, so A might give us some insight on how the Grounder works considering the huge variance in both vision and languish.
 
 # Baseline
 
