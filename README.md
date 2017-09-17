@@ -65,4 +65,5 @@ You'll need Opencv, Keras, Tensorflow and python 3+
 3. Cache the bbox features for train/test sets to disk (VGG16): <b>python ./exp-referit/train_cache_referit_local_features.py</b> and <b>python ./exp-referit/test_cache_referit_local_features.py</b>
 4. Build dataset: <b>python ./exp-referit/cache_referit_training_batches.py</b>
 5. Train word2vec: <b>python ./exp-referit/w2v.py</b>
-6. Build w2v baseline dataset: <b>python ./exp-referit/w2v_train_cache_referit_local_featurs.py</b>
+6. Build w2v dataset: <b>python ./exp-referit/w2v_train_cache_referit_local_featurs.py</b>
+7. Build batches: <b>python ./exp-referit/build_batch.py
