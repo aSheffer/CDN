@@ -48,6 +48,7 @@ def main():
 	vocab = {k:v.index+1 for k,v in model.vocab.items()}
 	vocab['<pad>'] = 0
 
+
 	with open(vocab_path, 'w') as f:
 		f.write(json.dumps(vocab))
 
