@@ -36,6 +36,7 @@ def main():
 	print('Traingin w2v model...')
 	model = gensim.models.Word2Vec(dataset, window=5, min_count=0, size=100)
 	model.most_similar('car')
+	model = model.wv
 
 	print("Saving files...")
 	# Adding zero vector for padding

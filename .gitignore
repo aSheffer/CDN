@@ -11,9 +11,6 @@
 *.tar.gz
 
 
-testing/*
-
-
 data/resized_imcrop/*
 data/test_referit_local_features/*
 data/training/*.txt
