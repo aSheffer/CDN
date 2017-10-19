@@ -22,3 +22,5 @@ datasets/ReferIt/ImageCLEF/images/*
 datasets/ReferIt/ImageCLEF/mask/*
 datasets/ReferIt/ReferitData/*.txt
 
+testing/
+
