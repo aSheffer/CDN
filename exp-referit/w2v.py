@@ -16,12 +16,12 @@ query_file = './data/metadata/referit_query_dict.json'
 w2v_path = './data/metadata/w2v.bin'
 vocab_path = './data/metadata/w2v_vocab.json'
 
-query_dict = io.load_json(query_file) # imageName_boxName--> list of imageName_boxName discription
+query_dict = io.load_json(query_file) # imageName_boxName--> list of imageName_boxName discriptions
 queries_txt = list(query_dict.values()) 
 
 def main():
 	# We cut off the punctuations (exclude) and cancatunate 
-	# all queries describing the same image (after stemming)
+	# all queries describing the same image.
 	print("Cleaning text...")
 	exclude = set(string.punctuation)
 	dataset = []

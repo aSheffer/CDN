@@ -51,11 +51,15 @@ def main():
 	with open(vocab_save, 'w') as f:
 		f.write(json.dumps(vocab))
 
-	# Train Set
+	############# 
+	# Train Set #
+	#############
 
 	#list of [idx_q, (bbox_vec, true_bbox_feat), (bbox_vec, false_bbox_feat),... 
 	#                          ...,(bbox_vec, false_bbox_feat), (index of ground truth)]
 	train_pairs = [] 
+
+	# imcrop_spatial_dict[imageName_boxName] = [imageName_boxName's VGG outputs, imageName_boxName's spatial features]
 	imcrop_spatial_dict = {imcrop:'' for imcrop in query_dict.keys()}
 
 	for imcrop_name, des in query_dict.items():

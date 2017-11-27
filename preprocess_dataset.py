@@ -17,6 +17,7 @@ def load_imcrop(imlist, mask_dir):
         imcroplist: list of image' boxes names
     '''
     # imcrop_dict[image name] --> list(image' boxes names)
+    # example: 25_1.jpg
     imcrop_dict = {im_name: [] for im_name in imlist}
     imcroplist = []
     masklist = os.listdir(mask_dir)
@@ -55,6 +56,7 @@ def load_referit_annotation(imcroplist, annotation_file):
     print('loading ReferIt dataset annotations...')
     query_dict = {imcrop_name: [] for imcrop_name in imcroplist}
     with open(annotation_file) as f:
+        # example: "8756_2.jpg~sunray at very top~.33919597989949750~.023411371237458192"
         raw_annotation = f.readlines()
     for s in raw_annotation:  
         

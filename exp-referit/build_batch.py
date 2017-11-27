@@ -23,7 +23,10 @@ def build_dataDict(data):
     returns dictionary: data_dict[k]: all data queries with k number of bboxes
     '''
     bbox_nums = [len(data[i][1:-1]) for i in range(len(data))]
+
+    # bboxCount_dict[k] = number of data points with k bboxes
     bboxCount_dict = {i:0 for i in set(bbox_nums)}
+    # data_dict[k] = data points with k number of bboxes
     data_dict = {i:[] for i in set(bbox_nums)}
 
     for item in data:
@@ -38,9 +41,9 @@ def build_batches(data, batch_size=200):
     data_batches = []
 
     # If bboxCount_dict[k]%batch_size!=0, data point that can't get 
-    # to the batch with bboxCount_dict[k] bboxes
-    # will get into the batch with bboxCount_dict[k+1] bboxes. 
-    # We save these data points in next_batch
+    # to the batch with bboxCount_dict[k] bboxes will get into the batch 
+    # with bboxCount_dict[k+1] bboxes. 
+    # We save these data points in 'next_batch'
     next_batch = [] 
     for k in data_dict.keys():
         kItems = data_dict[k]+next_batch
