@@ -1,17 +1,17 @@
-# Where am I?
+# Cross Domain Normalization
 
-In this work we analys the performances of text grounding in images using deep learning. The motivation for this work is the huge variance in both language and image in contrast to the relatively small size of the available datasets. This means that good regularization must be found before we can find a good solution for this problem.<br>
-Some of the code are from [here](https://github.com/andrewliao11/Natural-Language-Object-Retrieval-tensorflow)
+### Introduction
 
-## The Task
+This repository contains the Tensorflow implementation for the paper Cross Domain Normalization for Natural Language Object Retrieval. In this paper we address the task of finding an object in an image given an expression that refers to it. We focus on the model tendency to overfit due to the different update rates of the image and language models and show that by normelizing the statistics of the models outputs we can contorl the update rates and thereby reduce the overfit and improve the model's performances. Some of the code are taken from [here](https://github.com/ronghanghu/natural-language-object-retrieval)
 
-Given a query that refers to an object in an image, we want to find the bounding box of that object.<br>
-We use [Referit dataset](http://tamaraberg.com/referitgame/) in which each data point contains an image, a textual reference to an object in that image and the spatial boundaries of the object's bounding box.<br>
-Most images in the Referit dataset have more than one referential objects, we use that fact to build our on dataset in the following way: Each image with n (n>1) referential objects is divided to n sub-images, one per referential object, with this in mind, each one of our data point contains
+### Prerequisites
 <ul>
-<li>The query</li>
-<li>A list of size n. The i'th item in the list contains the tuple [a sub-image, its bouding box bounderies in the image]</li>
-<li>aAn index of the list's item to which the query refers to.</li>
+<li> Python 3.6
+<li> Tensorflow 1.6
+<li> Keras
+<li> Opencv
+<li> Scikit-learn
+<li> Gensim
 </ul>
 
 # The Grounder
@@ -57,6 +57,23 @@ You can find the models codes and results in the notebooks folder.
 ## Requirement
 
 You'll need Opencv, Keras, Tensorflow and python 3+  
+
+## Preprocess new
+1. Clone the git 
+
+2. Download the ReferIt dataset in <b>./datasets/ReferIt/ReferitData/download_ReferitData.sh</b> and <b>./datasets/ReferIt/ImageCLEF/download_data.sh</b>
+
+3. Preprocess the ReferIt dataset to generate metadata needed for training and evaluation: <b>python ./preprocess_dataset.py</b>
+
+4. Cache the bbox features for train/test sets to disk (VGG16): <b>python ./exp-referit/train_cache_referit_local_features.py</b> and <b>python ./exp-referit/test_cache_referit_local_features.py</b>
+
+4*. Build dataset: <b>python ./exp-referit/cache_referit_training_batches.py</b> \\Delete
+
+5. Train word2vec: <b>python ./exp-referit/w2v.py</b>
+6. Build w2v dataset: <b>python ./exp-referit/cache_referit_datasets.py</b>
+
+7*. Build batches: <b>python ./exp-referit/build_batch.py\\Delete
+
 
 ## Preprocess
 
