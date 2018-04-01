@@ -20,8 +20,8 @@ imcrop_dict_file = './data/metadata/referit_imcrop_dict.json'
 imcrop_bbox_dict_file = './data/metadata/referit_imcrop_bbox_dict.json'
 imsize_dict_file = './data/metadata/referit_imsize_dict.json'
 query_file = './data/metadata/referit_query_dict.json'
-trn_data_save = './data/training/w2v_train_data_new.bin'
-tst_data_save = './data/training/w2v_test_data_new.bin'
+trn_data_save = './data/training/train_data.bin'
+tst_data_save = './data/training/test_data.bin'
 vocab_path = './data/metadata/w2v_vocab.json'
 
 trn_imset = set(io.load_str_list(trn_imlist_file)) # list of training images names

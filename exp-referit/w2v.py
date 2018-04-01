@@ -4,7 +4,6 @@ import os
 import numpy as np
 import string
 import json
-from nltk.stem.snowball import SnowballStemmer
 import gensim
 
 sys.path.append(os.path.join(os.path.dirname(__file__), '..'))
