@@ -14,7 +14,7 @@ This repository contains the Tensorflow implementation for the paper Cross Domai
 <li> Gensim
 </ul>
 
-# Runnging The Models
+## Runnging The Models
 Before running the model and/or the notbookes, please follow these instructions:
 
 1. Clone this git 
@@ -23,13 +23,3 @@ Before running the model and/or the notbookes, please follow these instructions:
 4. Cache the bbox features for train/test sets to disk (VGG16): <b>python ./exp-referit/train_cache_referit_local_features.py</b> and <b>python ./exp-referit/test_cache_referit_local_features.py</b>
 5. Train word2vec: <b>python ./exp-referit/w2v.py</b>
 6. Build w2v dataset: <b>python ./exp-referit/cache_referit_datasets.py</b>
-
-## Preprocess
-
-1. Download the ReferIt dataset: <b>./datasets/ReferIt/ReferitData/download_ReferitData.sh</b> and <b>./datasets/ReferIt/ImageCLEF/download_data.sh</b>
-2. Preprocess the ReferIt dataset to generate metadata needed for training and evaluation: <b>python ./preprocess_dataset.py</b>
-3. Cache the bbox features for train/test sets to disk (VGG16): <b>python ./exp-referit/train_cache_referit_local_features.py</b> and <b>python ./exp-referit/test_cache_referit_local_features.py</b>
-4. Build dataset: <b>python ./exp-referit/cache_referit_training_batches.py</b>
-5. Train word2vec: <b>python ./exp-referit/w2v.py</b>
-6. Build w2v dataset: <b>python ./exp-referit/w2v_cache_referit_training_batches.py</b>
-7. Build batches: <b>python ./exp-referit/build_batch.py
