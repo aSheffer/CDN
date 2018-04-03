@@ -27,5 +27,5 @@ Before running the models and/or the notbookes, please follow these instructions
 ### Training the models
 
 You can train and validate the the papaer's different models via the notebooks in the the notebooks folder. This will allow you to examine the effect of different hyper parameters on the domains update rates, their statistics and the models performances.
-You can also run 'python ./train.py' in order to train SG+CDND (see the paper for more details about SG+CDND)
+You can also run <b>'python ./train.py'</b> in order to train SG+CDND (see the paper for more details about SG+CDND)
 
