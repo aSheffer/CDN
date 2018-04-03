@@ -23,3 +23,9 @@ Before running the model and/or the notbookes, please follow these instructions:
 4. Cache the bbox features for train/test sets to disk (VGG16): <b>python ./exp-referit/train_cache_referit_local_features.py</b> and <b>python ./exp-referit/test_cache_referit_local_features.py</b>
 5. Train word2vec: <b>python ./exp-referit/w2v.py</b>
 6. Build w2v dataset: <b>python ./exp-referit/cache_referit_datasets.py</b>
+
+### Training the models
+
+You can train the models in the paper while trying different hyper parameteres via the notebooks. This will also give the chance to examine the domain update rates and their statistics. 
+Another option is to run 'python ./train.py' in order to run SG+CDND (see the paper for the hyper parameters for this model)
+
