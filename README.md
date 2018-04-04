@@ -21,11 +21,22 @@ Before running the models and/or the notbookes, please follow these instructions
 2. Download the ReferIt dataset in <b>./datasets/ReferIt/ReferitData/download_ReferitData.sh</b> and <b>./datasets/ReferIt/ImageCLEF/download_data.sh</b>
 3. Preprocess the ReferIt dataset to generate metadata needed for training and evaluation: <b>python ./preprocess_dataset.py</b>
 4. Cache the bbox features for train/test sets to disk (VGG16): <b>python ./exp-referit/train_cache_referit_local_features.py</b> and <b>python ./exp-referit/test_cache_referit_local_features.py</b>
-5. Train word2vec: <b>python ./exp-referit/w2v.py</b>
+5. Pre-train words embeddings: <b>python ./exp-referit/w2v.py</b>
 6. Build w2v dataset: <b>python ./exp-referit/cache_referit_datasets.py</b>j
 
 ### Training the models
 
 You can train and validate the the papaer's different models via the notebooks in the the notebooks folder. This will allow you to examine the effect of different hyper parameters on the domains update rates, their statistics and the models performances.
 You can also run <b>'python ./train.py'</b> in order to train SG+CDND (see the paper for more details about SG+CDND)
+
+## Demo
+Since we use Mask-RCNN in the demo, please do the following:
+
+1. git clone https://github.com/matterport/Mask_RCNN.git to the project root directory
+2. Install pycocotools
+3. Download the mask_rcnn_coco.h5 file from  https://github.com/matterport/Mask_RCNN/releases to the project root directory
+
+Run notbooks/demo.ipynb for demo examples to get the obgect's segment, given the query. You can find images at the demo_images folder which contains mostly images from RefCLEF and were not used during the model's trining. You can also run <b>python ./demo.py<b/> from the terminal, this will return the bounding box given an image and a query. 
+
+
 
