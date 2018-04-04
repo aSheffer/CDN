@@ -17,18 +17,24 @@ This repository contains the Tensorflow implementation for the paper Cross Domai
 Before running the models and/or the notbookes, please follow these instructions:
 
 1. Clone this git 
-2. Download the ReferIt dataset in 
-```/datasets/ReferIt/ReferitData/download_ReferitData.sh
-/datasets/ReferIt/ImageCLEF/download_data.sh```
-3. Preprocess the ReferIt dataset to generate metadata needed for training and evaluation: <b>python ./preprocess_dataset.py</b>
-4. Cache the bbox features for train/test sets to disk (VGG16): <b>python ./exp-referit/train_cache_referit_local_features.py</b> and <b>python ./exp-referit/test_cache_referit_local_features.py</b>
-5. Pre-train words embeddings: <b>python ./exp-referit/w2v.py</b>
-6. Build w2v dataset: <b>python ./exp-referit/cache_referit_datasets.py</b>j
+2. Download the ReferIt datasets from 
+```
+/datasets/ReferIt/ReferitData/download_ReferitData.sh
+/datasets/ReferIt/ImageCLEF/download_data.sh
+```
+3. Preprocess the ReferIt dataset to generate metadata needed for training and evaluation by running ```python ./preprocess_dataset.py```
+4. Cache the bbox features for train/test sets to disk (VGG16) by running: 
+```
+python ./exp-referit/train_cache_referit_local_features.py
+python ./exp-referit/test_cache_referit_local_features.py
+```
+5. Pre-train words embeddings by running ```python ./exp-referit/w2v.py```
+6. Build w2v dataset by running ```python ./exp-referit/cache_referit_datasets.py```
 
 ### Training the models
 
 You can train and validate the the papaer's different models via the notebooks in the the notebooks folder. This will allow you to examine the effect of different hyper parameters on the domains update rates, their statistics and the models performances.
-You can also run <b>'python ./train.py'</b> in order to train SG+CDND (see the paper for more details about SG+CDND)
+You can also run ```python ./train.py``` in order to train SG+CDND (see the paper for more details about SG+CDND)
 
 ## Demo
 Since we use Mask-RCNN in the demo, please do the following:
