@@ -46,5 +46,10 @@ Since we use Mask-RCNN in the demo, please do the following:
 
 Run the demo in ``` notbooks/demo.ipynb``` for examples to get the obgect's segment, given the query. You can find images at the demo_images folder which contains mostly images from RefCLEF and were not used during the model's trining. You can also run ```demo.py``` from the terminal, this will return the bounding box given an image and a query. 
 
+## Performances
 
-
+Model |Test P@1|Train P@1|Test Loss|Train Loss 
+------|--------|---------|---------|-----------
+SBN|0.831| 0.95|1.245|0.519
+SG+CDN|0.845|0.948|1.11|0.475
+SGD+CDN|0.851|0.93|1.04|0.6
