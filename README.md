@@ -17,7 +17,9 @@ This repository contains the Tensorflow implementation for the paper Cross Domai
 Before running the models and/or the notbookes, please follow these instructions:
 
 1. Clone this git 
-2. Download the ReferIt dataset in <b>./datasets/ReferIt/ReferitData/download_ReferitData.sh</b> and <b>./datasets/ReferIt/ImageCLEF/download_data.sh</b>
+2. Download the ReferIt dataset in 
+```/datasets/ReferIt/ReferitData/download_ReferitData.sh
+/datasets/ReferIt/ImageCLEF/download_data.sh```
 3. Preprocess the ReferIt dataset to generate metadata needed for training and evaluation: <b>python ./preprocess_dataset.py</b>
 4. Cache the bbox features for train/test sets to disk (VGG16): <b>python ./exp-referit/train_cache_referit_local_features.py</b> and <b>python ./exp-referit/test_cache_referit_local_features.py</b>
 5. Pre-train words embeddings: <b>python ./exp-referit/w2v.py</b>
@@ -36,7 +38,7 @@ Since we use Mask-RCNN in the demo, please do the following:
 3. Download the mask_rcnn_coco.h5 file from  https://github.com/matterport/Mask_RCNN/releases to the project root directory
 
 
-Run ``` notbooks/demo.ipynb``` for demo examples to get the obgect's segment, given the query. You can find images at the demo_images folder which contains mostly images from RefCLEF and were not used during the model's trining. You can also run <b>demo.py<b/> from the terminal, this will return the bounding box given an image and a query. 
+Run ``` notbooks/demo.ipynb``` for demo examples to get the obgect's segment, given the query. You can find images at the demo_images folder which contains mostly images from RefCLEF and were not used during the model's trining. You can also run ```demo.py``` from the terminal, this will return the bounding box given an image and a query. 
 
 
 
