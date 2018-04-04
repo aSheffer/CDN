@@ -44,7 +44,7 @@ Since we use Mask-RCNN in the demo, please do the following:
 3. Download the mask_rcnn_coco.h5 file from  https://github.com/matterport/Mask_RCNN/releases to the project root directory
 
 
-Run ``` notbooks/demo.ipynb``` for demo examples to get the obgect's segment, given the query. You can find images at the demo_images folder which contains mostly images from RefCLEF and were not used during the model's trining. You can also run ```demo.py``` from the terminal, this will return the bounding box given an image and a query. 
+Run the demo in ``` notbooks/demo.ipynb``` for examples to get the obgect's segment, given the query. You can find images at the demo_images folder which contains mostly images from RefCLEF and were not used during the model's trining. You can also run ```demo.py``` from the terminal, this will return the bounding box given an image and a query. 
 
 
 
