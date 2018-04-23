@@ -1,7 +1,9 @@
 # Cross Domain Normalization
 
 ### Introduction
-This repository contains the Tensorflow implementation for the paper Cross Domain Normalization for Natural Language Object Retrieval. In this paper we address the task of finding an object in an image given an expression that refers to it. We focus on the model tendency to overfit due to the different update rates of the image and language models and show that by normalizing the statistics of the models outputs we can control the update rates and thereby reduce the overfit and improve the model's performances. Some of the code are taken from [this](https://github.com/ronghanghu/natural-language-object-retrieval) repository.
+This repository contains the Tensorflow implementation for the paper Cross Domain Normalization for Natural Language Object Retrieval. In this paper we address the task of finding an object in an image given an expression that refers to it. We focus on the model tendency to overfit due to the different update rates of the image and language models and show that by normalizing the statistics of the models outputs we can control the update rates and thereby reduce the overfit and significantly outperform state-of-the-art results. By just adding CDN to our model, we increased the P@1 from 0.65 to 0.851 while stabilizing the training behavior and increasing the model's confidence level. We've tested our models on [Referit](http://tamaraberg.com/papers/referit.pdf) and used [SCRC](https://github.com/ronghanghu/natural-language-object-retrieval) and [GroundeR](https://github.com/kanchen-usc/GroundeR) among our baselines.
+
+Note that the paper deals with a general mathematical phenomena that should be dealt with whenever few sub-models with widely different statistical distributions are combined. Thus, while we show the benefits of CDN for grounding textual phrases in images, it can be applied to other models that suffer for the same problem.
 
 ### Prerequisites
 <ul>
