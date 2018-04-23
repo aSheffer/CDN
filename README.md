@@ -54,6 +54,8 @@ Run the demo in ``` notbooks/demo.ipynb``` for examples to get the object's segm
 
 Model |Test P@1|Train P@1|Test Loss|Train Loss 
 ------|--------|---------|---------|-----------
+SCRC|0.68|1|2.05|0.35
+GroundeR|0.819|1|3.15|0.004
 SBN|0.831| 0.95|1.245|0.519
 SG+CDN|0.845|0.948|1.11|0.475
 SGD+CDN|0.851|0.93|1.04|0.6
