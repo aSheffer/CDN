@@ -13,7 +13,7 @@ This repository contains the Tensorflow implementation for the paper Cross Domai
 <li> Gensim
 </ul>
 
-## Running The Models
+## Running the Models
 Before running the models and/or the notebooks, please follow these instructions:
 
 1. Clone this git 
