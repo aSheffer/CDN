@@ -1,7 +1,7 @@
 # Cross Domain Normalization
 
 ### Introduction
-This repository contains the Tensorflow implementation for the paper Cross Domain Normalization for Natural Language Object Retrieval. In this paper we address the task of finding an object in an image given an expression that refers to it. We focus on the model tendency to overfit due to the different update rates of the image and language models and show that by normalizing the statistics of the models outputs we can control the update rates and thereby reduce the overfit and significantly outperform state-of-the-art results. By just adding CDN, we increased the P@1 from 0.65 to 0.851 while stabilizing the training behavior and increasing the model's confidence level. We've tested our models on [Referit](http://tamaraberg.com/papers/referit.pdf) and used [SCRC](https://github.com/ronghanghu/natural-language-object-retrieval) and [GroundeR](https://github.com/kanchen-usc/GroundeR) among our baselines.
+This repository contains the Tensorflow implementation for the paper Cross Domain Normalization for Natural Language Object Retrieval. In this paper we address the task of finding an object in an image given an expression that refers to it. We focus on the model tendency to overfit due to the different update rates of the image and language models and show that by normalizing the statistics of the models outputs we can control the update rates and thereby reduce the overfit and significantly outperform state-of-the-art results. By just adding CDN, we increased the P@1 from 0.65 to 0.851 while stabilizing the training behavior and increasing the model's confidence level. Furthermore, CDN accelerates the training time significantly (with CDN it takes 2.5 minutes to outperform the best results, which we get after more than 3 hours without CDN).  We've tested our models on [Referit](http://tamaraberg.com/papers/referit.pdf) and used [SCRC](https://github.com/ronghanghu/natural-language-object-retrieval) and [GroundeR](https://github.com/kanchen-usc/GroundeR) among our baselines.
 
 Note that the paper deals with a general mathematical phenomena that should be dealt with whenever few sub-models with widely different statistical distributions are combined. Thus, while we show the benefits of CDN for grounding textual phrases in images, it can be applied to other models that suffer for the same problem.
 
@@ -36,7 +36,9 @@ python ./exp-referit/test_cache_referit_local_features.py
 ### Training the models
 
 You can train and validate the paper's different models via the notebooks in the the notebooks folder. This will allow you to examine the effect of different hyper parameters on the domains update rates, their statistics and the models performances.
-You can also run ```python ./train.py``` in order to train SG+CDND (see the paper for more details about SG+CDND)
+You can also run ```python ./train.py``` in order to train SG+CDND (see the paper for more details about SG+CDND).
+
+To train the models we've used GPU (GeForce GTX 1080). The basic model (SG) took about 3.5 houres to converge while SG with CDN took about 2 hours. However, note that SG+CDN took about 2.5 minutes (one ephoc) to outperform the results we got without CDN. 
 
 ## Demo
 Since we use Mask-RCNN in the demo, please do the following:
