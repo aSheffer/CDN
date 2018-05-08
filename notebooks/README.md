@@ -5,7 +5,7 @@ This folder contains all the project's notebooks with which you can examine the 
 ### Notebooks Overview
 
 
-- ```SG.ipynb``` shows the results of SG without BN (Batch Normalization) nor CDN (Cross Domain Normalization). We test the model with different hyperparameters and different mechanisms (bidirectional RNN and attention and both). 
+- ```SG.ipynb``` shows the results of SG without BN (Batch Normalization) nor CDN (Cross Domain Normalization). We test the model with different hyperparameters and different mechanisms (bidirectional RNN, attention and both). 
   
 - Next you'll find in ```SGBN.ipynb``` the results for SG with BN over the image domain, language domain and both. In these experiments the number of the LSTM hidden units is set to 50, 100 and 150.
  
