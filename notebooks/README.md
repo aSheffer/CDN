@@ -9,7 +9,7 @@ This folder contains all the project's notebooks with which you can examine the 
   
 - Next you'll find in ```SGBN.ipynb``` the results for SG with BN over the image domain, language domain and both. In these experiments the number of the LSTM hidden units is set to 50, 100 and 150.
  
-- In ```CDS_Analysis.ipynb``` we did the same experiments as in ```SGBN.ipynb``` while setting the size of the LSTM's hidden state to 200. However, this time we've collected the features ranges, variances and the update rates of the different domains. These results are further discussed in the paper.
+- In ```CDS_Analysis.ipynb``` we did the same experiments as in ```SGBN.ipynb``` while setting the size of the LSTM's hidden state to 200. However, in order to analys the CDS (Cross Domain Statistics) and its effect, this time we've collected the features ranges, variances and the update rates of the different domains. These results are further discussed in the paper.
 
 - In ```SBN_Analysis.ipynb``` we've analysed the performances, statistics and update rates of SG with SBN (Scaled Batch Nornalization).
   
