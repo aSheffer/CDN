@@ -15,7 +15,7 @@ This folder contains all the project's notebooks with which you can examine the 
   
 <li> We've then tested SG with CDN in <b>CDN_Analysis.ipynb</b>. We've also tried CDN with attention, bidirectional RNN and both. Again, we've gathered and analysed the domains statistics and update rates for each experiment.</li><br>
 
-<li> For ablation, in <b>NoSpat.ipynb</b> we've tested the effect of removing the spatial features. In <b>imagesOnly.ipynb</b> we've removed the textual queries altogether, leaving only the images. This helps us understand the amount of information we can extract from the images alone and the model ability to overfit the images.</il><br>
+<li> For ablation, in <b>NoSpat.ipynb</b> we've tested the effect of removing the spatial features. In <b>imagesOnly.ipynb</b> we've removed the textual queries altogether, leaving only the images. This helps us understand the amount of information we can extract from the images alone and the model ability to overfit the images.</li><br>
 
 <li>Finally, we've added two baseline which you can find in <b>Rand.ipynb</b> and <b>CBoWG.ipynb</b>.</li><br>
 
