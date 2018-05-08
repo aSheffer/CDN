@@ -1,0 +1,2007 @@
+Initializing variables
+================================================== 
+Train, epoch: 0
+b:0 ;lr:0.050 ;loss:2.69 ;acc:0.19 ;iou:0.27 ;qMean:-0.00 ;qSTD:0.13 ;iMean:-0.00 ;iSTD:0.02 ;qRange:0.78 ;iRange:0.13 ;Gq:0.10877 ;Gi:0.18248 ;time: 0:00:01
+b:50 ;lr:0.050 ;loss:2.75 ;acc:0.25 ;iou:0.35 ;qMean:0.00 ;qSTD:0.13 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.78 ;iRange:0.13 ;Gq:0.11212 ;Gi:0.16934 ;time: 0:00:22
+b:100 ;lr:0.050 ;loss:2.66 ;acc:0.32 ;iou:0.40 ;qMean:0.00 ;qSTD:0.13 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.78 ;iRange:0.13 ;Gq:0.13213 ;Gi:0.18646 ;time: 0:00:41
+b:150 ;lr:0.050 ;loss:2.57 ;acc:0.40 ;iou:0.46 ;qMean:0.00 ;qSTD:0.14 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.80 ;iRange:0.13 ;Gq:0.17393 ;Gi:0.21337 ;time: 0:01:01
+b:200 ;lr:0.050 ;loss:2.58 ;acc:0.41 ;iou:0.49 ;qMean:0.00 ;qSTD:0.14 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.80 ;iRange:0.13 ;Gq:0.22420 ;Gi:0.23140 ;time: 0:01:22
+b:250 ;lr:0.050 ;loss:2.47 ;acc:0.39 ;iou:0.50 ;qMean:0.00 ;qSTD:0.14 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.80 ;iRange:0.13 ;Gq:0.31301 ;Gi:0.27783 ;time: 0:01:41
+
+*Tr loss: 2.572 ;Tr acc: 0.362 ;IOU acc: 0.469 ;qMean:0.000 ;qSTD:0.136 ;iMean:0.000 ;iSTD:0.021 ;qRange:0.796 ;imgRange:0.129 ;Gq:0.19717 ;Gi:0.22468 ;Time: 0:01:59 
+
+Testing, epoch: 0
+batch: 0 ;loss: 2.278 ;acc: 0.440 ;iou_acc: 0.570 ;time: 0:01:59
+batch: 50 ;loss: 2.368 ;acc: 0.420 ;iou_acc: 0.520 ;time: 0:02:07
+batch: 100 ;loss: 2.337 ;acc: 0.425 ;iou_acc: 0.575 ;time: 0:02:16
+batch: 150 ;loss: 2.276 ;acc: 0.470 ;iou_acc: 0.595 ;time: 0:02:24
+batch: 200 ;loss: 2.282 ;acc: 0.490 ;iou_acc: 0.580 ;time: 0:02:33
+batch: 250 ;loss: 2.303 ;acc: 0.415 ;iou_acc: 0.565 ;time: 0:02:41
+
+*Test loss: 2.297 ;Test accuracy 0.438 ;Test IOU: 0.563 ;Time: 0:02:49
+================================================== 
+Train, epoch: 1
+b:0 ;lr:0.050 ;loss:2.18 ;acc:0.48 ;iou:0.59 ;qMean:0.00 ;qSTD:0.14 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.82 ;iRange:0.13 ;Gq:0.39964 ;Gi:0.35994 ;time: 0:00:00
+b:50 ;lr:0.050 ;loss:2.10 ;acc:0.51 ;iou:0.58 ;qMean:0.00 ;qSTD:0.14 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.81 ;iRange:0.13 ;Gq:0.45302 ;Gi:0.34750 ;time: 0:00:20
+b:100 ;lr:0.050 ;loss:2.07 ;acc:0.56 ;iou:0.63 ;qMean:0.00 ;qSTD:0.14 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.81 ;iRange:0.13 ;Gq:0.56000 ;Gi:0.42022 ;time: 0:00:40
+b:150 ;lr:0.050 ;loss:2.06 ;acc:0.54 ;iou:0.64 ;qMean:0.00 ;qSTD:0.14 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.81 ;iRange:0.13 ;Gq:0.65676 ;Gi:0.44097 ;time: 0:01:00
+b:200 ;lr:0.050 ;loss:1.93 ;acc:0.56 ;iou:0.65 ;qMean:0.00 ;qSTD:0.14 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.81 ;iRange:0.13 ;Gq:0.74266 ;Gi:0.47517 ;time: 0:01:22
+b:250 ;lr:0.050 ;loss:1.75 ;acc:0.59 ;iou:0.75 ;qMean:0.00 ;qSTD:0.14 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.81 ;iRange:0.13 ;Gq:0.79112 ;Gi:0.51747 ;time: 0:01:42
+
+*Tr loss: 1.964 ;Tr acc: 0.541 ;IOU acc: 0.658 ;qMean:0.000 ;qSTD:0.142 ;iMean:0.000 ;iSTD:0.021 ;qRange:0.808 ;imgRange:0.129 ;Gq:0.62899 ;Gi:0.43076 ;Time: 0:02:02 
+
+Testing, epoch: 1
+batch: 0 ;loss: 1.647 ;acc: 0.630 ;iou_acc: 0.760 ;time: 0:02:02
+batch: 50 ;loss: 1.847 ;acc: 0.550 ;iou_acc: 0.640 ;time: 0:02:11
+batch: 100 ;loss: 1.746 ;acc: 0.620 ;iou_acc: 0.710 ;time: 0:02:19
+batch: 150 ;loss: 1.793 ;acc: 0.595 ;iou_acc: 0.685 ;time: 0:02:28
+batch: 200 ;loss: 1.685 ;acc: 0.615 ;iou_acc: 0.715 ;time: 0:02:38
+batch: 250 ;loss: 1.877 ;acc: 0.520 ;iou_acc: 0.645 ;time: 0:02:48
+
+*Test loss: 1.731 ;Test accuracy 0.599 ;Test IOU: 0.710 ;Time: 0:02:56
+================================================== 
+Train, epoch: 2
+b:0 ;lr:0.050 ;loss:1.70 ;acc:0.60 ;iou:0.69 ;qMean:0.00 ;qSTD:0.14 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.79 ;iRange:0.13 ;Gq:0.81263 ;Gi:0.45414 ;time: 0:00:01
+b:50 ;lr:0.050 ;loss:1.71 ;acc:0.60 ;iou:0.72 ;qMean:0.00 ;qSTD:0.14 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.79 ;iRange:0.13 ;Gq:0.80520 ;Gi:0.51621 ;time: 0:00:24
+b:100 ;lr:0.050 ;loss:1.69 ;acc:0.62 ;iou:0.72 ;qMean:0.00 ;qSTD:0.14 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.78 ;iRange:0.13 ;Gq:0.88433 ;Gi:0.51121 ;time: 0:00:46
+b:150 ;lr:0.050 ;loss:1.65 ;acc:0.59 ;iou:0.69 ;qMean:0.00 ;qSTD:0.14 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.76 ;iRange:0.13 ;Gq:0.85725 ;Gi:0.51823 ;time: 0:01:07
+b:200 ;lr:0.050 ;loss:1.57 ;acc:0.65 ;iou:0.74 ;qMean:0.00 ;qSTD:0.14 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.76 ;iRange:0.13 ;Gq:0.85761 ;Gi:0.50802 ;time: 0:01:28
+b:250 ;lr:0.050 ;loss:1.55 ;acc:0.64 ;iou:0.77 ;qMean:0.00 ;qSTD:0.14 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.76 ;iRange:0.13 ;Gq:0.96650 ;Gi:0.56972 ;time: 0:01:50
+
+*Tr loss: 1.598 ;Tr acc: 0.630 ;IOU acc: 0.738 ;qMean:0.000 ;qSTD:0.139 ;iMean:0.000 ;iSTD:0.021 ;qRange:0.773 ;imgRange:0.129 ;Gq:0.87729 ;Gi:0.51855 ;Time: 0:02:09 
+
+Testing, epoch: 2
+batch: 0 ;loss: 1.488 ;acc: 0.630 ;iou_acc: 0.765 ;time: 0:02:09
+batch: 50 ;loss: 1.642 ;acc: 0.615 ;iou_acc: 0.685 ;time: 0:02:18
+batch: 100 ;loss: 1.637 ;acc: 0.615 ;iou_acc: 0.725 ;time: 0:02:28
+batch: 150 ;loss: 1.728 ;acc: 0.620 ;iou_acc: 0.695 ;time: 0:02:36
+batch: 200 ;loss: 1.567 ;acc: 0.615 ;iou_acc: 0.695 ;time: 0:02:44
+batch: 250 ;loss: 1.707 ;acc: 0.575 ;iou_acc: 0.700 ;time: 0:02:53
+
+*Test loss: 1.589 ;Test accuracy 0.631 ;Test IOU: 0.736 ;Time: 0:03:01
+================================================== 
+Train, epoch: 3
+b:0 ;lr:0.050 ;loss:1.57 ;acc:0.63 ;iou:0.74 ;qMean:0.00 ;qSTD:0.13 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.74 ;iRange:0.13 ;Gq:0.96244 ;Gi:0.53655 ;time: 0:00:00
+b:50 ;lr:0.050 ;loss:1.60 ;acc:0.66 ;iou:0.76 ;qMean:0.00 ;qSTD:0.13 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.75 ;iRange:0.13 ;Gq:0.94607 ;Gi:0.57248 ;time: 0:00:21
+b:100 ;lr:0.050 ;loss:1.38 ;acc:0.70 ;iou:0.81 ;qMean:0.00 ;qSTD:0.13 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.74 ;iRange:0.13 ;Gq:0.88374 ;Gi:0.49778 ;time: 0:00:40
+b:150 ;lr:0.050 ;loss:1.33 ;acc:0.71 ;iou:0.82 ;qMean:0.00 ;qSTD:0.13 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.73 ;iRange:0.13 ;Gq:0.87664 ;Gi:0.50567 ;time: 0:01:00
+b:200 ;lr:0.050 ;loss:1.62 ;acc:0.61 ;iou:0.71 ;qMean:0.00 ;qSTD:0.13 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.73 ;iRange:0.13 ;Gq:0.97007 ;Gi:0.56671 ;time: 0:01:21
+b:250 ;lr:0.050 ;loss:1.37 ;acc:0.70 ;iou:0.78 ;qMean:0.00 ;qSTD:0.13 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.74 ;iRange:0.13 ;Gq:0.91430 ;Gi:0.55873 ;time: 0:01:43
+
+*Tr loss: 1.495 ;Tr acc: 0.656 ;IOU acc: 0.760 ;qMean:0.000 ;qSTD:0.133 ;iMean:0.000 ;iSTD:0.021 ;qRange:0.738 ;imgRange:0.129 ;Gq:0.94369 ;Gi:0.55632 ;Time: 0:02:05 
+
+Testing, epoch: 3
+batch: 0 ;loss: 1.418 ;acc: 0.675 ;iou_acc: 0.810 ;time: 0:02:05
+batch: 50 ;loss: 1.583 ;acc: 0.620 ;iou_acc: 0.705 ;time: 0:02:14
+batch: 100 ;loss: 1.548 ;acc: 0.680 ;iou_acc: 0.765 ;time: 0:02:22
+batch: 150 ;loss: 1.686 ;acc: 0.635 ;iou_acc: 0.725 ;time: 0:02:30
+batch: 200 ;loss: 1.474 ;acc: 0.660 ;iou_acc: 0.740 ;time: 0:02:38
+batch: 250 ;loss: 1.618 ;acc: 0.605 ;iou_acc: 0.720 ;time: 0:02:47
+
+*Test loss: 1.522 ;Test accuracy 0.649 ;Test IOU: 0.751 ;Time: 0:02:55
+================================================== 
+Train, epoch: 4
+b:0 ;lr:0.050 ;loss:1.41 ;acc:0.66 ;iou:0.75 ;qMean:0.00 ;qSTD:0.14 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.74 ;iRange:0.13 ;Gq:0.91797 ;Gi:0.53198 ;time: 0:00:00
+b:50 ;lr:0.050 ;loss:1.32 ;acc:0.70 ;iou:0.77 ;qMean:0.00 ;qSTD:0.14 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.74 ;iRange:0.13 ;Gq:0.96143 ;Gi:0.51891 ;time: 0:00:20
+b:100 ;lr:0.050 ;loss:1.56 ;acc:0.64 ;iou:0.75 ;qMean:0.00 ;qSTD:0.13 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.73 ;iRange:0.13 ;Gq:0.99254 ;Gi:0.54804 ;time: 0:00:40
+b:150 ;lr:0.050 ;loss:1.39 ;acc:0.69 ;iou:0.80 ;qMean:0.00 ;qSTD:0.13 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.73 ;iRange:0.13 ;Gq:0.92784 ;Gi:0.57334 ;time: 0:01:03
+b:200 ;lr:0.050 ;loss:1.43 ;acc:0.67 ;iou:0.77 ;qMean:0.00 ;qSTD:0.13 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.73 ;iRange:0.13 ;Gq:1.04105 ;Gi:0.63142 ;time: 0:01:24
+b:250 ;lr:0.050 ;loss:1.49 ;acc:0.65 ;iou:0.76 ;qMean:0.00 ;qSTD:0.13 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.73 ;iRange:0.13 ;Gq:1.04816 ;Gi:0.63791 ;time: 0:01:46
+
+*Tr loss: 1.429 ;Tr acc: 0.676 ;IOU acc: 0.775 ;qMean:0.000 ;qSTD:0.132 ;iMean:0.000 ;iSTD:0.021 ;qRange:0.728 ;imgRange:0.129 ;Gq:0.98062 ;Gi:0.58483 ;Time: 0:02:05 
+
+Testing, epoch: 4
+batch: 0 ;loss: 1.373 ;acc: 0.700 ;iou_acc: 0.790 ;time: 0:02:06
+batch: 50 ;loss: 1.516 ;acc: 0.655 ;iou_acc: 0.720 ;time: 0:02:16
+batch: 100 ;loss: 1.514 ;acc: 0.690 ;iou_acc: 0.760 ;time: 0:02:25
+batch: 150 ;loss: 1.648 ;acc: 0.630 ;iou_acc: 0.705 ;time: 0:02:34
+batch: 200 ;loss: 1.415 ;acc: 0.670 ;iou_acc: 0.755 ;time: 0:02:43
+batch: 250 ;loss: 1.581 ;acc: 0.615 ;iou_acc: 0.735 ;time: 0:02:52
+
+*Test loss: 1.474 ;Test accuracy 0.660 ;Test IOU: 0.761 ;Time: 0:03:01
+================================================== 
+Train, epoch: 5
+b:0 ;lr:0.050 ;loss:1.48 ;acc:0.62 ;iou:0.73 ;qMean:0.00 ;qSTD:0.13 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.72 ;iRange:0.13 ;Gq:1.00397 ;Gi:0.62192 ;time: 0:00:01
+b:50 ;lr:0.050 ;loss:1.39 ;acc:0.69 ;iou:0.77 ;qMean:-0.00 ;qSTD:0.13 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.72 ;iRange:0.13 ;Gq:0.97737 ;Gi:0.62370 ;time: 0:00:23
+b:100 ;lr:0.050 ;loss:1.28 ;acc:0.75 ;iou:0.81 ;qMean:0.00 ;qSTD:0.13 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.72 ;iRange:0.13 ;Gq:0.97445 ;Gi:0.60565 ;time: 0:00:45
+b:150 ;lr:0.050 ;loss:1.33 ;acc:0.70 ;iou:0.81 ;qMean:0.00 ;qSTD:0.13 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.73 ;iRange:0.13 ;Gq:1.02136 ;Gi:0.66374 ;time: 0:01:06
+b:200 ;lr:0.050 ;loss:1.30 ;acc:0.70 ;iou:0.77 ;qMean:-0.00 ;qSTD:0.13 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.72 ;iRange:0.13 ;Gq:0.98473 ;Gi:0.60662 ;time: 0:01:29
+b:250 ;lr:0.050 ;loss:1.44 ;acc:0.65 ;iou:0.73 ;qMean:0.00 ;qSTD:0.13 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.72 ;iRange:0.13 ;Gq:1.03704 ;Gi:0.67967 ;time: 0:01:51
+
+*Tr loss: 1.380 ;Tr acc: 0.689 ;IOU acc: 0.784 ;qMean:0.000 ;qSTD:0.131 ;iMean:0.000 ;iSTD:0.021 ;qRange:0.720 ;imgRange:0.129 ;Gq:1.01447 ;Gi:0.61917 ;Time: 0:02:12 
+
+Testing, epoch: 5
+batch: 0 ;loss: 1.365 ;acc: 0.695 ;iou_acc: 0.780 ;time: 0:02:12
+batch: 50 ;loss: 1.549 ;acc: 0.615 ;iou_acc: 0.685 ;time: 0:02:22
+batch: 100 ;loss: 1.482 ;acc: 0.695 ;iou_acc: 0.765 ;time: 0:02:31
+batch: 150 ;loss: 1.643 ;acc: 0.630 ;iou_acc: 0.700 ;time: 0:02:40
+batch: 200 ;loss: 1.351 ;acc: 0.685 ;iou_acc: 0.770 ;time: 0:02:49
+batch: 250 ;loss: 1.624 ;acc: 0.615 ;iou_acc: 0.710 ;time: 0:02:58
+
+*Test loss: 1.475 ;Test accuracy 0.661 ;Test IOU: 0.760 ;Time: 0:03:06
+================================================== 
+Train, epoch: 6
+b:0 ;lr:0.050 ;loss:1.29 ;acc:0.72 ;iou:0.80 ;qMean:-0.00 ;qSTD:0.13 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.72 ;iRange:0.13 ;Gq:1.02286 ;Gi:0.59036 ;time: 0:00:00
+b:50 ;lr:0.050 ;loss:1.28 ;acc:0.72 ;iou:0.82 ;qMean:0.00 ;qSTD:0.13 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.71 ;iRange:0.13 ;Gq:1.03754 ;Gi:0.60824 ;time: 0:00:21
+b:100 ;lr:0.050 ;loss:1.25 ;acc:0.69 ;iou:0.80 ;qMean:0.00 ;qSTD:0.13 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.71 ;iRange:0.13 ;Gq:1.03613 ;Gi:0.66584 ;time: 0:00:44
+b:150 ;lr:0.050 ;loss:1.41 ;acc:0.70 ;iou:0.78 ;qMean:0.00 ;qSTD:0.13 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.72 ;iRange:0.13 ;Gq:1.03895 ;Gi:0.65305 ;time: 0:01:06
+b:200 ;lr:0.050 ;loss:1.34 ;acc:0.70 ;iou:0.80 ;qMean:-0.00 ;qSTD:0.13 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.71 ;iRange:0.13 ;Gq:1.11005 ;Gi:0.71333 ;time: 0:01:28
+b:250 ;lr:0.050 ;loss:1.32 ;acc:0.69 ;iou:0.79 ;qMean:-0.00 ;qSTD:0.13 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.72 ;iRange:0.13 ;Gq:1.09822 ;Gi:0.65441 ;time: 0:01:50
+
+*Tr loss: 1.340 ;Tr acc: 0.699 ;IOU acc: 0.793 ;qMean:-0.000 ;qSTD:0.130 ;iMean:0.000 ;iSTD:0.021 ;qRange:0.715 ;imgRange:0.129 ;Gq:1.03885 ;Gi:0.64511 ;Time: 0:02:09 
+
+Testing, epoch: 6
+batch: 0 ;loss: 1.292 ;acc: 0.720 ;iou_acc: 0.830 ;time: 0:02:09
+batch: 50 ;loss: 1.471 ;acc: 0.705 ;iou_acc: 0.760 ;time: 0:02:18
+batch: 100 ;loss: 1.453 ;acc: 0.700 ;iou_acc: 0.775 ;time: 0:02:27
+batch: 150 ;loss: 1.604 ;acc: 0.625 ;iou_acc: 0.710 ;time: 0:02:37
+batch: 200 ;loss: 1.372 ;acc: 0.665 ;iou_acc: 0.760 ;time: 0:02:46
+batch: 250 ;loss: 1.499 ;acc: 0.635 ;iou_acc: 0.745 ;time: 0:02:55
+
+*Test loss: 1.419 ;Test accuracy 0.673 ;Test IOU: 0.772 ;Time: 0:03:04
+================================================== 
+Train, epoch: 7
+b:0 ;lr:0.050 ;loss:1.22 ;acc:0.73 ;iou:0.80 ;qMean:-0.00 ;qSTD:0.13 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.72 ;iRange:0.13 ;Gq:0.96470 ;Gi:0.65797 ;time: 0:00:00
+b:50 ;lr:0.050 ;loss:1.20 ;acc:0.73 ;iou:0.83 ;qMean:-0.00 ;qSTD:0.13 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.72 ;iRange:0.13 ;Gq:1.03898 ;Gi:0.66609 ;time: 0:00:22
+b:100 ;lr:0.050 ;loss:1.61 ;acc:0.62 ;iou:0.77 ;qMean:-0.00 ;qSTD:0.13 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.71 ;iRange:0.13 ;Gq:1.19480 ;Gi:0.75908 ;time: 0:00:44
+b:150 ;lr:0.050 ;loss:1.31 ;acc:0.74 ;iou:0.80 ;qMean:-0.00 ;qSTD:0.13 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.71 ;iRange:0.13 ;Gq:1.01681 ;Gi:0.64010 ;time: 0:01:08
+b:200 ;lr:0.050 ;loss:1.40 ;acc:0.65 ;iou:0.74 ;qMean:0.00 ;qSTD:0.13 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.72 ;iRange:0.13 ;Gq:1.10910 ;Gi:0.69628 ;time: 0:01:29
+b:250 ;lr:0.050 ;loss:1.11 ;acc:0.81 ;iou:0.88 ;qMean:-0.00 ;qSTD:0.13 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.71 ;iRange:0.13 ;Gq:1.02759 ;Gi:0.62418 ;time: 0:01:51
+
+*Tr loss: 1.307 ;Tr acc: 0.708 ;IOU acc: 0.801 ;qMean:-0.000 ;qSTD:0.130 ;iMean:0.000 ;iSTD:0.021 ;qRange:0.714 ;imgRange:0.129 ;Gq:1.06108 ;Gi:0.67662 ;Time: 0:02:09 
+
+Testing, epoch: 7
+batch: 0 ;loss: 1.249 ;acc: 0.730 ;iou_acc: 0.815 ;time: 0:02:10
+batch: 50 ;loss: 1.442 ;acc: 0.650 ;iou_acc: 0.730 ;time: 0:02:19
+batch: 100 ;loss: 1.411 ;acc: 0.715 ;iou_acc: 0.790 ;time: 0:02:28
+batch: 150 ;loss: 1.545 ;acc: 0.675 ;iou_acc: 0.735 ;time: 0:02:37
+batch: 200 ;loss: 1.299 ;acc: 0.700 ;iou_acc: 0.800 ;time: 0:02:46
+batch: 250 ;loss: 1.481 ;acc: 0.625 ;iou_acc: 0.745 ;time: 0:02:55
+
+*Test loss: 1.382 ;Test accuracy 0.684 ;Test IOU: 0.779 ;Time: 0:03:05
+================================================== 
+Train, epoch: 8
+b:0 ;lr:0.050 ;loss:1.38 ;acc:0.69 ;iou:0.77 ;qMean:-0.00 ;qSTD:0.13 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.71 ;iRange:0.13 ;Gq:1.14028 ;Gi:0.74476 ;time: 0:00:00
+b:50 ;lr:0.050 ;loss:1.20 ;acc:0.73 ;iou:0.80 ;qMean:-0.00 ;qSTD:0.13 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.72 ;iRange:0.13 ;Gq:1.07423 ;Gi:0.75075 ;time: 0:00:23
+b:100 ;lr:0.050 ;loss:1.37 ;acc:0.70 ;iou:0.80 ;qMean:-0.00 ;qSTD:0.13 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.72 ;iRange:0.13 ;Gq:1.10104 ;Gi:0.70765 ;time: 0:00:44
+b:150 ;lr:0.050 ;loss:1.21 ;acc:0.73 ;iou:0.83 ;qMean:-0.00 ;qSTD:0.13 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.72 ;iRange:0.13 ;Gq:0.98608 ;Gi:0.69172 ;time: 0:01:07
+b:200 ;lr:0.050 ;loss:1.24 ;acc:0.74 ;iou:0.82 ;qMean:-0.00 ;qSTD:0.13 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.72 ;iRange:0.13 ;Gq:1.07826 ;Gi:0.69749 ;time: 0:01:30
+b:250 ;lr:0.050 ;loss:1.14 ;acc:0.75 ;iou:0.81 ;qMean:-0.00 ;qSTD:0.13 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.70 ;iRange:0.13 ;Gq:1.10370 ;Gi:0.71026 ;time: 0:01:51
+
+*Tr loss: 1.277 ;Tr acc: 0.716 ;IOU acc: 0.806 ;qMean:-0.000 ;qSTD:0.130 ;iMean:0.000 ;iSTD:0.021 ;qRange:0.714 ;imgRange:0.129 ;Gq:1.07839 ;Gi:0.70553 ;Time: 0:02:11 
+
+Testing, epoch: 8
+batch: 0 ;loss: 1.223 ;acc: 0.755 ;iou_acc: 0.850 ;time: 0:02:11
+batch: 50 ;loss: 1.425 ;acc: 0.675 ;iou_acc: 0.735 ;time: 0:02:20
+batch: 100 ;loss: 1.400 ;acc: 0.720 ;iou_acc: 0.795 ;time: 0:02:29
+batch: 150 ;loss: 1.543 ;acc: 0.655 ;iou_acc: 0.730 ;time: 0:02:38
+batch: 200 ;loss: 1.311 ;acc: 0.685 ;iou_acc: 0.785 ;time: 0:02:48
+batch: 250 ;loss: 1.439 ;acc: 0.650 ;iou_acc: 0.750 ;time: 0:02:57
+
+*Test loss: 1.365 ;Test accuracy 0.689 ;Test IOU: 0.784 ;Time: 0:03:05
+================================================== 
+Train, epoch: 9
+b:0 ;lr:0.050 ;loss:1.28 ;acc:0.71 ;iou:0.81 ;qMean:-0.00 ;qSTD:0.13 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.72 ;iRange:0.13 ;Gq:1.15552 ;Gi:0.78900 ;time: 0:00:00
+b:50 ;lr:0.050 ;loss:1.29 ;acc:0.72 ;iou:0.81 ;qMean:-0.00 ;qSTD:0.13 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.72 ;iRange:0.13 ;Gq:1.08629 ;Gi:0.72467 ;time: 0:00:22
+b:100 ;lr:0.050 ;loss:1.46 ;acc:0.71 ;iou:0.81 ;qMean:-0.00 ;qSTD:0.13 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.72 ;iRange:0.13 ;Gq:1.04481 ;Gi:0.79263 ;time: 0:00:43
+b:150 ;lr:0.050 ;loss:1.21 ;acc:0.73 ;iou:0.81 ;qMean:-0.00 ;qSTD:0.13 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.72 ;iRange:0.13 ;Gq:1.12945 ;Gi:0.79932 ;time: 0:01:05
+b:200 ;lr:0.050 ;loss:1.32 ;acc:0.70 ;iou:0.81 ;qMean:-0.00 ;qSTD:0.13 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.71 ;iRange:0.13 ;Gq:1.14896 ;Gi:0.75653 ;time: 0:01:28
+b:250 ;lr:0.050 ;loss:1.29 ;acc:0.72 ;iou:0.81 ;qMean:-0.00 ;qSTD:0.13 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.70 ;iRange:0.13 ;Gq:1.03431 ;Gi:0.72219 ;time: 0:01:50
+
+*Tr loss: 1.251 ;Tr acc: 0.722 ;IOU acc: 0.811 ;qMean:-0.000 ;qSTD:0.130 ;iMean:0.000 ;iSTD:0.021 ;qRange:0.713 ;imgRange:0.129 ;Gq:1.09693 ;Gi:0.74083 ;Time: 0:02:12 
+
+Testing, epoch: 9
+batch: 0 ;loss: 1.192 ;acc: 0.760 ;iou_acc: 0.835 ;time: 0:02:12
+batch: 50 ;loss: 1.387 ;acc: 0.675 ;iou_acc: 0.735 ;time: 0:02:21
+batch: 100 ;loss: 1.353 ;acc: 0.735 ;iou_acc: 0.790 ;time: 0:02:30
+batch: 150 ;loss: 1.514 ;acc: 0.660 ;iou_acc: 0.720 ;time: 0:02:40
+batch: 200 ;loss: 1.262 ;acc: 0.685 ;iou_acc: 0.785 ;time: 0:02:49
+batch: 250 ;loss: 1.402 ;acc: 0.700 ;iou_acc: 0.785 ;time: 0:02:59
+
+*Test loss: 1.336 ;Test accuracy 0.697 ;Test IOU: 0.790 ;Time: 0:03:08
+================================================== 
+Train, epoch: 10
+b:0 ;lr:0.050 ;loss:1.25 ;acc:0.74 ;iou:0.81 ;qMean:-0.00 ;qSTD:0.13 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.71 ;iRange:0.13 ;Gq:1.13680 ;Gi:0.78365 ;time: 0:00:00
+b:50 ;lr:0.050 ;loss:1.41 ;acc:0.69 ;iou:0.78 ;qMean:-0.00 ;qSTD:0.13 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.71 ;iRange:0.13 ;Gq:1.11349 ;Gi:0.74424 ;time: 0:00:22
+b:100 ;lr:0.050 ;loss:1.43 ;acc:0.67 ;iou:0.76 ;qMean:-0.00 ;qSTD:0.13 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.71 ;iRange:0.13 ;Gq:1.14199 ;Gi:0.77959 ;time: 0:00:45
+b:150 ;lr:0.050 ;loss:1.09 ;acc:0.75 ;iou:0.82 ;qMean:-0.00 ;qSTD:0.13 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.71 ;iRange:0.13 ;Gq:1.11963 ;Gi:0.80205 ;time: 0:01:08
+b:200 ;lr:0.050 ;loss:1.27 ;acc:0.67 ;iou:0.77 ;qMean:-0.00 ;qSTD:0.13 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.72 ;iRange:0.13 ;Gq:1.16421 ;Gi:0.78887 ;time: 0:01:29
+b:250 ;lr:0.050 ;loss:1.30 ;acc:0.68 ;iou:0.80 ;qMean:-0.00 ;qSTD:0.13 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.72 ;iRange:0.13 ;Gq:1.13481 ;Gi:0.74641 ;time: 0:01:52
+
+*Tr loss: 1.226 ;Tr acc: 0.729 ;IOU acc: 0.817 ;qMean:-0.000 ;qSTD:0.130 ;iMean:0.000 ;iSTD:0.021 ;qRange:0.714 ;imgRange:0.129 ;Gq:1.11017 ;Gi:0.76777 ;Time: 0:02:13 
+
+Testing, epoch: 10
+batch: 0 ;loss: 1.185 ;acc: 0.745 ;iou_acc: 0.850 ;time: 0:02:14
+batch: 50 ;loss: 1.385 ;acc: 0.710 ;iou_acc: 0.760 ;time: 0:02:24
+batch: 100 ;loss: 1.361 ;acc: 0.720 ;iou_acc: 0.805 ;time: 0:02:33
+batch: 150 ;loss: 1.534 ;acc: 0.665 ;iou_acc: 0.735 ;time: 0:02:43
+batch: 200 ;loss: 1.268 ;acc: 0.695 ;iou_acc: 0.775 ;time: 0:02:52
+batch: 250 ;loss: 1.389 ;acc: 0.695 ;iou_acc: 0.795 ;time: 0:03:02
+
+*Test loss: 1.332 ;Test accuracy 0.698 ;Test IOU: 0.790 ;Time: 0:03:10
+================================================== 
+Train, epoch: 11
+b:0 ;lr:0.050 ;loss:1.04 ;acc:0.76 ;iou:0.84 ;qMean:-0.00 ;qSTD:0.13 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.72 ;iRange:0.13 ;Gq:0.92788 ;Gi:0.64827 ;time: 0:00:01
+b:50 ;lr:0.050 ;loss:1.20 ;acc:0.74 ;iou:0.79 ;qMean:-0.00 ;qSTD:0.13 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.71 ;iRange:0.13 ;Gq:1.19565 ;Gi:0.89465 ;time: 0:00:24
+b:100 ;lr:0.050 ;loss:1.30 ;acc:0.76 ;iou:0.82 ;qMean:-0.00 ;qSTD:0.13 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.72 ;iRange:0.13 ;Gq:1.21395 ;Gi:0.85203 ;time: 0:00:46
+b:150 ;lr:0.050 ;loss:1.22 ;acc:0.72 ;iou:0.83 ;qMean:-0.00 ;qSTD:0.13 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.71 ;iRange:0.13 ;Gq:1.07236 ;Gi:0.82964 ;time: 0:01:10
+b:200 ;lr:0.050 ;loss:1.18 ;acc:0.76 ;iou:0.82 ;qMean:-0.00 ;qSTD:0.13 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.70 ;iRange:0.13 ;Gq:1.18107 ;Gi:0.84164 ;time: 0:01:32
+b:250 ;lr:0.050 ;loss:1.28 ;acc:0.70 ;iou:0.83 ;qMean:-0.00 ;qSTD:0.13 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.70 ;iRange:0.13 ;Gq:1.14065 ;Gi:0.80580 ;time: 0:01:55
+
+*Tr loss: 1.203 ;Tr acc: 0.737 ;IOU acc: 0.822 ;qMean:-0.000 ;qSTD:0.130 ;iMean:0.000 ;iSTD:0.021 ;qRange:0.712 ;imgRange:0.129 ;Gq:1.12369 ;Gi:0.79550 ;Time: 0:02:17 
+
+Testing, epoch: 11
+batch: 0 ;loss: 1.184 ;acc: 0.730 ;iou_acc: 0.805 ;time: 0:02:17
+batch: 50 ;loss: 1.389 ;acc: 0.670 ;iou_acc: 0.735 ;time: 0:02:26
+batch: 100 ;loss: 1.312 ;acc: 0.785 ;iou_acc: 0.845 ;time: 0:02:35
+batch: 150 ;loss: 1.527 ;acc: 0.660 ;iou_acc: 0.735 ;time: 0:02:44
+batch: 200 ;loss: 1.214 ;acc: 0.715 ;iou_acc: 0.810 ;time: 0:02:53
+batch: 250 ;loss: 1.415 ;acc: 0.675 ;iou_acc: 0.765 ;time: 0:03:02
+
+*Test loss: 1.325 ;Test accuracy 0.700 ;Test IOU: 0.790 ;Time: 0:03:10
+================================================== 
+Train, epoch: 12
+b:0 ;lr:0.050 ;loss:1.19 ;acc:0.74 ;iou:0.83 ;qMean:-0.00 ;qSTD:0.13 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.70 ;iRange:0.13 ;Gq:1.09323 ;Gi:0.75989 ;time: 0:00:01
+b:50 ;lr:0.050 ;loss:1.17 ;acc:0.76 ;iou:0.83 ;qMean:-0.00 ;qSTD:0.13 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.71 ;iRange:0.13 ;Gq:1.13223 ;Gi:0.70719 ;time: 0:00:21
+b:100 ;lr:0.050 ;loss:1.19 ;acc:0.77 ;iou:0.81 ;qMean:-0.00 ;qSTD:0.13 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.71 ;iRange:0.13 ;Gq:1.15056 ;Gi:0.86761 ;time: 0:00:44
+b:150 ;lr:0.050 ;loss:1.26 ;acc:0.75 ;iou:0.82 ;qMean:-0.00 ;qSTD:0.13 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.70 ;iRange:0.13 ;Gq:1.23859 ;Gi:0.91793 ;time: 0:01:10
+b:200 ;lr:0.050 ;loss:1.29 ;acc:0.71 ;iou:0.81 ;qMean:-0.00 ;qSTD:0.13 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.71 ;iRange:0.13 ;Gq:1.22330 ;Gi:0.94021 ;time: 0:01:34
+b:250 ;lr:0.050 ;loss:1.08 ;acc:0.76 ;iou:0.85 ;qMean:-0.00 ;qSTD:0.13 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.72 ;iRange:0.13 ;Gq:1.14662 ;Gi:0.76687 ;time: 0:01:58
+
+*Tr loss: 1.182 ;Tr acc: 0.740 ;IOU acc: 0.824 ;qMean:-0.000 ;qSTD:0.130 ;iMean:0.000 ;iSTD:0.021 ;qRange:0.713 ;imgRange:0.129 ;Gq:1.13768 ;Gi:0.82578 ;Time: 0:02:19 
+
+Testing, epoch: 12
+batch: 0 ;loss: 1.155 ;acc: 0.765 ;iou_acc: 0.840 ;time: 0:02:20
+batch: 50 ;loss: 1.356 ;acc: 0.720 ;iou_acc: 0.775 ;time: 0:02:29
+batch: 100 ;loss: 1.320 ;acc: 0.755 ;iou_acc: 0.820 ;time: 0:02:39
+batch: 150 ;loss: 1.488 ;acc: 0.675 ;iou_acc: 0.745 ;time: 0:02:49
+batch: 200 ;loss: 1.208 ;acc: 0.710 ;iou_acc: 0.805 ;time: 0:02:58
+batch: 250 ;loss: 1.370 ;acc: 0.680 ;iou_acc: 0.775 ;time: 0:03:08
+
+*Test loss: 1.286 ;Test accuracy 0.711 ;Test IOU: 0.801 ;Time: 0:03:17
+================================================== 
+Train, epoch: 13
+b:0 ;lr:0.050 ;loss:1.39 ;acc:0.70 ;iou:0.76 ;qMean:-0.00 ;qSTD:0.13 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.70 ;iRange:0.13 ;Gq:1.24671 ;Gi:0.94075 ;time: 0:00:00
+b:50 ;lr:0.050 ;loss:1.31 ;acc:0.72 ;iou:0.82 ;qMean:-0.00 ;qSTD:0.13 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.71 ;iRange:0.13 ;Gq:1.08387 ;Gi:0.85504 ;time: 0:00:23
+b:100 ;lr:0.050 ;loss:1.25 ;acc:0.75 ;iou:0.85 ;qMean:-0.00 ;qSTD:0.13 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.71 ;iRange:0.13 ;Gq:1.13576 ;Gi:0.92628 ;time: 0:00:45
+b:150 ;lr:0.050 ;loss:1.23 ;acc:0.74 ;iou:0.81 ;qMean:-0.00 ;qSTD:0.13 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.71 ;iRange:0.13 ;Gq:1.20367 ;Gi:0.86835 ;time: 0:01:08
+b:200 ;lr:0.050 ;loss:1.11 ;acc:0.79 ;iou:0.85 ;qMean:-0.00 ;qSTD:0.13 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.71 ;iRange:0.13 ;Gq:1.20519 ;Gi:0.93307 ;time: 0:01:31
+b:250 ;lr:0.050 ;loss:1.16 ;acc:0.71 ;iou:0.79 ;qMean:-0.00 ;qSTD:0.13 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.70 ;iRange:0.13 ;Gq:1.19992 ;Gi:0.85267 ;time: 0:01:53
+
+*Tr loss: 1.162 ;Tr acc: 0.747 ;IOU acc: 0.829 ;qMean:-0.000 ;qSTD:0.130 ;iMean:0.000 ;iSTD:0.021 ;qRange:0.713 ;imgRange:0.129 ;Gq:1.15269 ;Gi:0.86011 ;Time: 0:02:13 
+
+Testing, epoch: 13
+batch: 0 ;loss: 1.160 ;acc: 0.740 ;iou_acc: 0.815 ;time: 0:02:14
+batch: 50 ;loss: 1.322 ;acc: 0.690 ;iou_acc: 0.750 ;time: 0:02:22
+batch: 100 ;loss: 1.290 ;acc: 0.765 ;iou_acc: 0.825 ;time: 0:02:32
+batch: 150 ;loss: 1.486 ;acc: 0.685 ;iou_acc: 0.755 ;time: 0:02:41
+batch: 200 ;loss: 1.181 ;acc: 0.735 ;iou_acc: 0.820 ;time: 0:02:50
+batch: 250 ;loss: 1.348 ;acc: 0.700 ;iou_acc: 0.805 ;time: 0:03:00
+
+*Test loss: 1.272 ;Test accuracy 0.714 ;Test IOU: 0.803 ;Time: 0:03:09
+================================================== 
+Train, epoch: 14
+b:0 ;lr:0.050 ;loss:1.08 ;acc:0.77 ;iou:0.84 ;qMean:-0.00 ;qSTD:0.13 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.73 ;iRange:0.13 ;Gq:1.06746 ;Gi:0.81889 ;time: 0:00:00
+b:50 ;lr:0.050 ;loss:1.16 ;acc:0.75 ;iou:0.85 ;qMean:-0.00 ;qSTD:0.13 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.72 ;iRange:0.13 ;Gq:1.09953 ;Gi:0.78338 ;time: 0:00:24
+b:100 ;lr:0.050 ;loss:1.20 ;acc:0.75 ;iou:0.82 ;qMean:-0.00 ;qSTD:0.13 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.71 ;iRange:0.13 ;Gq:1.28335 ;Gi:0.89205 ;time: 0:00:48
+b:150 ;lr:0.050 ;loss:1.09 ;acc:0.74 ;iou:0.80 ;qMean:-0.00 ;qSTD:0.13 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.71 ;iRange:0.13 ;Gq:1.13396 ;Gi:0.93564 ;time: 0:01:11
+b:200 ;lr:0.050 ;loss:1.08 ;acc:0.77 ;iou:0.87 ;qMean:-0.00 ;qSTD:0.13 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.71 ;iRange:0.13 ;Gq:1.11266 ;Gi:0.85388 ;time: 0:01:36
+b:250 ;lr:0.050 ;loss:1.08 ;acc:0.76 ;iou:0.85 ;qMean:-0.00 ;qSTD:0.13 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.72 ;iRange:0.13 ;Gq:1.09713 ;Gi:0.88421 ;time: 0:02:00
+
+*Tr loss: 1.141 ;Tr acc: 0.752 ;IOU acc: 0.834 ;qMean:-0.000 ;qSTD:0.131 ;iMean:0.000 ;iSTD:0.021 ;qRange:0.714 ;imgRange:0.129 ;Gq:1.16391 ;Gi:0.89449 ;Time: 0:02:19 
+
+Testing, epoch: 14
+batch: 0 ;loss: 1.150 ;acc: 0.760 ;iou_acc: 0.830 ;time: 0:02:19
+batch: 50 ;loss: 1.334 ;acc: 0.700 ;iou_acc: 0.770 ;time: 0:02:28
+batch: 100 ;loss: 1.292 ;acc: 0.770 ;iou_acc: 0.840 ;time: 0:02:37
+batch: 150 ;loss: 1.481 ;acc: 0.670 ;iou_acc: 0.740 ;time: 0:02:47
+batch: 200 ;loss: 1.161 ;acc: 0.730 ;iou_acc: 0.825 ;time: 0:02:56
+batch: 250 ;loss: 1.363 ;acc: 0.690 ;iou_acc: 0.775 ;time: 0:03:05
+
+*Test loss: 1.272 ;Test accuracy 0.713 ;Test IOU: 0.802 ;Time: 0:03:13
+================================================== 
+Train, epoch: 15
+b:0 ;lr:0.050 ;loss:1.13 ;acc:0.76 ;iou:0.85 ;qMean:-0.00 ;qSTD:0.13 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.73 ;iRange:0.13 ;Gq:1.21270 ;Gi:0.95026 ;time: 0:00:00
+b:50 ;lr:0.050 ;loss:1.16 ;acc:0.75 ;iou:0.84 ;qMean:-0.00 ;qSTD:0.13 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.72 ;iRange:0.13 ;Gq:1.24104 ;Gi:0.91437 ;time: 0:00:22
+b:100 ;lr:0.050 ;loss:1.00 ;acc:0.79 ;iou:0.85 ;qMean:-0.00 ;qSTD:0.13 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.72 ;iRange:0.13 ;Gq:1.07111 ;Gi:0.76929 ;time: 0:00:43
+b:150 ;lr:0.050 ;loss:1.42 ;acc:0.71 ;iou:0.78 ;qMean:-0.00 ;qSTD:0.13 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.71 ;iRange:0.13 ;Gq:1.31510 ;Gi:0.95167 ;time: 0:01:02
+b:200 ;lr:0.050 ;loss:1.16 ;acc:0.77 ;iou:0.83 ;qMean:-0.00 ;qSTD:0.13 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.71 ;iRange:0.13 ;Gq:1.18919 ;Gi:1.05141 ;time: 0:01:24
+b:250 ;lr:0.050 ;loss:1.11 ;acc:0.74 ;iou:0.83 ;qMean:-0.00 ;qSTD:0.13 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.72 ;iRange:0.13 ;Gq:1.19508 ;Gi:0.86329 ;time: 0:01:45
+
+*Tr loss: 1.121 ;Tr acc: 0.757 ;IOU acc: 0.837 ;qMean:-0.000 ;qSTD:0.131 ;iMean:0.000 ;iSTD:0.021 ;qRange:0.715 ;imgRange:0.129 ;Gq:1.17564 ;Gi:0.92746 ;Time: 0:02:04 
+
+Testing, epoch: 15
+batch: 0 ;loss: 1.129 ;acc: 0.775 ;iou_acc: 0.825 ;time: 0:02:04
+batch: 50 ;loss: 1.299 ;acc: 0.695 ;iou_acc: 0.745 ;time: 0:02:12
+batch: 100 ;loss: 1.275 ;acc: 0.760 ;iou_acc: 0.830 ;time: 0:02:21
+batch: 150 ;loss: 1.450 ;acc: 0.695 ;iou_acc: 0.770 ;time: 0:02:30
+batch: 200 ;loss: 1.166 ;acc: 0.725 ;iou_acc: 0.810 ;time: 0:02:40
+batch: 250 ;loss: 1.326 ;acc: 0.715 ;iou_acc: 0.795 ;time: 0:02:49
+
+*Test loss: 1.246 ;Test accuracy 0.721 ;Test IOU: 0.808 ;Time: 0:02:57
+================================================== 
+Train, epoch: 16
+b:0 ;lr:0.050 ;loss:1.02 ;acc:0.79 ;iou:0.87 ;qMean:-0.00 ;qSTD:0.13 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.71 ;iRange:0.13 ;Gq:1.05160 ;Gi:0.89887 ;time: 0:00:00
+b:50 ;lr:0.050 ;loss:1.00 ;acc:0.79 ;iou:0.86 ;qMean:-0.00 ;qSTD:0.13 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.71 ;iRange:0.13 ;Gq:1.09553 ;Gi:0.91709 ;time: 0:00:21
+b:100 ;lr:0.050 ;loss:1.03 ;acc:0.76 ;iou:0.86 ;qMean:-0.00 ;qSTD:0.13 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.72 ;iRange:0.13 ;Gq:1.19298 ;Gi:0.95517 ;time: 0:00:42
+b:150 ;lr:0.050 ;loss:1.12 ;acc:0.76 ;iou:0.85 ;qMean:-0.00 ;qSTD:0.13 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.72 ;iRange:0.13 ;Gq:1.16837 ;Gi:0.95593 ;time: 0:01:03
+b:200 ;lr:0.050 ;loss:1.16 ;acc:0.74 ;iou:0.83 ;qMean:-0.00 ;qSTD:0.13 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.71 ;iRange:0.13 ;Gq:1.25897 ;Gi:1.04404 ;time: 0:01:25
+b:250 ;lr:0.050 ;loss:0.97 ;acc:0.77 ;iou:0.83 ;qMean:-0.00 ;qSTD:0.13 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.71 ;iRange:0.13 ;Gq:1.15204 ;Gi:0.97070 ;time: 0:01:46
+
+*Tr loss: 1.103 ;Tr acc: 0.762 ;IOU acc: 0.841 ;qMean:-0.000 ;qSTD:0.131 ;iMean:0.000 ;iSTD:0.021 ;qRange:0.716 ;imgRange:0.129 ;Gq:1.18806 ;Gi:0.96207 ;Time: 0:02:05 
+
+Testing, epoch: 16
+batch: 0 ;loss: 1.092 ;acc: 0.795 ;iou_acc: 0.870 ;time: 0:02:06
+batch: 50 ;loss: 1.285 ;acc: 0.735 ;iou_acc: 0.800 ;time: 0:02:15
+batch: 100 ;loss: 1.256 ;acc: 0.745 ;iou_acc: 0.830 ;time: 0:02:23
+batch: 150 ;loss: 1.424 ;acc: 0.680 ;iou_acc: 0.770 ;time: 0:02:32
+batch: 200 ;loss: 1.174 ;acc: 0.720 ;iou_acc: 0.795 ;time: 0:02:41
+batch: 250 ;loss: 1.280 ;acc: 0.705 ;iou_acc: 0.805 ;time: 0:02:50
+
+*Test loss: 1.243 ;Test accuracy 0.722 ;Test IOU: 0.809 ;Time: 0:02:59
+================================================== 
+Train, epoch: 17
+b:0 ;lr:0.050 ;loss:0.87 ;acc:0.84 ;iou:0.91 ;qMean:-0.00 ;qSTD:0.14 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.73 ;iRange:0.13 ;Gq:1.02116 ;Gi:0.82836 ;time: 0:00:00
+b:50 ;lr:0.050 ;loss:1.03 ;acc:0.78 ;iou:0.85 ;qMean:-0.00 ;qSTD:0.13 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.72 ;iRange:0.13 ;Gq:1.16651 ;Gi:0.91770 ;time: 0:00:21
+b:100 ;lr:0.050 ;loss:0.97 ;acc:0.82 ;iou:0.88 ;qMean:-0.00 ;qSTD:0.13 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.72 ;iRange:0.13 ;Gq:1.12753 ;Gi:0.83849 ;time: 0:00:41
+b:150 ;lr:0.050 ;loss:0.99 ;acc:0.80 ;iou:0.87 ;qMean:-0.00 ;qSTD:0.13 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.73 ;iRange:0.13 ;Gq:1.04255 ;Gi:0.91344 ;time: 0:01:02
+b:200 ;lr:0.050 ;loss:1.08 ;acc:0.75 ;iou:0.83 ;qMean:-0.00 ;qSTD:0.13 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.71 ;iRange:0.13 ;Gq:1.24450 ;Gi:1.05975 ;time: 0:01:24
+b:250 ;lr:0.050 ;loss:0.90 ;acc:0.81 ;iou:0.88 ;qMean:-0.00 ;qSTD:0.13 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.72 ;iRange:0.13 ;Gq:1.08066 ;Gi:0.92612 ;time: 0:01:44
+
+*Tr loss: 1.083 ;Tr acc: 0.767 ;IOU acc: 0.844 ;qMean:-0.000 ;qSTD:0.132 ;iMean:0.000 ;iSTD:0.021 ;qRange:0.719 ;imgRange:0.129 ;Gq:1.19784 ;Gi:0.99506 ;Time: 0:02:04 
+
+Testing, epoch: 17
+batch: 0 ;loss: 1.114 ;acc: 0.765 ;iou_acc: 0.840 ;time: 0:02:04
+batch: 50 ;loss: 1.278 ;acc: 0.710 ;iou_acc: 0.785 ;time: 0:02:13
+batch: 100 ;loss: 1.236 ;acc: 0.745 ;iou_acc: 0.815 ;time: 0:02:21
+batch: 150 ;loss: 1.452 ;acc: 0.680 ;iou_acc: 0.755 ;time: 0:02:29
+batch: 200 ;loss: 1.133 ;acc: 0.740 ;iou_acc: 0.825 ;time: 0:02:37
+batch: 250 ;loss: 1.313 ;acc: 0.700 ;iou_acc: 0.785 ;time: 0:02:45
+
+*Test loss: 1.226 ;Test accuracy 0.725 ;Test IOU: 0.811 ;Time: 0:02:53
+================================================== 
+Train, epoch: 18
+b:0 ;lr:0.050 ;loss:1.11 ;acc:0.76 ;iou:0.85 ;qMean:-0.00 ;qSTD:0.13 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.70 ;iRange:0.13 ;Gq:1.24423 ;Gi:1.01940 ;time: 0:00:00
+b:50 ;lr:0.050 ;loss:0.90 ;acc:0.83 ;iou:0.89 ;qMean:-0.00 ;qSTD:0.13 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.72 ;iRange:0.13 ;Gq:1.02297 ;Gi:0.79956 ;time: 0:00:20
+b:100 ;lr:0.050 ;loss:1.13 ;acc:0.76 ;iou:0.82 ;qMean:-0.00 ;qSTD:0.13 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.71 ;iRange:0.13 ;Gq:1.20732 ;Gi:1.06774 ;time: 0:00:41
+b:150 ;lr:0.050 ;loss:1.28 ;acc:0.70 ;iou:0.82 ;qMean:-0.00 ;qSTD:0.13 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.71 ;iRange:0.13 ;Gq:1.42062 ;Gi:1.30492 ;time: 0:01:01
+b:200 ;lr:0.050 ;loss:1.16 ;acc:0.78 ;iou:0.84 ;qMean:-0.00 ;qSTD:0.13 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.70 ;iRange:0.13 ;Gq:1.23786 ;Gi:0.89152 ;time: 0:01:21
+b:250 ;lr:0.050 ;loss:0.98 ;acc:0.80 ;iou:0.88 ;qMean:-0.00 ;qSTD:0.13 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.72 ;iRange:0.13 ;Gq:1.14321 ;Gi:0.99459 ;time: 0:01:42
+
+*Tr loss: 1.065 ;Tr acc: 0.772 ;IOU acc: 0.848 ;qMean:-0.000 ;qSTD:0.132 ;iMean:0.000 ;iSTD:0.021 ;qRange:0.717 ;imgRange:0.129 ;Gq:1.21268 ;Gi:1.02358 ;Time: 0:02:01 
+
+Testing, epoch: 18
+batch: 0 ;loss: 1.088 ;acc: 0.765 ;iou_acc: 0.845 ;time: 0:02:01
+batch: 50 ;loss: 1.266 ;acc: 0.715 ;iou_acc: 0.765 ;time: 0:02:10
+batch: 100 ;loss: 1.232 ;acc: 0.785 ;iou_acc: 0.845 ;time: 0:02:18
+batch: 150 ;loss: 1.434 ;acc: 0.715 ;iou_acc: 0.800 ;time: 0:02:27
+batch: 200 ;loss: 1.150 ;acc: 0.715 ;iou_acc: 0.800 ;time: 0:02:36
+batch: 250 ;loss: 1.282 ;acc: 0.710 ;iou_acc: 0.800 ;time: 0:02:44
+
+*Test loss: 1.209 ;Test accuracy 0.729 ;Test IOU: 0.815 ;Time: 0:02:52
+================================================== 
+Train, epoch: 19
+b:0 ;lr:0.050 ;loss:0.89 ;acc:0.83 ;iou:0.91 ;qMean:-0.00 ;qSTD:0.13 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.72 ;iRange:0.13 ;Gq:1.11988 ;Gi:0.96429 ;time: 0:00:01
+b:50 ;lr:0.050 ;loss:1.20 ;acc:0.74 ;iou:0.83 ;qMean:-0.00 ;qSTD:0.13 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.71 ;iRange:0.13 ;Gq:1.31822 ;Gi:1.11264 ;time: 0:00:21
+b:100 ;lr:0.050 ;loss:1.20 ;acc:0.73 ;iou:0.81 ;qMean:-0.00 ;qSTD:0.13 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.72 ;iRange:0.13 ;Gq:1.33835 ;Gi:1.17070 ;time: 0:00:41
+b:150 ;lr:0.050 ;loss:0.97 ;acc:0.79 ;iou:0.89 ;qMean:-0.00 ;qSTD:0.13 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.73 ;iRange:0.13 ;Gq:1.21730 ;Gi:1.09782 ;time: 0:01:03
+b:200 ;lr:0.050 ;loss:0.97 ;acc:0.82 ;iou:0.90 ;qMean:-0.00 ;qSTD:0.13 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.72 ;iRange:0.13 ;Gq:1.16564 ;Gi:0.88784 ;time: 0:01:23
+b:250 ;lr:0.050 ;loss:1.09 ;acc:0.75 ;iou:0.82 ;qMean:-0.00 ;qSTD:0.13 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.71 ;iRange:0.13 ;Gq:1.23906 ;Gi:1.15473 ;time: 0:01:44
+
+*Tr loss: 1.047 ;Tr acc: 0.777 ;IOU acc: 0.853 ;qMean:-0.000 ;qSTD:0.132 ;iMean:0.000 ;iSTD:0.021 ;qRange:0.716 ;imgRange:0.129 ;Gq:1.22050 ;Gi:1.05421 ;Time: 0:02:02 
+
+Testing, epoch: 19
+batch: 0 ;loss: 1.082 ;acc: 0.780 ;iou_acc: 0.870 ;time: 0:02:02
+batch: 50 ;loss: 1.298 ;acc: 0.735 ;iou_acc: 0.785 ;time: 0:02:11
+batch: 100 ;loss: 1.239 ;acc: 0.730 ;iou_acc: 0.820 ;time: 0:02:20
+batch: 150 ;loss: 1.441 ;acc: 0.690 ;iou_acc: 0.765 ;time: 0:02:28
+batch: 200 ;loss: 1.180 ;acc: 0.710 ;iou_acc: 0.790 ;time: 0:02:37
+batch: 250 ;loss: 1.278 ;acc: 0.700 ;iou_acc: 0.810 ;time: 0:02:45
+
+*Test loss: 1.225 ;Test accuracy 0.726 ;Test IOU: 0.812 ;Time: 0:02:53
+================================================== 
+Train, epoch: 20
+b:0 ;lr:0.050 ;loss:1.08 ;acc:0.79 ;iou:0.85 ;qMean:-0.00 ;qSTD:0.13 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.71 ;iRange:0.13 ;Gq:1.27106 ;Gi:1.10137 ;time: 0:00:00
+b:50 ;lr:0.050 ;loss:1.11 ;acc:0.79 ;iou:0.84 ;qMean:-0.00 ;qSTD:0.13 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.70 ;iRange:0.13 ;Gq:1.31387 ;Gi:1.06748 ;time: 0:00:21
+b:100 ;lr:0.050 ;loss:1.03 ;acc:0.79 ;iou:0.88 ;qMean:-0.00 ;qSTD:0.13 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.72 ;iRange:0.13 ;Gq:1.28274 ;Gi:1.08884 ;time: 0:00:42
+b:150 ;lr:0.050 ;loss:1.01 ;acc:0.79 ;iou:0.88 ;qMean:-0.00 ;qSTD:0.13 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.72 ;iRange:0.13 ;Gq:1.17711 ;Gi:1.03929 ;time: 0:01:02
+b:200 ;lr:0.050 ;loss:0.89 ;acc:0.79 ;iou:0.88 ;qMean:-0.00 ;qSTD:0.13 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.72 ;iRange:0.13 ;Gq:1.15227 ;Gi:1.06895 ;time: 0:01:23
+b:250 ;lr:0.050 ;loss:1.14 ;acc:0.74 ;iou:0.82 ;qMean:-0.00 ;qSTD:0.13 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.72 ;iRange:0.13 ;Gq:1.30015 ;Gi:1.15889 ;time: 0:01:43
+
+*Tr loss: 1.031 ;Tr acc: 0.780 ;IOU acc: 0.854 ;qMean:-0.000 ;qSTD:0.132 ;iMean:0.000 ;iSTD:0.021 ;qRange:0.716 ;imgRange:0.130 ;Gq:1.23284 ;Gi:1.09247 ;Time: 0:02:02 
+
+Testing, epoch: 20
+batch: 0 ;loss: 1.062 ;acc: 0.790 ;iou_acc: 0.860 ;time: 0:02:03
+batch: 50 ;loss: 1.272 ;acc: 0.705 ;iou_acc: 0.770 ;time: 0:02:11
+batch: 100 ;loss: 1.213 ;acc: 0.750 ;iou_acc: 0.825 ;time: 0:02:20
+batch: 150 ;loss: 1.410 ;acc: 0.700 ;iou_acc: 0.790 ;time: 0:02:29
+batch: 200 ;loss: 1.101 ;acc: 0.740 ;iou_acc: 0.815 ;time: 0:02:37
+batch: 250 ;loss: 1.268 ;acc: 0.675 ;iou_acc: 0.785 ;time: 0:02:46
+
+*Test loss: 1.189 ;Test accuracy 0.734 ;Test IOU: 0.819 ;Time: 0:02:54
+================================================== 
+Train, epoch: 21
+b:0 ;lr:0.050 ;loss:0.92 ;acc:0.80 ;iou:0.88 ;qMean:-0.00 ;qSTD:0.13 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.72 ;iRange:0.13 ;Gq:1.21506 ;Gi:1.16026 ;time: 0:00:01
+b:50 ;lr:0.050 ;loss:0.87 ;acc:0.84 ;iou:0.92 ;qMean:-0.00 ;qSTD:0.13 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.71 ;iRange:0.13 ;Gq:1.10845 ;Gi:1.10219 ;time: 0:00:21
+b:100 ;lr:0.050 ;loss:1.00 ;acc:0.82 ;iou:0.88 ;qMean:-0.00 ;qSTD:0.13 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.72 ;iRange:0.13 ;Gq:1.22834 ;Gi:1.16571 ;time: 0:00:44
+b:150 ;lr:0.050 ;loss:0.99 ;acc:0.78 ;iou:0.84 ;qMean:-0.00 ;qSTD:0.13 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.72 ;iRange:0.13 ;Gq:1.22119 ;Gi:1.05463 ;time: 0:01:07
+b:200 ;lr:0.050 ;loss:1.08 ;acc:0.77 ;iou:0.85 ;qMean:-0.00 ;qSTD:0.13 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.73 ;iRange:0.13 ;Gq:1.26624 ;Gi:1.21456 ;time: 0:01:30
+b:250 ;lr:0.050 ;loss:1.02 ;acc:0.81 ;iou:0.88 ;qMean:-0.00 ;qSTD:0.13 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.72 ;iRange:0.13 ;Gq:1.26551 ;Gi:1.10577 ;time: 0:01:52
+
+*Tr loss: 1.012 ;Tr acc: 0.784 ;IOU acc: 0.858 ;qMean:-0.000 ;qSTD:0.132 ;iMean:0.000 ;iSTD:0.021 ;qRange:0.719 ;imgRange:0.130 ;Gq:1.23925 ;Gi:1.12452 ;Time: 0:02:14 
+
+Testing, epoch: 21
+batch: 0 ;loss: 1.044 ;acc: 0.785 ;iou_acc: 0.865 ;time: 0:02:14
+batch: 50 ;loss: 1.258 ;acc: 0.720 ;iou_acc: 0.790 ;time: 0:02:24
+batch: 100 ;loss: 1.212 ;acc: 0.755 ;iou_acc: 0.840 ;time: 0:02:33
+batch: 150 ;loss: 1.406 ;acc: 0.705 ;iou_acc: 0.780 ;time: 0:02:42
+batch: 200 ;loss: 1.098 ;acc: 0.755 ;iou_acc: 0.825 ;time: 0:02:52
+batch: 250 ;loss: 1.273 ;acc: 0.700 ;iou_acc: 0.800 ;time: 0:03:01
+
+*Test loss: 1.178 ;Test accuracy 0.736 ;Test IOU: 0.821 ;Time: 0:03:10
+================================================== 
+Train, epoch: 22
+b:0 ;lr:0.050 ;loss:0.80 ;acc:0.85 ;iou:0.90 ;qMean:-0.00 ;qSTD:0.13 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.72 ;iRange:0.13 ;Gq:1.06295 ;Gi:1.10057 ;time: 0:00:00
+b:50 ;lr:0.050 ;loss:0.99 ;acc:0.80 ;iou:0.88 ;qMean:-0.00 ;qSTD:0.13 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.72 ;iRange:0.13 ;Gq:1.27567 ;Gi:1.12168 ;time: 0:00:21
+b:100 ;lr:0.050 ;loss:1.15 ;acc:0.78 ;iou:0.84 ;qMean:-0.00 ;qSTD:0.13 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.72 ;iRange:0.13 ;Gq:1.23295 ;Gi:1.16092 ;time: 0:00:43
+b:150 ;lr:0.050 ;loss:0.92 ;acc:0.80 ;iou:0.89 ;qMean:-0.00 ;qSTD:0.13 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.71 ;iRange:0.13 ;Gq:1.24387 ;Gi:1.19265 ;time: 0:01:04
+b:200 ;lr:0.050 ;loss:0.93 ;acc:0.76 ;iou:0.86 ;qMean:-0.00 ;qSTD:0.13 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.70 ;iRange:0.13 ;Gq:1.15976 ;Gi:1.09259 ;time: 0:01:25
+b:250 ;lr:0.050 ;loss:1.05 ;acc:0.79 ;iou:0.83 ;qMean:-0.00 ;qSTD:0.13 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.72 ;iRange:0.13 ;Gq:1.31870 ;Gi:1.29405 ;time: 0:01:45
+
+*Tr loss: 0.999 ;Tr acc: 0.788 ;IOU acc: 0.861 ;qMean:-0.000 ;qSTD:0.132 ;iMean:0.000 ;iSTD:0.021 ;qRange:0.718 ;imgRange:0.130 ;Gq:1.24621 ;Gi:1.15171 ;Time: 0:02:05 
+
+Testing, epoch: 22
+batch: 0 ;loss: 1.033 ;acc: 0.780 ;iou_acc: 0.855 ;time: 0:02:05
+batch: 50 ;loss: 1.257 ;acc: 0.715 ;iou_acc: 0.785 ;time: 0:02:13
+batch: 100 ;loss: 1.164 ;acc: 0.765 ;iou_acc: 0.845 ;time: 0:02:22
+batch: 150 ;loss: 1.388 ;acc: 0.700 ;iou_acc: 0.785 ;time: 0:02:31
+batch: 200 ;loss: 1.067 ;acc: 0.775 ;iou_acc: 0.855 ;time: 0:02:39
+batch: 250 ;loss: 1.278 ;acc: 0.705 ;iou_acc: 0.795 ;time: 0:02:48
+
+*Test loss: 1.170 ;Test accuracy 0.738 ;Test IOU: 0.821 ;Time: 0:02:56
+================================================== 
+Train, epoch: 23
+b:0 ;lr:0.050 ;loss:1.06 ;acc:0.79 ;iou:0.82 ;qMean:-0.00 ;qSTD:0.13 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.71 ;iRange:0.13 ;Gq:1.32083 ;Gi:1.27722 ;time: 0:00:00
+b:50 ;lr:0.050 ;loss:1.03 ;acc:0.77 ;iou:0.85 ;qMean:-0.00 ;qSTD:0.14 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.73 ;iRange:0.13 ;Gq:1.21824 ;Gi:1.10612 ;time: 0:00:20
+b:100 ;lr:0.050 ;loss:0.81 ;acc:0.84 ;iou:0.90 ;qMean:-0.00 ;qSTD:0.13 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.71 ;iRange:0.13 ;Gq:1.13242 ;Gi:1.14210 ;time: 0:00:40
+b:150 ;lr:0.050 ;loss:0.93 ;acc:0.78 ;iou:0.86 ;qMean:-0.00 ;qSTD:0.13 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.73 ;iRange:0.13 ;Gq:1.13697 ;Gi:1.08364 ;time: 0:01:02
+b:200 ;lr:0.050 ;loss:0.90 ;acc:0.82 ;iou:0.85 ;qMean:-0.00 ;qSTD:0.14 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.73 ;iRange:0.13 ;Gq:1.14295 ;Gi:1.15919 ;time: 0:01:23
+b:250 ;lr:0.050 ;loss:1.05 ;acc:0.76 ;iou:0.83 ;qMean:-0.00 ;qSTD:0.13 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.73 ;iRange:0.13 ;Gq:1.29164 ;Gi:1.20018 ;time: 0:01:43
+
+*Tr loss: 0.981 ;Tr acc: 0.792 ;IOU acc: 0.863 ;qMean:-0.000 ;qSTD:0.133 ;iMean:0.000 ;iSTD:0.021 ;qRange:0.721 ;imgRange:0.130 ;Gq:1.25098 ;Gi:1.18990 ;Time: 0:02:02 
+
+Testing, epoch: 23
+batch: 0 ;loss: 0.996 ;acc: 0.800 ;iou_acc: 0.875 ;time: 0:02:02
+batch: 50 ;loss: 1.239 ;acc: 0.735 ;iou_acc: 0.805 ;time: 0:02:11
+batch: 100 ;loss: 1.168 ;acc: 0.770 ;iou_acc: 0.845 ;time: 0:02:19
+batch: 150 ;loss: 1.381 ;acc: 0.700 ;iou_acc: 0.775 ;time: 0:02:28
+batch: 200 ;loss: 1.068 ;acc: 0.755 ;iou_acc: 0.825 ;time: 0:02:37
+batch: 250 ;loss: 1.270 ;acc: 0.715 ;iou_acc: 0.815 ;time: 0:02:46
+
+*Test loss: 1.161 ;Test accuracy 0.741 ;Test IOU: 0.824 ;Time: 0:02:54
+================================================== 
+Train, epoch: 24
+b:0 ;lr:0.050 ;loss:0.90 ;acc:0.81 ;iou:0.85 ;qMean:-0.00 ;qSTD:0.13 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.74 ;iRange:0.13 ;Gq:1.24337 ;Gi:1.26395 ;time: 0:00:00
+b:50 ;lr:0.050 ;loss:0.87 ;acc:0.83 ;iou:0.91 ;qMean:-0.00 ;qSTD:0.14 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.73 ;iRange:0.13 ;Gq:1.18635 ;Gi:1.17347 ;time: 0:00:21
+b:100 ;lr:0.050 ;loss:1.10 ;acc:0.74 ;iou:0.80 ;qMean:-0.00 ;qSTD:0.13 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.71 ;iRange:0.13 ;Gq:1.26950 ;Gi:1.20760 ;time: 0:00:43
+b:150 ;lr:0.050 ;loss:0.95 ;acc:0.78 ;iou:0.86 ;qMean:-0.00 ;qSTD:0.13 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.72 ;iRange:0.13 ;Gq:1.23613 ;Gi:1.20017 ;time: 0:01:04
+b:200 ;lr:0.050 ;loss:1.00 ;acc:0.78 ;iou:0.86 ;qMean:-0.00 ;qSTD:0.13 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.72 ;iRange:0.13 ;Gq:1.19350 ;Gi:1.21549 ;time: 0:01:24
+b:250 ;lr:0.050 ;loss:1.05 ;acc:0.78 ;iou:0.84 ;qMean:-0.00 ;qSTD:0.13 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.72 ;iRange:0.13 ;Gq:1.24657 ;Gi:1.20537 ;time: 0:01:44
+
+*Tr loss: 0.966 ;Tr acc: 0.796 ;IOU acc: 0.867 ;qMean:-0.000 ;qSTD:0.133 ;iMean:0.000 ;iSTD:0.021 ;qRange:0.720 ;imgRange:0.130 ;Gq:1.26047 ;Gi:1.22426 ;Time: 0:02:03 
+
+Testing, epoch: 24
+batch: 0 ;loss: 1.016 ;acc: 0.780 ;iou_acc: 0.870 ;time: 0:02:03
+batch: 50 ;loss: 1.234 ;acc: 0.720 ;iou_acc: 0.795 ;time: 0:02:12
+batch: 100 ;loss: 1.128 ;acc: 0.805 ;iou_acc: 0.860 ;time: 0:02:21
+batch: 150 ;loss: 1.383 ;acc: 0.705 ;iou_acc: 0.780 ;time: 0:02:31
+batch: 200 ;loss: 1.074 ;acc: 0.760 ;iou_acc: 0.835 ;time: 0:02:39
+batch: 250 ;loss: 1.257 ;acc: 0.710 ;iou_acc: 0.820 ;time: 0:02:49
+
+*Test loss: 1.159 ;Test accuracy 0.742 ;Test IOU: 0.825 ;Time: 0:02:57
+================================================== 
+Train, epoch: 25
+b:0 ;lr:0.050 ;loss:0.77 ;acc:0.84 ;iou:0.91 ;qMean:-0.00 ;qSTD:0.13 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.73 ;iRange:0.13 ;Gq:1.12526 ;Gi:0.99255 ;time: 0:00:00
+b:50 ;lr:0.050 ;loss:0.95 ;acc:0.78 ;iou:0.88 ;qMean:-0.00 ;qSTD:0.13 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.72 ;iRange:0.13 ;Gq:1.25744 ;Gi:1.30127 ;time: 0:00:20
+b:100 ;lr:0.050 ;loss:0.85 ;acc:0.84 ;iou:0.91 ;qMean:-0.00 ;qSTD:0.13 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.72 ;iRange:0.13 ;Gq:1.13086 ;Gi:1.04985 ;time: 0:00:42
+b:150 ;lr:0.050 ;loss:1.03 ;acc:0.82 ;iou:0.87 ;qMean:-0.00 ;qSTD:0.13 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.73 ;iRange:0.13 ;Gq:1.36852 ;Gi:1.27780 ;time: 0:01:03
+b:200 ;lr:0.050 ;loss:0.86 ;acc:0.82 ;iou:0.89 ;qMean:-0.00 ;qSTD:0.13 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.72 ;iRange:0.13 ;Gq:1.26822 ;Gi:1.34241 ;time: 0:01:25
+b:250 ;lr:0.050 ;loss:1.03 ;acc:0.82 ;iou:0.87 ;qMean:-0.00 ;qSTD:0.13 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.72 ;iRange:0.13 ;Gq:1.28429 ;Gi:1.23473 ;time: 0:01:46
+
+*Tr loss: 0.950 ;Tr acc: 0.800 ;IOU acc: 0.869 ;qMean:-0.000 ;qSTD:0.133 ;iMean:0.000 ;iSTD:0.021 ;qRange:0.721 ;imgRange:0.130 ;Gq:1.26865 ;Gi:1.25685 ;Time: 0:02:05 
+
+Testing, epoch: 25
+batch: 0 ;loss: 1.014 ;acc: 0.775 ;iou_acc: 0.855 ;time: 0:02:05
+batch: 50 ;loss: 1.184 ;acc: 0.730 ;iou_acc: 0.810 ;time: 0:02:14
+batch: 100 ;loss: 1.156 ;acc: 0.750 ;iou_acc: 0.835 ;time: 0:02:23
+batch: 150 ;loss: 1.384 ;acc: 0.715 ;iou_acc: 0.785 ;time: 0:02:32
+batch: 200 ;loss: 1.082 ;acc: 0.740 ;iou_acc: 0.815 ;time: 0:02:41
+batch: 250 ;loss: 1.251 ;acc: 0.700 ;iou_acc: 0.820 ;time: 0:02:49
+
+*Test loss: 1.154 ;Test accuracy 0.743 ;Test IOU: 0.826 ;Time: 0:02:57
+================================================== 
+Train, epoch: 26
+b:0 ;lr:0.050 ;loss:0.93 ;acc:0.82 ;iou:0.88 ;qMean:-0.00 ;qSTD:0.14 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.72 ;iRange:0.13 ;Gq:1.20694 ;Gi:1.19701 ;time: 0:00:01
+b:50 ;lr:0.050 ;loss:0.96 ;acc:0.79 ;iou:0.85 ;qMean:-0.00 ;qSTD:0.13 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.73 ;iRange:0.13 ;Gq:1.19573 ;Gi:1.15628 ;time: 0:00:21
+b:100 ;lr:0.050 ;loss:0.95 ;acc:0.81 ;iou:0.90 ;qMean:-0.00 ;qSTD:0.13 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.73 ;iRange:0.13 ;Gq:1.32631 ;Gi:1.39679 ;time: 0:00:43
+b:150 ;lr:0.050 ;loss:0.83 ;acc:0.83 ;iou:0.90 ;qMean:-0.00 ;qSTD:0.13 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.72 ;iRange:0.13 ;Gq:1.28848 ;Gi:1.30098 ;time: 0:01:05
+b:200 ;lr:0.050 ;loss:0.94 ;acc:0.79 ;iou:0.85 ;qMean:-0.00 ;qSTD:0.14 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.73 ;iRange:0.13 ;Gq:1.20166 ;Gi:1.13775 ;time: 0:01:24
+b:250 ;lr:0.050 ;loss:1.04 ;acc:0.80 ;iou:0.85 ;qMean:-0.00 ;qSTD:0.13 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.71 ;iRange:0.13 ;Gq:1.43925 ;Gi:1.37806 ;time: 0:01:46
+
+*Tr loss: 0.935 ;Tr acc: 0.804 ;IOU acc: 0.873 ;qMean:-0.000 ;qSTD:0.133 ;iMean:0.000 ;iSTD:0.021 ;qRange:0.721 ;imgRange:0.130 ;Gq:1.27893 ;Gi:1.28199 ;Time: 0:02:05 
+
+Testing, epoch: 26
+batch: 0 ;loss: 0.995 ;acc: 0.800 ;iou_acc: 0.875 ;time: 0:02:05
+batch: 50 ;loss: 1.199 ;acc: 0.735 ;iou_acc: 0.805 ;time: 0:02:14
+batch: 100 ;loss: 1.132 ;acc: 0.775 ;iou_acc: 0.855 ;time: 0:02:23
+batch: 150 ;loss: 1.369 ;acc: 0.705 ;iou_acc: 0.785 ;time: 0:02:33
+batch: 200 ;loss: 1.051 ;acc: 0.765 ;iou_acc: 0.850 ;time: 0:02:42
+batch: 250 ;loss: 1.243 ;acc: 0.725 ;iou_acc: 0.815 ;time: 0:02:51
+
+*Test loss: 1.132 ;Test accuracy 0.749 ;Test IOU: 0.830 ;Time: 0:02:59
+================================================== 
+Train, epoch: 27
+b:0 ;lr:0.050 ;loss:0.91 ;acc:0.84 ;iou:0.89 ;qMean:-0.00 ;qSTD:0.14 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.72 ;iRange:0.13 ;Gq:1.20695 ;Gi:1.18353 ;time: 0:00:00
+b:50 ;lr:0.050 ;loss:1.00 ;acc:0.76 ;iou:0.84 ;qMean:-0.00 ;qSTD:0.13 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.73 ;iRange:0.13 ;Gq:1.41271 ;Gi:1.43118 ;time: 0:00:20
+b:100 ;lr:0.050 ;loss:1.05 ;acc:0.79 ;iou:0.85 ;qMean:-0.00 ;qSTD:0.13 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.72 ;iRange:0.13 ;Gq:1.31425 ;Gi:1.29570 ;time: 0:00:41
+b:150 ;lr:0.050 ;loss:0.98 ;acc:0.80 ;iou:0.88 ;qMean:-0.00 ;qSTD:0.13 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.70 ;iRange:0.13 ;Gq:1.30761 ;Gi:1.33238 ;time: 0:01:02
+b:200 ;lr:0.050 ;loss:0.99 ;acc:0.78 ;iou:0.86 ;qMean:-0.00 ;qSTD:0.13 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.73 ;iRange:0.13 ;Gq:1.39558 ;Gi:1.37644 ;time: 0:01:23
+b:250 ;lr:0.050 ;loss:0.90 ;acc:0.83 ;iou:0.87 ;qMean:-0.00 ;qSTD:0.13 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.73 ;iRange:0.13 ;Gq:1.20430 ;Gi:1.12107 ;time: 0:01:44
+
+*Tr loss: 0.922 ;Tr acc: 0.808 ;IOU acc: 0.875 ;qMean:-0.000 ;qSTD:0.134 ;iMean:0.000 ;iSTD:0.021 ;qRange:0.722 ;imgRange:0.130 ;Gq:1.28630 ;Gi:1.31223 ;Time: 0:02:03 
+
+Testing, epoch: 27
+batch: 0 ;loss: 0.968 ;acc: 0.775 ;iou_acc: 0.855 ;time: 0:02:03
+batch: 50 ;loss: 1.224 ;acc: 0.740 ;iou_acc: 0.795 ;time: 0:02:13
+batch: 100 ;loss: 1.145 ;acc: 0.785 ;iou_acc: 0.845 ;time: 0:02:22
+batch: 150 ;loss: 1.361 ;acc: 0.710 ;iou_acc: 0.775 ;time: 0:02:31
+batch: 200 ;loss: 1.079 ;acc: 0.725 ;iou_acc: 0.810 ;time: 0:02:41
+batch: 250 ;loss: 1.223 ;acc: 0.725 ;iou_acc: 0.830 ;time: 0:02:50
+
+*Test loss: 1.140 ;Test accuracy 0.747 ;Test IOU: 0.828 ;Time: 0:02:59
+================================================== 
+Train, epoch: 28
+b:0 ;lr:0.050 ;loss:1.01 ;acc:0.76 ;iou:0.82 ;qMean:-0.00 ;qSTD:0.13 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.73 ;iRange:0.13 ;Gq:1.30900 ;Gi:1.22942 ;time: 0:00:01
+b:50 ;lr:0.050 ;loss:0.85 ;acc:0.82 ;iou:0.86 ;qMean:-0.00 ;qSTD:0.13 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.72 ;iRange:0.13 ;Gq:1.36751 ;Gi:1.47689 ;time: 0:00:23
+b:100 ;lr:0.050 ;loss:0.79 ;acc:0.85 ;iou:0.89 ;qMean:-0.00 ;qSTD:0.14 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.72 ;iRange:0.13 ;Gq:1.15763 ;Gi:1.10062 ;time: 0:00:45
+b:150 ;lr:0.050 ;loss:1.00 ;acc:0.79 ;iou:0.84 ;qMean:-0.00 ;qSTD:0.13 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.73 ;iRange:0.13 ;Gq:1.29647 ;Gi:1.33530 ;time: 0:01:07
+b:200 ;lr:0.050 ;loss:0.92 ;acc:0.80 ;iou:0.89 ;qMean:-0.00 ;qSTD:0.13 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.72 ;iRange:0.13 ;Gq:1.27062 ;Gi:1.25714 ;time: 0:01:27
+b:250 ;lr:0.050 ;loss:0.89 ;acc:0.83 ;iou:0.90 ;qMean:-0.00 ;qSTD:0.13 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.71 ;iRange:0.13 ;Gq:1.17242 ;Gi:1.22697 ;time: 0:01:49
+
+*Tr loss: 0.907 ;Tr acc: 0.811 ;IOU acc: 0.878 ;qMean:-0.000 ;qSTD:0.134 ;iMean:0.000 ;iSTD:0.021 ;qRange:0.723 ;imgRange:0.130 ;Gq:1.28642 ;Gi:1.33903 ;Time: 0:02:07 
+
+Testing, epoch: 28
+batch: 0 ;loss: 1.013 ;acc: 0.780 ;iou_acc: 0.860 ;time: 0:02:08
+batch: 50 ;loss: 1.230 ;acc: 0.740 ;iou_acc: 0.805 ;time: 0:02:16
+batch: 100 ;loss: 1.185 ;acc: 0.765 ;iou_acc: 0.835 ;time: 0:02:25
+batch: 150 ;loss: 1.422 ;acc: 0.690 ;iou_acc: 0.765 ;time: 0:02:34
+batch: 200 ;loss: 1.068 ;acc: 0.760 ;iou_acc: 0.845 ;time: 0:02:43
+batch: 250 ;loss: 1.252 ;acc: 0.745 ;iou_acc: 0.825 ;time: 0:02:52
+
+*Test loss: 1.153 ;Test accuracy 0.744 ;Test IOU: 0.824 ;Time: 0:03:00
+================================================== 
+Train, epoch: 29
+b:0 ;lr:0.050 ;loss:0.93 ;acc:0.80 ;iou:0.84 ;qMean:-0.00 ;qSTD:0.13 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.72 ;iRange:0.13 ;Gq:1.16300 ;Gi:1.30562 ;time: 0:00:01
+b:50 ;lr:0.050 ;loss:0.73 ;acc:0.87 ;iou:0.92 ;qMean:-0.00 ;qSTD:0.13 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.72 ;iRange:0.13 ;Gq:1.16603 ;Gi:1.17602 ;time: 0:00:22
+b:100 ;lr:0.050 ;loss:0.85 ;acc:0.81 ;iou:0.86 ;qMean:-0.00 ;qSTD:0.13 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.72 ;iRange:0.13 ;Gq:1.36614 ;Gi:1.57023 ;time: 0:00:42
+b:150 ;lr:0.050 ;loss:0.86 ;acc:0.82 ;iou:0.90 ;qMean:-0.00 ;qSTD:0.13 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.73 ;iRange:0.13 ;Gq:1.18066 ;Gi:1.33658 ;time: 0:01:04
+b:200 ;lr:0.050 ;loss:0.86 ;acc:0.83 ;iou:0.88 ;qMean:-0.00 ;qSTD:0.14 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.73 ;iRange:0.13 ;Gq:1.17397 ;Gi:1.20638 ;time: 0:01:27
+b:250 ;lr:0.050 ;loss:0.84 ;acc:0.81 ;iou:0.88 ;qMean:-0.00 ;qSTD:0.13 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.72 ;iRange:0.13 ;Gq:1.23281 ;Gi:1.41117 ;time: 0:01:48
+
+*Tr loss: 0.893 ;Tr acc: 0.813 ;IOU acc: 0.879 ;qMean:-0.000 ;qSTD:0.134 ;iMean:0.000 ;iSTD:0.021 ;qRange:0.723 ;imgRange:0.130 ;Gq:1.29362 ;Gi:1.36674 ;Time: 0:02:07 
+
+Testing, epoch: 29
+batch: 0 ;loss: 0.958 ;acc: 0.790 ;iou_acc: 0.870 ;time: 0:02:08
+batch: 50 ;loss: 1.215 ;acc: 0.725 ;iou_acc: 0.805 ;time: 0:02:17
+batch: 100 ;loss: 1.077 ;acc: 0.780 ;iou_acc: 0.840 ;time: 0:02:25
+batch: 150 ;loss: 1.327 ;acc: 0.710 ;iou_acc: 0.790 ;time: 0:02:34
+batch: 200 ;loss: 1.054 ;acc: 0.735 ;iou_acc: 0.825 ;time: 0:02:43
+batch: 250 ;loss: 1.222 ;acc: 0.730 ;iou_acc: 0.835 ;time: 0:02:52
+
+*Test loss: 1.116 ;Test accuracy 0.751 ;Test IOU: 0.833 ;Time: 0:03:00
+================================================== 
+Train, epoch: 30
+b:0 ;lr:0.050 ;loss:0.96 ;acc:0.80 ;iou:0.90 ;qMean:-0.00 ;qSTD:0.13 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.72 ;iRange:0.13 ;Gq:1.11540 ;Gi:1.41244 ;time: 0:00:01
+b:50 ;lr:0.050 ;loss:0.79 ;acc:0.86 ;iou:0.91 ;qMean:-0.00 ;qSTD:0.13 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.72 ;iRange:0.13 ;Gq:1.26450 ;Gi:1.36140 ;time: 0:00:21
+b:100 ;lr:0.050 ;loss:0.76 ;acc:0.83 ;iou:0.88 ;qMean:-0.00 ;qSTD:0.13 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.72 ;iRange:0.13 ;Gq:1.27961 ;Gi:1.28591 ;time: 0:00:44
+b:150 ;lr:0.050 ;loss:0.81 ;acc:0.83 ;iou:0.87 ;qMean:-0.00 ;qSTD:0.13 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.73 ;iRange:0.13 ;Gq:1.20324 ;Gi:1.42160 ;time: 0:01:04
+b:200 ;lr:0.050 ;loss:0.90 ;acc:0.81 ;iou:0.89 ;qMean:-0.00 ;qSTD:0.13 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.72 ;iRange:0.13 ;Gq:1.33009 ;Gi:1.55868 ;time: 0:01:24
+b:250 ;lr:0.050 ;loss:0.98 ;acc:0.81 ;iou:0.87 ;qMean:-0.00 ;qSTD:0.13 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.73 ;iRange:0.13 ;Gq:1.35866 ;Gi:1.49271 ;time: 0:01:46
+
+*Tr loss: 0.880 ;Tr acc: 0.816 ;IOU acc: 0.881 ;qMean:-0.000 ;qSTD:0.134 ;iMean:0.000 ;iSTD:0.021 ;qRange:0.725 ;imgRange:0.130 ;Gq:1.30188 ;Gi:1.40299 ;Time: 0:02:05 
+
+Testing, epoch: 30
+batch: 0 ;loss: 0.950 ;acc: 0.805 ;iou_acc: 0.885 ;time: 0:02:05
+batch: 50 ;loss: 1.186 ;acc: 0.730 ;iou_acc: 0.805 ;time: 0:02:13
+batch: 100 ;loss: 1.082 ;acc: 0.770 ;iou_acc: 0.850 ;time: 0:02:22
+batch: 150 ;loss: 1.357 ;acc: 0.705 ;iou_acc: 0.775 ;time: 0:02:31
+batch: 200 ;loss: 1.018 ;acc: 0.780 ;iou_acc: 0.860 ;time: 0:02:41
+batch: 250 ;loss: 1.217 ;acc: 0.715 ;iou_acc: 0.820 ;time: 0:02:51
+
+*Test loss: 1.108 ;Test accuracy 0.754 ;Test IOU: 0.834 ;Time: 0:02:59
+================================================== 
+Train, epoch: 31
+b:0 ;lr:0.050 ;loss:0.90 ;acc:0.81 ;iou:0.89 ;qMean:-0.00 ;qSTD:0.13 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.72 ;iRange:0.13 ;Gq:1.27073 ;Gi:1.47810 ;time: 0:00:00
+b:50 ;lr:0.050 ;loss:1.02 ;acc:0.79 ;iou:0.90 ;qMean:-0.00 ;qSTD:0.13 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.72 ;iRange:0.13 ;Gq:1.40103 ;Gi:1.48968 ;time: 0:00:21
+b:100 ;lr:0.050 ;loss:0.88 ;acc:0.82 ;iou:0.87 ;qMean:-0.00 ;qSTD:0.14 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.72 ;iRange:0.13 ;Gq:1.28390 ;Gi:1.40203 ;time: 0:00:41
+b:150 ;lr:0.050 ;loss:0.81 ;acc:0.82 ;iou:0.91 ;qMean:-0.00 ;qSTD:0.13 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.73 ;iRange:0.13 ;Gq:1.23536 ;Gi:1.47000 ;time: 0:01:03
+b:200 ;lr:0.050 ;loss:0.89 ;acc:0.82 ;iou:0.87 ;qMean:-0.00 ;qSTD:0.14 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.73 ;iRange:0.13 ;Gq:1.38268 ;Gi:1.54551 ;time: 0:01:25
+b:250 ;lr:0.050 ;loss:0.74 ;acc:0.86 ;iou:0.91 ;qMean:-0.00 ;qSTD:0.13 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.73 ;iRange:0.13 ;Gq:1.21297 ;Gi:1.29052 ;time: 0:01:48
+
+*Tr loss: 0.867 ;Tr acc: 0.821 ;IOU acc: 0.885 ;qMean:-0.000 ;qSTD:0.135 ;iMean:0.000 ;iSTD:0.021 ;qRange:0.725 ;imgRange:0.130 ;Gq:1.30479 ;Gi:1.41635 ;Time: 0:02:08 
+
+Testing, epoch: 31
+batch: 0 ;loss: 0.960 ;acc: 0.810 ;iou_acc: 0.880 ;time: 0:02:08
+batch: 50 ;loss: 1.193 ;acc: 0.745 ;iou_acc: 0.800 ;time: 0:02:18
+batch: 100 ;loss: 1.111 ;acc: 0.795 ;iou_acc: 0.850 ;time: 0:02:28
+batch: 150 ;loss: 1.356 ;acc: 0.705 ;iou_acc: 0.785 ;time: 0:02:39
+batch: 200 ;loss: 1.020 ;acc: 0.760 ;iou_acc: 0.845 ;time: 0:02:48
+batch: 250 ;loss: 1.234 ;acc: 0.725 ;iou_acc: 0.815 ;time: 0:02:58
+
+*Test loss: 1.114 ;Test accuracy 0.754 ;Test IOU: 0.833 ;Time: 0:03:07
+================================================== 
+Train, epoch: 32
+b:0 ;lr:0.050 ;loss:0.95 ;acc:0.79 ;iou:0.89 ;qMean:-0.00 ;qSTD:0.13 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.72 ;iRange:0.13 ;Gq:1.32751 ;Gi:1.47155 ;time: 0:00:00
+b:50 ;lr:0.050 ;loss:0.74 ;acc:0.87 ;iou:0.92 ;qMean:-0.00 ;qSTD:0.13 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.72 ;iRange:0.13 ;Gq:1.20948 ;Gi:1.41332 ;time: 0:00:24
+b:100 ;lr:0.050 ;loss:0.82 ;acc:0.84 ;iou:0.91 ;qMean:-0.00 ;qSTD:0.14 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.72 ;iRange:0.13 ;Gq:1.17471 ;Gi:1.26063 ;time: 0:00:46
+b:150 ;lr:0.050 ;loss:0.97 ;acc:0.79 ;iou:0.86 ;qMean:-0.00 ;qSTD:0.14 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.72 ;iRange:0.13 ;Gq:1.48113 ;Gi:1.50293 ;time: 0:01:09
+b:200 ;lr:0.050 ;loss:1.09 ;acc:0.79 ;iou:0.84 ;qMean:-0.00 ;qSTD:0.13 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.73 ;iRange:0.13 ;Gq:1.48542 ;Gi:1.71072 ;time: 0:01:31
+b:250 ;lr:0.050 ;loss:0.92 ;acc:0.83 ;iou:0.88 ;qMean:-0.00 ;qSTD:0.14 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.74 ;iRange:0.13 ;Gq:1.44364 ;Gi:1.61505 ;time: 0:01:54
+
+*Tr loss: 0.855 ;Tr acc: 0.824 ;IOU acc: 0.888 ;qMean:-0.000 ;qSTD:0.135 ;iMean:0.000 ;iSTD:0.021 ;qRange:0.725 ;imgRange:0.130 ;Gq:1.30703 ;Gi:1.44351 ;Time: 0:02:15 
+
+Testing, epoch: 32
+batch: 0 ;loss: 0.953 ;acc: 0.790 ;iou_acc: 0.870 ;time: 0:02:15
+batch: 50 ;loss: 1.178 ;acc: 0.735 ;iou_acc: 0.810 ;time: 0:02:24
+batch: 100 ;loss: 1.116 ;acc: 0.790 ;iou_acc: 0.855 ;time: 0:02:33
+batch: 150 ;loss: 1.367 ;acc: 0.675 ;iou_acc: 0.770 ;time: 0:02:42
+batch: 200 ;loss: 1.023 ;acc: 0.765 ;iou_acc: 0.850 ;time: 0:02:50
+batch: 250 ;loss: 1.193 ;acc: 0.730 ;iou_acc: 0.825 ;time: 0:02:59
+
+*Test loss: 1.105 ;Test accuracy 0.754 ;Test IOU: 0.834 ;Time: 0:03:07
+================================================== 
+Train, epoch: 33
+b:0 ;lr:0.050 ;loss:0.77 ;acc:0.87 ;iou:0.93 ;qMean:-0.00 ;qSTD:0.14 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.73 ;iRange:0.13 ;Gq:1.24517 ;Gi:1.47589 ;time: 0:00:00
+b:50 ;lr:0.050 ;loss:0.89 ;acc:0.81 ;iou:0.86 ;qMean:-0.00 ;qSTD:0.14 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.73 ;iRange:0.13 ;Gq:1.40284 ;Gi:1.44311 ;time: 0:00:21
+b:100 ;lr:0.050 ;loss:0.78 ;acc:0.86 ;iou:0.90 ;qMean:-0.00 ;qSTD:0.13 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.72 ;iRange:0.13 ;Gq:1.27479 ;Gi:1.33598 ;time: 0:00:41
+b:150 ;lr:0.050 ;loss:0.95 ;acc:0.79 ;iou:0.88 ;qMean:-0.00 ;qSTD:0.13 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.72 ;iRange:0.13 ;Gq:1.43768 ;Gi:1.52251 ;time: 0:01:01
+b:200 ;lr:0.045 ;loss:0.93 ;acc:0.80 ;iou:0.89 ;qMean:-0.00 ;qSTD:0.14 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.73 ;iRange:0.13 ;Gq:1.37393 ;Gi:1.48680 ;time: 0:01:22
+b:250 ;lr:0.045 ;loss:0.96 ;acc:0.81 ;iou:0.89 ;qMean:-0.00 ;qSTD:0.14 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.73 ;iRange:0.13 ;Gq:1.31517 ;Gi:1.33588 ;time: 0:01:44
+
+*Tr loss: 0.844 ;Tr acc: 0.826 ;IOU acc: 0.888 ;qMean:-0.000 ;qSTD:0.135 ;iMean:0.000 ;iSTD:0.021 ;qRange:0.725 ;imgRange:0.130 ;Gq:1.31655 ;Gi:1.47116 ;Time: 0:02:03 
+
+Testing, epoch: 33
+batch: 0 ;loss: 0.927 ;acc: 0.815 ;iou_acc: 0.895 ;time: 0:02:03
+batch: 50 ;loss: 1.171 ;acc: 0.740 ;iou_acc: 0.825 ;time: 0:02:11
+batch: 100 ;loss: 1.071 ;acc: 0.780 ;iou_acc: 0.845 ;time: 0:02:20
+batch: 150 ;loss: 1.332 ;acc: 0.730 ;iou_acc: 0.805 ;time: 0:02:28
+batch: 200 ;loss: 0.995 ;acc: 0.785 ;iou_acc: 0.855 ;time: 0:02:36
+batch: 250 ;loss: 1.195 ;acc: 0.725 ;iou_acc: 0.830 ;time: 0:02:45
+
+*Test loss: 1.091 ;Test accuracy 0.759 ;Test IOU: 0.839 ;Time: 0:02:52
+================================================== 
+Train, epoch: 34
+b:0 ;lr:0.045 ;loss:0.98 ;acc:0.77 ;iou:0.83 ;qMean:-0.00 ;qSTD:0.13 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.73 ;iRange:0.13 ;Gq:1.40988 ;Gi:1.51441 ;time: 0:00:01
+b:50 ;lr:0.045 ;loss:0.81 ;acc:0.82 ;iou:0.88 ;qMean:-0.00 ;qSTD:0.13 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.72 ;iRange:0.13 ;Gq:1.29552 ;Gi:1.45131 ;time: 0:00:22
+b:100 ;lr:0.045 ;loss:0.95 ;acc:0.80 ;iou:0.86 ;qMean:-0.00 ;qSTD:0.13 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.73 ;iRange:0.13 ;Gq:1.45034 ;Gi:1.61282 ;time: 0:00:42
+b:150 ;lr:0.045 ;loss:0.86 ;acc:0.84 ;iou:0.89 ;qMean:-0.00 ;qSTD:0.13 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.73 ;iRange:0.13 ;Gq:1.39854 ;Gi:1.51252 ;time: 0:01:01
+b:200 ;lr:0.045 ;loss:0.85 ;acc:0.82 ;iou:0.90 ;qMean:-0.00 ;qSTD:0.13 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.72 ;iRange:0.13 ;Gq:1.27920 ;Gi:1.53410 ;time: 0:01:23
+b:250 ;lr:0.045 ;loss:0.73 ;acc:0.85 ;iou:0.90 ;qMean:-0.00 ;qSTD:0.14 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.72 ;iRange:0.13 ;Gq:1.16714 ;Gi:1.32492 ;time: 0:01:44
+
+*Tr loss: 0.834 ;Tr acc: 0.829 ;IOU acc: 0.891 ;qMean:-0.000 ;qSTD:0.135 ;iMean:0.000 ;iSTD:0.021 ;qRange:0.726 ;imgRange:0.130 ;Gq:1.31448 ;Gi:1.50443 ;Time: 0:02:03 
+
+Testing, epoch: 34
+batch: 0 ;loss: 0.935 ;acc: 0.795 ;iou_acc: 0.865 ;time: 0:02:04
+batch: 50 ;loss: 1.214 ;acc: 0.705 ;iou_acc: 0.790 ;time: 0:02:13
+batch: 100 ;loss: 1.057 ;acc: 0.780 ;iou_acc: 0.860 ;time: 0:02:22
+batch: 150 ;loss: 1.316 ;acc: 0.705 ;iou_acc: 0.785 ;time: 0:02:31
+batch: 200 ;loss: 1.015 ;acc: 0.765 ;iou_acc: 0.840 ;time: 0:02:39
+batch: 250 ;loss: 1.220 ;acc: 0.715 ;iou_acc: 0.810 ;time: 0:02:49
+
+*Test loss: 1.099 ;Test accuracy 0.758 ;Test IOU: 0.837 ;Time: 0:02:57
+================================================== 
+Train, epoch: 35
+b:0 ;lr:0.045 ;loss:0.69 ;acc:0.87 ;iou:0.91 ;qMean:-0.00 ;qSTD:0.13 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.73 ;iRange:0.13 ;Gq:1.12204 ;Gi:1.25028 ;time: 0:00:00
+b:50 ;lr:0.045 ;loss:0.78 ;acc:0.85 ;iou:0.92 ;qMean:-0.00 ;qSTD:0.14 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.73 ;iRange:0.13 ;Gq:1.42426 ;Gi:1.59485 ;time: 0:00:24
+b:100 ;lr:0.045 ;loss:0.77 ;acc:0.85 ;iou:0.90 ;qMean:-0.00 ;qSTD:0.14 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.73 ;iRange:0.13 ;Gq:1.11708 ;Gi:1.30943 ;time: 0:00:46
+b:150 ;lr:0.045 ;loss:0.81 ;acc:0.83 ;iou:0.88 ;qMean:-0.00 ;qSTD:0.13 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.72 ;iRange:0.13 ;Gq:1.28989 ;Gi:1.49233 ;time: 0:01:10
+b:200 ;lr:0.045 ;loss:0.73 ;acc:0.85 ;iou:0.94 ;qMean:-0.00 ;qSTD:0.14 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.73 ;iRange:0.13 ;Gq:1.24809 ;Gi:1.55948 ;time: 0:01:33
+b:250 ;lr:0.045 ;loss:0.82 ;acc:0.84 ;iou:0.88 ;qMean:-0.00 ;qSTD:0.14 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.72 ;iRange:0.13 ;Gq:1.29355 ;Gi:1.44368 ;time: 0:01:56
+
+*Tr loss: 0.824 ;Tr acc: 0.831 ;IOU acc: 0.893 ;qMean:-0.000 ;qSTD:0.135 ;iMean:0.000 ;iSTD:0.021 ;qRange:0.725 ;imgRange:0.130 ;Gq:1.31899 ;Gi:1.51395 ;Time: 0:02:16 
+
+Testing, epoch: 35
+batch: 0 ;loss: 0.886 ;acc: 0.835 ;iou_acc: 0.910 ;time: 0:02:17
+batch: 50 ;loss: 1.175 ;acc: 0.720 ;iou_acc: 0.790 ;time: 0:02:26
+batch: 100 ;loss: 1.024 ;acc: 0.800 ;iou_acc: 0.865 ;time: 0:02:36
+batch: 150 ;loss: 1.320 ;acc: 0.720 ;iou_acc: 0.780 ;time: 0:02:46
+batch: 200 ;loss: 0.993 ;acc: 0.780 ;iou_acc: 0.860 ;time: 0:02:56
+batch: 250 ;loss: 1.197 ;acc: 0.730 ;iou_acc: 0.825 ;time: 0:03:05
+
+*Test loss: 1.085 ;Test accuracy 0.761 ;Test IOU: 0.840 ;Time: 0:03:14
+================================================== 
+Train, epoch: 36
+b:0 ;lr:0.045 ;loss:0.78 ;acc:0.83 ;iou:0.91 ;qMean:-0.00 ;qSTD:0.14 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.73 ;iRange:0.13 ;Gq:1.33051 ;Gi:1.37177 ;time: 0:00:00
+b:50 ;lr:0.045 ;loss:0.80 ;acc:0.83 ;iou:0.90 ;qMean:-0.00 ;qSTD:0.14 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.73 ;iRange:0.13 ;Gq:1.32621 ;Gi:1.36849 ;time: 0:00:23
+b:100 ;lr:0.045 ;loss:0.82 ;acc:0.85 ;iou:0.89 ;qMean:-0.00 ;qSTD:0.14 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.73 ;iRange:0.13 ;Gq:1.40556 ;Gi:1.52813 ;time: 0:00:44
+b:150 ;lr:0.045 ;loss:0.83 ;acc:0.84 ;iou:0.90 ;qMean:-0.00 ;qSTD:0.13 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.73 ;iRange:0.13 ;Gq:1.37163 ;Gi:1.63227 ;time: 0:01:04
+b:200 ;lr:0.045 ;loss:0.74 ;acc:0.86 ;iou:0.91 ;qMean:-0.00 ;qSTD:0.14 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.72 ;iRange:0.13 ;Gq:1.35529 ;Gi:1.41293 ;time: 0:01:25
+b:250 ;lr:0.045 ;loss:1.08 ;acc:0.81 ;iou:0.86 ;qMean:-0.00 ;qSTD:0.13 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.72 ;iRange:0.13 ;Gq:1.50250 ;Gi:1.59007 ;time: 0:01:45
+
+*Tr loss: 0.815 ;Tr acc: 0.833 ;IOU acc: 0.894 ;qMean:-0.000 ;qSTD:0.135 ;iMean:0.000 ;iSTD:0.021 ;qRange:0.724 ;imgRange:0.130 ;Gq:1.32825 ;Gi:1.54021 ;Time: 0:02:03 
+
+Testing, epoch: 36
+batch: 0 ;loss: 0.891 ;acc: 0.810 ;iou_acc: 0.890 ;time: 0:02:03
+batch: 50 ;loss: 1.153 ;acc: 0.740 ;iou_acc: 0.795 ;time: 0:02:11
+batch: 100 ;loss: 1.060 ;acc: 0.790 ;iou_acc: 0.855 ;time: 0:02:20
+batch: 150 ;loss: 1.292 ;acc: 0.715 ;iou_acc: 0.795 ;time: 0:02:29
+batch: 200 ;loss: 0.982 ;acc: 0.770 ;iou_acc: 0.840 ;time: 0:02:37
+batch: 250 ;loss: 1.182 ;acc: 0.725 ;iou_acc: 0.840 ;time: 0:02:46
+
+*Test loss: 1.079 ;Test accuracy 0.762 ;Test IOU: 0.841 ;Time: 0:02:53
+================================================== 
+Train, epoch: 37
+b:0 ;lr:0.045 ;loss:0.84 ;acc:0.84 ;iou:0.89 ;qMean:-0.00 ;qSTD:0.13 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.71 ;iRange:0.13 ;Gq:1.33172 ;Gi:1.53382 ;time: 0:00:01
+b:50 ;lr:0.045 ;loss:0.78 ;acc:0.81 ;iou:0.89 ;qMean:-0.00 ;qSTD:0.14 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.73 ;iRange:0.13 ;Gq:1.28646 ;Gi:1.58939 ;time: 0:00:21
+b:100 ;lr:0.045 ;loss:0.85 ;acc:0.83 ;iou:0.90 ;qMean:-0.00 ;qSTD:0.13 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.73 ;iRange:0.13 ;Gq:1.41893 ;Gi:1.53940 ;time: 0:00:42
+b:150 ;lr:0.045 ;loss:0.70 ;acc:0.86 ;iou:0.90 ;qMean:-0.00 ;qSTD:0.13 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.73 ;iRange:0.13 ;Gq:1.19752 ;Gi:1.61037 ;time: 0:01:01
+b:200 ;lr:0.045 ;loss:0.90 ;acc:0.81 ;iou:0.87 ;qMean:-0.00 ;qSTD:0.14 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.74 ;iRange:0.13 ;Gq:1.53460 ;Gi:1.76164 ;time: 0:01:21
+b:250 ;lr:0.045 ;loss:0.85 ;acc:0.84 ;iou:0.90 ;qMean:-0.00 ;qSTD:0.13 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.72 ;iRange:0.13 ;Gq:1.31797 ;Gi:1.39670 ;time: 0:01:41
+
+*Tr loss: 0.804 ;Tr acc: 0.835 ;IOU acc: 0.895 ;qMean:-0.000 ;qSTD:0.135 ;iMean:0.000 ;iSTD:0.021 ;qRange:0.726 ;imgRange:0.130 ;Gq:1.32859 ;Gi:1.56016 ;Time: 0:02:01 
+
+Testing, epoch: 37
+batch: 0 ;loss: 0.896 ;acc: 0.830 ;iou_acc: 0.900 ;time: 0:02:01
+batch: 50 ;loss: 1.151 ;acc: 0.735 ;iou_acc: 0.815 ;time: 0:02:10
+batch: 100 ;loss: 1.054 ;acc: 0.785 ;iou_acc: 0.860 ;time: 0:02:19
+batch: 150 ;loss: 1.308 ;acc: 0.705 ;iou_acc: 0.780 ;time: 0:02:29
+batch: 200 ;loss: 0.960 ;acc: 0.780 ;iou_acc: 0.855 ;time: 0:02:39
+batch: 250 ;loss: 1.197 ;acc: 0.735 ;iou_acc: 0.840 ;time: 0:02:49
+
+*Test loss: 1.072 ;Test accuracy 0.763 ;Test IOU: 0.840 ;Time: 0:02:58
+================================================== 
+Train, epoch: 38
+b:0 ;lr:0.045 ;loss:0.85 ;acc:0.83 ;iou:0.89 ;qMean:-0.00 ;qSTD:0.13 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.72 ;iRange:0.13 ;Gq:1.39110 ;Gi:1.46097 ;time: 0:00:00
+b:50 ;lr:0.045 ;loss:0.78 ;acc:0.85 ;iou:0.93 ;qMean:-0.00 ;qSTD:0.13 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.73 ;iRange:0.13 ;Gq:1.21763 ;Gi:1.47696 ;time: 0:00:23
+b:100 ;lr:0.045 ;loss:0.87 ;acc:0.83 ;iou:0.88 ;qMean:-0.00 ;qSTD:0.13 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.72 ;iRange:0.13 ;Gq:1.24449 ;Gi:1.56851 ;time: 0:00:47
+b:150 ;lr:0.045 ;loss:1.04 ;acc:0.77 ;iou:0.82 ;qMean:-0.00 ;qSTD:0.13 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.72 ;iRange:0.13 ;Gq:1.59640 ;Gi:1.93301 ;time: 0:01:10
+b:200 ;lr:0.045 ;loss:0.82 ;acc:0.85 ;iou:0.92 ;qMean:-0.00 ;qSTD:0.14 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.73 ;iRange:0.13 ;Gq:1.52940 ;Gi:1.68908 ;time: 0:01:33
+b:250 ;lr:0.045 ;loss:0.73 ;acc:0.86 ;iou:0.90 ;qMean:-0.00 ;qSTD:0.14 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.72 ;iRange:0.13 ;Gq:1.34301 ;Gi:1.76469 ;time: 0:01:58
+
+*Tr loss: 0.793 ;Tr acc: 0.839 ;IOU acc: 0.897 ;qMean:-0.000 ;qSTD:0.135 ;iMean:0.000 ;iSTD:0.021 ;qRange:0.726 ;imgRange:0.130 ;Gq:1.33456 ;Gi:1.58485 ;Time: 0:02:20 
+
+Testing, epoch: 38
+batch: 0 ;loss: 0.899 ;acc: 0.810 ;iou_acc: 0.885 ;time: 0:02:21
+batch: 50 ;loss: 1.153 ;acc: 0.765 ;iou_acc: 0.845 ;time: 0:02:31
+batch: 100 ;loss: 1.044 ;acc: 0.800 ;iou_acc: 0.860 ;time: 0:02:40
+batch: 150 ;loss: 1.327 ;acc: 0.720 ;iou_acc: 0.800 ;time: 0:02:50
+batch: 200 ;loss: 0.976 ;acc: 0.765 ;iou_acc: 0.840 ;time: 0:02:59
+batch: 250 ;loss: 1.178 ;acc: 0.740 ;iou_acc: 0.835 ;time: 0:03:08
+
+*Test loss: 1.076 ;Test accuracy 0.764 ;Test IOU: 0.841 ;Time: 0:03:16
+================================================== 
+Train, epoch: 39
+b:0 ;lr:0.045 ;loss:0.68 ;acc:0.86 ;iou:0.91 ;qMean:-0.00 ;qSTD:0.13 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.72 ;iRange:0.13 ;Gq:1.27179 ;Gi:1.45488 ;time: 0:00:00
+b:50 ;lr:0.045 ;loss:0.64 ;acc:0.89 ;iou:0.94 ;qMean:-0.00 ;qSTD:0.14 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.72 ;iRange:0.13 ;Gq:1.15201 ;Gi:1.32768 ;time: 0:00:22
+b:100 ;lr:0.045 ;loss:0.65 ;acc:0.88 ;iou:0.93 ;qMean:-0.00 ;qSTD:0.14 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.73 ;iRange:0.13 ;Gq:1.23100 ;Gi:1.48352 ;time: 0:00:44
+b:150 ;lr:0.045 ;loss:0.83 ;acc:0.81 ;iou:0.88 ;qMean:-0.00 ;qSTD:0.14 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.72 ;iRange:0.13 ;Gq:1.44149 ;Gi:1.62469 ;time: 0:01:05
+b:200 ;lr:0.045 ;loss:0.78 ;acc:0.86 ;iou:0.93 ;qMean:-0.00 ;qSTD:0.13 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.72 ;iRange:0.13 ;Gq:1.22501 ;Gi:1.47431 ;time: 0:01:27
+b:250 ;lr:0.045 ;loss:0.80 ;acc:0.85 ;iou:0.88 ;qMean:-0.00 ;qSTD:0.14 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.74 ;iRange:0.13 ;Gq:1.40270 ;Gi:1.63185 ;time: 0:01:49
+
+*Tr loss: 0.785 ;Tr acc: 0.841 ;IOU acc: 0.899 ;qMean:-0.000 ;qSTD:0.136 ;iMean:0.000 ;iSTD:0.021 ;qRange:0.727 ;imgRange:0.130 ;Gq:1.33828 ;Gi:1.60310 ;Time: 0:02:09 
+
+Testing, epoch: 39
+batch: 0 ;loss: 0.891 ;acc: 0.820 ;iou_acc: 0.880 ;time: 0:02:10
+batch: 50 ;loss: 1.159 ;acc: 0.745 ;iou_acc: 0.805 ;time: 0:02:17
+batch: 100 ;loss: 1.032 ;acc: 0.785 ;iou_acc: 0.855 ;time: 0:02:27
+batch: 150 ;loss: 1.310 ;acc: 0.725 ;iou_acc: 0.790 ;time: 0:02:37
+batch: 200 ;loss: 0.981 ;acc: 0.780 ;iou_acc: 0.855 ;time: 0:02:46
+batch: 250 ;loss: 1.188 ;acc: 0.735 ;iou_acc: 0.825 ;time: 0:02:56
+
+*Test loss: 1.070 ;Test accuracy 0.764 ;Test IOU: 0.841 ;Time: 0:03:05
+================================================== 
+Train, epoch: 40
+b:0 ;lr:0.045 ;loss:0.83 ;acc:0.80 ;iou:0.90 ;qMean:-0.00 ;qSTD:0.14 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.73 ;iRange:0.13 ;Gq:1.47551 ;Gi:1.79439 ;time: 0:00:01
+b:50 ;lr:0.045 ;loss:0.90 ;acc:0.79 ;iou:0.86 ;qMean:-0.00 ;qSTD:0.13 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.73 ;iRange:0.13 ;Gq:1.48309 ;Gi:1.78106 ;time: 0:00:23
+b:100 ;lr:0.045 ;loss:0.92 ;acc:0.82 ;iou:0.85 ;qMean:-0.00 ;qSTD:0.14 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.73 ;iRange:0.13 ;Gq:1.49869 ;Gi:1.79448 ;time: 0:00:48
+b:150 ;lr:0.045 ;loss:0.94 ;acc:0.80 ;iou:0.85 ;qMean:-0.00 ;qSTD:0.14 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.74 ;iRange:0.13 ;Gq:1.59740 ;Gi:1.74629 ;time: 0:01:11
+b:200 ;lr:0.045 ;loss:0.73 ;acc:0.85 ;iou:0.91 ;qMean:-0.00 ;qSTD:0.14 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.73 ;iRange:0.13 ;Gq:1.26533 ;Gi:1.64892 ;time: 0:01:32
+b:250 ;lr:0.045 ;loss:0.87 ;acc:0.84 ;iou:0.89 ;qMean:-0.00 ;qSTD:0.13 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.72 ;iRange:0.13 ;Gq:1.43281 ;Gi:1.81206 ;time: 0:01:56
+
+*Tr loss: 0.775 ;Tr acc: 0.842 ;IOU acc: 0.900 ;qMean:-0.000 ;qSTD:0.136 ;iMean:0.000 ;iSTD:0.021 ;qRange:0.730 ;imgRange:0.130 ;Gq:1.34161 ;Gi:1.62125 ;Time: 0:02:17 
+
+Testing, epoch: 40
+batch: 0 ;loss: 0.859 ;acc: 0.835 ;iou_acc: 0.895 ;time: 0:02:17
+batch: 50 ;loss: 1.160 ;acc: 0.745 ;iou_acc: 0.810 ;time: 0:02:27
+batch: 100 ;loss: 1.034 ;acc: 0.815 ;iou_acc: 0.870 ;time: 0:02:37
+batch: 150 ;loss: 1.291 ;acc: 0.745 ;iou_acc: 0.810 ;time: 0:02:47
+batch: 200 ;loss: 0.956 ;acc: 0.790 ;iou_acc: 0.855 ;time: 0:02:56
+batch: 250 ;loss: 1.201 ;acc: 0.725 ;iou_acc: 0.830 ;time: 0:03:05
+
+*Test loss: 1.068 ;Test accuracy 0.766 ;Test IOU: 0.843 ;Time: 0:03:14
+================================================== 
+Train, epoch: 41
+b:0 ;lr:0.045 ;loss:0.78 ;acc:0.82 ;iou:0.90 ;qMean:-0.00 ;qSTD:0.13 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.72 ;iRange:0.13 ;Gq:1.27004 ;Gi:1.82608 ;time: 0:00:00
+b:50 ;lr:0.045 ;loss:0.79 ;acc:0.83 ;iou:0.91 ;qMean:-0.00 ;qSTD:0.14 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.73 ;iRange:0.13 ;Gq:1.29100 ;Gi:1.73415 ;time: 0:00:21
+b:100 ;lr:0.045 ;loss:0.78 ;acc:0.84 ;iou:0.89 ;qMean:-0.00 ;qSTD:0.13 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.72 ;iRange:0.13 ;Gq:1.45016 ;Gi:1.94236 ;time: 0:00:43
+b:150 ;lr:0.045 ;loss:0.70 ;acc:0.87 ;iou:0.91 ;qMean:-0.00 ;qSTD:0.14 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.73 ;iRange:0.13 ;Gq:1.28989 ;Gi:1.56499 ;time: 0:01:03
+b:200 ;lr:0.045 ;loss:0.66 ;acc:0.87 ;iou:0.94 ;qMean:-0.00 ;qSTD:0.14 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.73 ;iRange:0.13 ;Gq:1.37856 ;Gi:1.77459 ;time: 0:01:24
+b:250 ;lr:0.045 ;loss:0.87 ;acc:0.82 ;iou:0.87 ;qMean:-0.00 ;qSTD:0.14 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.73 ;iRange:0.13 ;Gq:1.30883 ;Gi:1.62318 ;time: 0:01:46
+
+*Tr loss: 0.766 ;Tr acc: 0.845 ;IOU acc: 0.903 ;qMean:-0.000 ;qSTD:0.136 ;iMean:0.000 ;iSTD:0.021 ;qRange:0.729 ;imgRange:0.130 ;Gq:1.34130 ;Gi:1.64065 ;Time: 0:02:05 
+
+Testing, epoch: 41
+batch: 0 ;loss: 0.878 ;acc: 0.825 ;iou_acc: 0.890 ;time: 0:02:05
+batch: 50 ;loss: 1.139 ;acc: 0.740 ;iou_acc: 0.820 ;time: 0:02:14
+batch: 100 ;loss: 1.027 ;acc: 0.820 ;iou_acc: 0.875 ;time: 0:02:22
+batch: 150 ;loss: 1.325 ;acc: 0.710 ;iou_acc: 0.790 ;time: 0:02:31
+batch: 200 ;loss: 0.940 ;acc: 0.775 ;iou_acc: 0.850 ;time: 0:02:40
+batch: 250 ;loss: 1.162 ;acc: 0.750 ;iou_acc: 0.850 ;time: 0:02:49
+
+*Test loss: 1.060 ;Test accuracy 0.768 ;Test IOU: 0.845 ;Time: 0:02:56
+================================================== 
+Train, epoch: 42
+b:0 ;lr:0.045 ;loss:0.80 ;acc:0.82 ;iou:0.90 ;qMean:-0.00 ;qSTD:0.14 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.73 ;iRange:0.13 ;Gq:1.46693 ;Gi:1.96984 ;time: 0:00:01
+b:50 ;lr:0.045 ;loss:0.76 ;acc:0.86 ;iou:0.92 ;qMean:-0.00 ;qSTD:0.14 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.73 ;iRange:0.13 ;Gq:1.31832 ;Gi:1.76827 ;time: 0:00:22
+b:100 ;lr:0.045 ;loss:0.73 ;acc:0.86 ;iou:0.92 ;qMean:-0.00 ;qSTD:0.14 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.73 ;iRange:0.13 ;Gq:1.25011 ;Gi:1.75799 ;time: 0:00:42
+b:150 ;lr:0.045 ;loss:0.66 ;acc:0.88 ;iou:0.92 ;qMean:-0.00 ;qSTD:0.14 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.73 ;iRange:0.13 ;Gq:1.33190 ;Gi:1.56144 ;time: 0:01:02
+b:200 ;lr:0.045 ;loss:0.77 ;acc:0.85 ;iou:0.89 ;qMean:-0.00 ;qSTD:0.14 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.73 ;iRange:0.13 ;Gq:1.42343 ;Gi:1.78057 ;time: 0:01:24
+b:250 ;lr:0.045 ;loss:0.61 ;acc:0.89 ;iou:0.94 ;qMean:-0.00 ;qSTD:0.13 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.72 ;iRange:0.13 ;Gq:1.21392 ;Gi:1.42706 ;time: 0:01:45
+
+*Tr loss: 0.757 ;Tr acc: 0.847 ;IOU acc: 0.905 ;qMean:-0.000 ;qSTD:0.136 ;iMean:0.000 ;iSTD:0.021 ;qRange:0.730 ;imgRange:0.130 ;Gq:1.34627 ;Gi:1.66730 ;Time: 0:02:03 
+
+Testing, epoch: 42
+batch: 0 ;loss: 0.892 ;acc: 0.815 ;iou_acc: 0.880 ;time: 0:02:04
+batch: 50 ;loss: 1.145 ;acc: 0.740 ;iou_acc: 0.820 ;time: 0:02:12
+batch: 100 ;loss: 1.027 ;acc: 0.805 ;iou_acc: 0.865 ;time: 0:02:21
+batch: 150 ;loss: 1.294 ;acc: 0.740 ;iou_acc: 0.805 ;time: 0:02:29
+batch: 200 ;loss: 0.929 ;acc: 0.790 ;iou_acc: 0.855 ;time: 0:02:38
+batch: 250 ;loss: 1.186 ;acc: 0.745 ;iou_acc: 0.840 ;time: 0:02:47
+
+*Test loss: 1.055 ;Test accuracy 0.770 ;Test IOU: 0.846 ;Time: 0:02:55
+================================================== 
+Train, epoch: 43
+b:0 ;lr:0.045 ;loss:0.70 ;acc:0.87 ;iou:0.91 ;qMean:-0.00 ;qSTD:0.14 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.73 ;iRange:0.13 ;Gq:1.30259 ;Gi:1.63204 ;time: 0:00:01
+b:50 ;lr:0.045 ;loss:0.89 ;acc:0.80 ;iou:0.86 ;qMean:-0.00 ;qSTD:0.13 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.72 ;iRange:0.13 ;Gq:1.47731 ;Gi:1.70249 ;time: 0:00:23
+b:100 ;lr:0.045 ;loss:0.76 ;acc:0.87 ;iou:0.92 ;qMean:-0.00 ;qSTD:0.13 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.72 ;iRange:0.13 ;Gq:1.37424 ;Gi:1.47207 ;time: 0:00:43
+b:150 ;lr:0.045 ;loss:0.65 ;acc:0.88 ;iou:0.93 ;qMean:-0.00 ;qSTD:0.14 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.73 ;iRange:0.13 ;Gq:1.31179 ;Gi:1.55690 ;time: 0:01:04
+b:200 ;lr:0.045 ;loss:0.64 ;acc:0.89 ;iou:0.94 ;qMean:-0.00 ;qSTD:0.14 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.74 ;iRange:0.13 ;Gq:1.27931 ;Gi:1.63685 ;time: 0:01:25
+b:250 ;lr:0.045 ;loss:0.73 ;acc:0.85 ;iou:0.89 ;qMean:-0.00 ;qSTD:0.14 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.74 ;iRange:0.13 ;Gq:1.33307 ;Gi:1.91575 ;time: 0:01:46
+
+*Tr loss: 0.748 ;Tr acc: 0.849 ;IOU acc: 0.906 ;qMean:-0.000 ;qSTD:0.136 ;iMean:0.000 ;iSTD:0.021 ;qRange:0.728 ;imgRange:0.131 ;Gq:1.34988 ;Gi:1.67656 ;Time: 0:02:06 
+
+Testing, epoch: 43
+batch: 0 ;loss: 0.888 ;acc: 0.825 ;iou_acc: 0.890 ;time: 0:02:06
+batch: 50 ;loss: 1.154 ;acc: 0.755 ;iou_acc: 0.835 ;time: 0:02:14
+batch: 100 ;loss: 0.994 ;acc: 0.785 ;iou_acc: 0.855 ;time: 0:02:22
+batch: 150 ;loss: 1.295 ;acc: 0.735 ;iou_acc: 0.810 ;time: 0:02:31
+batch: 200 ;loss: 0.930 ;acc: 0.795 ;iou_acc: 0.860 ;time: 0:02:39
+batch: 250 ;loss: 1.160 ;acc: 0.735 ;iou_acc: 0.835 ;time: 0:02:47
+
+*Test loss: 1.062 ;Test accuracy 0.768 ;Test IOU: 0.844 ;Time: 0:02:55
+================================================== 
+Train, epoch: 44
+b:0 ;lr:0.045 ;loss:0.70 ;acc:0.87 ;iou:0.93 ;qMean:-0.00 ;qSTD:0.14 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.72 ;iRange:0.13 ;Gq:1.33951 ;Gi:1.61188 ;time: 0:00:00
+b:50 ;lr:0.045 ;loss:0.72 ;acc:0.82 ;iou:0.90 ;qMean:-0.00 ;qSTD:0.14 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.73 ;iRange:0.13 ;Gq:1.28728 ;Gi:1.71461 ;time: 0:00:19
+b:100 ;lr:0.045 ;loss:0.75 ;acc:0.85 ;iou:0.92 ;qMean:-0.00 ;qSTD:0.13 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.73 ;iRange:0.13 ;Gq:1.34677 ;Gi:1.83093 ;time: 0:00:40
+b:150 ;lr:0.045 ;loss:0.73 ;acc:0.86 ;iou:0.90 ;qMean:-0.00 ;qSTD:0.14 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.73 ;iRange:0.13 ;Gq:1.47854 ;Gi:1.86833 ;time: 0:01:01
+b:200 ;lr:0.045 ;loss:0.71 ;acc:0.88 ;iou:0.92 ;qMean:-0.00 ;qSTD:0.13 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.72 ;iRange:0.13 ;Gq:1.37654 ;Gi:1.92644 ;time: 0:01:21
+b:250 ;lr:0.045 ;loss:0.69 ;acc:0.85 ;iou:0.91 ;qMean:-0.00 ;qSTD:0.14 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.73 ;iRange:0.13 ;Gq:1.33882 ;Gi:1.74430 ;time: 0:01:42
+
+*Tr loss: 0.739 ;Tr acc: 0.851 ;IOU acc: 0.906 ;qMean:-0.000 ;qSTD:0.136 ;iMean:0.000 ;iSTD:0.021 ;qRange:0.730 ;imgRange:0.131 ;Gq:1.34924 ;Gi:1.68783 ;Time: 0:02:00 
+
+Testing, epoch: 44
+batch: 0 ;loss: 0.883 ;acc: 0.820 ;iou_acc: 0.875 ;time: 0:02:00
+batch: 50 ;loss: 1.139 ;acc: 0.760 ;iou_acc: 0.835 ;time: 0:02:08
+batch: 100 ;loss: 1.039 ;acc: 0.780 ;iou_acc: 0.845 ;time: 0:02:16
+batch: 150 ;loss: 1.307 ;acc: 0.720 ;iou_acc: 0.805 ;time: 0:02:25
+batch: 200 ;loss: 0.938 ;acc: 0.760 ;iou_acc: 0.845 ;time: 0:02:34
+batch: 250 ;loss: 1.174 ;acc: 0.745 ;iou_acc: 0.835 ;time: 0:02:43
+
+*Test loss: 1.059 ;Test accuracy 0.768 ;Test IOU: 0.844 ;Time: 0:02:51
+================================================== 
+Train, epoch: 45
+b:0 ;lr:0.045 ;loss:0.81 ;acc:0.83 ;iou:0.89 ;qMean:-0.00 ;qSTD:0.14 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.73 ;iRange:0.13 ;Gq:1.53646 ;Gi:1.89582 ;time: 0:00:01
+b:50 ;lr:0.045 ;loss:0.63 ;acc:0.89 ;iou:0.92 ;qMean:-0.00 ;qSTD:0.14 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.73 ;iRange:0.13 ;Gq:1.25274 ;Gi:1.85063 ;time: 0:00:20
+b:100 ;lr:0.045 ;loss:0.90 ;acc:0.80 ;iou:0.88 ;qMean:-0.00 ;qSTD:0.14 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.73 ;iRange:0.13 ;Gq:1.54218 ;Gi:1.85688 ;time: 0:00:40
+b:150 ;lr:0.045 ;loss:0.83 ;acc:0.82 ;iou:0.88 ;qMean:-0.00 ;qSTD:0.13 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.72 ;iRange:0.13 ;Gq:1.48758 ;Gi:1.96121 ;time: 0:01:01
+b:200 ;lr:0.045 ;loss:0.82 ;acc:0.84 ;iou:0.88 ;qMean:-0.00 ;qSTD:0.14 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.73 ;iRange:0.13 ;Gq:1.54756 ;Gi:1.79020 ;time: 0:01:21
+b:250 ;lr:0.045 ;loss:0.70 ;acc:0.88 ;iou:0.91 ;qMean:-0.00 ;qSTD:0.14 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.73 ;iRange:0.13 ;Gq:1.30081 ;Gi:1.59928 ;time: 0:01:41
+
+*Tr loss: 0.730 ;Tr acc: 0.853 ;IOU acc: 0.908 ;qMean:-0.000 ;qSTD:0.137 ;iMean:0.000 ;iSTD:0.021 ;qRange:0.731 ;imgRange:0.131 ;Gq:1.35779 ;Gi:1.72387 ;Time: 0:01:59 
+
+Testing, epoch: 45
+batch: 0 ;loss: 0.879 ;acc: 0.825 ;iou_acc: 0.890 ;time: 0:01:59
+batch: 50 ;loss: 1.127 ;acc: 0.750 ;iou_acc: 0.835 ;time: 0:02:08
+batch: 100 ;loss: 1.000 ;acc: 0.795 ;iou_acc: 0.865 ;time: 0:02:17
+batch: 150 ;loss: 1.296 ;acc: 0.720 ;iou_acc: 0.800 ;time: 0:02:25
+batch: 200 ;loss: 0.896 ;acc: 0.800 ;iou_acc: 0.865 ;time: 0:02:34
+batch: 250 ;loss: 1.171 ;acc: 0.735 ;iou_acc: 0.845 ;time: 0:02:42
+
+*Test loss: 1.052 ;Test accuracy 0.771 ;Test IOU: 0.847 ;Time: 0:02:50
+================================================== 
+Train, epoch: 46
+b:0 ;lr:0.045 ;loss:0.74 ;acc:0.86 ;iou:0.90 ;qMean:-0.00 ;qSTD:0.14 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.73 ;iRange:0.13 ;Gq:1.36067 ;Gi:1.67977 ;time: 0:00:00
+b:50 ;lr:0.045 ;loss:0.70 ;acc:0.86 ;iou:0.93 ;qMean:-0.00 ;qSTD:0.14 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.74 ;iRange:0.13 ;Gq:1.27011 ;Gi:1.71248 ;time: 0:00:19
+b:100 ;lr:0.045 ;loss:0.77 ;acc:0.86 ;iou:0.91 ;qMean:-0.00 ;qSTD:0.14 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.73 ;iRange:0.13 ;Gq:1.32279 ;Gi:1.75737 ;time: 0:00:38
+b:150 ;lr:0.045 ;loss:0.88 ;acc:0.85 ;iou:0.90 ;qMean:-0.00 ;qSTD:0.13 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.72 ;iRange:0.13 ;Gq:1.57299 ;Gi:2.10206 ;time: 0:00:59
+b:200 ;lr:0.045 ;loss:0.67 ;acc:0.86 ;iou:0.93 ;qMean:-0.00 ;qSTD:0.14 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.73 ;iRange:0.13 ;Gq:1.30783 ;Gi:1.71255 ;time: 0:01:18
+b:250 ;lr:0.045 ;loss:0.61 ;acc:0.87 ;iou:0.91 ;qMean:-0.00 ;qSTD:0.14 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.73 ;iRange:0.13 ;Gq:1.35557 ;Gi:1.61851 ;time: 0:01:38
+
+*Tr loss: 0.721 ;Tr acc: 0.856 ;IOU acc: 0.910 ;qMean:-0.000 ;qSTD:0.137 ;iMean:0.000 ;iSTD:0.021 ;qRange:0.730 ;imgRange:0.131 ;Gq:1.36174 ;Gi:1.75109 ;Time: 0:01:57 
+
+Testing, epoch: 46
+batch: 0 ;loss: 0.880 ;acc: 0.835 ;iou_acc: 0.890 ;time: 0:01:57
+batch: 50 ;loss: 1.133 ;acc: 0.755 ;iou_acc: 0.830 ;time: 0:02:05
+batch: 100 ;loss: 1.013 ;acc: 0.795 ;iou_acc: 0.865 ;time: 0:02:14
+batch: 150 ;loss: 1.277 ;acc: 0.745 ;iou_acc: 0.815 ;time: 0:02:22
+batch: 200 ;loss: 0.932 ;acc: 0.785 ;iou_acc: 0.855 ;time: 0:02:30
+batch: 250 ;loss: 1.161 ;acc: 0.750 ;iou_acc: 0.840 ;time: 0:02:38
+
+*Test loss: 1.051 ;Test accuracy 0.771 ;Test IOU: 0.847 ;Time: 0:02:46
+================================================== 
+Train, epoch: 47
+b:0 ;lr:0.045 ;loss:0.64 ;acc:0.88 ;iou:0.93 ;qMean:-0.00 ;qSTD:0.14 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.72 ;iRange:0.13 ;Gq:1.28611 ;Gi:1.61588 ;time: 0:00:00
+b:50 ;lr:0.045 ;loss:0.63 ;acc:0.90 ;iou:0.96 ;qMean:-0.00 ;qSTD:0.14 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.73 ;iRange:0.13 ;Gq:1.15809 ;Gi:1.54532 ;time: 0:00:20
+b:100 ;lr:0.045 ;loss:0.63 ;acc:0.87 ;iou:0.93 ;qMean:-0.00 ;qSTD:0.14 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.73 ;iRange:0.13 ;Gq:1.33995 ;Gi:1.54537 ;time: 0:00:41
+b:150 ;lr:0.045 ;loss:0.78 ;acc:0.84 ;iou:0.90 ;qMean:-0.00 ;qSTD:0.14 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.73 ;iRange:0.13 ;Gq:1.34519 ;Gi:1.78945 ;time: 0:01:00
+b:200 ;lr:0.045 ;loss:0.69 ;acc:0.85 ;iou:0.89 ;qMean:-0.00 ;qSTD:0.14 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.74 ;iRange:0.13 ;Gq:1.38015 ;Gi:1.71602 ;time: 0:01:19
+b:250 ;lr:0.045 ;loss:0.67 ;acc:0.87 ;iou:0.93 ;qMean:-0.00 ;qSTD:0.14 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.73 ;iRange:0.13 ;Gq:1.22985 ;Gi:1.79202 ;time: 0:01:39
+
+*Tr loss: 0.715 ;Tr acc: 0.856 ;IOU acc: 0.910 ;qMean:-0.000 ;qSTD:0.137 ;iMean:0.000 ;iSTD:0.021 ;qRange:0.730 ;imgRange:0.131 ;Gq:1.35847 ;Gi:1.75404 ;Time: 0:01:57 
+
+Testing, epoch: 47
+batch: 0 ;loss: 0.944 ;acc: 0.805 ;iou_acc: 0.865 ;time: 0:01:57
+batch: 50 ;loss: 1.213 ;acc: 0.735 ;iou_acc: 0.825 ;time: 0:02:05
+batch: 100 ;loss: 1.032 ;acc: 0.775 ;iou_acc: 0.840 ;time: 0:02:13
+batch: 150 ;loss: 1.313 ;acc: 0.720 ;iou_acc: 0.800 ;time: 0:02:22
+batch: 200 ;loss: 0.977 ;acc: 0.780 ;iou_acc: 0.860 ;time: 0:02:31
+batch: 250 ;loss: 1.255 ;acc: 0.725 ;iou_acc: 0.820 ;time: 0:02:38
+
+*Test loss: 1.102 ;Test accuracy 0.760 ;Test IOU: 0.836 ;Time: 0:02:46
+================================================== 
+Train, epoch: 48
+b:0 ;lr:0.045 ;loss:0.69 ;acc:0.87 ;iou:0.90 ;qMean:-0.00 ;qSTD:0.14 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.74 ;iRange:0.13 ;Gq:1.31524 ;Gi:1.68825 ;time: 0:00:00
+b:50 ;lr:0.045 ;loss:0.78 ;acc:0.85 ;iou:0.91 ;qMean:-0.00 ;qSTD:0.14 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.72 ;iRange:0.13 ;Gq:1.40685 ;Gi:1.85679 ;time: 0:00:21
+b:100 ;lr:0.045 ;loss:0.87 ;acc:0.80 ;iou:0.86 ;qMean:-0.00 ;qSTD:0.14 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.74 ;iRange:0.13 ;Gq:1.51679 ;Gi:2.22543 ;time: 0:00:41
+b:150 ;lr:0.045 ;loss:0.91 ;acc:0.78 ;iou:0.85 ;qMean:-0.00 ;qSTD:0.14 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.73 ;iRange:0.13 ;Gq:1.42675 ;Gi:1.71322 ;time: 0:01:01
+b:200 ;lr:0.045 ;loss:0.62 ;acc:0.90 ;iou:0.96 ;qMean:-0.00 ;qSTD:0.14 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.74 ;iRange:0.13 ;Gq:1.35447 ;Gi:1.80133 ;time: 0:01:21
+b:250 ;lr:0.045 ;loss:0.83 ;acc:0.83 ;iou:0.90 ;qMean:-0.00 ;qSTD:0.14 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.75 ;iRange:0.13 ;Gq:1.54482 ;Gi:2.10130 ;time: 0:01:41
+
+*Tr loss: 0.706 ;Tr acc: 0.859 ;IOU acc: 0.912 ;qMean:-0.000 ;qSTD:0.137 ;iMean:0.000 ;iSTD:0.021 ;qRange:0.731 ;imgRange:0.131 ;Gq:1.36847 ;Gi:1.77694 ;Time: 0:01:59 
+
+Testing, epoch: 48
+batch: 0 ;loss: 0.869 ;acc: 0.830 ;iou_acc: 0.895 ;time: 0:01:59
+batch: 50 ;loss: 1.141 ;acc: 0.740 ;iou_acc: 0.810 ;time: 0:02:08
+batch: 100 ;loss: 1.031 ;acc: 0.785 ;iou_acc: 0.855 ;time: 0:02:17
+batch: 150 ;loss: 1.304 ;acc: 0.755 ;iou_acc: 0.830 ;time: 0:02:25
+batch: 200 ;loss: 0.910 ;acc: 0.805 ;iou_acc: 0.870 ;time: 0:02:33
+batch: 250 ;loss: 1.182 ;acc: 0.745 ;iou_acc: 0.840 ;time: 0:02:41
+
+*Test loss: 1.051 ;Test accuracy 0.772 ;Test IOU: 0.847 ;Time: 0:02:49
+================================================== 
+Train, epoch: 49
+b:0 ;lr:0.045 ;loss:0.77 ;acc:0.85 ;iou:0.89 ;qMean:-0.00 ;qSTD:0.14 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.73 ;iRange:0.13 ;Gq:1.29023 ;Gi:1.42368 ;time: 0:00:00
+b:50 ;lr:0.045 ;loss:0.59 ;acc:0.91 ;iou:0.94 ;qMean:-0.00 ;qSTD:0.14 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.73 ;iRange:0.13 ;Gq:1.21076 ;Gi:1.66368 ;time: 0:00:20
+b:100 ;lr:0.045 ;loss:0.71 ;acc:0.85 ;iou:0.92 ;qMean:-0.00 ;qSTD:0.14 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.74 ;iRange:0.13 ;Gq:1.36310 ;Gi:2.02064 ;time: 0:00:41
+b:150 ;lr:0.045 ;loss:0.69 ;acc:0.87 ;iou:0.93 ;qMean:-0.00 ;qSTD:0.14 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.74 ;iRange:0.13 ;Gq:1.46508 ;Gi:1.77275 ;time: 0:01:01
+b:200 ;lr:0.045 ;loss:0.74 ;acc:0.82 ;iou:0.88 ;qMean:-0.00 ;qSTD:0.14 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.73 ;iRange:0.13 ;Gq:1.39611 ;Gi:1.91050 ;time: 0:01:20
+b:250 ;lr:0.045 ;loss:0.76 ;acc:0.86 ;iou:0.92 ;qMean:-0.00 ;qSTD:0.14 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.73 ;iRange:0.13 ;Gq:1.31513 ;Gi:1.78241 ;time: 0:01:40
+
+*Tr loss: 0.698 ;Tr acc: 0.861 ;IOU acc: 0.913 ;qMean:-0.000 ;qSTD:0.137 ;iMean:0.000 ;iSTD:0.021 ;qRange:0.733 ;imgRange:0.131 ;Gq:1.36620 ;Gi:1.79379 ;Time: 0:01:59 
+
+Testing, epoch: 49
+batch: 0 ;loss: 0.868 ;acc: 0.825 ;iou_acc: 0.885 ;time: 0:01:59
+batch: 50 ;loss: 1.103 ;acc: 0.755 ;iou_acc: 0.820 ;time: 0:02:07
+batch: 100 ;loss: 1.016 ;acc: 0.810 ;iou_acc: 0.860 ;time: 0:02:15
+batch: 150 ;loss: 1.316 ;acc: 0.735 ;iou_acc: 0.805 ;time: 0:02:24
+batch: 200 ;loss: 0.922 ;acc: 0.790 ;iou_acc: 0.865 ;time: 0:02:31
+batch: 250 ;loss: 1.169 ;acc: 0.735 ;iou_acc: 0.820 ;time: 0:02:40
+
+*Test loss: 1.053 ;Test accuracy 0.772 ;Test IOU: 0.847 ;Time: 0:02:47
+================================================== 
+Train, epoch: 50
+b:0 ;lr:0.045 ;loss:0.67 ;acc:0.88 ;iou:0.92 ;qMean:-0.00 ;qSTD:0.14 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.72 ;iRange:0.13 ;Gq:1.31436 ;Gi:1.78100 ;time: 0:00:01
+b:50 ;lr:0.045 ;loss:0.61 ;acc:0.90 ;iou:0.93 ;qMean:-0.00 ;qSTD:0.14 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.74 ;iRange:0.13 ;Gq:1.21773 ;Gi:1.70399 ;time: 0:00:21
+b:100 ;lr:0.045 ;loss:0.80 ;acc:0.82 ;iou:0.88 ;qMean:-0.00 ;qSTD:0.14 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.73 ;iRange:0.13 ;Gq:1.43888 ;Gi:1.70077 ;time: 0:00:40
+b:150 ;lr:0.045 ;loss:0.70 ;acc:0.86 ;iou:0.93 ;qMean:-0.00 ;qSTD:0.14 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.74 ;iRange:0.13 ;Gq:1.39499 ;Gi:1.91587 ;time: 0:00:59
+b:200 ;lr:0.045 ;loss:0.60 ;acc:0.89 ;iou:0.94 ;qMean:-0.00 ;qSTD:0.14 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.73 ;iRange:0.13 ;Gq:1.27128 ;Gi:1.67645 ;time: 0:01:20
+b:250 ;lr:0.045 ;loss:0.78 ;acc:0.83 ;iou:0.89 ;qMean:-0.00 ;qSTD:0.14 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.73 ;iRange:0.13 ;Gq:1.54652 ;Gi:1.93817 ;time: 0:01:39
+
+*Tr loss: 0.689 ;Tr acc: 0.864 ;IOU acc: 0.916 ;qMean:-0.000 ;qSTD:0.138 ;iMean:0.000 ;iSTD:0.021 ;qRange:0.735 ;imgRange:0.131 ;Gq:1.36024 ;Gi:1.80525 ;Time: 0:01:58 
+
+Testing, epoch: 50
+batch: 0 ;loss: 0.859 ;acc: 0.830 ;iou_acc: 0.895 ;time: 0:01:58
+batch: 50 ;loss: 1.107 ;acc: 0.760 ;iou_acc: 0.840 ;time: 0:02:07
+batch: 100 ;loss: 0.987 ;acc: 0.805 ;iou_acc: 0.865 ;time: 0:02:15
+batch: 150 ;loss: 1.283 ;acc: 0.740 ;iou_acc: 0.815 ;time: 0:02:23
+batch: 200 ;loss: 0.916 ;acc: 0.795 ;iou_acc: 0.860 ;time: 0:02:32
+batch: 250 ;loss: 1.172 ;acc: 0.735 ;iou_acc: 0.835 ;time: 0:02:40
+
+*Test loss: 1.037 ;Test accuracy 0.774 ;Test IOU: 0.848 ;Time: 0:02:48
+================================================== 
+Train, epoch: 51
+b:0 ;lr:0.045 ;loss:0.63 ;acc:0.87 ;iou:0.91 ;qMean:-0.00 ;qSTD:0.14 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.73 ;iRange:0.13 ;Gq:1.27810 ;Gi:1.76669 ;time: 0:00:00
+b:50 ;lr:0.045 ;loss:0.59 ;acc:0.89 ;iou:0.93 ;qMean:-0.00 ;qSTD:0.14 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.73 ;iRange:0.13 ;Gq:1.28684 ;Gi:1.65315 ;time: 0:00:20
+b:100 ;lr:0.045 ;loss:0.62 ;acc:0.89 ;iou:0.93 ;qMean:-0.00 ;qSTD:0.14 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.74 ;iRange:0.13 ;Gq:1.40858 ;Gi:1.88060 ;time: 0:00:40
+b:150 ;lr:0.045 ;loss:0.89 ;acc:0.81 ;iou:0.91 ;qMean:-0.00 ;qSTD:0.14 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.73 ;iRange:0.13 ;Gq:1.80760 ;Gi:2.45195 ;time: 0:00:59
+b:200 ;lr:0.045 ;loss:0.73 ;acc:0.88 ;iou:0.91 ;qMean:-0.00 ;qSTD:0.14 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.74 ;iRange:0.13 ;Gq:1.42171 ;Gi:2.06237 ;time: 0:01:19
+b:250 ;lr:0.045 ;loss:0.76 ;acc:0.83 ;iou:0.91 ;qMean:-0.00 ;qSTD:0.14 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.74 ;iRange:0.13 ;Gq:1.56236 ;Gi:2.02957 ;time: 0:01:39
+
+*Tr loss: 0.682 ;Tr acc: 0.865 ;IOU acc: 0.917 ;qMean:-0.000 ;qSTD:0.138 ;iMean:0.000 ;iSTD:0.021 ;qRange:0.735 ;imgRange:0.131 ;Gq:1.36766 ;Gi:1.81525 ;Time: 0:01:58 
+
+Testing, epoch: 51
+batch: 0 ;loss: 0.865 ;acc: 0.820 ;iou_acc: 0.880 ;time: 0:01:58
+batch: 50 ;loss: 1.116 ;acc: 0.755 ;iou_acc: 0.825 ;time: 0:02:06
+batch: 100 ;loss: 0.976 ;acc: 0.800 ;iou_acc: 0.875 ;time: 0:02:15
+batch: 150 ;loss: 1.288 ;acc: 0.725 ;iou_acc: 0.795 ;time: 0:02:23
+batch: 200 ;loss: 0.889 ;acc: 0.800 ;iou_acc: 0.870 ;time: 0:02:32
+batch: 250 ;loss: 1.185 ;acc: 0.725 ;iou_acc: 0.835 ;time: 0:02:40
+
+*Test loss: 1.043 ;Test accuracy 0.774 ;Test IOU: 0.849 ;Time: 0:02:48
+================================================== 
+Train, epoch: 52
+b:0 ;lr:0.045 ;loss:0.67 ;acc:0.90 ;iou:0.93 ;qMean:-0.00 ;qSTD:0.14 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.74 ;iRange:0.13 ;Gq:1.36319 ;Gi:1.80887 ;time: 0:00:00
+b:50 ;lr:0.045 ;loss:0.57 ;acc:0.88 ;iou:0.95 ;qMean:-0.00 ;qSTD:0.14 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.74 ;iRange:0.13 ;Gq:1.21648 ;Gi:1.75250 ;time: 0:00:19
+b:100 ;lr:0.045 ;loss:0.75 ;acc:0.85 ;iou:0.90 ;qMean:-0.00 ;qSTD:0.14 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.74 ;iRange:0.13 ;Gq:1.45339 ;Gi:2.03110 ;time: 0:00:39
+b:150 ;lr:0.045 ;loss:0.83 ;acc:0.81 ;iou:0.88 ;qMean:-0.00 ;qSTD:0.13 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.73 ;iRange:0.13 ;Gq:1.64577 ;Gi:2.14651 ;time: 0:00:59
+b:200 ;lr:0.045 ;loss:0.77 ;acc:0.81 ;iou:0.88 ;qMean:-0.00 ;qSTD:0.14 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.74 ;iRange:0.13 ;Gq:1.41800 ;Gi:2.00539 ;time: 0:01:20
+b:250 ;lr:0.045 ;loss:0.66 ;acc:0.88 ;iou:0.90 ;qMean:-0.00 ;qSTD:0.14 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.73 ;iRange:0.13 ;Gq:1.29164 ;Gi:1.74356 ;time: 0:01:40
+
+*Tr loss: 0.674 ;Tr acc: 0.867 ;IOU acc: 0.918 ;qMean:-0.000 ;qSTD:0.138 ;iMean:0.000 ;iSTD:0.021 ;qRange:0.737 ;imgRange:0.131 ;Gq:1.36035 ;Gi:1.83024 ;Time: 0:01:58 
+
+Testing, epoch: 52
+batch: 0 ;loss: 0.849 ;acc: 0.850 ;iou_acc: 0.905 ;time: 0:01:58
+batch: 50 ;loss: 1.131 ;acc: 0.740 ;iou_acc: 0.820 ;time: 0:02:06
+batch: 100 ;loss: 0.973 ;acc: 0.800 ;iou_acc: 0.860 ;time: 0:02:15
+batch: 150 ;loss: 1.279 ;acc: 0.750 ;iou_acc: 0.820 ;time: 0:02:23
+batch: 200 ;loss: 0.900 ;acc: 0.800 ;iou_acc: 0.870 ;time: 0:02:32
+batch: 250 ;loss: 1.124 ;acc: 0.745 ;iou_acc: 0.850 ;time: 0:02:40
+
+*Test loss: 1.039 ;Test accuracy 0.775 ;Test IOU: 0.850 ;Time: 0:02:48
+================================================== 
+Train, epoch: 53
+b:0 ;lr:0.045 ;loss:0.54 ;acc:0.91 ;iou:0.94 ;qMean:-0.00 ;qSTD:0.14 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.74 ;iRange:0.13 ;Gq:1.37435 ;Gi:1.93444 ;time: 0:00:00
+b:50 ;lr:0.045 ;loss:0.63 ;acc:0.89 ;iou:0.91 ;qMean:-0.00 ;qSTD:0.14 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.73 ;iRange:0.13 ;Gq:1.43763 ;Gi:1.77657 ;time: 0:00:20
+b:100 ;lr:0.045 ;loss:0.62 ;acc:0.87 ;iou:0.93 ;qMean:-0.00 ;qSTD:0.14 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.74 ;iRange:0.13 ;Gq:1.28465 ;Gi:1.90554 ;time: 0:00:42
+b:150 ;lr:0.045 ;loss:0.75 ;acc:0.83 ;iou:0.88 ;qMean:-0.00 ;qSTD:0.14 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.73 ;iRange:0.13 ;Gq:1.46579 ;Gi:1.75344 ;time: 0:01:03
+b:200 ;lr:0.045 ;loss:0.71 ;acc:0.85 ;iou:0.88 ;qMean:-0.00 ;qSTD:0.14 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.75 ;iRange:0.13 ;Gq:1.41441 ;Gi:1.90368 ;time: 0:01:22
+b:250 ;lr:0.045 ;loss:0.56 ;acc:0.90 ;iou:0.92 ;qMean:-0.00 ;qSTD:0.14 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.74 ;iRange:0.13 ;Gq:1.31205 ;Gi:1.64771 ;time: 0:01:41
+
+*Tr loss: 0.668 ;Tr acc: 0.869 ;IOU acc: 0.919 ;qMean:-0.000 ;qSTD:0.138 ;iMean:0.000 ;iSTD:0.021 ;qRange:0.736 ;imgRange:0.131 ;Gq:1.37078 ;Gi:1.84264 ;Time: 0:01:58 
+
+Testing, epoch: 53
+batch: 0 ;loss: 0.881 ;acc: 0.810 ;iou_acc: 0.885 ;time: 0:01:58
+batch: 50 ;loss: 1.151 ;acc: 0.755 ;iou_acc: 0.825 ;time: 0:02:06
+batch: 100 ;loss: 1.067 ;acc: 0.790 ;iou_acc: 0.850 ;time: 0:02:15
+batch: 150 ;loss: 1.330 ;acc: 0.760 ;iou_acc: 0.825 ;time: 0:02:23
+batch: 200 ;loss: 0.911 ;acc: 0.790 ;iou_acc: 0.865 ;time: 0:02:31
+batch: 250 ;loss: 1.154 ;acc: 0.755 ;iou_acc: 0.850 ;time: 0:02:39
+
+*Test loss: 1.058 ;Test accuracy 0.770 ;Test IOU: 0.845 ;Time: 0:02:47
+================================================== 
+Train, epoch: 54
+b:0 ;lr:0.045 ;loss:0.68 ;acc:0.86 ;iou:0.91 ;qMean:-0.00 ;qSTD:0.14 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.73 ;iRange:0.13 ;Gq:1.35758 ;Gi:1.73148 ;time: 0:00:00
+b:50 ;lr:0.045 ;loss:0.65 ;acc:0.88 ;iou:0.93 ;qMean:-0.00 ;qSTD:0.14 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.74 ;iRange:0.13 ;Gq:1.26525 ;Gi:1.64715 ;time: 0:00:20
+b:100 ;lr:0.045 ;loss:0.60 ;acc:0.86 ;iou:0.93 ;qMean:-0.00 ;qSTD:0.14 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.74 ;iRange:0.13 ;Gq:1.35548 ;Gi:1.88812 ;time: 0:00:40
+b:150 ;lr:0.045 ;loss:0.56 ;acc:0.90 ;iou:0.94 ;qMean:-0.00 ;qSTD:0.14 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.74 ;iRange:0.13 ;Gq:1.23042 ;Gi:1.58086 ;time: 0:01:00
+b:200 ;lr:0.045 ;loss:0.69 ;acc:0.86 ;iou:0.90 ;qMean:-0.00 ;qSTD:0.14 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.74 ;iRange:0.13 ;Gq:1.37195 ;Gi:1.95212 ;time: 0:01:21
+b:250 ;lr:0.045 ;loss:0.64 ;acc:0.88 ;iou:0.92 ;qMean:-0.00 ;qSTD:0.14 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.73 ;iRange:0.13 ;Gq:1.39828 ;Gi:1.92312 ;time: 0:01:42
+
+*Tr loss: 0.660 ;Tr acc: 0.871 ;IOU acc: 0.921 ;qMean:-0.000 ;qSTD:0.138 ;iMean:0.000 ;iSTD:0.021 ;qRange:0.736 ;imgRange:0.131 ;Gq:1.36962 ;Gi:1.84863 ;Time: 0:02:00 
+
+Testing, epoch: 54
+batch: 0 ;loss: 0.847 ;acc: 0.835 ;iou_acc: 0.900 ;time: 0:02:00
+batch: 50 ;loss: 1.142 ;acc: 0.765 ;iou_acc: 0.835 ;time: 0:02:08
+batch: 100 ;loss: 0.997 ;acc: 0.805 ;iou_acc: 0.855 ;time: 0:02:16
+batch: 150 ;loss: 1.292 ;acc: 0.755 ;iou_acc: 0.815 ;time: 0:02:24
+batch: 200 ;loss: 0.906 ;acc: 0.795 ;iou_acc: 0.855 ;time: 0:02:33
+batch: 250 ;loss: 1.168 ;acc: 0.730 ;iou_acc: 0.820 ;time: 0:02:41
+
+*Test loss: 1.039 ;Test accuracy 0.775 ;Test IOU: 0.850 ;Time: 0:02:48
+================================================== 
+Train, epoch: 55
+b:0 ;lr:0.045 ;loss:0.72 ;acc:0.87 ;iou:0.93 ;qMean:-0.00 ;qSTD:0.14 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.73 ;iRange:0.13 ;Gq:1.48129 ;Gi:1.85933 ;time: 0:00:01
+b:50 ;lr:0.045 ;loss:0.51 ;acc:0.92 ;iou:0.95 ;qMean:-0.00 ;qSTD:0.14 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.73 ;iRange:0.13 ;Gq:1.10835 ;Gi:1.70349 ;time: 0:00:19
+b:100 ;lr:0.045 ;loss:0.71 ;acc:0.88 ;iou:0.92 ;qMean:-0.00 ;qSTD:0.14 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.73 ;iRange:0.13 ;Gq:1.53031 ;Gi:2.36339 ;time: 0:00:39
+b:150 ;lr:0.045 ;loss:0.65 ;acc:0.85 ;iou:0.90 ;qMean:-0.00 ;qSTD:0.14 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.74 ;iRange:0.13 ;Gq:1.35274 ;Gi:1.97325 ;time: 0:00:59
+b:200 ;lr:0.045 ;loss:0.67 ;acc:0.87 ;iou:0.92 ;qMean:-0.00 ;qSTD:0.14 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.74 ;iRange:0.13 ;Gq:1.38509 ;Gi:1.93304 ;time: 0:01:18
+b:250 ;lr:0.045 ;loss:0.63 ;acc:0.87 ;iou:0.93 ;qMean:-0.00 ;qSTD:0.14 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.73 ;iRange:0.13 ;Gq:1.39326 ;Gi:1.87635 ;time: 0:01:39
+
+*Tr loss: 0.653 ;Tr acc: 0.873 ;IOU acc: 0.921 ;qMean:-0.000 ;qSTD:0.138 ;iMean:0.000 ;iSTD:0.021 ;qRange:0.736 ;imgRange:0.131 ;Gq:1.37546 ;Gi:1.87169 ;Time: 0:01:57 
+
+Testing, epoch: 55
+batch: 0 ;loss: 0.849 ;acc: 0.835 ;iou_acc: 0.905 ;time: 0:01:57
+batch: 50 ;loss: 1.130 ;acc: 0.765 ;iou_acc: 0.845 ;time: 0:02:05
+batch: 100 ;loss: 0.963 ;acc: 0.790 ;iou_acc: 0.865 ;time: 0:02:14
+batch: 150 ;loss: 1.285 ;acc: 0.740 ;iou_acc: 0.805 ;time: 0:02:22
+batch: 200 ;loss: 0.903 ;acc: 0.800 ;iou_acc: 0.865 ;time: 0:02:30
+batch: 250 ;loss: 1.163 ;acc: 0.740 ;iou_acc: 0.835 ;time: 0:02:39
+
+*Test loss: 1.036 ;Test accuracy 0.777 ;Test IOU: 0.851 ;Time: 0:02:47
+================================================== 
+Train, epoch: 56
+b:0 ;lr:0.045 ;loss:0.49 ;acc:0.92 ;iou:0.96 ;qMean:-0.00 ;qSTD:0.14 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.74 ;iRange:0.13 ;Gq:1.15140 ;Gi:1.92039 ;time: 0:00:00
+b:50 ;lr:0.045 ;loss:0.57 ;acc:0.89 ;iou:0.94 ;qMean:-0.00 ;qSTD:0.14 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.74 ;iRange:0.13 ;Gq:1.31034 ;Gi:1.83987 ;time: 0:00:21
+b:100 ;lr:0.045 ;loss:0.65 ;acc:0.87 ;iou:0.93 ;qMean:-0.00 ;qSTD:0.14 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.74 ;iRange:0.13 ;Gq:1.48218 ;Gi:1.96564 ;time: 0:00:41
+b:150 ;lr:0.045 ;loss:0.76 ;acc:0.86 ;iou:0.90 ;qMean:-0.00 ;qSTD:0.13 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.72 ;iRange:0.13 ;Gq:1.55645 ;Gi:2.20018 ;time: 0:01:00
+b:200 ;lr:0.045 ;loss:0.72 ;acc:0.87 ;iou:0.92 ;qMean:-0.00 ;qSTD:0.14 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.73 ;iRange:0.13 ;Gq:1.47437 ;Gi:2.09100 ;time: 0:01:21
+b:250 ;lr:0.045 ;loss:0.59 ;acc:0.89 ;iou:0.95 ;qMean:-0.00 ;qSTD:0.14 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.73 ;iRange:0.13 ;Gq:1.11837 ;Gi:1.51461 ;time: 0:01:40
+
+*Tr loss: 0.646 ;Tr acc: 0.874 ;IOU acc: 0.922 ;qMean:-0.000 ;qSTD:0.138 ;iMean:0.000 ;iSTD:0.021 ;qRange:0.736 ;imgRange:0.131 ;Gq:1.37031 ;Gi:1.88736 ;Time: 0:01:58 
+
+Testing, epoch: 56
+batch: 0 ;loss: 0.828 ;acc: 0.840 ;iou_acc: 0.905 ;time: 0:01:58
+batch: 50 ;loss: 1.139 ;acc: 0.770 ;iou_acc: 0.860 ;time: 0:02:06
+batch: 100 ;loss: 1.004 ;acc: 0.780 ;iou_acc: 0.855 ;time: 0:02:15
+batch: 150 ;loss: 1.261 ;acc: 0.745 ;iou_acc: 0.825 ;time: 0:02:23
+batch: 200 ;loss: 0.914 ;acc: 0.785 ;iou_acc: 0.855 ;time: 0:02:31
+batch: 250 ;loss: 1.177 ;acc: 0.740 ;iou_acc: 0.835 ;time: 0:02:39
+
+*Test loss: 1.041 ;Test accuracy 0.776 ;Test IOU: 0.849 ;Time: 0:02:46
+================================================== 
+Train, epoch: 57
+b:0 ;lr:0.045 ;loss:0.59 ;acc:0.88 ;iou:0.92 ;qMean:-0.00 ;qSTD:0.14 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.74 ;iRange:0.13 ;Gq:1.25685 ;Gi:1.68764 ;time: 0:00:01
+b:50 ;lr:0.045 ;loss:0.60 ;acc:0.90 ;iou:0.93 ;qMean:-0.00 ;qSTD:0.14 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.74 ;iRange:0.13 ;Gq:1.29744 ;Gi:1.92856 ;time: 0:00:21
+b:100 ;lr:0.045 ;loss:0.76 ;acc:0.87 ;iou:0.93 ;qMean:-0.00 ;qSTD:0.14 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.73 ;iRange:0.13 ;Gq:1.64759 ;Gi:2.11180 ;time: 0:00:41
+b:150 ;lr:0.045 ;loss:0.62 ;acc:0.87 ;iou:0.94 ;qMean:-0.00 ;qSTD:0.14 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.73 ;iRange:0.13 ;Gq:1.40634 ;Gi:1.92911 ;time: 0:01:00
+b:200 ;lr:0.045 ;loss:0.71 ;acc:0.85 ;iou:0.93 ;qMean:-0.00 ;qSTD:0.14 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.73 ;iRange:0.13 ;Gq:1.34516 ;Gi:1.73061 ;time: 0:01:20
+b:250 ;lr:0.045 ;loss:0.78 ;acc:0.85 ;iou:0.90 ;qMean:-0.00 ;qSTD:0.14 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.74 ;iRange:0.13 ;Gq:1.60416 ;Gi:2.18694 ;time: 0:01:40
+
+*Tr loss: 0.639 ;Tr acc: 0.876 ;IOU acc: 0.924 ;qMean:-0.000 ;qSTD:0.138 ;iMean:0.000 ;iSTD:0.021 ;qRange:0.736 ;imgRange:0.131 ;Gq:1.37880 ;Gi:1.89288 ;Time: 0:01:58 
+
+Testing, epoch: 57
+batch: 0 ;loss: 0.867 ;acc: 0.825 ;iou_acc: 0.895 ;time: 0:01:58
+batch: 50 ;loss: 1.142 ;acc: 0.750 ;iou_acc: 0.815 ;time: 0:02:07
+batch: 100 ;loss: 0.994 ;acc: 0.805 ;iou_acc: 0.855 ;time: 0:02:15
+batch: 150 ;loss: 1.287 ;acc: 0.745 ;iou_acc: 0.810 ;time: 0:02:23
+batch: 200 ;loss: 0.920 ;acc: 0.795 ;iou_acc: 0.860 ;time: 0:02:31
+batch: 250 ;loss: 1.168 ;acc: 0.750 ;iou_acc: 0.825 ;time: 0:02:39
+
+*Test loss: 1.050 ;Test accuracy 0.775 ;Test IOU: 0.849 ;Time: 0:02:47
+================================================== 
+Train, epoch: 58
+b:0 ;lr:0.045 ;loss:0.55 ;acc:0.92 ;iou:0.95 ;qMean:-0.00 ;qSTD:0.14 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.74 ;iRange:0.13 ;Gq:1.37753 ;Gi:2.07925 ;time: 0:00:00
+b:50 ;lr:0.045 ;loss:0.70 ;acc:0.87 ;iou:0.91 ;qMean:-0.00 ;qSTD:0.14 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.74 ;iRange:0.13 ;Gq:1.28809 ;Gi:1.74942 ;time: 0:00:20
+b:100 ;lr:0.045 ;loss:0.66 ;acc:0.89 ;iou:0.92 ;qMean:-0.00 ;qSTD:0.14 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.74 ;iRange:0.13 ;Gq:1.33063 ;Gi:1.95385 ;time: 0:00:41
+b:150 ;lr:0.045 ;loss:0.50 ;acc:0.91 ;iou:0.95 ;qMean:-0.00 ;qSTD:0.14 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.74 ;iRange:0.13 ;Gq:1.09811 ;Gi:1.59393 ;time: 0:01:01
+b:200 ;lr:0.045 ;loss:0.69 ;acc:0.88 ;iou:0.93 ;qMean:-0.00 ;qSTD:0.14 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.75 ;iRange:0.13 ;Gq:1.47567 ;Gi:2.10484 ;time: 0:01:20
+b:250 ;lr:0.045 ;loss:0.63 ;acc:0.86 ;iou:0.92 ;qMean:-0.00 ;qSTD:0.14 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.74 ;iRange:0.13 ;Gq:1.28944 ;Gi:1.77607 ;time: 0:01:40
+
+*Tr loss: 0.632 ;Tr acc: 0.878 ;IOU acc: 0.925 ;qMean:-0.000 ;qSTD:0.138 ;iMean:0.000 ;iSTD:0.021 ;qRange:0.737 ;imgRange:0.131 ;Gq:1.38487 ;Gi:1.91056 ;Time: 0:01:57 
+
+Testing, epoch: 58
+batch: 0 ;loss: 0.842 ;acc: 0.830 ;iou_acc: 0.915 ;time: 0:01:57
+batch: 50 ;loss: 1.193 ;acc: 0.740 ;iou_acc: 0.820 ;time: 0:02:06
+batch: 100 ;loss: 0.990 ;acc: 0.795 ;iou_acc: 0.860 ;time: 0:02:14
+batch: 150 ;loss: 1.327 ;acc: 0.740 ;iou_acc: 0.815 ;time: 0:02:23
+batch: 200 ;loss: 0.929 ;acc: 0.780 ;iou_acc: 0.850 ;time: 0:02:31
+batch: 250 ;loss: 1.159 ;acc: 0.720 ;iou_acc: 0.835 ;time: 0:02:39
+
+*Test loss: 1.057 ;Test accuracy 0.772 ;Test IOU: 0.847 ;Time: 0:02:47
+================================================== 
+Train, epoch: 59
+b:0 ;lr:0.045 ;loss:0.48 ;acc:0.92 ;iou:0.94 ;qMean:-0.00 ;qSTD:0.14 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.74 ;iRange:0.13 ;Gq:1.10006 ;Gi:1.55395 ;time: 0:00:00
+b:50 ;lr:0.045 ;loss:0.41 ;acc:0.95 ;iou:0.96 ;qMean:-0.00 ;qSTD:0.14 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.74 ;iRange:0.13 ;Gq:1.10588 ;Gi:1.62311 ;time: 0:00:20
+b:100 ;lr:0.045 ;loss:0.68 ;acc:0.87 ;iou:0.94 ;qMean:-0.00 ;qSTD:0.14 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.74 ;iRange:0.13 ;Gq:1.30325 ;Gi:2.09666 ;time: 0:00:40
+b:150 ;lr:0.045 ;loss:0.63 ;acc:0.88 ;iou:0.92 ;qMean:-0.00 ;qSTD:0.14 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.73 ;iRange:0.13 ;Gq:1.43659 ;Gi:2.18884 ;time: 0:01:00
+b:200 ;lr:0.045 ;loss:0.70 ;acc:0.88 ;iou:0.94 ;qMean:-0.00 ;qSTD:0.14 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.75 ;iRange:0.13 ;Gq:1.44839 ;Gi:1.86278 ;time: 0:01:19
+b:250 ;lr:0.045 ;loss:0.54 ;acc:0.92 ;iou:0.94 ;qMean:-0.00 ;qSTD:0.14 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.74 ;iRange:0.13 ;Gq:1.34158 ;Gi:1.86586 ;time: 0:01:38
+
+*Tr loss: 0.624 ;Tr acc: 0.879 ;IOU acc: 0.927 ;qMean:-0.000 ;qSTD:0.139 ;iMean:0.000 ;iSTD:0.021 ;qRange:0.739 ;imgRange:0.131 ;Gq:1.38202 ;Gi:1.91871 ;Time: 0:01:56 
+
+Testing, epoch: 59
+batch: 0 ;loss: 0.851 ;acc: 0.825 ;iou_acc: 0.890 ;time: 0:01:57
+batch: 50 ;loss: 1.136 ;acc: 0.770 ;iou_acc: 0.845 ;time: 0:02:05
+batch: 100 ;loss: 0.979 ;acc: 0.790 ;iou_acc: 0.865 ;time: 0:02:14
+batch: 150 ;loss: 1.283 ;acc: 0.770 ;iou_acc: 0.835 ;time: 0:02:22
+batch: 200 ;loss: 0.869 ;acc: 0.795 ;iou_acc: 0.860 ;time: 0:02:31
+batch: 250 ;loss: 1.142 ;acc: 0.735 ;iou_acc: 0.825 ;time: 0:02:39
+
+*Test loss: 1.040 ;Test accuracy 0.778 ;Test IOU: 0.851 ;Time: 0:02:47
+================================================== 
+Train, epoch: 60
+b:0 ;lr:0.045 ;loss:0.72 ;acc:0.86 ;iou:0.93 ;qMean:-0.00 ;qSTD:0.14 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.73 ;iRange:0.13 ;Gq:1.56069 ;Gi:2.21061 ;time: 0:00:01
+b:50 ;lr:0.045 ;loss:0.63 ;acc:0.88 ;iou:0.91 ;qMean:-0.00 ;qSTD:0.14 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.74 ;iRange:0.13 ;Gq:1.54774 ;Gi:1.98302 ;time: 0:00:20
+b:100 ;lr:0.045 ;loss:0.66 ;acc:0.89 ;iou:0.92 ;qMean:-0.00 ;qSTD:0.14 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.73 ;iRange:0.13 ;Gq:1.52015 ;Gi:2.16662 ;time: 0:00:40
+b:150 ;lr:0.045 ;loss:0.69 ;acc:0.88 ;iou:0.92 ;qMean:-0.00 ;qSTD:0.14 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.74 ;iRange:0.13 ;Gq:1.35201 ;Gi:1.83438 ;time: 0:01:00
+b:200 ;lr:0.045 ;loss:0.57 ;acc:0.89 ;iou:0.94 ;qMean:-0.00 ;qSTD:0.14 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.74 ;iRange:0.13 ;Gq:1.36603 ;Gi:1.92474 ;time: 0:01:19
+b:250 ;lr:0.045 ;loss:0.53 ;acc:0.90 ;iou:0.91 ;qMean:-0.00 ;qSTD:0.14 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.74 ;iRange:0.13 ;Gq:1.33606 ;Gi:1.82823 ;time: 0:01:39
+
+*Tr loss: 0.617 ;Tr acc: 0.880 ;IOU acc: 0.926 ;qMean:-0.000 ;qSTD:0.139 ;iMean:0.000 ;iSTD:0.021 ;qRange:0.739 ;imgRange:0.131 ;Gq:1.37933 ;Gi:1.92387 ;Time: 0:01:57 
+
+Testing, epoch: 60
+batch: 0 ;loss: 0.855 ;acc: 0.820 ;iou_acc: 0.890 ;time: 0:01:58
+batch: 50 ;loss: 1.123 ;acc: 0.765 ;iou_acc: 0.850 ;time: 0:02:05
+batch: 100 ;loss: 0.979 ;acc: 0.790 ;iou_acc: 0.850 ;time: 0:02:14
+batch: 150 ;loss: 1.296 ;acc: 0.745 ;iou_acc: 0.810 ;time: 0:02:23
+batch: 200 ;loss: 0.886 ;acc: 0.805 ;iou_acc: 0.865 ;time: 0:02:31
+batch: 250 ;loss: 1.163 ;acc: 0.750 ;iou_acc: 0.845 ;time: 0:02:39
+
+*Test loss: 1.032 ;Test accuracy 0.778 ;Test IOU: 0.851 ;Time: 0:02:47
+================================================== 
+Train, epoch: 61
+b:0 ;lr:0.045 ;loss:0.75 ;acc:0.84 ;iou:0.89 ;qMean:-0.00 ;qSTD:0.14 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.73 ;iRange:0.13 ;Gq:1.49044 ;Gi:2.03259 ;time: 0:00:00
+b:50 ;lr:0.045 ;loss:0.64 ;acc:0.87 ;iou:0.93 ;qMean:-0.00 ;qSTD:0.14 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.74 ;iRange:0.13 ;Gq:1.34968 ;Gi:1.77849 ;time: 0:00:20
+b:100 ;lr:0.045 ;loss:0.55 ;acc:0.88 ;iou:0.92 ;qMean:-0.00 ;qSTD:0.14 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.74 ;iRange:0.13 ;Gq:1.37877 ;Gi:2.09654 ;time: 0:00:40
+b:150 ;lr:0.045 ;loss:0.59 ;acc:0.89 ;iou:0.94 ;qMean:-0.00 ;qSTD:0.14 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.74 ;iRange:0.13 ;Gq:1.48791 ;Gi:2.12275 ;time: 0:00:59
+b:200 ;lr:0.045 ;loss:0.54 ;acc:0.89 ;iou:0.93 ;qMean:-0.00 ;qSTD:0.14 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.73 ;iRange:0.13 ;Gq:1.20314 ;Gi:1.76453 ;time: 0:01:19
+b:250 ;lr:0.045 ;loss:0.67 ;acc:0.87 ;iou:0.94 ;qMean:-0.00 ;qSTD:0.14 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.74 ;iRange:0.13 ;Gq:1.54122 ;Gi:2.12926 ;time: 0:01:39
+
+*Tr loss: 0.611 ;Tr acc: 0.882 ;IOU acc: 0.928 ;qMean:-0.000 ;qSTD:0.139 ;iMean:0.000 ;iSTD:0.022 ;qRange:0.739 ;imgRange:0.131 ;Gq:1.37991 ;Gi:1.93901 ;Time: 0:01:58 
+
+Testing, epoch: 61
+batch: 0 ;loss: 0.821 ;acc: 0.830 ;iou_acc: 0.900 ;time: 0:01:58
+batch: 50 ;loss: 1.149 ;acc: 0.740 ;iou_acc: 0.830 ;time: 0:02:06
+batch: 100 ;loss: 0.967 ;acc: 0.800 ;iou_acc: 0.870 ;time: 0:02:15
+batch: 150 ;loss: 1.283 ;acc: 0.760 ;iou_acc: 0.830 ;time: 0:02:23
+batch: 200 ;loss: 0.905 ;acc: 0.780 ;iou_acc: 0.850 ;time: 0:02:31
+batch: 250 ;loss: 1.145 ;acc: 0.735 ;iou_acc: 0.820 ;time: 0:02:40
+
+*Test loss: 1.037 ;Test accuracy 0.779 ;Test IOU: 0.852 ;Time: 0:02:48
+================================================== 
+Train, epoch: 62
+b:0 ;lr:0.045 ;loss:0.66 ;acc:0.88 ;iou:0.91 ;qMean:-0.00 ;qSTD:0.14 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.74 ;iRange:0.13 ;Gq:1.47630 ;Gi:2.15765 ;time: 0:00:00
+b:50 ;lr:0.045 ;loss:0.64 ;acc:0.86 ;iou:0.91 ;qMean:-0.00 ;qSTD:0.14 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.74 ;iRange:0.13 ;Gq:1.34510 ;Gi:1.77440 ;time: 0:00:20
+b:100 ;lr:0.045 ;loss:0.70 ;acc:0.84 ;iou:0.91 ;qMean:-0.00 ;qSTD:0.14 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.74 ;iRange:0.13 ;Gq:1.53521 ;Gi:2.21181 ;time: 0:00:39
+b:150 ;lr:0.045 ;loss:0.73 ;acc:0.88 ;iou:0.93 ;qMean:-0.00 ;qSTD:0.14 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.74 ;iRange:0.13 ;Gq:1.53349 ;Gi:2.11086 ;time: 0:00:59
+b:200 ;lr:0.045 ;loss:0.53 ;acc:0.88 ;iou:0.93 ;qMean:-0.00 ;qSTD:0.14 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.73 ;iRange:0.13 ;Gq:1.22931 ;Gi:1.59409 ;time: 0:01:19
+b:250 ;lr:0.045 ;loss:0.64 ;acc:0.88 ;iou:0.93 ;qMean:-0.00 ;qSTD:0.14 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.73 ;iRange:0.13 ;Gq:1.45035 ;Gi:2.21381 ;time: 0:01:40
+
+*Tr loss: 0.605 ;Tr acc: 0.883 ;IOU acc: 0.930 ;qMean:-0.000 ;qSTD:0.139 ;iMean:0.000 ;iSTD:0.022 ;qRange:0.738 ;imgRange:0.131 ;Gq:1.38833 ;Gi:1.97038 ;Time: 0:01:59 
+
+Testing, epoch: 62
+batch: 0 ;loss: 0.830 ;acc: 0.830 ;iou_acc: 0.900 ;time: 0:01:59
+batch: 50 ;loss: 1.132 ;acc: 0.760 ;iou_acc: 0.850 ;time: 0:02:07
+batch: 100 ;loss: 0.986 ;acc: 0.790 ;iou_acc: 0.860 ;time: 0:02:16
+batch: 150 ;loss: 1.272 ;acc: 0.735 ;iou_acc: 0.820 ;time: 0:02:24
+batch: 200 ;loss: 0.892 ;acc: 0.805 ;iou_acc: 0.875 ;time: 0:02:32
+batch: 250 ;loss: 1.132 ;acc: 0.755 ;iou_acc: 0.850 ;time: 0:02:41
+
+*Test loss: 1.031 ;Test accuracy 0.779 ;Test IOU: 0.852 ;Time: 0:02:48
+================================================== 
+Train, epoch: 63
+b:0 ;lr:0.045 ;loss:0.59 ;acc:0.89 ;iou:0.94 ;qMean:-0.00 ;qSTD:0.14 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.74 ;iRange:0.13 ;Gq:1.40272 ;Gi:2.10620 ;time: 0:00:01
+b:50 ;lr:0.045 ;loss:0.63 ;acc:0.88 ;iou:0.94 ;qMean:-0.00 ;qSTD:0.14 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.73 ;iRange:0.13 ;Gq:1.48151 ;Gi:2.25151 ;time: 0:00:21
+b:100 ;lr:0.045 ;loss:0.70 ;acc:0.87 ;iou:0.91 ;qMean:-0.00 ;qSTD:0.14 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.74 ;iRange:0.13 ;Gq:1.55851 ;Gi:2.11613 ;time: 0:00:41
+b:150 ;lr:0.045 ;loss:0.67 ;acc:0.85 ;iou:0.92 ;qMean:-0.00 ;qSTD:0.14 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.74 ;iRange:0.13 ;Gq:1.53752 ;Gi:2.28758 ;time: 0:01:01
+b:200 ;lr:0.045 ;loss:0.57 ;acc:0.88 ;iou:0.89 ;qMean:-0.00 ;qSTD:0.14 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.74 ;iRange:0.13 ;Gq:1.57961 ;Gi:2.02859 ;time: 0:01:20
+b:250 ;lr:0.045 ;loss:0.69 ;acc:0.89 ;iou:0.92 ;qMean:-0.00 ;qSTD:0.14 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.74 ;iRange:0.13 ;Gq:1.45173 ;Gi:2.13730 ;time: 0:01:40
+
+*Tr loss: 0.598 ;Tr acc: 0.886 ;IOU acc: 0.931 ;qMean:-0.000 ;qSTD:0.139 ;iMean:0.000 ;iSTD:0.022 ;qRange:0.738 ;imgRange:0.131 ;Gq:1.38496 ;Gi:1.98035 ;Time: 0:01:58 
+
+Testing, epoch: 63
+batch: 0 ;loss: 0.832 ;acc: 0.855 ;iou_acc: 0.915 ;time: 0:01:59
+batch: 50 ;loss: 1.172 ;acc: 0.740 ;iou_acc: 0.825 ;time: 0:02:07
+batch: 100 ;loss: 0.990 ;acc: 0.800 ;iou_acc: 0.875 ;time: 0:02:15
+batch: 150 ;loss: 1.257 ;acc: 0.750 ;iou_acc: 0.830 ;time: 0:02:23
+batch: 200 ;loss: 0.919 ;acc: 0.790 ;iou_acc: 0.860 ;time: 0:02:32
+batch: 250 ;loss: 1.173 ;acc: 0.730 ;iou_acc: 0.835 ;time: 0:02:40
+
+*Test loss: 1.046 ;Test accuracy 0.776 ;Test IOU: 0.850 ;Time: 0:02:48
+================================================== 
+Train, epoch: 64
+b:0 ;lr:0.045 ;loss:0.63 ;acc:0.88 ;iou:0.91 ;qMean:-0.00 ;qSTD:0.14 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.73 ;iRange:0.13 ;Gq:1.50455 ;Gi:2.28020 ;time: 0:00:00
+b:50 ;lr:0.045 ;loss:0.62 ;acc:0.90 ;iou:0.93 ;qMean:-0.00 ;qSTD:0.14 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.74 ;iRange:0.13 ;Gq:1.43261 ;Gi:2.06507 ;time: 0:00:20
+b:100 ;lr:0.045 ;loss:0.68 ;acc:0.86 ;iou:0.93 ;qMean:-0.00 ;qSTD:0.14 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.74 ;iRange:0.13 ;Gq:1.52676 ;Gi:2.28765 ;time: 0:00:39
+b:150 ;lr:0.045 ;loss:0.75 ;acc:0.87 ;iou:0.93 ;qMean:-0.00 ;qSTD:0.14 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.74 ;iRange:0.13 ;Gq:1.46437 ;Gi:2.21696 ;time: 0:01:00
+b:200 ;lr:0.045 ;loss:0.50 ;acc:0.91 ;iou:0.93 ;qMean:-0.00 ;qSTD:0.14 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.75 ;iRange:0.13 ;Gq:1.23011 ;Gi:1.97813 ;time: 0:01:20
+b:250 ;lr:0.045 ;loss:0.52 ;acc:0.89 ;iou:0.94 ;qMean:-0.00 ;qSTD:0.14 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.75 ;iRange:0.13 ;Gq:1.18768 ;Gi:1.70803 ;time: 0:01:40
+
+*Tr loss: 0.591 ;Tr acc: 0.888 ;IOU acc: 0.932 ;qMean:-0.000 ;qSTD:0.139 ;iMean:0.000 ;iSTD:0.022 ;qRange:0.740 ;imgRange:0.132 ;Gq:1.38131 ;Gi:1.98067 ;Time: 0:01:59 
+
+Testing, epoch: 64
+batch: 0 ;loss: 0.849 ;acc: 0.825 ;iou_acc: 0.885 ;time: 0:01:59
+batch: 50 ;loss: 1.157 ;acc: 0.745 ;iou_acc: 0.825 ;time: 0:02:07
+batch: 100 ;loss: 0.929 ;acc: 0.810 ;iou_acc: 0.875 ;time: 0:02:15
+batch: 150 ;loss: 1.237 ;acc: 0.740 ;iou_acc: 0.820 ;time: 0:02:24
+batch: 200 ;loss: 0.899 ;acc: 0.790 ;iou_acc: 0.850 ;time: 0:02:32
+batch: 250 ;loss: 1.150 ;acc: 0.735 ;iou_acc: 0.835 ;time: 0:02:40
+
+*Test loss: 1.035 ;Test accuracy 0.779 ;Test IOU: 0.852 ;Time: 0:02:48
+================================================== 
+Train, epoch: 65
+b:0 ;lr:0.045 ;loss:0.62 ;acc:0.89 ;iou:0.93 ;qMean:-0.00 ;qSTD:0.14 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.74 ;iRange:0.13 ;Gq:1.29839 ;Gi:1.82736 ;time: 0:00:00
+b:50 ;lr:0.045 ;loss:0.54 ;acc:0.90 ;iou:0.93 ;qMean:-0.00 ;qSTD:0.14 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.74 ;iRange:0.13 ;Gq:1.41107 ;Gi:2.22593 ;time: 0:00:20
+b:100 ;lr:0.045 ;loss:0.62 ;acc:0.88 ;iou:0.94 ;qMean:-0.00 ;qSTD:0.14 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.75 ;iRange:0.13 ;Gq:1.41115 ;Gi:1.99939 ;time: 0:00:40
+b:150 ;lr:0.045 ;loss:0.57 ;acc:0.90 ;iou:0.94 ;qMean:-0.00 ;qSTD:0.14 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.74 ;iRange:0.13 ;Gq:1.47260 ;Gi:2.13025 ;time: 0:00:59
+b:200 ;lr:0.045 ;loss:0.55 ;acc:0.92 ;iou:0.94 ;qMean:-0.00 ;qSTD:0.14 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.74 ;iRange:0.13 ;Gq:1.32111 ;Gi:2.00310 ;time: 0:01:19
+b:250 ;lr:0.045 ;loss:0.55 ;acc:0.89 ;iou:0.95 ;qMean:-0.00 ;qSTD:0.14 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.74 ;iRange:0.13 ;Gq:1.26000 ;Gi:1.87578 ;time: 0:01:38
+
+*Tr loss: 0.585 ;Tr acc: 0.889 ;IOU acc: 0.932 ;qMean:-0.000 ;qSTD:0.139 ;iMean:0.000 ;iSTD:0.022 ;qRange:0.739 ;imgRange:0.132 ;Gq:1.39159 ;Gi:2.00574 ;Time: 0:01:57 
+
+Testing, epoch: 65
+batch: 0 ;loss: 0.857 ;acc: 0.840 ;iou_acc: 0.900 ;time: 0:01:57
+batch: 50 ;loss: 1.141 ;acc: 0.785 ;iou_acc: 0.855 ;time: 0:02:05
+batch: 100 ;loss: 0.999 ;acc: 0.775 ;iou_acc: 0.840 ;time: 0:02:14
+batch: 150 ;loss: 1.285 ;acc: 0.745 ;iou_acc: 0.810 ;time: 0:02:22
+batch: 200 ;loss: 0.876 ;acc: 0.805 ;iou_acc: 0.860 ;time: 0:02:30
+batch: 250 ;loss: 1.157 ;acc: 0.740 ;iou_acc: 0.830 ;time: 0:02:38
+
+*Test loss: 1.044 ;Test accuracy 0.777 ;Test IOU: 0.850 ;Time: 0:02:46
+================================================== 
+Train, epoch: 66
+b:0 ;lr:0.045 ;loss:0.52 ;acc:0.91 ;iou:0.93 ;qMean:-0.00 ;qSTD:0.14 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.75 ;iRange:0.13 ;Gq:1.26612 ;Gi:1.76835 ;time: 0:00:00
+b:50 ;lr:0.045 ;loss:0.60 ;acc:0.89 ;iou:0.94 ;qMean:-0.00 ;qSTD:0.14 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.74 ;iRange:0.13 ;Gq:1.41497 ;Gi:1.85739 ;time: 0:00:20
+b:100 ;lr:0.045 ;loss:0.50 ;acc:0.91 ;iou:0.94 ;qMean:-0.00 ;qSTD:0.14 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.74 ;iRange:0.13 ;Gq:1.23098 ;Gi:1.72275 ;time: 0:00:40
+b:150 ;lr:0.045 ;loss:0.53 ;acc:0.91 ;iou:0.94 ;qMean:-0.00 ;qSTD:0.14 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.74 ;iRange:0.13 ;Gq:1.50331 ;Gi:2.15808 ;time: 0:01:00
+b:200 ;lr:0.045 ;loss:0.60 ;acc:0.88 ;iou:0.93 ;qMean:-0.00 ;qSTD:0.14 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.75 ;iRange:0.13 ;Gq:1.53450 ;Gi:2.23285 ;time: 0:01:20
+b:250 ;lr:0.045 ;loss:0.54 ;acc:0.89 ;iou:0.93 ;qMean:-0.00 ;qSTD:0.14 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.74 ;iRange:0.13 ;Gq:1.35076 ;Gi:1.72847 ;time: 0:01:39
+
+*Tr loss: 0.578 ;Tr acc: 0.890 ;IOU acc: 0.933 ;qMean:-0.000 ;qSTD:0.139 ;iMean:0.000 ;iSTD:0.022 ;qRange:0.741 ;imgRange:0.132 ;Gq:1.38925 ;Gi:1.99327 ;Time: 0:01:57 
+
+Testing, epoch: 66
+batch: 0 ;loss: 0.845 ;acc: 0.825 ;iou_acc: 0.895 ;time: 0:01:57
+batch: 50 ;loss: 1.127 ;acc: 0.770 ;iou_acc: 0.845 ;time: 0:02:05
+batch: 100 ;loss: 0.944 ;acc: 0.795 ;iou_acc: 0.865 ;time: 0:02:14
+batch: 150 ;loss: 1.302 ;acc: 0.745 ;iou_acc: 0.820 ;time: 0:02:22
+batch: 200 ;loss: 0.861 ;acc: 0.805 ;iou_acc: 0.870 ;time: 0:02:30
+batch: 250 ;loss: 1.150 ;acc: 0.740 ;iou_acc: 0.830 ;time: 0:02:38
+
+*Test loss: 1.031 ;Test accuracy 0.781 ;Test IOU: 0.854 ;Time: 0:02:46
+================================================== 
+Train, epoch: 67
+b:0 ;lr:0.045 ;loss:0.43 ;acc:0.92 ;iou:0.96 ;qMean:-0.00 ;qSTD:0.14 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.74 ;iRange:0.13 ;Gq:1.21351 ;Gi:1.95412 ;time: 0:00:00
+b:50 ;lr:0.045 ;loss:0.68 ;acc:0.87 ;iou:0.90 ;qMean:-0.00 ;qSTD:0.14 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.74 ;iRange:0.13 ;Gq:1.48241 ;Gi:2.14243 ;time: 0:00:20
+b:100 ;lr:0.045 ;loss:0.65 ;acc:0.87 ;iou:0.92 ;qMean:-0.00 ;qSTD:0.14 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.74 ;iRange:0.13 ;Gq:1.58059 ;Gi:2.47889 ;time: 0:00:40
+b:150 ;lr:0.040 ;loss:0.60 ;acc:0.87 ;iou:0.92 ;qMean:-0.00 ;qSTD:0.14 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.74 ;iRange:0.13 ;Gq:1.35986 ;Gi:2.18637 ;time: 0:00:59
+b:200 ;lr:0.040 ;loss:0.60 ;acc:0.90 ;iou:0.94 ;qMean:-0.00 ;qSTD:0.14 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.73 ;iRange:0.13 ;Gq:1.32478 ;Gi:2.01118 ;time: 0:01:20
+b:250 ;lr:0.040 ;loss:0.54 ;acc:0.91 ;iou:0.95 ;qMean:-0.00 ;qSTD:0.14 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.73 ;iRange:0.13 ;Gq:1.60957 ;Gi:2.48500 ;time: 0:01:40
+
+*Tr loss: 0.575 ;Tr acc: 0.892 ;IOU acc: 0.935 ;qMean:-0.000 ;qSTD:0.139 ;iMean:0.000 ;iSTD:0.022 ;qRange:0.740 ;imgRange:0.132 ;Gq:1.39044 ;Gi:2.01629 ;Time: 0:01:58 
+
+Testing, epoch: 67
+batch: 0 ;loss: 0.847 ;acc: 0.820 ;iou_acc: 0.890 ;time: 0:01:59
+batch: 50 ;loss: 1.129 ;acc: 0.745 ;iou_acc: 0.835 ;time: 0:02:06
+batch: 100 ;loss: 0.926 ;acc: 0.825 ;iou_acc: 0.870 ;time: 0:02:14
+batch: 150 ;loss: 1.289 ;acc: 0.745 ;iou_acc: 0.815 ;time: 0:02:22
+batch: 200 ;loss: 0.867 ;acc: 0.795 ;iou_acc: 0.855 ;time: 0:02:30
+batch: 250 ;loss: 1.104 ;acc: 0.755 ;iou_acc: 0.845 ;time: 0:02:39
+
+*Test loss: 1.028 ;Test accuracy 0.782 ;Test IOU: 0.854 ;Time: 0:02:46
+================================================== 
+Train, epoch: 68
+b:0 ;lr:0.040 ;loss:0.53 ;acc:0.90 ;iou:0.93 ;qMean:-0.00 ;qSTD:0.14 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.75 ;iRange:0.13 ;Gq:1.23954 ;Gi:1.85010 ;time: 0:00:01
+b:50 ;lr:0.040 ;loss:0.58 ;acc:0.86 ;iou:0.94 ;qMean:-0.00 ;qSTD:0.14 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.74 ;iRange:0.13 ;Gq:1.44493 ;Gi:2.26082 ;time: 0:00:21
+b:100 ;lr:0.040 ;loss:0.56 ;acc:0.87 ;iou:0.94 ;qMean:-0.00 ;qSTD:0.14 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.74 ;iRange:0.13 ;Gq:1.35799 ;Gi:2.04867 ;time: 0:00:41
+b:150 ;lr:0.040 ;loss:0.56 ;acc:0.89 ;iou:0.93 ;qMean:-0.00 ;qSTD:0.14 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.73 ;iRange:0.13 ;Gq:1.27489 ;Gi:1.84642 ;time: 0:01:00
+b:200 ;lr:0.040 ;loss:0.56 ;acc:0.89 ;iou:0.93 ;qMean:-0.00 ;qSTD:0.14 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.74 ;iRange:0.13 ;Gq:1.33659 ;Gi:2.14499 ;time: 0:01:20
+b:250 ;lr:0.040 ;loss:0.59 ;acc:0.87 ;iou:0.92 ;qMean:-0.00 ;qSTD:0.14 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.74 ;iRange:0.13 ;Gq:1.50346 ;Gi:2.07945 ;time: 0:01:40
+
+*Tr loss: 0.568 ;Tr acc: 0.893 ;IOU acc: 0.935 ;qMean:-0.000 ;qSTD:0.139 ;iMean:0.000 ;iSTD:0.022 ;qRange:0.740 ;imgRange:0.132 ;Gq:1.38474 ;Gi:2.00522 ;Time: 0:01:58 
+
+Testing, epoch: 68
+batch: 0 ;loss: 0.856 ;acc: 0.810 ;iou_acc: 0.885 ;time: 0:01:59
+batch: 50 ;loss: 1.165 ;acc: 0.730 ;iou_acc: 0.825 ;time: 0:02:07
+batch: 100 ;loss: 0.922 ;acc: 0.805 ;iou_acc: 0.875 ;time: 0:02:15
+batch: 150 ;loss: 1.296 ;acc: 0.750 ;iou_acc: 0.815 ;time: 0:02:23
+batch: 200 ;loss: 0.869 ;acc: 0.810 ;iou_acc: 0.870 ;time: 0:02:31
+batch: 250 ;loss: 1.142 ;acc: 0.740 ;iou_acc: 0.835 ;time: 0:02:39
+
+*Test loss: 1.033 ;Test accuracy 0.783 ;Test IOU: 0.855 ;Time: 0:02:46
+================================================== 
+Train, epoch: 69
+b:0 ;lr:0.040 ;loss:0.48 ;acc:0.91 ;iou:0.95 ;qMean:-0.00 ;qSTD:0.14 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.74 ;iRange:0.13 ;Gq:1.17261 ;Gi:1.57839 ;time: 0:00:01
+b:50 ;lr:0.040 ;loss:0.53 ;acc:0.90 ;iou:0.94 ;qMean:-0.00 ;qSTD:0.14 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.74 ;iRange:0.13 ;Gq:1.37418 ;Gi:1.98368 ;time: 0:00:20
+b:100 ;lr:0.040 ;loss:0.55 ;acc:0.90 ;iou:0.94 ;qMean:-0.00 ;qSTD:0.14 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.74 ;iRange:0.13 ;Gq:1.25295 ;Gi:1.99934 ;time: 0:00:40
+b:150 ;lr:0.040 ;loss:0.59 ;acc:0.90 ;iou:0.95 ;qMean:-0.00 ;qSTD:0.14 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.73 ;iRange:0.13 ;Gq:1.33300 ;Gi:1.96168 ;time: 0:01:00
+b:200 ;lr:0.040 ;loss:0.51 ;acc:0.91 ;iou:0.93 ;qMean:-0.00 ;qSTD:0.14 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.74 ;iRange:0.13 ;Gq:1.16465 ;Gi:1.58700 ;time: 0:01:19
+b:250 ;lr:0.040 ;loss:0.85 ;acc:0.83 ;iou:0.89 ;qMean:-0.00 ;qSTD:0.14 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.74 ;iRange:0.13 ;Gq:1.64782 ;Gi:2.57262 ;time: 0:01:38
+
+*Tr loss: 0.563 ;Tr acc: 0.894 ;IOU acc: 0.936 ;qMean:-0.000 ;qSTD:0.139 ;iMean:0.000 ;iSTD:0.022 ;qRange:0.741 ;imgRange:0.132 ;Gq:1.38959 ;Gi:2.02423 ;Time: 0:01:56 
+
+Testing, epoch: 69
+batch: 0 ;loss: 0.839 ;acc: 0.825 ;iou_acc: 0.900 ;time: 0:01:56
+batch: 50 ;loss: 1.128 ;acc: 0.755 ;iou_acc: 0.840 ;time: 0:02:05
+batch: 100 ;loss: 0.961 ;acc: 0.815 ;iou_acc: 0.870 ;time: 0:02:13
+batch: 150 ;loss: 1.255 ;acc: 0.750 ;iou_acc: 0.835 ;time: 0:02:21
+batch: 200 ;loss: 0.892 ;acc: 0.805 ;iou_acc: 0.860 ;time: 0:02:29
+batch: 250 ;loss: 1.128 ;acc: 0.750 ;iou_acc: 0.840 ;time: 0:02:38
+
+*Test loss: 1.029 ;Test accuracy 0.781 ;Test IOU: 0.854 ;Time: 0:02:46
+================================================== 
+Train, epoch: 70
+b:0 ;lr:0.040 ;loss:0.55 ;acc:0.90 ;iou:0.95 ;qMean:-0.00 ;qSTD:0.14 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.74 ;iRange:0.13 ;Gq:1.34856 ;Gi:1.78727 ;time: 0:00:00
+b:50 ;lr:0.040 ;loss:0.61 ;acc:0.88 ;iou:0.95 ;qMean:-0.00 ;qSTD:0.14 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.74 ;iRange:0.13 ;Gq:1.45144 ;Gi:2.30733 ;time: 0:00:20
+b:100 ;lr:0.040 ;loss:0.66 ;acc:0.88 ;iou:0.90 ;qMean:-0.00 ;qSTD:0.14 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.74 ;iRange:0.13 ;Gq:1.44470 ;Gi:1.90393 ;time: 0:00:39
+b:150 ;lr:0.040 ;loss:0.75 ;acc:0.84 ;iou:0.90 ;qMean:-0.00 ;qSTD:0.14 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.74 ;iRange:0.13 ;Gq:1.53766 ;Gi:2.04196 ;time: 0:00:59
+b:200 ;lr:0.040 ;loss:0.52 ;acc:0.90 ;iou:0.94 ;qMean:-0.00 ;qSTD:0.14 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.75 ;iRange:0.13 ;Gq:1.28956 ;Gi:1.84567 ;time: 0:01:18
+b:250 ;lr:0.040 ;loss:0.46 ;acc:0.94 ;iou:0.97 ;qMean:-0.00 ;qSTD:0.14 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.74 ;iRange:0.13 ;Gq:1.24429 ;Gi:1.92745 ;time: 0:01:38
+
+*Tr loss: 0.558 ;Tr acc: 0.895 ;IOU acc: 0.937 ;qMean:-0.000 ;qSTD:0.140 ;iMean:0.000 ;iSTD:0.022 ;qRange:0.742 ;imgRange:0.132 ;Gq:1.38911 ;Gi:2.03787 ;Time: 0:01:56 
+
+Testing, epoch: 70
+batch: 0 ;loss: 0.838 ;acc: 0.835 ;iou_acc: 0.895 ;time: 0:01:57
+batch: 50 ;loss: 1.148 ;acc: 0.755 ;iou_acc: 0.825 ;time: 0:02:05
+batch: 100 ;loss: 0.966 ;acc: 0.775 ;iou_acc: 0.855 ;time: 0:02:13
+batch: 150 ;loss: 1.263 ;acc: 0.755 ;iou_acc: 0.820 ;time: 0:02:22
+batch: 200 ;loss: 0.871 ;acc: 0.810 ;iou_acc: 0.860 ;time: 0:02:30
+batch: 250 ;loss: 1.128 ;acc: 0.750 ;iou_acc: 0.835 ;time: 0:02:38
+
+*Test loss: 1.035 ;Test accuracy 0.780 ;Test IOU: 0.852 ;Time: 0:02:46
+================================================== 
+Train, epoch: 71
+b:0 ;lr:0.040 ;loss:0.59 ;acc:0.89 ;iou:0.92 ;qMean:-0.00 ;qSTD:0.14 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.73 ;iRange:0.13 ;Gq:1.47571 ;Gi:1.95574 ;time: 0:00:00
+b:50 ;lr:0.040 ;loss:0.67 ;acc:0.84 ;iou:0.92 ;qMean:-0.00 ;qSTD:0.14 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.74 ;iRange:0.13 ;Gq:1.47591 ;Gi:2.03758 ;time: 0:00:21
+b:100 ;lr:0.040 ;loss:0.61 ;acc:0.87 ;iou:0.93 ;qMean:-0.00 ;qSTD:0.14 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.73 ;iRange:0.13 ;Gq:1.61414 ;Gi:2.59595 ;time: 0:00:40
+b:150 ;lr:0.040 ;loss:0.57 ;acc:0.90 ;iou:0.95 ;qMean:-0.00 ;qSTD:0.14 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.74 ;iRange:0.13 ;Gq:1.38778 ;Gi:2.36048 ;time: 0:00:59
+b:200 ;lr:0.040 ;loss:0.74 ;acc:0.85 ;iou:0.90 ;qMean:-0.00 ;qSTD:0.14 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.74 ;iRange:0.13 ;Gq:1.71331 ;Gi:2.89125 ;time: 0:01:19
+b:250 ;lr:0.040 ;loss:0.62 ;acc:0.90 ;iou:0.94 ;qMean:-0.00 ;qSTD:0.14 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.74 ;iRange:0.13 ;Gq:1.52343 ;Gi:2.11473 ;time: 0:01:39
+
+*Tr loss: 0.552 ;Tr acc: 0.897 ;IOU acc: 0.939 ;qMean:-0.000 ;qSTD:0.139 ;iMean:0.000 ;iSTD:0.022 ;qRange:0.741 ;imgRange:0.132 ;Gq:1.39310 ;Gi:2.04874 ;Time: 0:01:58 
+
+Testing, epoch: 71
+batch: 0 ;loss: 0.824 ;acc: 0.830 ;iou_acc: 0.905 ;time: 0:01:58
+batch: 50 ;loss: 1.104 ;acc: 0.775 ;iou_acc: 0.845 ;time: 0:02:07
+batch: 100 ;loss: 0.949 ;acc: 0.795 ;iou_acc: 0.870 ;time: 0:02:15
+batch: 150 ;loss: 1.277 ;acc: 0.750 ;iou_acc: 0.825 ;time: 0:02:23
+batch: 200 ;loss: 0.869 ;acc: 0.815 ;iou_acc: 0.870 ;time: 0:02:32
+batch: 250 ;loss: 1.133 ;acc: 0.760 ;iou_acc: 0.845 ;time: 0:02:41
+
+*Test loss: 1.030 ;Test accuracy 0.782 ;Test IOU: 0.855 ;Time: 0:02:48
+================================================== 
+Train, epoch: 72
+b:0 ;lr:0.040 ;loss:0.64 ;acc:0.88 ;iou:0.94 ;qMean:-0.00 ;qSTD:0.14 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.74 ;iRange:0.13 ;Gq:1.35731 ;Gi:2.17401 ;time: 0:00:01
+b:50 ;lr:0.040 ;loss:0.65 ;acc:0.87 ;iou:0.94 ;qMean:-0.00 ;qSTD:0.14 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.73 ;iRange:0.13 ;Gq:1.48616 ;Gi:2.03335 ;time: 0:00:21
+b:100 ;lr:0.040 ;loss:0.57 ;acc:0.89 ;iou:0.92 ;qMean:-0.00 ;qSTD:0.14 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.73 ;iRange:0.13 ;Gq:1.35915 ;Gi:1.91573 ;time: 0:00:41
+b:150 ;lr:0.040 ;loss:0.49 ;acc:0.89 ;iou:0.94 ;qMean:-0.00 ;qSTD:0.14 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.75 ;iRange:0.13 ;Gq:1.35074 ;Gi:1.90009 ;time: 0:01:01
+b:200 ;lr:0.040 ;loss:0.49 ;acc:0.91 ;iou:0.95 ;qMean:-0.00 ;qSTD:0.14 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.75 ;iRange:0.13 ;Gq:1.22972 ;Gi:1.83233 ;time: 0:01:21
+b:250 ;lr:0.040 ;loss:0.44 ;acc:0.93 ;iou:0.96 ;qMean:-0.00 ;qSTD:0.14 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.74 ;iRange:0.13 ;Gq:1.25762 ;Gi:1.82922 ;time: 0:01:41
+
+*Tr loss: 0.546 ;Tr acc: 0.898 ;IOU acc: 0.939 ;qMean:-0.000 ;qSTD:0.140 ;iMean:0.000 ;iSTD:0.022 ;qRange:0.742 ;imgRange:0.132 ;Gq:1.39191 ;Gi:2.05335 ;Time: 0:01:59 
+
+Testing, epoch: 72
+batch: 0 ;loss: 0.837 ;acc: 0.815 ;iou_acc: 0.885 ;time: 0:01:59
+batch: 50 ;loss: 1.130 ;acc: 0.740 ;iou_acc: 0.840 ;time: 0:02:07
+batch: 100 ;loss: 0.933 ;acc: 0.820 ;iou_acc: 0.880 ;time: 0:02:15
+batch: 150 ;loss: 1.313 ;acc: 0.740 ;iou_acc: 0.815 ;time: 0:02:24
+batch: 200 ;loss: 0.871 ;acc: 0.800 ;iou_acc: 0.865 ;time: 0:02:32
+batch: 250 ;loss: 1.115 ;acc: 0.755 ;iou_acc: 0.825 ;time: 0:02:41
+
+*Test loss: 1.032 ;Test accuracy 0.783 ;Test IOU: 0.855 ;Time: 0:02:48
+================================================== 
+Train, epoch: 73
+b:0 ;lr:0.040 ;loss:0.49 ;acc:0.93 ;iou:0.98 ;qMean:-0.00 ;qSTD:0.14 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.75 ;iRange:0.13 ;Gq:1.30854 ;Gi:2.22151 ;time: 0:00:01
+b:50 ;lr:0.040 ;loss:0.53 ;acc:0.90 ;iou:0.94 ;qMean:-0.00 ;qSTD:0.14 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.75 ;iRange:0.13 ;Gq:1.47214 ;Gi:2.36298 ;time: 0:00:20
+b:100 ;lr:0.040 ;loss:0.53 ;acc:0.90 ;iou:0.95 ;qMean:-0.00 ;qSTD:0.14 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.74 ;iRange:0.13 ;Gq:1.33264 ;Gi:1.79541 ;time: 0:00:40
+b:150 ;lr:0.040 ;loss:0.52 ;acc:0.90 ;iou:0.94 ;qMean:-0.00 ;qSTD:0.14 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.74 ;iRange:0.13 ;Gq:1.32509 ;Gi:1.84920 ;time: 0:01:01
+b:200 ;lr:0.040 ;loss:0.55 ;acc:0.91 ;iou:0.95 ;qMean:-0.00 ;qSTD:0.14 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.75 ;iRange:0.13 ;Gq:1.41714 ;Gi:2.00293 ;time: 0:01:20
+b:250 ;lr:0.040 ;loss:0.51 ;acc:0.90 ;iou:0.93 ;qMean:-0.00 ;qSTD:0.14 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.75 ;iRange:0.13 ;Gq:1.27541 ;Gi:1.74831 ;time: 0:01:40
+
+*Tr loss: 0.540 ;Tr acc: 0.899 ;IOU acc: 0.940 ;qMean:-0.000 ;qSTD:0.140 ;iMean:0.000 ;iSTD:0.022 ;qRange:0.742 ;imgRange:0.132 ;Gq:1.39429 ;Gi:2.05535 ;Time: 0:01:59 
+
+Testing, epoch: 73
+batch: 0 ;loss: 0.847 ;acc: 0.820 ;iou_acc: 0.890 ;time: 0:01:59
+batch: 50 ;loss: 1.154 ;acc: 0.750 ;iou_acc: 0.840 ;time: 0:02:07
+batch: 100 ;loss: 0.963 ;acc: 0.800 ;iou_acc: 0.865 ;time: 0:02:16
+batch: 150 ;loss: 1.250 ;acc: 0.745 ;iou_acc: 0.820 ;time: 0:02:24
+batch: 200 ;loss: 0.881 ;acc: 0.810 ;iou_acc: 0.875 ;time: 0:02:32
+batch: 250 ;loss: 1.146 ;acc: 0.740 ;iou_acc: 0.840 ;time: 0:02:40
+
+*Test loss: 1.032 ;Test accuracy 0.781 ;Test IOU: 0.854 ;Time: 0:02:48
+================================================== 
+Train, epoch: 74
+b:0 ;lr:0.040 ;loss:0.49 ;acc:0.92 ;iou:0.94 ;qMean:-0.00 ;qSTD:0.14 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.74 ;iRange:0.13 ;Gq:1.51072 ;Gi:2.38602 ;time: 0:00:00
+b:50 ;lr:0.040 ;loss:0.60 ;acc:0.90 ;iou:0.93 ;qMean:-0.00 ;qSTD:0.14 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.74 ;iRange:0.13 ;Gq:1.32227 ;Gi:1.97022 ;time: 0:00:20
+b:100 ;lr:0.040 ;loss:0.39 ;acc:0.94 ;iou:0.95 ;qMean:-0.00 ;qSTD:0.14 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.75 ;iRange:0.13 ;Gq:1.17225 ;Gi:1.89486 ;time: 0:00:40
+b:150 ;lr:0.040 ;loss:0.53 ;acc:0.91 ;iou:0.93 ;qMean:-0.00 ;qSTD:0.14 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.74 ;iRange:0.13 ;Gq:1.45557 ;Gi:2.25141 ;time: 0:00:59
+b:200 ;lr:0.040 ;loss:0.63 ;acc:0.87 ;iou:0.92 ;qMean:-0.00 ;qSTD:0.14 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.75 ;iRange:0.13 ;Gq:1.53051 ;Gi:2.41188 ;time: 0:01:19
+b:250 ;lr:0.040 ;loss:0.67 ;acc:0.87 ;iou:0.92 ;qMean:-0.00 ;qSTD:0.14 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.74 ;iRange:0.13 ;Gq:1.56313 ;Gi:2.58243 ;time: 0:01:39
+
+*Tr loss: 0.537 ;Tr acc: 0.900 ;IOU acc: 0.940 ;qMean:-0.000 ;qSTD:0.140 ;iMean:0.000 ;iSTD:0.022 ;qRange:0.742 ;imgRange:0.132 ;Gq:1.39221 ;Gi:2.07466 ;Time: 0:01:58 
+
+Testing, epoch: 74
+batch: 0 ;loss: 0.859 ;acc: 0.815 ;iou_acc: 0.885 ;time: 0:01:58
+batch: 50 ;loss: 1.123 ;acc: 0.760 ;iou_acc: 0.850 ;time: 0:02:06
+batch: 100 ;loss: 0.980 ;acc: 0.795 ;iou_acc: 0.860 ;time: 0:02:15
+batch: 150 ;loss: 1.306 ;acc: 0.765 ;iou_acc: 0.830 ;time: 0:02:23
+batch: 200 ;loss: 0.872 ;acc: 0.800 ;iou_acc: 0.870 ;time: 0:02:31
+batch: 250 ;loss: 1.125 ;acc: 0.740 ;iou_acc: 0.835 ;time: 0:02:40
+
+*Test loss: 1.041 ;Test accuracy 0.782 ;Test IOU: 0.855 ;Time: 0:02:48
+================================================== 
+Train, epoch: 75
+b:0 ;lr:0.040 ;loss:0.68 ;acc:0.85 ;iou:0.91 ;qMean:-0.00 ;qSTD:0.14 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.74 ;iRange:0.13 ;Gq:1.66808 ;Gi:2.32906 ;time: 0:00:00
+b:50 ;lr:0.040 ;loss:0.43 ;acc:0.93 ;iou:0.97 ;qMean:-0.00 ;qSTD:0.14 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.74 ;iRange:0.13 ;Gq:1.27555 ;Gi:2.05999 ;time: 0:00:20
+b:100 ;lr:0.040 ;loss:0.49 ;acc:0.90 ;iou:0.94 ;qMean:-0.00 ;qSTD:0.14 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.74 ;iRange:0.13 ;Gq:1.35819 ;Gi:2.00370 ;time: 0:00:40
+b:150 ;lr:0.040 ;loss:0.54 ;acc:0.91 ;iou:0.94 ;qMean:-0.00 ;qSTD:0.14 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.74 ;iRange:0.13 ;Gq:1.38496 ;Gi:2.26008 ;time: 0:01:00
+b:200 ;lr:0.040 ;loss:0.53 ;acc:0.90 ;iou:0.94 ;qMean:-0.00 ;qSTD:0.14 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.75 ;iRange:0.13 ;Gq:1.36162 ;Gi:2.17276 ;time: 0:01:19
+b:250 ;lr:0.040 ;loss:0.55 ;acc:0.91 ;iou:0.92 ;qMean:-0.00 ;qSTD:0.14 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.74 ;iRange:0.13 ;Gq:1.38874 ;Gi:1.95549 ;time: 0:01:39
+
+*Tr loss: 0.532 ;Tr acc: 0.902 ;IOU acc: 0.942 ;qMean:-0.000 ;qSTD:0.140 ;iMean:0.000 ;iSTD:0.022 ;qRange:0.743 ;imgRange:0.132 ;Gq:1.38904 ;Gi:2.06938 ;Time: 0:01:57 
+
+Testing, epoch: 75
+batch: 0 ;loss: 0.860 ;acc: 0.820 ;iou_acc: 0.880 ;time: 0:01:58
+batch: 50 ;loss: 1.138 ;acc: 0.785 ;iou_acc: 0.865 ;time: 0:02:06
+batch: 100 ;loss: 1.000 ;acc: 0.775 ;iou_acc: 0.855 ;time: 0:02:14
+batch: 150 ;loss: 1.350 ;acc: 0.740 ;iou_acc: 0.800 ;time: 0:02:23
+batch: 200 ;loss: 0.873 ;acc: 0.800 ;iou_acc: 0.870 ;time: 0:02:31
+batch: 250 ;loss: 1.157 ;acc: 0.735 ;iou_acc: 0.835 ;time: 0:02:40
+
+*Test loss: 1.058 ;Test accuracy 0.778 ;Test IOU: 0.850 ;Time: 0:02:47
+================================================== 
+Train, epoch: 76
+b:0 ;lr:0.040 ;loss:0.45 ;acc:0.92 ;iou:0.95 ;qMean:-0.00 ;qSTD:0.14 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.75 ;iRange:0.13 ;Gq:1.38890 ;Gi:2.30830 ;time: 0:00:01
+b:50 ;lr:0.040 ;loss:0.54 ;acc:0.91 ;iou:0.95 ;qMean:-0.00 ;qSTD:0.14 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.76 ;iRange:0.13 ;Gq:1.52602 ;Gi:2.31557 ;time: 0:00:21
+b:100 ;lr:0.040 ;loss:0.57 ;acc:0.88 ;iou:0.93 ;qMean:-0.00 ;qSTD:0.14 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.75 ;iRange:0.13 ;Gq:1.28545 ;Gi:1.76804 ;time: 0:00:40
+b:150 ;lr:0.040 ;loss:0.47 ;acc:0.93 ;iou:0.94 ;qMean:-0.00 ;qSTD:0.14 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.74 ;iRange:0.13 ;Gq:1.37274 ;Gi:2.02590 ;time: 0:01:00
+b:200 ;lr:0.040 ;loss:0.50 ;acc:0.91 ;iou:0.94 ;qMean:-0.00 ;qSTD:0.14 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.74 ;iRange:0.13 ;Gq:1.55898 ;Gi:2.16456 ;time: 0:01:20
+b:250 ;lr:0.040 ;loss:0.52 ;acc:0.91 ;iou:0.94 ;qMean:-0.00 ;qSTD:0.14 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.75 ;iRange:0.13 ;Gq:1.28117 ;Gi:1.70479 ;time: 0:01:41
+
+*Tr loss: 0.525 ;Tr acc: 0.904 ;IOU acc: 0.943 ;qMean:-0.000 ;qSTD:0.140 ;iMean:0.000 ;iSTD:0.022 ;qRange:0.742 ;imgRange:0.132 ;Gq:1.40235 ;Gi:2.08157 ;Time: 0:02:00 
+
+Testing, epoch: 76
+batch: 0 ;loss: 0.827 ;acc: 0.830 ;iou_acc: 0.895 ;time: 0:02:00
+batch: 50 ;loss: 1.146 ;acc: 0.750 ;iou_acc: 0.850 ;time: 0:02:08
+batch: 100 ;loss: 0.952 ;acc: 0.805 ;iou_acc: 0.870 ;time: 0:02:16
+batch: 150 ;loss: 1.286 ;acc: 0.765 ;iou_acc: 0.835 ;time: 0:02:25
+batch: 200 ;loss: 0.872 ;acc: 0.815 ;iou_acc: 0.875 ;time: 0:02:34
+batch: 250 ;loss: 1.158 ;acc: 0.740 ;iou_acc: 0.840 ;time: 0:02:42
+
+*Test loss: 1.034 ;Test accuracy 0.782 ;Test IOU: 0.854 ;Time: 0:02:50
+================================================== 
+Train, epoch: 77
+b:0 ;lr:0.040 ;loss:0.46 ;acc:0.93 ;iou:0.96 ;qMean:-0.00 ;qSTD:0.14 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.75 ;iRange:0.13 ;Gq:1.25705 ;Gi:1.98443 ;time: 0:00:00
+b:50 ;lr:0.040 ;loss:0.49 ;acc:0.90 ;iou:0.95 ;qMean:-0.00 ;qSTD:0.14 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.75 ;iRange:0.13 ;Gq:1.37156 ;Gi:2.11285 ;time: 0:00:20
+b:100 ;lr:0.040 ;loss:0.48 ;acc:0.91 ;iou:0.94 ;qMean:-0.00 ;qSTD:0.14 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.74 ;iRange:0.13 ;Gq:1.31046 ;Gi:1.81199 ;time: 0:00:40
+b:150 ;lr:0.040 ;loss:0.62 ;acc:0.88 ;iou:0.94 ;qMean:-0.00 ;qSTD:0.14 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.74 ;iRange:0.13 ;Gq:1.40925 ;Gi:2.14055 ;time: 0:01:00
+b:200 ;lr:0.040 ;loss:0.50 ;acc:0.91 ;iou:0.93 ;qMean:-0.00 ;qSTD:0.14 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.75 ;iRange:0.13 ;Gq:1.38425 ;Gi:2.13354 ;time: 0:01:20
+b:250 ;lr:0.040 ;loss:0.51 ;acc:0.91 ;iou:0.95 ;qMean:-0.00 ;qSTD:0.14 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.75 ;iRange:0.13 ;Gq:1.45121 ;Gi:2.21256 ;time: 0:01:39
+
+*Tr loss: 0.520 ;Tr acc: 0.905 ;IOU acc: 0.943 ;qMean:-0.000 ;qSTD:0.140 ;iMean:0.000 ;iSTD:0.022 ;qRange:0.743 ;imgRange:0.132 ;Gq:1.39415 ;Gi:2.08120 ;Time: 0:01:58 
+
+Testing, epoch: 77
+batch: 0 ;loss: 0.871 ;acc: 0.830 ;iou_acc: 0.885 ;time: 0:01:59
+batch: 50 ;loss: 1.156 ;acc: 0.725 ;iou_acc: 0.825 ;time: 0:02:07
+batch: 100 ;loss: 0.937 ;acc: 0.810 ;iou_acc: 0.870 ;time: 0:02:15
+batch: 150 ;loss: 1.289 ;acc: 0.745 ;iou_acc: 0.825 ;time: 0:02:23
+batch: 200 ;loss: 0.877 ;acc: 0.795 ;iou_acc: 0.850 ;time: 0:02:32
+batch: 250 ;loss: 1.135 ;acc: 0.745 ;iou_acc: 0.840 ;time: 0:02:40
+
+*Test loss: 1.040 ;Test accuracy 0.784 ;Test IOU: 0.856 ;Time: 0:02:48
+================================================== 
+Train, epoch: 78
+b:0 ;lr:0.040 ;loss:0.54 ;acc:0.93 ;iou:0.95 ;qMean:-0.00 ;qSTD:0.14 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.74 ;iRange:0.13 ;Gq:1.24803 ;Gi:1.80545 ;time: 0:00:01
+b:50 ;lr:0.040 ;loss:0.51 ;acc:0.91 ;iou:0.94 ;qMean:-0.00 ;qSTD:0.14 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.74 ;iRange:0.13 ;Gq:1.36212 ;Gi:1.75683 ;time: 0:00:21
+b:100 ;lr:0.040 ;loss:0.47 ;acc:0.91 ;iou:0.96 ;qMean:-0.00 ;qSTD:0.14 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.75 ;iRange:0.13 ;Gq:1.35469 ;Gi:2.10952 ;time: 0:00:41
+b:150 ;lr:0.040 ;loss:0.67 ;acc:0.87 ;iou:0.91 ;qMean:-0.00 ;qSTD:0.14 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.75 ;iRange:0.13 ;Gq:1.59049 ;Gi:2.28367 ;time: 0:01:00
+b:200 ;lr:0.040 ;loss:0.57 ;acc:0.89 ;iou:0.95 ;qMean:-0.00 ;qSTD:0.14 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.74 ;iRange:0.13 ;Gq:1.45048 ;Gi:2.21831 ;time: 0:01:20
+b:250 ;lr:0.040 ;loss:0.53 ;acc:0.91 ;iou:0.94 ;qMean:-0.00 ;qSTD:0.14 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.74 ;iRange:0.13 ;Gq:1.35525 ;Gi:2.04228 ;time: 0:01:39
+
+*Tr loss: 0.514 ;Tr acc: 0.906 ;IOU acc: 0.944 ;qMean:-0.000 ;qSTD:0.140 ;iMean:0.000 ;iSTD:0.022 ;qRange:0.745 ;imgRange:0.132 ;Gq:1.39432 ;Gi:2.09245 ;Time: 0:01:57 
+
+Testing, epoch: 78
+batch: 0 ;loss: 0.832 ;acc: 0.830 ;iou_acc: 0.900 ;time: 0:01:57
+batch: 50 ;loss: 1.153 ;acc: 0.750 ;iou_acc: 0.840 ;time: 0:02:05
+batch: 100 ;loss: 0.916 ;acc: 0.820 ;iou_acc: 0.880 ;time: 0:02:14
+batch: 150 ;loss: 1.273 ;acc: 0.765 ;iou_acc: 0.835 ;time: 0:02:22
+batch: 200 ;loss: 0.879 ;acc: 0.790 ;iou_acc: 0.855 ;time: 0:02:31
+batch: 250 ;loss: 1.133 ;acc: 0.735 ;iou_acc: 0.840 ;time: 0:02:39
+
+*Test loss: 1.033 ;Test accuracy 0.784 ;Test IOU: 0.856 ;Time: 0:02:47
+================================================== 
+Train, epoch: 79
+b:0 ;lr:0.040 ;loss:0.49 ;acc:0.91 ;iou:0.95 ;qMean:-0.00 ;qSTD:0.14 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.75 ;iRange:0.13 ;Gq:1.25911 ;Gi:1.88318 ;time: 0:00:00
+b:50 ;lr:0.040 ;loss:0.63 ;acc:0.89 ;iou:0.95 ;qMean:-0.00 ;qSTD:0.14 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.74 ;iRange:0.13 ;Gq:1.61845 ;Gi:2.49377 ;time: 0:00:20
+b:100 ;lr:0.040 ;loss:0.49 ;acc:0.91 ;iou:0.94 ;qMean:-0.00 ;qSTD:0.14 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.75 ;iRange:0.13 ;Gq:1.40315 ;Gi:1.98858 ;time: 0:00:40
+b:150 ;lr:0.040 ;loss:0.56 ;acc:0.89 ;iou:0.94 ;qMean:-0.00 ;qSTD:0.14 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.74 ;iRange:0.13 ;Gq:1.32322 ;Gi:2.03481 ;time: 0:01:00
+b:200 ;lr:0.040 ;loss:0.38 ;acc:0.95 ;iou:0.96 ;qMean:-0.00 ;qSTD:0.14 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.74 ;iRange:0.13 ;Gq:1.17775 ;Gi:1.86979 ;time: 0:01:19
+b:250 ;lr:0.040 ;loss:0.56 ;acc:0.88 ;iou:0.92 ;qMean:-0.00 ;qSTD:0.14 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.74 ;iRange:0.13 ;Gq:1.37184 ;Gi:2.12866 ;time: 0:01:40
+
+*Tr loss: 0.510 ;Tr acc: 0.907 ;IOU acc: 0.945 ;qMean:-0.000 ;qSTD:0.140 ;iMean:0.000 ;iSTD:0.022 ;qRange:0.745 ;imgRange:0.132 ;Gq:1.39533 ;Gi:2.10037 ;Time: 0:01:58 
+
+Testing, epoch: 79
+batch: 0 ;loss: 0.856 ;acc: 0.820 ;iou_acc: 0.895 ;time: 0:01:58
+batch: 50 ;loss: 1.172 ;acc: 0.760 ;iou_acc: 0.845 ;time: 0:02:06
+batch: 100 ;loss: 1.011 ;acc: 0.785 ;iou_acc: 0.845 ;time: 0:02:14
+batch: 150 ;loss: 1.305 ;acc: 0.730 ;iou_acc: 0.800 ;time: 0:02:22
+batch: 200 ;loss: 0.874 ;acc: 0.810 ;iou_acc: 0.875 ;time: 0:02:31
+batch: 250 ;loss: 1.161 ;acc: 0.745 ;iou_acc: 0.845 ;time: 0:02:39
+
+*Test loss: 1.046 ;Test accuracy 0.781 ;Test IOU: 0.853 ;Time: 0:02:47
+================================================== 
+Train, epoch: 80
+b:0 ;lr:0.040 ;loss:0.48 ;acc:0.92 ;iou:0.95 ;qMean:-0.00 ;qSTD:0.14 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.75 ;iRange:0.13 ;Gq:1.27379 ;Gi:2.02890 ;time: 0:00:00
+b:50 ;lr:0.040 ;loss:0.58 ;acc:0.89 ;iou:0.94 ;qMean:-0.00 ;qSTD:0.14 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.75 ;iRange:0.13 ;Gq:1.59492 ;Gi:2.31417 ;time: 0:00:20
+b:100 ;lr:0.040 ;loss:0.39 ;acc:0.94 ;iou:0.97 ;qMean:-0.00 ;qSTD:0.14 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.75 ;iRange:0.13 ;Gq:1.12810 ;Gi:1.94631 ;time: 0:00:40
+b:150 ;lr:0.040 ;loss:0.52 ;acc:0.92 ;iou:0.94 ;qMean:-0.00 ;qSTD:0.14 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.75 ;iRange:0.13 ;Gq:1.40130 ;Gi:1.96079 ;time: 0:01:00
+b:200 ;lr:0.040 ;loss:0.60 ;acc:0.87 ;iou:0.93 ;qMean:-0.00 ;qSTD:0.14 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.75 ;iRange:0.13 ;Gq:1.44598 ;Gi:2.32538 ;time: 0:01:20
+b:250 ;lr:0.040 ;loss:0.50 ;acc:0.91 ;iou:0.95 ;qMean:-0.00 ;qSTD:0.14 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.76 ;iRange:0.13 ;Gq:1.49807 ;Gi:2.19726 ;time: 0:01:40
+
+*Tr loss: 0.505 ;Tr acc: 0.909 ;IOU acc: 0.946 ;qMean:-0.000 ;qSTD:0.140 ;iMean:0.000 ;iSTD:0.022 ;qRange:0.746 ;imgRange:0.132 ;Gq:1.39184 ;Gi:2.10202 ;Time: 0:01:58 
+
+Testing, epoch: 80
+batch: 0 ;loss: 0.848 ;acc: 0.820 ;iou_acc: 0.900 ;time: 0:01:58
+batch: 50 ;loss: 1.140 ;acc: 0.750 ;iou_acc: 0.840 ;time: 0:02:07
+batch: 100 ;loss: 0.940 ;acc: 0.810 ;iou_acc: 0.875 ;time: 0:02:15
+batch: 150 ;loss: 1.271 ;acc: 0.765 ;iou_acc: 0.840 ;time: 0:02:23
+batch: 200 ;loss: 0.894 ;acc: 0.810 ;iou_acc: 0.865 ;time: 0:02:32
+batch: 250 ;loss: 1.148 ;acc: 0.735 ;iou_acc: 0.845 ;time: 0:02:40
+
+*Test loss: 1.037 ;Test accuracy 0.782 ;Test IOU: 0.855 ;Time: 0:02:48
+================================================== 
+Train, epoch: 81
+b:0 ;lr:0.040 ;loss:0.55 ;acc:0.89 ;iou:0.94 ;qMean:-0.00 ;qSTD:0.14 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.75 ;iRange:0.13 ;Gq:1.49867 ;Gi:2.50773 ;time: 0:00:00
+b:50 ;lr:0.040 ;loss:0.55 ;acc:0.88 ;iou:0.93 ;qMean:-0.00 ;qSTD:0.14 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.75 ;iRange:0.13 ;Gq:1.46285 ;Gi:2.23884 ;time: 0:00:20
+b:100 ;lr:0.040 ;loss:0.48 ;acc:0.93 ;iou:0.96 ;qMean:-0.00 ;qSTD:0.14 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.75 ;iRange:0.13 ;Gq:1.38636 ;Gi:2.01302 ;time: 0:00:40
+b:150 ;lr:0.040 ;loss:0.42 ;acc:0.93 ;iou:0.96 ;qMean:-0.00 ;qSTD:0.14 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.75 ;iRange:0.13 ;Gq:1.36130 ;Gi:2.14570 ;time: 0:01:00
+b:200 ;lr:0.040 ;loss:0.34 ;acc:0.95 ;iou:0.98 ;qMean:-0.00 ;qSTD:0.14 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.74 ;iRange:0.13 ;Gq:1.19241 ;Gi:1.76120 ;time: 0:01:20
+b:250 ;lr:0.040 ;loss:0.40 ;acc:0.93 ;iou:0.97 ;qMean:-0.00 ;qSTD:0.14 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.75 ;iRange:0.13 ;Gq:1.23766 ;Gi:1.99626 ;time: 0:01:41
+
+*Tr loss: 0.500 ;Tr acc: 0.909 ;IOU acc: 0.946 ;qMean:-0.000 ;qSTD:0.141 ;iMean:0.000 ;iSTD:0.022 ;qRange:0.746 ;imgRange:0.132 ;Gq:1.40356 ;Gi:2.11876 ;Time: 0:01:59 
+
+Testing, epoch: 81
+batch: 0 ;loss: 0.876 ;acc: 0.810 ;iou_acc: 0.875 ;time: 0:02:00
+batch: 50 ;loss: 1.153 ;acc: 0.730 ;iou_acc: 0.820 ;time: 0:02:08
+batch: 100 ;loss: 0.966 ;acc: 0.800 ;iou_acc: 0.870 ;time: 0:02:16
+batch: 150 ;loss: 1.273 ;acc: 0.750 ;iou_acc: 0.835 ;time: 0:02:24
+batch: 200 ;loss: 0.867 ;acc: 0.805 ;iou_acc: 0.855 ;time: 0:02:32
+batch: 250 ;loss: 1.180 ;acc: 0.720 ;iou_acc: 0.835 ;time: 0:02:41
+
+*Test loss: 1.037 ;Test accuracy 0.782 ;Test IOU: 0.855 ;Time: 0:02:48
+================================================== 
+Train, epoch: 82
+b:0 ;lr:0.040 ;loss:0.48 ;acc:0.91 ;iou:0.95 ;qMean:-0.00 ;qSTD:0.14 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.74 ;iRange:0.13 ;Gq:1.41865 ;Gi:2.08080 ;time: 0:00:01
+b:50 ;lr:0.040 ;loss:0.48 ;acc:0.91 ;iou:0.94 ;qMean:-0.00 ;qSTD:0.14 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.75 ;iRange:0.13 ;Gq:1.33030 ;Gi:1.79956 ;time: 0:00:20
+b:100 ;lr:0.040 ;loss:0.63 ;acc:0.88 ;iou:0.93 ;qMean:-0.00 ;qSTD:0.14 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.75 ;iRange:0.13 ;Gq:1.49837 ;Gi:2.26443 ;time: 0:00:40
+b:150 ;lr:0.040 ;loss:0.47 ;acc:0.92 ;iou:0.94 ;qMean:-0.00 ;qSTD:0.14 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.74 ;iRange:0.13 ;Gq:1.19117 ;Gi:1.59505 ;time: 0:01:00
+b:200 ;lr:0.040 ;loss:0.49 ;acc:0.92 ;iou:0.97 ;qMean:-0.00 ;qSTD:0.14 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.74 ;iRange:0.13 ;Gq:1.45106 ;Gi:2.30862 ;time: 0:01:20
+b:250 ;lr:0.040 ;loss:0.59 ;acc:0.91 ;iou:0.96 ;qMean:-0.00 ;qSTD:0.14 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.73 ;iRange:0.13 ;Gq:1.35888 ;Gi:2.23905 ;time: 0:01:40
+
+*Tr loss: 0.495 ;Tr acc: 0.911 ;IOU acc: 0.947 ;qMean:-0.000 ;qSTD:0.141 ;iMean:0.000 ;iSTD:0.022 ;qRange:0.746 ;imgRange:0.132 ;Gq:1.39192 ;Gi:2.10896 ;Time: 0:01:59 
+
+Testing, epoch: 82
+batch: 0 ;loss: 0.863 ;acc: 0.815 ;iou_acc: 0.895 ;time: 0:01:59
+batch: 50 ;loss: 1.170 ;acc: 0.770 ;iou_acc: 0.850 ;time: 0:02:07
+batch: 100 ;loss: 0.959 ;acc: 0.790 ;iou_acc: 0.870 ;time: 0:02:15
+batch: 150 ;loss: 1.286 ;acc: 0.750 ;iou_acc: 0.830 ;time: 0:02:23
+batch: 200 ;loss: 0.879 ;acc: 0.805 ;iou_acc: 0.870 ;time: 0:02:32
+batch: 250 ;loss: 1.152 ;acc: 0.740 ;iou_acc: 0.845 ;time: 0:02:40
+
+*Test loss: 1.031 ;Test accuracy 0.784 ;Test IOU: 0.856 ;Time: 0:02:48
+================================================== 
+Train, epoch: 83
+b:0 ;lr:0.040 ;loss:0.41 ;acc:0.94 ;iou:0.95 ;qMean:-0.00 ;qSTD:0.14 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.74 ;iRange:0.13 ;Gq:1.26620 ;Gi:1.92697 ;time: 0:00:00
+b:50 ;lr:0.040 ;loss:0.69 ;acc:0.88 ;iou:0.94 ;qMean:-0.00 ;qSTD:0.14 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.74 ;iRange:0.13 ;Gq:1.61664 ;Gi:2.48821 ;time: 0:00:20
+b:100 ;lr:0.040 ;loss:0.44 ;acc:0.92 ;iou:0.97 ;qMean:-0.00 ;qSTD:0.14 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.75 ;iRange:0.13 ;Gq:1.39370 ;Gi:2.11032 ;time: 0:00:39
+b:150 ;lr:0.040 ;loss:0.59 ;acc:0.90 ;iou:0.94 ;qMean:-0.00 ;qSTD:0.14 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.74 ;iRange:0.13 ;Gq:1.61942 ;Gi:2.29302 ;time: 0:00:58
+b:200 ;lr:0.040 ;loss:0.52 ;acc:0.90 ;iou:0.94 ;qMean:-0.00 ;qSTD:0.14 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.74 ;iRange:0.13 ;Gq:1.46549 ;Gi:2.29291 ;time: 0:01:18
+b:250 ;lr:0.040 ;loss:0.46 ;acc:0.91 ;iou:0.94 ;qMean:-0.00 ;qSTD:0.14 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.74 ;iRange:0.13 ;Gq:1.27166 ;Gi:2.14270 ;time: 0:01:38
+
+*Tr loss: 0.491 ;Tr acc: 0.912 ;IOU acc: 0.948 ;qMean:-0.000 ;qSTD:0.141 ;iMean:0.000 ;iSTD:0.022 ;qRange:0.747 ;imgRange:0.132 ;Gq:1.40205 ;Gi:2.13301 ;Time: 0:01:57 
+
+Testing, epoch: 83
+batch: 0 ;loss: 0.879 ;acc: 0.815 ;iou_acc: 0.875 ;time: 0:01:57
+batch: 50 ;loss: 1.138 ;acc: 0.760 ;iou_acc: 0.850 ;time: 0:02:05
+batch: 100 ;loss: 0.943 ;acc: 0.780 ;iou_acc: 0.855 ;time: 0:02:13
+batch: 150 ;loss: 1.318 ;acc: 0.745 ;iou_acc: 0.825 ;time: 0:02:22
+batch: 200 ;loss: 0.838 ;acc: 0.810 ;iou_acc: 0.870 ;time: 0:02:30
+batch: 250 ;loss: 1.142 ;acc: 0.740 ;iou_acc: 0.850 ;time: 0:02:38
+
+*Test loss: 1.045 ;Test accuracy 0.783 ;Test IOU: 0.855 ;Time: 0:02:46
+================================================== 
+Train, epoch: 84
+b:0 ;lr:0.040 ;loss:0.42 ;acc:0.94 ;iou:0.97 ;qMean:-0.00 ;qSTD:0.14 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.75 ;iRange:0.13 ;Gq:1.36254 ;Gi:2.07102 ;time: 0:00:00
+b:50 ;lr:0.040 ;loss:0.35 ;acc:0.93 ;iou:0.95 ;qMean:-0.00 ;qSTD:0.14 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.74 ;iRange:0.13 ;Gq:1.19986 ;Gi:1.85738 ;time: 0:00:20
+b:100 ;lr:0.040 ;loss:0.38 ;acc:0.93 ;iou:0.96 ;qMean:-0.00 ;qSTD:0.14 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.75 ;iRange:0.13 ;Gq:1.20504 ;Gi:1.74086 ;time: 0:00:40
+b:150 ;lr:0.040 ;loss:0.50 ;acc:0.92 ;iou:0.95 ;qMean:-0.00 ;qSTD:0.14 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.75 ;iRange:0.13 ;Gq:1.60150 ;Gi:2.18080 ;time: 0:01:00
+b:200 ;lr:0.040 ;loss:0.54 ;acc:0.87 ;iou:0.93 ;qMean:-0.00 ;qSTD:0.14 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.75 ;iRange:0.13 ;Gq:1.46509 ;Gi:2.44682 ;time: 0:01:19
+b:250 ;lr:0.040 ;loss:0.43 ;acc:0.93 ;iou:0.93 ;qMean:-0.00 ;qSTD:0.14 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.75 ;iRange:0.13 ;Gq:1.19701 ;Gi:1.77011 ;time: 0:01:39
+
+*Tr loss: 0.486 ;Tr acc: 0.912 ;IOU acc: 0.949 ;qMean:-0.000 ;qSTD:0.141 ;iMean:0.000 ;iSTD:0.022 ;qRange:0.748 ;imgRange:0.132 ;Gq:1.38926 ;Gi:2.13270 ;Time: 0:01:58 
+
+Testing, epoch: 84
+batch: 0 ;loss: 0.871 ;acc: 0.805 ;iou_acc: 0.890 ;time: 0:01:58
+batch: 50 ;loss: 1.169 ;acc: 0.770 ;iou_acc: 0.840 ;time: 0:02:06
+batch: 100 ;loss: 0.972 ;acc: 0.780 ;iou_acc: 0.845 ;time: 0:02:15
+batch: 150 ;loss: 1.294 ;acc: 0.760 ;iou_acc: 0.840 ;time: 0:02:23
+batch: 200 ;loss: 0.862 ;acc: 0.800 ;iou_acc: 0.865 ;time: 0:02:31
+batch: 250 ;loss: 1.137 ;acc: 0.740 ;iou_acc: 0.845 ;time: 0:02:40
+
+*Test loss: 1.041 ;Test accuracy 0.783 ;Test IOU: 0.855 ;Time: 0:02:47
+================================================== 
+Train, epoch: 85
+b:0 ;lr:0.040 ;loss:0.38 ;acc:0.95 ;iou:0.96 ;qMean:-0.00 ;qSTD:0.14 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.75 ;iRange:0.13 ;Gq:1.14288 ;Gi:1.81520 ;time: 0:00:01
+b:50 ;lr:0.040 ;loss:0.52 ;acc:0.90 ;iou:0.95 ;qMean:-0.00 ;qSTD:0.14 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.75 ;iRange:0.13 ;Gq:1.49880 ;Gi:2.31416 ;time: 0:00:21
+b:100 ;lr:0.040 ;loss:0.44 ;acc:0.94 ;iou:0.95 ;qMean:-0.00 ;qSTD:0.14 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.74 ;iRange:0.13 ;Gq:1.38214 ;Gi:1.99956 ;time: 0:00:41
+b:150 ;lr:0.040 ;loss:0.43 ;acc:0.94 ;iou:0.97 ;qMean:-0.00 ;qSTD:0.14 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.74 ;iRange:0.13 ;Gq:1.32222 ;Gi:1.99804 ;time: 0:01:00
+b:200 ;lr:0.040 ;loss:0.47 ;acc:0.91 ;iou:0.95 ;qMean:-0.00 ;qSTD:0.14 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.74 ;iRange:0.13 ;Gq:1.39071 ;Gi:2.22310 ;time: 0:01:20
+b:250 ;lr:0.040 ;loss:0.49 ;acc:0.91 ;iou:0.95 ;qMean:-0.00 ;qSTD:0.14 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.74 ;iRange:0.13 ;Gq:1.48557 ;Gi:2.36028 ;time: 0:01:40
+
+*Tr loss: 0.480 ;Tr acc: 0.914 ;IOU acc: 0.949 ;qMean:-0.000 ;qSTD:0.141 ;iMean:0.000 ;iSTD:0.022 ;qRange:0.747 ;imgRange:0.132 ;Gq:1.39037 ;Gi:2.13102 ;Time: 0:01:59 
+
+Testing, epoch: 85
+batch: 0 ;loss: 0.831 ;acc: 0.810 ;iou_acc: 0.890 ;time: 0:01:59
+batch: 50 ;loss: 1.160 ;acc: 0.740 ;iou_acc: 0.835 ;time: 0:02:07
+batch: 100 ;loss: 0.909 ;acc: 0.805 ;iou_acc: 0.880 ;time: 0:02:15
+batch: 150 ;loss: 1.285 ;acc: 0.765 ;iou_acc: 0.820 ;time: 0:02:23
+batch: 200 ;loss: 0.873 ;acc: 0.810 ;iou_acc: 0.880 ;time: 0:02:31
+batch: 250 ;loss: 1.143 ;acc: 0.755 ;iou_acc: 0.860 ;time: 0:02:39
+
+*Test loss: 1.033 ;Test accuracy 0.784 ;Test IOU: 0.856 ;Time: 0:02:47
+================================================== 
+Train, epoch: 86
+b:0 ;lr:0.040 ;loss:0.58 ;acc:0.87 ;iou:0.94 ;qMean:-0.00 ;qSTD:0.14 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.75 ;iRange:0.13 ;Gq:1.51541 ;Gi:2.33418 ;time: 0:00:00
+b:50 ;lr:0.040 ;loss:0.43 ;acc:0.93 ;iou:0.95 ;qMean:-0.00 ;qSTD:0.14 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.75 ;iRange:0.13 ;Gq:1.20808 ;Gi:1.87732 ;time: 0:00:20
+b:100 ;lr:0.040 ;loss:0.51 ;acc:0.91 ;iou:0.96 ;qMean:-0.00 ;qSTD:0.14 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.74 ;iRange:0.13 ;Gq:1.24210 ;Gi:1.97113 ;time: 0:00:39
+b:150 ;lr:0.040 ;loss:0.55 ;acc:0.91 ;iou:0.94 ;qMean:-0.00 ;qSTD:0.14 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.74 ;iRange:0.13 ;Gq:1.70652 ;Gi:2.29803 ;time: 0:00:59
+b:200 ;lr:0.040 ;loss:0.51 ;acc:0.90 ;iou:0.94 ;qMean:-0.00 ;qSTD:0.14 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.74 ;iRange:0.13 ;Gq:1.45815 ;Gi:2.26084 ;time: 0:01:19
+b:250 ;lr:0.040 ;loss:0.50 ;acc:0.88 ;iou:0.94 ;qMean:-0.00 ;qSTD:0.14 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.74 ;iRange:0.13 ;Gq:1.39463 ;Gi:2.41767 ;time: 0:01:38
+
+*Tr loss: 0.476 ;Tr acc: 0.915 ;IOU acc: 0.950 ;qMean:-0.000 ;qSTD:0.141 ;iMean:0.000 ;iSTD:0.022 ;qRange:0.747 ;imgRange:0.133 ;Gq:1.39631 ;Gi:2.14654 ;Time: 0:01:56 
+
+Testing, epoch: 86
+batch: 0 ;loss: 0.875 ;acc: 0.825 ;iou_acc: 0.890 ;time: 0:01:56
+batch: 50 ;loss: 1.173 ;acc: 0.785 ;iou_acc: 0.870 ;time: 0:02:04
+batch: 100 ;loss: 0.975 ;acc: 0.800 ;iou_acc: 0.865 ;time: 0:02:13
+batch: 150 ;loss: 1.310 ;acc: 0.745 ;iou_acc: 0.810 ;time: 0:02:21
+batch: 200 ;loss: 0.884 ;acc: 0.825 ;iou_acc: 0.885 ;time: 0:02:30
+batch: 250 ;loss: 1.122 ;acc: 0.735 ;iou_acc: 0.840 ;time: 0:02:38
+
+*Test loss: 1.046 ;Test accuracy 0.783 ;Test IOU: 0.854 ;Time: 0:02:46
+================================================== 
+Train, epoch: 87
+b:0 ;lr:0.040 ;loss:0.61 ;acc:0.90 ;iou:0.95 ;qMean:-0.00 ;qSTD:0.14 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.74 ;iRange:0.13 ;Gq:1.74850 ;Gi:2.42824 ;time: 0:00:00
+b:50 ;lr:0.040 ;loss:0.44 ;acc:0.92 ;iou:0.93 ;qMean:-0.00 ;qSTD:0.14 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.75 ;iRange:0.14 ;Gq:1.25551 ;Gi:1.80324 ;time: 0:00:20
+b:100 ;lr:0.040 ;loss:0.44 ;acc:0.94 ;iou:0.95 ;qMean:-0.00 ;qSTD:0.14 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.74 ;iRange:0.13 ;Gq:1.31441 ;Gi:2.10186 ;time: 0:00:40
+b:150 ;lr:0.040 ;loss:0.49 ;acc:0.91 ;iou:0.96 ;qMean:-0.00 ;qSTD:0.14 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.74 ;iRange:0.13 ;Gq:1.48162 ;Gi:2.39352 ;time: 0:01:01
+b:200 ;lr:0.040 ;loss:0.42 ;acc:0.93 ;iou:0.96 ;qMean:-0.00 ;qSTD:0.14 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.75 ;iRange:0.13 ;Gq:1.18474 ;Gi:1.72966 ;time: 0:01:20
+b:250 ;lr:0.040 ;loss:0.60 ;acc:0.89 ;iou:0.94 ;qMean:-0.00 ;qSTD:0.14 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.75 ;iRange:0.13 ;Gq:1.65955 ;Gi:2.64000 ;time: 0:01:39
+
+*Tr loss: 0.471 ;Tr acc: 0.916 ;IOU acc: 0.951 ;qMean:-0.000 ;qSTD:0.141 ;iMean:0.000 ;iSTD:0.022 ;qRange:0.748 ;imgRange:0.133 ;Gq:1.39967 ;Gi:2.14711 ;Time: 0:01:57 
+
+Testing, epoch: 87
+batch: 0 ;loss: 0.887 ;acc: 0.815 ;iou_acc: 0.880 ;time: 0:01:58
+batch: 50 ;loss: 1.175 ;acc: 0.755 ;iou_acc: 0.840 ;time: 0:02:06
+batch: 100 ;loss: 0.961 ;acc: 0.780 ;iou_acc: 0.860 ;time: 0:02:15
+batch: 150 ;loss: 1.310 ;acc: 0.750 ;iou_acc: 0.820 ;time: 0:02:23
+batch: 200 ;loss: 0.856 ;acc: 0.790 ;iou_acc: 0.865 ;time: 0:02:31
+batch: 250 ;loss: 1.113 ;acc: 0.735 ;iou_acc: 0.845 ;time: 0:02:40
+
+*Test loss: 1.042 ;Test accuracy 0.784 ;Test IOU: 0.856 ;Time: 0:02:47
+================================================== 
+Train, epoch: 88
+b:0 ;lr:0.040 ;loss:0.48 ;acc:0.92 ;iou:0.97 ;qMean:-0.00 ;qSTD:0.14 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.75 ;iRange:0.13 ;Gq:1.51925 ;Gi:2.38670 ;time: 0:00:01
+b:50 ;lr:0.040 ;loss:0.41 ;acc:0.94 ;iou:0.96 ;qMean:-0.00 ;qSTD:0.14 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.74 ;iRange:0.13 ;Gq:1.33658 ;Gi:2.23890 ;time: 0:00:21
+b:100 ;lr:0.040 ;loss:0.38 ;acc:0.93 ;iou:0.96 ;qMean:-0.00 ;qSTD:0.14 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.75 ;iRange:0.13 ;Gq:1.37384 ;Gi:2.09442 ;time: 0:00:40
+b:150 ;lr:0.040 ;loss:0.48 ;acc:0.91 ;iou:0.95 ;qMean:-0.00 ;qSTD:0.14 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.75 ;iRange:0.13 ;Gq:1.34732 ;Gi:2.09655 ;time: 0:01:00
+b:200 ;lr:0.040 ;loss:0.46 ;acc:0.93 ;iou:0.95 ;qMean:-0.00 ;qSTD:0.14 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.74 ;iRange:0.13 ;Gq:1.40121 ;Gi:2.11542 ;time: 0:01:20
+b:250 ;lr:0.040 ;loss:0.42 ;acc:0.94 ;iou:0.95 ;qMean:-0.00 ;qSTD:0.14 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.76 ;iRange:0.13 ;Gq:1.64659 ;Gi:2.61152 ;time: 0:01:41
+
+*Tr loss: 0.466 ;Tr acc: 0.917 ;IOU acc: 0.951 ;qMean:-0.000 ;qSTD:0.141 ;iMean:0.000 ;iSTD:0.022 ;qRange:0.748 ;imgRange:0.133 ;Gq:1.40339 ;Gi:2.15157 ;Time: 0:01:59 
+
+Testing, epoch: 88
+batch: 0 ;loss: 0.821 ;acc: 0.835 ;iou_acc: 0.910 ;time: 0:01:59
+batch: 50 ;loss: 1.155 ;acc: 0.770 ;iou_acc: 0.850 ;time: 0:02:07
+batch: 100 ;loss: 0.947 ;acc: 0.805 ;iou_acc: 0.875 ;time: 0:02:15
+batch: 150 ;loss: 1.294 ;acc: 0.760 ;iou_acc: 0.830 ;time: 0:02:23
+batch: 200 ;loss: 0.865 ;acc: 0.810 ;iou_acc: 0.870 ;time: 0:02:31
+batch: 250 ;loss: 1.134 ;acc: 0.775 ;iou_acc: 0.860 ;time: 0:02:39
+
+*Test loss: 1.037 ;Test accuracy 0.785 ;Test IOU: 0.856 ;Time: 0:02:47
+================================================== 
+Train, epoch: 89
+b:0 ;lr:0.040 ;loss:0.52 ;acc:0.90 ;iou:0.94 ;qMean:-0.00 ;qSTD:0.14 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.75 ;iRange:0.13 ;Gq:1.42428 ;Gi:2.00364 ;time: 0:00:01
+b:50 ;lr:0.040 ;loss:0.51 ;acc:0.93 ;iou:0.95 ;qMean:-0.00 ;qSTD:0.14 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.74 ;iRange:0.13 ;Gq:1.43382 ;Gi:2.18232 ;time: 0:00:21
+b:100 ;lr:0.040 ;loss:0.51 ;acc:0.92 ;iou:0.95 ;qMean:-0.00 ;qSTD:0.14 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.74 ;iRange:0.13 ;Gq:1.25274 ;Gi:1.88176 ;time: 0:00:41
+b:150 ;lr:0.040 ;loss:0.50 ;acc:0.90 ;iou:0.94 ;qMean:-0.00 ;qSTD:0.14 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.75 ;iRange:0.13 ;Gq:1.40062 ;Gi:2.03301 ;time: 0:01:02
+b:200 ;lr:0.040 ;loss:0.49 ;acc:0.94 ;iou:0.97 ;qMean:-0.00 ;qSTD:0.14 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.76 ;iRange:0.13 ;Gq:1.45703 ;Gi:2.04683 ;time: 0:01:22
+b:250 ;lr:0.040 ;loss:0.48 ;acc:0.93 ;iou:0.95 ;qMean:-0.00 ;qSTD:0.14 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.75 ;iRange:0.13 ;Gq:1.49349 ;Gi:1.95834 ;time: 0:01:41
+
+*Tr loss: 0.461 ;Tr acc: 0.920 ;IOU acc: 0.952 ;qMean:-0.000 ;qSTD:0.141 ;iMean:0.000 ;iSTD:0.022 ;qRange:0.748 ;imgRange:0.133 ;Gq:1.39833 ;Gi:2.15195 ;Time: 0:01:59 
+
+Testing, epoch: 89
+batch: 0 ;loss: 0.886 ;acc: 0.810 ;iou_acc: 0.875 ;time: 0:01:59
+batch: 50 ;loss: 1.138 ;acc: 0.755 ;iou_acc: 0.840 ;time: 0:02:06
+batch: 100 ;loss: 0.949 ;acc: 0.805 ;iou_acc: 0.865 ;time: 0:02:14
+batch: 150 ;loss: 1.334 ;acc: 0.750 ;iou_acc: 0.820 ;time: 0:02:22
+batch: 200 ;loss: 0.860 ;acc: 0.820 ;iou_acc: 0.870 ;time: 0:02:30
+batch: 250 ;loss: 1.115 ;acc: 0.755 ;iou_acc: 0.850 ;time: 0:02:38
+
+*Test loss: 1.051 ;Test accuracy 0.783 ;Test IOU: 0.855 ;Time: 0:02:45
+================================================== 
+Train, epoch: 90
+b:0 ;lr:0.040 ;loss:0.46 ;acc:0.92 ;iou:0.95 ;qMean:-0.00 ;qSTD:0.14 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.75 ;iRange:0.13 ;Gq:1.25691 ;Gi:2.01850 ;time: 0:00:01
+b:50 ;lr:0.040 ;loss:0.45 ;acc:0.92 ;iou:0.96 ;qMean:-0.00 ;qSTD:0.14 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.74 ;iRange:0.13 ;Gq:1.30551 ;Gi:2.08471 ;time: 0:00:20
+b:100 ;lr:0.040 ;loss:0.37 ;acc:0.93 ;iou:0.95 ;qMean:-0.00 ;qSTD:0.14 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.75 ;iRange:0.13 ;Gq:1.23259 ;Gi:1.87268 ;time: 0:00:40
+b:150 ;lr:0.040 ;loss:0.39 ;acc:0.94 ;iou:0.97 ;qMean:-0.00 ;qSTD:0.14 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.75 ;iRange:0.13 ;Gq:1.25807 ;Gi:2.05281 ;time: 0:01:00
+b:200 ;lr:0.040 ;loss:0.34 ;acc:0.94 ;iou:0.97 ;qMean:-0.00 ;qSTD:0.14 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.76 ;iRange:0.13 ;Gq:1.08483 ;Gi:1.85352 ;time: 0:01:20
+b:250 ;lr:0.040 ;loss:0.58 ;acc:0.91 ;iou:0.94 ;qMean:-0.00 ;qSTD:0.14 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.75 ;iRange:0.13 ;Gq:1.60501 ;Gi:2.37042 ;time: 0:01:40
+
+*Tr loss: 0.458 ;Tr acc: 0.919 ;IOU acc: 0.953 ;qMean:-0.000 ;qSTD:0.141 ;iMean:0.000 ;iSTD:0.022 ;qRange:0.749 ;imgRange:0.133 ;Gq:1.39090 ;Gi:2.15243 ;Time: 0:01:57 
+
+Testing, epoch: 90
+batch: 0 ;loss: 0.861 ;acc: 0.820 ;iou_acc: 0.890 ;time: 0:01:57
+batch: 50 ;loss: 1.167 ;acc: 0.765 ;iou_acc: 0.835 ;time: 0:02:05
+batch: 100 ;loss: 0.944 ;acc: 0.805 ;iou_acc: 0.860 ;time: 0:02:13
+batch: 150 ;loss: 1.263 ;acc: 0.745 ;iou_acc: 0.830 ;time: 0:02:22
+batch: 200 ;loss: 0.868 ;acc: 0.835 ;iou_acc: 0.890 ;time: 0:02:30
+batch: 250 ;loss: 1.136 ;acc: 0.745 ;iou_acc: 0.850 ;time: 0:02:39
+
+*Test loss: 1.035 ;Test accuracy 0.785 ;Test IOU: 0.857 ;Time: 0:02:47
+================================================== 
+Train, epoch: 91
+b:0 ;lr:0.040 ;loss:0.49 ;acc:0.91 ;iou:0.95 ;qMean:-0.00 ;qSTD:0.14 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.75 ;iRange:0.13 ;Gq:1.47188 ;Gi:2.23782 ;time: 0:00:00
+b:50 ;lr:0.040 ;loss:0.40 ;acc:0.93 ;iou:0.95 ;qMean:-0.00 ;qSTD:0.14 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.75 ;iRange:0.13 ;Gq:1.43821 ;Gi:1.97501 ;time: 0:00:20
+b:100 ;lr:0.040 ;loss:0.43 ;acc:0.94 ;iou:0.97 ;qMean:-0.00 ;qSTD:0.14 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.75 ;iRange:0.13 ;Gq:1.25888 ;Gi:1.88587 ;time: 0:00:40
+b:150 ;lr:0.040 ;loss:0.48 ;acc:0.92 ;iou:0.95 ;qMean:-0.00 ;qSTD:0.14 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.75 ;iRange:0.13 ;Gq:1.50774 ;Gi:2.09890 ;time: 0:00:59
+b:200 ;lr:0.040 ;loss:0.44 ;acc:0.92 ;iou:0.94 ;qMean:-0.00 ;qSTD:0.14 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.76 ;iRange:0.13 ;Gq:1.47499 ;Gi:2.04351 ;time: 0:01:18
+b:250 ;lr:0.040 ;loss:0.47 ;acc:0.92 ;iou:0.95 ;qMean:-0.00 ;qSTD:0.14 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.75 ;iRange:0.13 ;Gq:1.52239 ;Gi:2.40873 ;time: 0:01:38
+
+*Tr loss: 0.452 ;Tr acc: 0.921 ;IOU acc: 0.954 ;qMean:-0.000 ;qSTD:0.141 ;iMean:0.000 ;iSTD:0.022 ;qRange:0.750 ;imgRange:0.133 ;Gq:1.38989 ;Gi:2.15741 ;Time: 0:01:57 
+
+Testing, epoch: 91
+batch: 0 ;loss: 0.862 ;acc: 0.800 ;iou_acc: 0.880 ;time: 0:01:57
+batch: 50 ;loss: 1.164 ;acc: 0.750 ;iou_acc: 0.840 ;time: 0:02:05
+batch: 100 ;loss: 0.917 ;acc: 0.810 ;iou_acc: 0.885 ;time: 0:02:13
+batch: 150 ;loss: 1.320 ;acc: 0.740 ;iou_acc: 0.805 ;time: 0:02:21
+batch: 200 ;loss: 0.875 ;acc: 0.815 ;iou_acc: 0.870 ;time: 0:02:30
+batch: 250 ;loss: 1.153 ;acc: 0.740 ;iou_acc: 0.835 ;time: 0:02:38
+
+*Test loss: 1.043 ;Test accuracy 0.785 ;Test IOU: 0.856 ;Time: 0:02:46
+================================================== 
+Train, epoch: 92
+b:0 ;lr:0.040 ;loss:0.50 ;acc:0.90 ;iou:0.95 ;qMean:-0.00 ;qSTD:0.14 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.75 ;iRange:0.13 ;Gq:1.40415 ;Gi:2.18929 ;time: 0:00:00
+b:50 ;lr:0.040 ;loss:0.38 ;acc:0.95 ;iou:0.95 ;qMean:-0.00 ;qSTD:0.14 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.75 ;iRange:0.13 ;Gq:1.28880 ;Gi:2.01009 ;time: 0:00:19
+b:100 ;lr:0.040 ;loss:0.41 ;acc:0.94 ;iou:0.95 ;qMean:-0.00 ;qSTD:0.14 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.75 ;iRange:0.13 ;Gq:1.47001 ;Gi:2.43401 ;time: 0:00:40
+b:150 ;lr:0.040 ;loss:0.35 ;acc:0.96 ;iou:0.96 ;qMean:-0.00 ;qSTD:0.14 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.75 ;iRange:0.14 ;Gq:1.17474 ;Gi:1.64239 ;time: 0:01:00
+b:200 ;lr:0.040 ;loss:0.44 ;acc:0.94 ;iou:0.96 ;qMean:-0.00 ;qSTD:0.14 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.76 ;iRange:0.13 ;Gq:1.39218 ;Gi:2.00722 ;time: 0:01:19
+b:250 ;lr:0.040 ;loss:0.48 ;acc:0.90 ;iou:0.95 ;qMean:-0.00 ;qSTD:0.14 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.75 ;iRange:0.13 ;Gq:1.34079 ;Gi:2.25986 ;time: 0:01:38
+
+*Tr loss: 0.448 ;Tr acc: 0.921 ;IOU acc: 0.954 ;qMean:-0.000 ;qSTD:0.142 ;iMean:0.000 ;iSTD:0.022 ;qRange:0.750 ;imgRange:0.133 ;Gq:1.39586 ;Gi:2.15931 ;Time: 0:01:57 
+
+Testing, epoch: 92
+batch: 0 ;loss: 0.852 ;acc: 0.830 ;iou_acc: 0.895 ;time: 0:01:57
+batch: 50 ;loss: 1.161 ;acc: 0.775 ;iou_acc: 0.860 ;time: 0:02:05
+batch: 100 ;loss: 0.952 ;acc: 0.805 ;iou_acc: 0.875 ;time: 0:02:13
+batch: 150 ;loss: 1.349 ;acc: 0.750 ;iou_acc: 0.810 ;time: 0:02:22
+batch: 200 ;loss: 0.874 ;acc: 0.815 ;iou_acc: 0.875 ;time: 0:02:30
+batch: 250 ;loss: 1.155 ;acc: 0.740 ;iou_acc: 0.835 ;time: 0:02:38
+
+*Test loss: 1.047 ;Test accuracy 0.785 ;Test IOU: 0.856 ;Time: 0:02:45
+================================================== 
+Train, epoch: 93
+b:0 ;lr:0.040 ;loss:0.39 ;acc:0.94 ;iou:0.96 ;qMean:-0.00 ;qSTD:0.14 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.75 ;iRange:0.13 ;Gq:1.30177 ;Gi:2.39624 ;time: 0:00:01
+b:50 ;lr:0.040 ;loss:0.40 ;acc:0.93 ;iou:0.94 ;qMean:-0.00 ;qSTD:0.14 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.74 ;iRange:0.13 ;Gq:1.21175 ;Gi:1.87839 ;time: 0:00:21
+b:100 ;lr:0.040 ;loss:0.38 ;acc:0.95 ;iou:0.96 ;qMean:-0.00 ;qSTD:0.14 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.75 ;iRange:0.13 ;Gq:1.37368 ;Gi:2.04639 ;time: 0:00:41
+b:150 ;lr:0.040 ;loss:0.32 ;acc:0.96 ;iou:0.97 ;qMean:-0.00 ;qSTD:0.14 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.75 ;iRange:0.13 ;Gq:1.25745 ;Gi:1.80098 ;time: 0:01:01
+b:200 ;lr:0.040 ;loss:0.61 ;acc:0.89 ;iou:0.94 ;qMean:-0.00 ;qSTD:0.14 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.75 ;iRange:0.13 ;Gq:1.65645 ;Gi:2.09347 ;time: 0:01:21
+b:250 ;lr:0.040 ;loss:0.48 ;acc:0.91 ;iou:0.95 ;qMean:-0.00 ;qSTD:0.14 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.75 ;iRange:0.13 ;Gq:1.33648 ;Gi:1.89667 ;time: 0:01:41
+
+*Tr loss: 0.442 ;Tr acc: 0.923 ;IOU acc: 0.955 ;qMean:-0.000 ;qSTD:0.141 ;iMean:0.000 ;iSTD:0.022 ;qRange:0.750 ;imgRange:0.133 ;Gq:1.40795 ;Gi:2.17491 ;Time: 0:01:59 
+
+Testing, epoch: 93
+batch: 0 ;loss: 0.832 ;acc: 0.825 ;iou_acc: 0.895 ;time: 0:02:00
+batch: 50 ;loss: 1.172 ;acc: 0.760 ;iou_acc: 0.845 ;time: 0:02:08
+batch: 100 ;loss: 0.957 ;acc: 0.805 ;iou_acc: 0.875 ;time: 0:02:16
+batch: 150 ;loss: 1.308 ;acc: 0.745 ;iou_acc: 0.820 ;time: 0:02:24
+batch: 200 ;loss: 0.898 ;acc: 0.795 ;iou_acc: 0.855 ;time: 0:02:32
+batch: 250 ;loss: 1.136 ;acc: 0.765 ;iou_acc: 0.855 ;time: 0:02:40
+
+*Test loss: 1.043 ;Test accuracy 0.785 ;Test IOU: 0.857 ;Time: 0:02:48
+================================================== 
+Train, epoch: 94
+b:0 ;lr:0.040 ;loss:0.36 ;acc:0.95 ;iou:0.96 ;qMean:-0.00 ;qSTD:0.14 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.75 ;iRange:0.13 ;Gq:1.33049 ;Gi:2.30524 ;time: 0:00:00
+b:50 ;lr:0.040 ;loss:0.44 ;acc:0.94 ;iou:0.94 ;qMean:-0.00 ;qSTD:0.14 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.75 ;iRange:0.13 ;Gq:1.35187 ;Gi:1.87738 ;time: 0:00:19
+b:100 ;lr:0.040 ;loss:0.35 ;acc:0.94 ;iou:0.96 ;qMean:-0.00 ;qSTD:0.14 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.75 ;iRange:0.13 ;Gq:1.13536 ;Gi:1.74497 ;time: 0:00:39
+b:150 ;lr:0.040 ;loss:0.46 ;acc:0.94 ;iou:0.97 ;qMean:-0.00 ;qSTD:0.14 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.74 ;iRange:0.13 ;Gq:1.65555 ;Gi:2.48143 ;time: 0:00:58
+b:200 ;lr:0.040 ;loss:0.45 ;acc:0.94 ;iou:0.96 ;qMean:-0.00 ;qSTD:0.14 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.75 ;iRange:0.13 ;Gq:1.52106 ;Gi:2.35368 ;time: 0:01:17
+b:250 ;lr:0.040 ;loss:0.42 ;acc:0.94 ;iou:0.95 ;qMean:-0.00 ;qSTD:0.14 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.75 ;iRange:0.13 ;Gq:1.55396 ;Gi:2.34012 ;time: 0:01:38
+
+*Tr loss: 0.438 ;Tr acc: 0.924 ;IOU acc: 0.955 ;qMean:-0.000 ;qSTD:0.142 ;iMean:0.000 ;iSTD:0.022 ;qRange:0.750 ;imgRange:0.133 ;Gq:1.39490 ;Gi:2.17112 ;Time: 0:01:57 
+
+Testing, epoch: 94
+batch: 0 ;loss: 0.866 ;acc: 0.820 ;iou_acc: 0.885 ;time: 0:01:57
+batch: 50 ;loss: 1.117 ;acc: 0.770 ;iou_acc: 0.860 ;time: 0:02:05
+batch: 100 ;loss: 0.957 ;acc: 0.805 ;iou_acc: 0.880 ;time: 0:02:14
+batch: 150 ;loss: 1.290 ;acc: 0.750 ;iou_acc: 0.825 ;time: 0:02:22
+batch: 200 ;loss: 0.876 ;acc: 0.805 ;iou_acc: 0.855 ;time: 0:02:30
+batch: 250 ;loss: 1.155 ;acc: 0.750 ;iou_acc: 0.840 ;time: 0:02:39
+
+*Test loss: 1.042 ;Test accuracy 0.786 ;Test IOU: 0.858 ;Time: 0:02:46
+================================================== 
+Train, epoch: 95
+b:0 ;lr:0.040 ;loss:0.39 ;acc:0.96 ;iou:0.97 ;qMean:-0.00 ;qSTD:0.14 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.75 ;iRange:0.13 ;Gq:1.37972 ;Gi:2.34692 ;time: 0:00:01
+b:50 ;lr:0.040 ;loss:0.46 ;acc:0.92 ;iou:0.94 ;qMean:-0.00 ;qSTD:0.14 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.75 ;iRange:0.13 ;Gq:1.47225 ;Gi:2.10229 ;time: 0:00:20
+b:100 ;lr:0.040 ;loss:0.38 ;acc:0.95 ;iou:0.96 ;qMean:-0.00 ;qSTD:0.14 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.75 ;iRange:0.13 ;Gq:1.26484 ;Gi:1.96584 ;time: 0:00:39
+b:150 ;lr:0.040 ;loss:0.41 ;acc:0.93 ;iou:0.96 ;qMean:-0.00 ;qSTD:0.14 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.74 ;iRange:0.13 ;Gq:1.29617 ;Gi:1.96871 ;time: 0:00:58
+b:200 ;lr:0.040 ;loss:0.44 ;acc:0.94 ;iou:0.95 ;qMean:-0.00 ;qSTD:0.14 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.75 ;iRange:0.13 ;Gq:1.53816 ;Gi:2.43248 ;time: 0:01:18
+b:250 ;lr:0.040 ;loss:0.38 ;acc:0.94 ;iou:0.95 ;qMean:-0.00 ;qSTD:0.14 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.75 ;iRange:0.13 ;Gq:1.47325 ;Gi:2.25076 ;time: 0:01:39
+
+*Tr loss: 0.435 ;Tr acc: 0.925 ;IOU acc: 0.956 ;qMean:-0.000 ;qSTD:0.142 ;iMean:0.000 ;iSTD:0.022 ;qRange:0.750 ;imgRange:0.133 ;Gq:1.39218 ;Gi:2.16514 ;Time: 0:01:57 
+
+Testing, epoch: 95
+batch: 0 ;loss: 0.839 ;acc: 0.800 ;iou_acc: 0.875 ;time: 0:01:57
+batch: 50 ;loss: 1.114 ;acc: 0.755 ;iou_acc: 0.850 ;time: 0:02:06
+batch: 100 ;loss: 0.933 ;acc: 0.825 ;iou_acc: 0.885 ;time: 0:02:14
+batch: 150 ;loss: 1.321 ;acc: 0.755 ;iou_acc: 0.825 ;time: 0:02:23
+batch: 200 ;loss: 0.871 ;acc: 0.805 ;iou_acc: 0.870 ;time: 0:02:31
+batch: 250 ;loss: 1.155 ;acc: 0.755 ;iou_acc: 0.845 ;time: 0:02:40
+
+*Test loss: 1.046 ;Test accuracy 0.786 ;Test IOU: 0.858 ;Time: 0:02:47
+================================================== 
+Train, epoch: 96
+b:0 ;lr:0.040 ;loss:0.40 ;acc:0.93 ;iou:0.96 ;qMean:-0.00 ;qSTD:0.14 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.75 ;iRange:0.13 ;Gq:1.28974 ;Gi:2.02629 ;time: 0:00:01
+b:50 ;lr:0.040 ;loss:0.35 ;acc:0.94 ;iou:0.97 ;qMean:-0.00 ;qSTD:0.14 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.76 ;iRange:0.13 ;Gq:1.29365 ;Gi:2.23581 ;time: 0:00:21
+b:100 ;lr:0.040 ;loss:0.44 ;acc:0.91 ;iou:0.95 ;qMean:-0.00 ;qSTD:0.14 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.74 ;iRange:0.13 ;Gq:1.41749 ;Gi:2.17849 ;time: 0:00:39
+b:150 ;lr:0.040 ;loss:0.52 ;acc:0.92 ;iou:0.95 ;qMean:-0.00 ;qSTD:0.14 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.75 ;iRange:0.13 ;Gq:1.38627 ;Gi:2.18314 ;time: 0:00:59
+b:200 ;lr:0.040 ;loss:0.38 ;acc:0.95 ;iou:0.96 ;qMean:-0.00 ;qSTD:0.14 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.76 ;iRange:0.13 ;Gq:1.53437 ;Gi:2.33754 ;time: 0:01:20
+b:250 ;lr:0.040 ;loss:0.43 ;acc:0.94 ;iou:0.95 ;qMean:-0.00 ;qSTD:0.14 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.75 ;iRange:0.13 ;Gq:1.48749 ;Gi:2.16320 ;time: 0:01:38
+
+*Tr loss: 0.429 ;Tr acc: 0.927 ;IOU acc: 0.957 ;qMean:-0.000 ;qSTD:0.142 ;iMean:0.000 ;iSTD:0.022 ;qRange:0.750 ;imgRange:0.133 ;Gq:1.39014 ;Gi:2.17361 ;Time: 0:01:56 
+
+Testing, epoch: 96
+batch: 0 ;loss: 0.826 ;acc: 0.830 ;iou_acc: 0.905 ;time: 0:01:57
+batch: 50 ;loss: 1.212 ;acc: 0.765 ;iou_acc: 0.850 ;time: 0:02:04
+batch: 100 ;loss: 0.980 ;acc: 0.820 ;iou_acc: 0.875 ;time: 0:02:12
+batch: 150 ;loss: 1.322 ;acc: 0.760 ;iou_acc: 0.820 ;time: 0:02:21
+batch: 200 ;loss: 0.896 ;acc: 0.805 ;iou_acc: 0.865 ;time: 0:02:29
+batch: 250 ;loss: 1.144 ;acc: 0.745 ;iou_acc: 0.840 ;time: 0:02:37
+
+*Test loss: 1.064 ;Test accuracy 0.783 ;Test IOU: 0.854 ;Time: 0:02:45
+================================================== 
+Train, epoch: 97
+b:0 ;lr:0.040 ;loss:0.53 ;acc:0.89 ;iou:0.93 ;qMean:-0.00 ;qSTD:0.14 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.76 ;iRange:0.13 ;Gq:1.51288 ;Gi:2.37179 ;time: 0:00:00
+b:50 ;lr:0.040 ;loss:0.35 ;acc:0.95 ;iou:0.98 ;qMean:-0.00 ;qSTD:0.14 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.76 ;iRange:0.13 ;Gq:1.19457 ;Gi:2.09769 ;time: 0:00:20
+b:100 ;lr:0.040 ;loss:0.49 ;acc:0.92 ;iou:0.96 ;qMean:-0.00 ;qSTD:0.14 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.75 ;iRange:0.13 ;Gq:1.68350 ;Gi:2.50645 ;time: 0:00:40
+b:150 ;lr:0.040 ;loss:0.41 ;acc:0.94 ;iou:0.96 ;qMean:-0.00 ;qSTD:0.14 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.75 ;iRange:0.13 ;Gq:1.31152 ;Gi:1.68591 ;time: 0:01:00
+b:200 ;lr:0.040 ;loss:0.33 ;acc:0.95 ;iou:0.96 ;qMean:-0.00 ;qSTD:0.14 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.75 ;iRange:0.13 ;Gq:1.27895 ;Gi:1.84665 ;time: 0:01:20
+b:250 ;lr:0.040 ;loss:0.33 ;acc:0.96 ;iou:0.98 ;qMean:-0.00 ;qSTD:0.14 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.74 ;iRange:0.14 ;Gq:1.24067 ;Gi:1.94569 ;time: 0:01:40
+
+*Tr loss: 0.425 ;Tr acc: 0.927 ;IOU acc: 0.958 ;qMean:-0.000 ;qSTD:0.142 ;iMean:0.000 ;iSTD:0.022 ;qRange:0.751 ;imgRange:0.133 ;Gq:1.39143 ;Gi:2.17496 ;Time: 0:01:58 
+
+Testing, epoch: 97
+batch: 0 ;loss: 0.850 ;acc: 0.805 ;iou_acc: 0.885 ;time: 0:01:59
+batch: 50 ;loss: 1.156 ;acc: 0.770 ;iou_acc: 0.865 ;time: 0:02:07
+batch: 100 ;loss: 0.921 ;acc: 0.825 ;iou_acc: 0.880 ;time: 0:02:16
+batch: 150 ;loss: 1.321 ;acc: 0.770 ;iou_acc: 0.830 ;time: 0:02:24
+batch: 200 ;loss: 0.874 ;acc: 0.790 ;iou_acc: 0.850 ;time: 0:02:33
+batch: 250 ;loss: 1.138 ;acc: 0.745 ;iou_acc: 0.845 ;time: 0:02:41
+
+*Test loss: 1.048 ;Test accuracy 0.785 ;Test IOU: 0.857 ;Time: 0:02:48
+================================================== 
+Train, epoch: 98
+b:0 ;lr:0.040 ;loss:0.34 ;acc:0.96 ;iou:0.98 ;qMean:-0.00 ;qSTD:0.14 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.76 ;iRange:0.13 ;Gq:1.23867 ;Gi:1.83540 ;time: 0:00:01
+b:50 ;lr:0.040 ;loss:0.40 ;acc:0.94 ;iou:0.97 ;qMean:-0.00 ;qSTD:0.14 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.75 ;iRange:0.13 ;Gq:1.14085 ;Gi:1.82902 ;time: 0:00:20
+b:100 ;lr:0.040 ;loss:0.45 ;acc:0.93 ;iou:0.94 ;qMean:-0.00 ;qSTD:0.14 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.75 ;iRange:0.13 ;Gq:1.49088 ;Gi:2.40885 ;time: 0:00:39
+b:150 ;lr:0.040 ;loss:0.37 ;acc:0.93 ;iou:0.96 ;qMean:-0.00 ;qSTD:0.14 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.74 ;iRange:0.13 ;Gq:1.24137 ;Gi:1.71163 ;time: 0:01:00
+b:200 ;lr:0.040 ;loss:0.36 ;acc:0.94 ;iou:0.97 ;qMean:-0.00 ;qSTD:0.14 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.75 ;iRange:0.13 ;Gq:1.35419 ;Gi:2.27820 ;time: 0:01:20
+b:250 ;lr:0.040 ;loss:0.39 ;acc:0.93 ;iou:0.95 ;qMean:-0.00 ;qSTD:0.14 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.75 ;iRange:0.13 ;Gq:1.16452 ;Gi:1.84786 ;time: 0:01:40
+
+*Tr loss: 0.420 ;Tr acc: 0.928 ;IOU acc: 0.958 ;qMean:-0.000 ;qSTD:0.142 ;iMean:0.000 ;iSTD:0.022 ;qRange:0.751 ;imgRange:0.133 ;Gq:1.39149 ;Gi:2.18503 ;Time: 0:01:57 
+
+Testing, epoch: 98
+batch: 0 ;loss: 0.838 ;acc: 0.820 ;iou_acc: 0.890 ;time: 0:01:58
+batch: 50 ;loss: 1.157 ;acc: 0.765 ;iou_acc: 0.850 ;time: 0:02:06
+batch: 100 ;loss: 0.959 ;acc: 0.810 ;iou_acc: 0.875 ;time: 0:02:14
+batch: 150 ;loss: 1.315 ;acc: 0.750 ;iou_acc: 0.815 ;time: 0:02:23
+batch: 200 ;loss: 0.906 ;acc: 0.810 ;iou_acc: 0.865 ;time: 0:02:31
+batch: 250 ;loss: 1.133 ;acc: 0.745 ;iou_acc: 0.845 ;time: 0:02:39
+
+*Test loss: 1.061 ;Test accuracy 0.783 ;Test IOU: 0.855 ;Time: 0:02:46
+================================================== 
+Train, epoch: 99
+b:0 ;lr:0.040 ;loss:0.43 ;acc:0.94 ;iou:0.96 ;qMean:-0.00 ;qSTD:0.14 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.75 ;iRange:0.13 ;Gq:1.31955 ;Gi:2.19734 ;time: 0:00:00
+b:50 ;lr:0.040 ;loss:0.38 ;acc:0.94 ;iou:0.97 ;qMean:-0.00 ;qSTD:0.14 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.75 ;iRange:0.13 ;Gq:1.20578 ;Gi:2.08028 ;time: 0:00:20
+b:100 ;lr:0.040 ;loss:0.35 ;acc:0.95 ;iou:0.95 ;qMean:-0.00 ;qSTD:0.14 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.76 ;iRange:0.13 ;Gq:1.25433 ;Gi:2.09835 ;time: 0:00:39
+b:150 ;lr:0.040 ;loss:0.41 ;acc:0.93 ;iou:0.95 ;qMean:-0.00 ;qSTD:0.14 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.75 ;iRange:0.13 ;Gq:1.30257 ;Gi:1.86989 ;time: 0:01:00
+b:200 ;lr:0.040 ;loss:0.40 ;acc:0.93 ;iou:0.95 ;qMean:-0.00 ;qSTD:0.14 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.75 ;iRange:0.13 ;Gq:1.45618 ;Gi:1.86180 ;time: 0:01:19
+b:250 ;lr:0.040 ;loss:0.49 ;acc:0.90 ;iou:0.94 ;qMean:-0.00 ;qSTD:0.14 ;iMean:0.00 ;iSTD:0.02 ;qRange:0.75 ;iRange:0.13 ;Gq:1.38989 ;Gi:2.03071 ;time: 0:01:39
+
+*Tr loss: 0.416 ;Tr acc: 0.929 ;IOU acc: 0.959 ;qMean:-0.000 ;qSTD:0.142 ;iMean:0.000 ;iSTD:0.022 ;qRange:0.752 ;imgRange:0.133 ;Gq:1.39691 ;Gi:2.17532 ;Time: 0:01:58 
+
+Testing, epoch: 99
+batch: 0 ;loss: 0.863 ;acc: 0.815 ;iou_acc: 0.895 ;time: 0:01:58
+batch: 50 ;loss: 1.180 ;acc: 0.750 ;iou_acc: 0.840 ;time: 0:02:06
+batch: 100 ;loss: 0.928 ;acc: 0.815 ;iou_acc: 0.880 ;time: 0:02:14
+batch: 150 ;loss: 1.284 ;acc: 0.760 ;iou_acc: 0.835 ;time: 0:02:23
+batch: 200 ;loss: 0.918 ;acc: 0.810 ;iou_acc: 0.880 ;time: 0:02:31
+batch: 250 ;loss: 1.166 ;acc: 0.730 ;iou_acc: 0.845 ;time: 0:02:39
+
+*Test loss: 1.056 ;Test accuracy 0.785 ;Test IOU: 0.857 ;Time: 0:02:47
+================================================== 
+
+
+****************************************************************************************************
+****************************************************************************************************
+**************************************************************************************************** 

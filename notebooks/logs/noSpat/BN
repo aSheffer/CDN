@@ -1,0 +1,1010 @@
+params_dir: ../data/training/models/noSpat/BN
+num_hidden: 200
+Initializing variables
+================================================== 
+Train, epoch: 0
+batch:0 ;gs:1 ;lr:0.050 ;loss:2.453 ;acc:0.385 ;iou:0.465 ;time: 0:00:01
+batch:50 ;gs:51 ;lr:0.050 ;loss:2.502 ;acc:0.345 ;iou:0.445 ;time: 0:00:16
+batch:100 ;gs:101 ;lr:0.050 ;loss:2.616 ;acc:0.300 ;iou:0.425 ;time: 0:00:32
+batch:150 ;gs:151 ;lr:0.050 ;loss:2.679 ;acc:0.255 ;iou:0.365 ;time: 0:00:47
+batch:200 ;gs:201 ;lr:0.050 ;loss:2.687 ;acc:0.285 ;iou:0.385 ;time: 0:01:03
+batch:250 ;gs:251 ;lr:0.050 ;loss:2.690 ;acc:0.255 ;iou:0.345 ;time: 0:01:17
+
+*Train loss: 2.666 ;Train accuracy: 0.286 ;Train IOU: 0.370 ;Time: 0:01:31 
+
+Testing, epoch: 0
+batch: 0 ;loss: 2.967 ;acc: 0.195 ;iou_acc: 0.295 ;time: 0:01:31
+batch: 50 ;loss: 2.868 ;acc: 0.240 ;iou_acc: 0.330 ;time: 0:01:40
+batch: 100 ;loss: 2.925 ;acc: 0.180 ;iou_acc: 0.290 ;time: 0:01:49
+batch: 150 ;loss: 2.915 ;acc: 0.230 ;iou_acc: 0.320 ;time: 0:01:58
+batch: 200 ;loss: 3.044 ;acc: 0.155 ;iou_acc: 0.265 ;time: 0:02:07
+batch: 250 ;loss: 2.837 ;acc: 0.235 ;iou_acc: 0.315 ;time: 0:02:16
+
+*Test loss: 2.913 ;Test accuracy 0.198 ;Test IOU: 0.292 ;Time: 0:02:24
+================================================== 
+Train, epoch: 1
+batch:0 ;gs:298 ;lr:0.050 ;loss:2.731 ;acc:0.260 ;iou:0.335 ;time: 0:00:01
+batch:50 ;gs:348 ;lr:0.050 ;loss:2.640 ;acc:0.310 ;iou:0.375 ;time: 0:00:16
+batch:100 ;gs:398 ;lr:0.050 ;loss:2.582 ;acc:0.330 ;iou:0.400 ;time: 0:00:31
+batch:150 ;gs:448 ;lr:0.050 ;loss:2.707 ;acc:0.280 ;iou:0.375 ;time: 0:00:46
+batch:200 ;gs:498 ;lr:0.050 ;loss:2.592 ;acc:0.355 ;iou:0.415 ;time: 0:01:02
+batch:250 ;gs:548 ;lr:0.050 ;loss:2.752 ;acc:0.230 ;iou:0.300 ;time: 0:01:17
+
+*Train loss: 2.718 ;Train accuracy: 0.289 ;Train IOU: 0.372 ;Time: 0:01:30 
+
+Testing, epoch: 1
+batch: 0 ;loss: 3.071 ;acc: 0.140 ;iou_acc: 0.275 ;time: 0:01:31
+batch: 50 ;loss: 2.918 ;acc: 0.195 ;iou_acc: 0.275 ;time: 0:01:40
+batch: 100 ;loss: 2.953 ;acc: 0.180 ;iou_acc: 0.295 ;time: 0:01:49
+batch: 150 ;loss: 2.922 ;acc: 0.250 ;iou_acc: 0.355 ;time: 0:01:58
+batch: 200 ;loss: 3.099 ;acc: 0.160 ;iou_acc: 0.265 ;time: 0:02:06
+batch: 250 ;loss: 2.866 ;acc: 0.240 ;iou_acc: 0.330 ;time: 0:02:16
+
+*Test loss: 2.951 ;Test accuracy 0.207 ;Test IOU: 0.302 ;Time: 0:02:24
+================================================== 
+Train, epoch: 2
+batch:0 ;gs:595 ;lr:0.050 ;loss:2.622 ;acc:0.325 ;iou:0.395 ;time: 0:00:00
+batch:50 ;gs:645 ;lr:0.050 ;loss:2.615 ;acc:0.340 ;iou:0.420 ;time: 0:00:15
+batch:100 ;gs:695 ;lr:0.050 ;loss:2.887 ;acc:0.275 ;iou:0.335 ;time: 0:00:31
+batch:150 ;gs:745 ;lr:0.050 ;loss:2.711 ;acc:0.315 ;iou:0.390 ;time: 0:00:45
+batch:200 ;gs:795 ;lr:0.050 ;loss:2.774 ;acc:0.285 ;iou:0.360 ;time: 0:01:00
+batch:250 ;gs:845 ;lr:0.050 ;loss:2.874 ;acc:0.255 ;iou:0.350 ;time: 0:01:15
+
+*Train loss: 2.741 ;Train accuracy: 0.299 ;Train IOU: 0.381 ;Time: 0:01:30 
+
+Testing, epoch: 2
+batch: 0 ;loss: 3.100 ;acc: 0.205 ;iou_acc: 0.295 ;time: 0:01:30
+batch: 50 ;loss: 2.983 ;acc: 0.200 ;iou_acc: 0.305 ;time: 0:01:39
+batch: 100 ;loss: 3.059 ;acc: 0.185 ;iou_acc: 0.290 ;time: 0:01:48
+batch: 150 ;loss: 2.947 ;acc: 0.220 ;iou_acc: 0.330 ;time: 0:01:56
+batch: 200 ;loss: 3.171 ;acc: 0.170 ;iou_acc: 0.250 ;time: 0:02:06
+batch: 250 ;loss: 2.843 ;acc: 0.220 ;iou_acc: 0.305 ;time: 0:02:14
+
+*Test loss: 3.002 ;Test accuracy 0.208 ;Test IOU: 0.309 ;Time: 0:02:23
+================================================== 
+Train, epoch: 3
+batch:0 ;gs:892 ;lr:0.050 ;loss:2.704 ;acc:0.365 ;iou:0.450 ;time: 0:00:00
+batch:50 ;gs:942 ;lr:0.050 ;loss:2.572 ;acc:0.360 ;iou:0.450 ;time: 0:00:15
+batch:100 ;gs:992 ;lr:0.050 ;loss:2.703 ;acc:0.335 ;iou:0.405 ;time: 0:00:29
+batch:150 ;gs:1042 ;lr:0.050 ;loss:2.820 ;acc:0.320 ;iou:0.405 ;time: 0:00:44
+batch:200 ;gs:1092 ;lr:0.050 ;loss:2.774 ;acc:0.315 ;iou:0.430 ;time: 0:01:00
+batch:250 ;gs:1142 ;lr:0.050 ;loss:2.796 ;acc:0.285 ;iou:0.360 ;time: 0:01:15
+
+*Train loss: 2.765 ;Train accuracy: 0.306 ;Train IOU: 0.391 ;Time: 0:01:30 
+
+Testing, epoch: 3
+batch: 0 ;loss: 3.171 ;acc: 0.170 ;iou_acc: 0.270 ;time: 0:01:30
+batch: 50 ;loss: 3.005 ;acc: 0.230 ;iou_acc: 0.330 ;time: 0:01:39
+batch: 100 ;loss: 3.034 ;acc: 0.250 ;iou_acc: 0.350 ;time: 0:01:48
+batch: 150 ;loss: 2.941 ;acc: 0.260 ;iou_acc: 0.380 ;time: 0:01:57
+batch: 200 ;loss: 3.218 ;acc: 0.150 ;iou_acc: 0.260 ;time: 0:02:06
+batch: 250 ;loss: 2.845 ;acc: 0.295 ;iou_acc: 0.380 ;time: 0:02:15
+
+*Test loss: 3.037 ;Test accuracy 0.215 ;Test IOU: 0.314 ;Time: 0:02:23
+================================================== 
+Train, epoch: 4
+batch:0 ;gs:1189 ;lr:0.050 ;loss:2.702 ;acc:0.315 ;iou:0.355 ;time: 0:00:01
+batch:50 ;gs:1239 ;lr:0.050 ;loss:2.729 ;acc:0.310 ;iou:0.390 ;time: 0:00:16
+batch:100 ;gs:1289 ;lr:0.050 ;loss:2.861 ;acc:0.325 ;iou:0.450 ;time: 0:00:31
+batch:150 ;gs:1339 ;lr:0.050 ;loss:2.787 ;acc:0.310 ;iou:0.385 ;time: 0:00:47
+batch:200 ;gs:1389 ;lr:0.050 ;loss:2.666 ;acc:0.340 ;iou:0.440 ;time: 0:01:02
+batch:250 ;gs:1439 ;lr:0.050 ;loss:2.981 ;acc:0.270 ;iou:0.385 ;time: 0:01:16
+
+*Train loss: 2.786 ;Train accuracy: 0.318 ;Train IOU: 0.403 ;Time: 0:01:30 
+
+Testing, epoch: 4
+batch: 0 ;loss: 3.284 ;acc: 0.195 ;iou_acc: 0.280 ;time: 0:01:30
+batch: 50 ;loss: 3.081 ;acc: 0.250 ;iou_acc: 0.350 ;time: 0:01:39
+batch: 100 ;loss: 3.224 ;acc: 0.240 ;iou_acc: 0.325 ;time: 0:01:48
+batch: 150 ;loss: 3.187 ;acc: 0.230 ;iou_acc: 0.340 ;time: 0:01:57
+batch: 200 ;loss: 3.403 ;acc: 0.190 ;iou_acc: 0.285 ;time: 0:02:06
+batch: 250 ;loss: 3.020 ;acc: 0.260 ;iou_acc: 0.345 ;time: 0:02:15
+
+*Test loss: 3.180 ;Test accuracy 0.213 ;Test IOU: 0.315 ;Time: 0:02:24
+================================================== 
+Train, epoch: 5
+batch:0 ;gs:1486 ;lr:0.050 ;loss:2.689 ;acc:0.400 ;iou:0.485 ;time: 0:00:00
+batch:50 ;gs:1536 ;lr:0.050 ;loss:2.877 ;acc:0.345 ;iou:0.410 ;time: 0:00:15
+batch:100 ;gs:1586 ;lr:0.050 ;loss:2.770 ;acc:0.340 ;iou:0.425 ;time: 0:00:30
+batch:150 ;gs:1636 ;lr:0.050 ;loss:2.752 ;acc:0.355 ;iou:0.430 ;time: 0:00:44
+batch:200 ;gs:1686 ;lr:0.050 ;loss:2.802 ;acc:0.300 ;iou:0.380 ;time: 0:01:00
+batch:250 ;gs:1736 ;lr:0.050 ;loss:2.688 ;acc:0.330 ;iou:0.410 ;time: 0:01:15
+
+*Train loss: 2.820 ;Train accuracy: 0.325 ;Train IOU: 0.411 ;Time: 0:01:29 
+
+Testing, epoch: 5
+batch: 0 ;loss: 3.311 ;acc: 0.215 ;iou_acc: 0.300 ;time: 0:01:29
+batch: 50 ;loss: 3.066 ;acc: 0.260 ;iou_acc: 0.350 ;time: 0:01:38
+batch: 100 ;loss: 3.178 ;acc: 0.265 ;iou_acc: 0.370 ;time: 0:01:47
+batch: 150 ;loss: 3.101 ;acc: 0.255 ;iou_acc: 0.355 ;time: 0:01:56
+batch: 200 ;loss: 3.459 ;acc: 0.165 ;iou_acc: 0.270 ;time: 0:02:05
+batch: 250 ;loss: 2.948 ;acc: 0.280 ;iou_acc: 0.350 ;time: 0:02:14
+
+*Test loss: 3.214 ;Test accuracy 0.223 ;Test IOU: 0.327 ;Time: 0:02:22
+================================================== 
+Train, epoch: 6
+batch:0 ;gs:1783 ;lr:0.050 ;loss:2.885 ;acc:0.295 ;iou:0.420 ;time: 0:00:00
+batch:50 ;gs:1833 ;lr:0.050 ;loss:2.983 ;acc:0.330 ;iou:0.415 ;time: 0:00:15
+batch:100 ;gs:1883 ;lr:0.050 ;loss:2.902 ;acc:0.340 ;iou:0.425 ;time: 0:00:29
+batch:150 ;gs:1933 ;lr:0.050 ;loss:2.977 ;acc:0.325 ;iou:0.385 ;time: 0:00:45
+batch:200 ;gs:1983 ;lr:0.050 ;loss:2.888 ;acc:0.345 ;iou:0.425 ;time: 0:00:59
+batch:250 ;gs:2033 ;lr:0.050 ;loss:2.705 ;acc:0.350 ;iou:0.420 ;time: 0:01:14
+
+*Train loss: 2.844 ;Train accuracy: 0.335 ;Train IOU: 0.421 ;Time: 0:01:29 
+
+Testing, epoch: 6
+batch: 0 ;loss: 3.387 ;acc: 0.250 ;iou_acc: 0.335 ;time: 0:01:29
+batch: 50 ;loss: 3.218 ;acc: 0.260 ;iou_acc: 0.315 ;time: 0:01:38
+batch: 100 ;loss: 3.300 ;acc: 0.240 ;iou_acc: 0.335 ;time: 0:01:47
+batch: 150 ;loss: 3.285 ;acc: 0.260 ;iou_acc: 0.350 ;time: 0:01:56
+batch: 200 ;loss: 3.532 ;acc: 0.230 ;iou_acc: 0.305 ;time: 0:02:05
+batch: 250 ;loss: 3.080 ;acc: 0.290 ;iou_acc: 0.385 ;time: 0:02:14
+
+*Test loss: 3.317 ;Test accuracy 0.229 ;Test IOU: 0.325 ;Time: 0:02:23
+================================================== 
+Train, epoch: 7
+batch:0 ;gs:2080 ;lr:0.050 ;loss:2.701 ;acc:0.330 ;iou:0.420 ;time: 0:00:00
+batch:50 ;gs:2130 ;lr:0.050 ;loss:2.971 ;acc:0.300 ;iou:0.350 ;time: 0:00:15
+batch:100 ;gs:2180 ;lr:0.050 ;loss:2.668 ;acc:0.400 ;iou:0.490 ;time: 0:00:30
+batch:150 ;gs:2230 ;lr:0.050 ;loss:2.958 ;acc:0.310 ;iou:0.410 ;time: 0:00:45
+batch:200 ;gs:2280 ;lr:0.050 ;loss:2.939 ;acc:0.340 ;iou:0.445 ;time: 0:01:00
+batch:250 ;gs:2330 ;lr:0.050 ;loss:2.920 ;acc:0.330 ;iou:0.420 ;time: 0:01:15
+
+*Train loss: 2.836 ;Train accuracy: 0.347 ;Train IOU: 0.434 ;Time: 0:01:29 
+
+Testing, epoch: 7
+batch: 0 ;loss: 3.396 ;acc: 0.215 ;iou_acc: 0.315 ;time: 0:01:29
+batch: 50 ;loss: 3.201 ;acc: 0.265 ;iou_acc: 0.370 ;time: 0:01:38
+batch: 100 ;loss: 3.293 ;acc: 0.250 ;iou_acc: 0.385 ;time: 0:01:47
+batch: 150 ;loss: 3.144 ;acc: 0.285 ;iou_acc: 0.390 ;time: 0:01:56
+batch: 200 ;loss: 3.515 ;acc: 0.200 ;iou_acc: 0.330 ;time: 0:02:05
+batch: 250 ;loss: 2.938 ;acc: 0.315 ;iou_acc: 0.425 ;time: 0:02:14
+
+*Test loss: 3.260 ;Test accuracy 0.241 ;Test IOU: 0.348 ;Time: 0:02:22
+================================================== 
+Train, epoch: 8
+batch:0 ;gs:2377 ;lr:0.050 ;loss:2.705 ;acc:0.390 ;iou:0.485 ;time: 0:00:01
+batch:50 ;gs:2427 ;lr:0.050 ;loss:2.642 ;acc:0.420 ;iou:0.485 ;time: 0:00:16
+batch:100 ;gs:2477 ;lr:0.050 ;loss:2.758 ;acc:0.355 ;iou:0.445 ;time: 0:00:30
+batch:150 ;gs:2527 ;lr:0.050 ;loss:2.715 ;acc:0.355 ;iou:0.455 ;time: 0:00:45
+batch:200 ;gs:2577 ;lr:0.050 ;loss:2.832 ;acc:0.330 ;iou:0.405 ;time: 0:01:00
+batch:250 ;gs:2627 ;lr:0.050 ;loss:2.671 ;acc:0.420 ;iou:0.495 ;time: 0:01:15
+
+*Train loss: 2.839 ;Train accuracy: 0.360 ;Train IOU: 0.446 ;Time: 0:01:29 
+
+Testing, epoch: 8
+batch: 0 ;loss: 3.556 ;acc: 0.270 ;iou_acc: 0.355 ;time: 0:01:29
+batch: 50 ;loss: 3.372 ;acc: 0.275 ;iou_acc: 0.345 ;time: 0:01:38
+batch: 100 ;loss: 3.555 ;acc: 0.240 ;iou_acc: 0.340 ;time: 0:01:47
+batch: 150 ;loss: 3.292 ;acc: 0.260 ;iou_acc: 0.350 ;time: 0:01:56
+batch: 200 ;loss: 3.710 ;acc: 0.215 ;iou_acc: 0.315 ;time: 0:02:05
+batch: 250 ;loss: 3.054 ;acc: 0.290 ;iou_acc: 0.385 ;time: 0:02:14
+
+*Test loss: 3.459 ;Test accuracy 0.246 ;Test IOU: 0.350 ;Time: 0:02:22
+================================================== 
+Train, epoch: 9
+batch:0 ;gs:2674 ;lr:0.050 ;loss:2.914 ;acc:0.350 ;iou:0.445 ;time: 0:00:01
+batch:50 ;gs:2724 ;lr:0.050 ;loss:3.054 ;acc:0.375 ;iou:0.475 ;time: 0:00:16
+batch:100 ;gs:2774 ;lr:0.050 ;loss:2.715 ;acc:0.355 ;iou:0.435 ;time: 0:00:31
+batch:150 ;gs:2824 ;lr:0.050 ;loss:2.992 ;acc:0.365 ;iou:0.430 ;time: 0:00:45
+batch:200 ;gs:2874 ;lr:0.050 ;loss:3.068 ;acc:0.325 ;iou:0.390 ;time: 0:01:00
+batch:250 ;gs:2924 ;lr:0.050 ;loss:2.879 ;acc:0.350 ;iou:0.450 ;time: 0:01:15
+
+*Train loss: 2.822 ;Train accuracy: 0.373 ;Train IOU: 0.461 ;Time: 0:01:29 
+
+Testing, epoch: 9
+batch: 0 ;loss: 3.444 ;acc: 0.235 ;iou_acc: 0.325 ;time: 0:01:29
+batch: 50 ;loss: 3.349 ;acc: 0.260 ;iou_acc: 0.340 ;time: 0:01:38
+batch: 100 ;loss: 3.373 ;acc: 0.255 ;iou_acc: 0.350 ;time: 0:01:47
+batch: 150 ;loss: 3.247 ;acc: 0.295 ;iou_acc: 0.395 ;time: 0:01:56
+batch: 200 ;loss: 3.592 ;acc: 0.195 ;iou_acc: 0.290 ;time: 0:02:05
+batch: 250 ;loss: 2.993 ;acc: 0.315 ;iou_acc: 0.415 ;time: 0:02:14
+
+*Test loss: 3.329 ;Test accuracy 0.263 ;Test IOU: 0.368 ;Time: 0:02:22
+================================================== 
+Train, epoch: 10
+batch:0 ;gs:2971 ;lr:0.050 ;loss:2.502 ;acc:0.435 ;iou:0.535 ;time: 0:00:00
+batch:50 ;gs:3021 ;lr:0.050 ;loss:2.862 ;acc:0.410 ;iou:0.490 ;time: 0:00:16
+batch:100 ;gs:3071 ;lr:0.050 ;loss:2.979 ;acc:0.405 ;iou:0.480 ;time: 0:00:31
+batch:150 ;gs:3121 ;lr:0.050 ;loss:3.078 ;acc:0.375 ;iou:0.535 ;time: 0:00:46
+batch:200 ;gs:3171 ;lr:0.050 ;loss:2.987 ;acc:0.340 ;iou:0.435 ;time: 0:01:00
+batch:250 ;gs:3221 ;lr:0.050 ;loss:2.627 ;acc:0.410 ;iou:0.480 ;time: 0:01:15
+
+*Train loss: 2.753 ;Train accuracy: 0.397 ;Train IOU: 0.486 ;Time: 0:01:29 
+
+Testing, epoch: 10
+batch: 0 ;loss: 3.439 ;acc: 0.275 ;iou_acc: 0.365 ;time: 0:01:29
+batch: 50 ;loss: 3.366 ;acc: 0.265 ;iou_acc: 0.340 ;time: 0:01:38
+batch: 100 ;loss: 3.356 ;acc: 0.310 ;iou_acc: 0.440 ;time: 0:01:48
+batch: 150 ;loss: 3.387 ;acc: 0.275 ;iou_acc: 0.400 ;time: 0:01:57
+batch: 200 ;loss: 3.491 ;acc: 0.245 ;iou_acc: 0.360 ;time: 0:02:06
+batch: 250 ;loss: 2.902 ;acc: 0.355 ;iou_acc: 0.465 ;time: 0:02:15
+
+*Test loss: 3.301 ;Test accuracy 0.282 ;Test IOU: 0.399 ;Time: 0:02:23
+================================================== 
+Train, epoch: 11
+batch:0 ;gs:3268 ;lr:0.050 ;loss:2.646 ;acc:0.400 ;iou:0.510 ;time: 0:00:01
+batch:50 ;gs:3318 ;lr:0.050 ;loss:2.872 ;acc:0.405 ;iou:0.475 ;time: 0:00:16
+batch:100 ;gs:3368 ;lr:0.050 ;loss:2.510 ;acc:0.490 ;iou:0.570 ;time: 0:00:31
+batch:150 ;gs:3418 ;lr:0.050 ;loss:2.753 ;acc:0.410 ;iou:0.545 ;time: 0:00:46
+batch:200 ;gs:3468 ;lr:0.050 ;loss:2.729 ;acc:0.415 ;iou:0.475 ;time: 0:01:00
+batch:250 ;gs:3518 ;lr:0.050 ;loss:2.709 ;acc:0.410 ;iou:0.485 ;time: 0:01:16
+
+*Train loss: 2.694 ;Train accuracy: 0.417 ;Train IOU: 0.505 ;Time: 0:01:29 
+
+Testing, epoch: 11
+batch: 0 ;loss: 3.452 ;acc: 0.255 ;iou_acc: 0.350 ;time: 0:01:30
+batch: 50 ;loss: 3.328 ;acc: 0.335 ;iou_acc: 0.410 ;time: 0:01:39
+batch: 100 ;loss: 3.351 ;acc: 0.300 ;iou_acc: 0.405 ;time: 0:01:47
+batch: 150 ;loss: 3.153 ;acc: 0.295 ;iou_acc: 0.415 ;time: 0:01:56
+batch: 200 ;loss: 3.445 ;acc: 0.260 ;iou_acc: 0.380 ;time: 0:02:05
+batch: 250 ;loss: 2.913 ;acc: 0.380 ;iou_acc: 0.480 ;time: 0:02:14
+
+*Test loss: 3.257 ;Test accuracy 0.298 ;Test IOU: 0.417 ;Time: 0:02:23
+================================================== 
+Train, epoch: 12
+batch:0 ;gs:3565 ;lr:0.050 ;loss:2.647 ;acc:0.440 ;iou:0.540 ;time: 0:00:00
+batch:50 ;gs:3615 ;lr:0.050 ;loss:2.699 ;acc:0.440 ;iou:0.490 ;time: 0:00:15
+batch:100 ;gs:3665 ;lr:0.050 ;loss:2.545 ;acc:0.465 ;iou:0.550 ;time: 0:00:30
+batch:150 ;gs:3715 ;lr:0.050 ;loss:2.828 ;acc:0.415 ;iou:0.535 ;time: 0:00:45
+batch:200 ;gs:3765 ;lr:0.050 ;loss:2.840 ;acc:0.395 ;iou:0.460 ;time: 0:01:00
+batch:250 ;gs:3815 ;lr:0.050 ;loss:2.603 ;acc:0.430 ;iou:0.485 ;time: 0:01:15
+
+*Train loss: 2.589 ;Train accuracy: 0.447 ;Train IOU: 0.534 ;Time: 0:01:29 
+
+Testing, epoch: 12
+batch: 0 ;loss: 3.505 ;acc: 0.320 ;iou_acc: 0.405 ;time: 0:01:29
+batch: 50 ;loss: 3.369 ;acc: 0.340 ;iou_acc: 0.405 ;time: 0:01:38
+batch: 100 ;loss: 3.287 ;acc: 0.315 ;iou_acc: 0.425 ;time: 0:01:47
+batch: 150 ;loss: 3.411 ;acc: 0.310 ;iou_acc: 0.395 ;time: 0:01:56
+batch: 200 ;loss: 3.546 ;acc: 0.240 ;iou_acc: 0.390 ;time: 0:02:04
+batch: 250 ;loss: 2.901 ;acc: 0.380 ;iou_acc: 0.460 ;time: 0:02:13
+
+*Test loss: 3.309 ;Test accuracy 0.315 ;Test IOU: 0.427 ;Time: 0:02:22
+================================================== 
+Train, epoch: 13
+batch:0 ;gs:3862 ;lr:0.050 ;loss:2.580 ;acc:0.445 ;iou:0.530 ;time: 0:00:00
+batch:50 ;gs:3912 ;lr:0.050 ;loss:2.789 ;acc:0.475 ;iou:0.550 ;time: 0:00:15
+batch:100 ;gs:3962 ;lr:0.050 ;loss:2.350 ;acc:0.495 ;iou:0.580 ;time: 0:00:30
+batch:150 ;gs:4012 ;lr:0.050 ;loss:2.099 ;acc:0.540 ;iou:0.605 ;time: 0:00:45
+batch:200 ;gs:4062 ;lr:0.050 ;loss:2.358 ;acc:0.495 ;iou:0.575 ;time: 0:01:00
+batch:250 ;gs:4112 ;lr:0.050 ;loss:2.393 ;acc:0.490 ;iou:0.535 ;time: 0:01:16
+
+*Train loss: 2.434 ;Train accuracy: 0.483 ;Train IOU: 0.568 ;Time: 0:01:30 
+
+Testing, epoch: 13
+batch: 0 ;loss: 3.337 ;acc: 0.345 ;iou_acc: 0.465 ;time: 0:01:30
+batch: 50 ;loss: 3.331 ;acc: 0.350 ;iou_acc: 0.440 ;time: 0:01:39
+batch: 100 ;loss: 3.203 ;acc: 0.330 ;iou_acc: 0.440 ;time: 0:01:48
+batch: 150 ;loss: 3.052 ;acc: 0.400 ;iou_acc: 0.475 ;time: 0:01:57
+batch: 200 ;loss: 3.346 ;acc: 0.290 ;iou_acc: 0.420 ;time: 0:02:07
+batch: 250 ;loss: 2.736 ;acc: 0.425 ;iou_acc: 0.530 ;time: 0:02:16
+
+*Test loss: 3.197 ;Test accuracy 0.342 ;Test IOU: 0.457 ;Time: 0:02:24
+================================================== 
+Train, epoch: 14
+batch:0 ;gs:4159 ;lr:0.050 ;loss:2.190 ;acc:0.475 ;iou:0.565 ;time: 0:00:00
+batch:50 ;gs:4209 ;lr:0.050 ;loss:2.211 ;acc:0.525 ;iou:0.615 ;time: 0:00:15
+batch:100 ;gs:4259 ;lr:0.050 ;loss:2.313 ;acc:0.475 ;iou:0.575 ;time: 0:00:31
+batch:150 ;gs:4309 ;lr:0.050 ;loss:2.115 ;acc:0.515 ;iou:0.630 ;time: 0:00:46
+batch:200 ;gs:4359 ;lr:0.050 ;loss:2.588 ;acc:0.445 ;iou:0.535 ;time: 0:01:01
+batch:250 ;gs:4409 ;lr:0.050 ;loss:2.198 ;acc:0.495 ;iou:0.620 ;time: 0:01:16
+
+*Train loss: 2.209 ;Train accuracy: 0.530 ;Train IOU: 0.612 ;Time: 0:01:30 
+
+Testing, epoch: 14
+batch: 0 ;loss: 3.349 ;acc: 0.320 ;iou_acc: 0.455 ;time: 0:01:30
+batch: 50 ;loss: 3.248 ;acc: 0.380 ;iou_acc: 0.460 ;time: 0:01:39
+batch: 100 ;loss: 3.102 ;acc: 0.350 ;iou_acc: 0.490 ;time: 0:01:48
+batch: 150 ;loss: 3.418 ;acc: 0.330 ;iou_acc: 0.445 ;time: 0:01:58
+batch: 200 ;loss: 3.181 ;acc: 0.370 ;iou_acc: 0.500 ;time: 0:02:07
+batch: 250 ;loss: 2.662 ;acc: 0.460 ;iou_acc: 0.555 ;time: 0:02:16
+
+*Test loss: 3.079 ;Test accuracy 0.379 ;Test IOU: 0.497 ;Time: 0:02:24
+================================================== 
+Train, epoch: 15
+batch:0 ;gs:4456 ;lr:0.050 ;loss:2.238 ;acc:0.510 ;iou:0.635 ;time: 0:00:00
+batch:50 ;gs:4506 ;lr:0.050 ;loss:1.886 ;acc:0.595 ;iou:0.680 ;time: 0:00:15
+batch:100 ;gs:4556 ;lr:0.050 ;loss:2.181 ;acc:0.555 ;iou:0.645 ;time: 0:00:30
+batch:150 ;gs:4606 ;lr:0.050 ;loss:2.002 ;acc:0.510 ;iou:0.560 ;time: 0:00:45
+batch:200 ;gs:4656 ;lr:0.050 ;loss:2.010 ;acc:0.575 ;iou:0.650 ;time: 0:01:00
+batch:250 ;gs:4706 ;lr:0.050 ;loss:1.871 ;acc:0.610 ;iou:0.675 ;time: 0:01:15
+
+*Train loss: 1.995 ;Train accuracy: 0.581 ;Train IOU: 0.659 ;Time: 0:01:29 
+
+Testing, epoch: 15
+batch: 0 ;loss: 2.811 ;acc: 0.425 ;iou_acc: 0.530 ;time: 0:01:29
+batch: 50 ;loss: 3.163 ;acc: 0.370 ;iou_acc: 0.475 ;time: 0:01:38
+batch: 100 ;loss: 3.065 ;acc: 0.380 ;iou_acc: 0.495 ;time: 0:01:46
+batch: 150 ;loss: 2.969 ;acc: 0.410 ;iou_acc: 0.505 ;time: 0:01:56
+batch: 200 ;loss: 3.056 ;acc: 0.415 ;iou_acc: 0.535 ;time: 0:02:04
+batch: 250 ;loss: 2.631 ;acc: 0.470 ;iou_acc: 0.580 ;time: 0:02:13
+
+*Test loss: 2.934 ;Test accuracy 0.413 ;Test IOU: 0.526 ;Time: 0:02:22
+================================================== 
+Train, epoch: 16
+batch:0 ;gs:4753 ;lr:0.050 ;loss:1.744 ;acc:0.625 ;iou:0.710 ;time: 0:00:00
+batch:50 ;gs:4803 ;lr:0.050 ;loss:1.909 ;acc:0.595 ;iou:0.645 ;time: 0:00:15
+batch:100 ;gs:4853 ;lr:0.050 ;loss:1.703 ;acc:0.645 ;iou:0.705 ;time: 0:00:30
+batch:150 ;gs:4903 ;lr:0.050 ;loss:1.728 ;acc:0.640 ;iou:0.730 ;time: 0:00:44
+batch:200 ;gs:4953 ;lr:0.050 ;loss:1.607 ;acc:0.695 ;iou:0.735 ;time: 0:00:59
+batch:250 ;gs:5003 ;lr:0.050 ;loss:1.571 ;acc:0.680 ;iou:0.735 ;time: 0:01:13
+
+*Train loss: 1.700 ;Train accuracy: 0.641 ;Train IOU: 0.710 ;Time: 0:01:28 
+
+Testing, epoch: 16
+batch: 0 ;loss: 3.019 ;acc: 0.450 ;iou_acc: 0.545 ;time: 0:01:28
+batch: 50 ;loss: 3.377 ;acc: 0.395 ;iou_acc: 0.500 ;time: 0:01:37
+batch: 100 ;loss: 2.932 ;acc: 0.440 ;iou_acc: 0.585 ;time: 0:01:46
+batch: 150 ;loss: 2.983 ;acc: 0.455 ;iou_acc: 0.550 ;time: 0:01:55
+batch: 200 ;loss: 2.842 ;acc: 0.450 ;iou_acc: 0.555 ;time: 0:02:04
+batch: 250 ;loss: 2.668 ;acc: 0.485 ;iou_acc: 0.585 ;time: 0:02:13
+
+*Test loss: 2.993 ;Test accuracy 0.434 ;Test IOU: 0.544 ;Time: 0:02:22
+================================================== 
+Train, epoch: 17
+batch:0 ;gs:5050 ;lr:0.050 ;loss:1.477 ;acc:0.695 ;iou:0.780 ;time: 0:00:00
+batch:50 ;gs:5100 ;lr:0.050 ;loss:1.534 ;acc:0.705 ;iou:0.785 ;time: 0:00:15
+batch:100 ;gs:5150 ;lr:0.050 ;loss:2.483 ;acc:0.555 ;iou:0.610 ;time: 0:00:30
+batch:150 ;gs:5200 ;lr:0.050 ;loss:1.738 ;acc:0.660 ;iou:0.705 ;time: 0:00:46
+batch:200 ;gs:5250 ;lr:0.050 ;loss:1.427 ;acc:0.730 ;iou:0.770 ;time: 0:01:00
+batch:250 ;gs:5300 ;lr:0.050 ;loss:1.297 ;acc:0.740 ;iou:0.780 ;time: 0:01:15
+
+*Train loss: 1.423 ;Train accuracy: 0.702 ;Train IOU: 0.763 ;Time: 0:01:28 
+
+Testing, epoch: 17
+batch: 0 ;loss: 2.798 ;acc: 0.465 ;iou_acc: 0.625 ;time: 0:01:29
+batch: 50 ;loss: 3.119 ;acc: 0.410 ;iou_acc: 0.515 ;time: 0:01:38
+batch: 100 ;loss: 3.213 ;acc: 0.405 ;iou_acc: 0.480 ;time: 0:01:46
+batch: 150 ;loss: 2.926 ;acc: 0.445 ;iou_acc: 0.545 ;time: 0:01:55
+batch: 200 ;loss: 2.855 ;acc: 0.455 ;iou_acc: 0.535 ;time: 0:02:04
+batch: 250 ;loss: 2.703 ;acc: 0.495 ;iou_acc: 0.600 ;time: 0:02:13
+
+*Test loss: 2.970 ;Test accuracy 0.451 ;Test IOU: 0.559 ;Time: 0:02:22
+================================================== 
+Train, epoch: 18
+batch:0 ;gs:5347 ;lr:0.050 ;loss:1.156 ;acc:0.775 ;iou:0.840 ;time: 0:00:00
+batch:50 ;gs:5397 ;lr:0.050 ;loss:1.195 ;acc:0.725 ;iou:0.775 ;time: 0:00:15
+batch:100 ;gs:5447 ;lr:0.050 ;loss:1.133 ;acc:0.775 ;iou:0.830 ;time: 0:00:30
+batch:150 ;gs:5497 ;lr:0.050 ;loss:1.001 ;acc:0.810 ;iou:0.860 ;time: 0:00:46
+batch:200 ;gs:5547 ;lr:0.050 ;loss:1.064 ;acc:0.795 ;iou:0.845 ;time: 0:01:00
+batch:250 ;gs:5597 ;lr:0.050 ;loss:1.018 ;acc:0.800 ;iou:0.870 ;time: 0:01:15
+
+*Train loss: 1.158 ;Train accuracy: 0.760 ;Train IOU: 0.812 ;Time: 0:01:29 
+
+Testing, epoch: 18
+batch: 0 ;loss: 2.812 ;acc: 0.500 ;iou_acc: 0.615 ;time: 0:01:29
+batch: 50 ;loss: 3.394 ;acc: 0.395 ;iou_acc: 0.465 ;time: 0:01:37
+batch: 100 ;loss: 3.314 ;acc: 0.425 ;iou_acc: 0.520 ;time: 0:01:46
+batch: 150 ;loss: 3.494 ;acc: 0.460 ;iou_acc: 0.545 ;time: 0:01:55
+batch: 200 ;loss: 2.991 ;acc: 0.445 ;iou_acc: 0.545 ;time: 0:02:04
+batch: 250 ;loss: 2.963 ;acc: 0.505 ;iou_acc: 0.595 ;time: 0:02:13
+
+*Test loss: 3.079 ;Test accuracy 0.479 ;Test IOU: 0.581 ;Time: 0:02:21
+================================================== 
+Train, epoch: 19
+batch:0 ;gs:5644 ;lr:0.050 ;loss:1.040 ;acc:0.775 ;iou:0.785 ;time: 0:00:00
+batch:50 ;gs:5694 ;lr:0.050 ;loss:1.046 ;acc:0.780 ;iou:0.850 ;time: 0:00:15
+batch:100 ;gs:5744 ;lr:0.050 ;loss:1.247 ;acc:0.765 ;iou:0.820 ;time: 0:00:29
+batch:150 ;gs:5794 ;lr:0.050 ;loss:1.009 ;acc:0.790 ;iou:0.840 ;time: 0:00:45
+batch:200 ;gs:5844 ;lr:0.050 ;loss:0.660 ;acc:0.875 ;iou:0.900 ;time: 0:01:00
+batch:250 ;gs:5894 ;lr:0.050 ;loss:0.731 ;acc:0.860 ;iou:0.885 ;time: 0:01:14
+
+*Train loss: 0.870 ;Train accuracy: 0.821 ;Train IOU: 0.860 ;Time: 0:01:28 
+
+Testing, epoch: 19
+batch: 0 ;loss: 2.773 ;acc: 0.480 ;iou_acc: 0.595 ;time: 0:01:28
+batch: 50 ;loss: 2.965 ;acc: 0.490 ;iou_acc: 0.585 ;time: 0:01:37
+batch: 100 ;loss: 2.676 ;acc: 0.525 ;iou_acc: 0.640 ;time: 0:01:46
+batch: 150 ;loss: 2.765 ;acc: 0.500 ;iou_acc: 0.605 ;time: 0:01:55
+batch: 200 ;loss: 2.587 ;acc: 0.535 ;iou_acc: 0.655 ;time: 0:02:04
+batch: 250 ;loss: 2.472 ;acc: 0.550 ;iou_acc: 0.685 ;time: 0:02:13
+
+*Test loss: 2.704 ;Test accuracy 0.531 ;Test IOU: 0.633 ;Time: 0:02:21
+================================================== 
+Train, epoch: 20
+batch:0 ;gs:5941 ;lr:0.050 ;loss:0.515 ;acc:0.895 ;iou:0.910 ;time: 0:00:01
+batch:50 ;gs:5991 ;lr:0.050 ;loss:0.470 ;acc:0.925 ;iou:0.945 ;time: 0:00:15
+batch:100 ;gs:6041 ;lr:0.050 ;loss:0.655 ;acc:0.880 ;iou:0.905 ;time: 0:00:30
+batch:150 ;gs:6091 ;lr:0.050 ;loss:0.665 ;acc:0.850 ;iou:0.875 ;time: 0:00:45
+batch:200 ;gs:6141 ;lr:0.050 ;loss:0.603 ;acc:0.895 ;iou:0.920 ;time: 0:01:01
+batch:250 ;gs:6191 ;lr:0.050 ;loss:0.498 ;acc:0.900 ;iou:0.935 ;time: 0:01:16
+
+*Train loss: 0.652 ;Train accuracy: 0.873 ;Train IOU: 0.902 ;Time: 0:01:30 
+
+Testing, epoch: 20
+batch: 0 ;loss: 2.586 ;acc: 0.535 ;iou_acc: 0.645 ;time: 0:01:30
+batch: 50 ;loss: 2.953 ;acc: 0.485 ;iou_acc: 0.565 ;time: 0:01:39
+batch: 100 ;loss: 2.728 ;acc: 0.525 ;iou_acc: 0.635 ;time: 0:01:48
+batch: 150 ;loss: 3.108 ;acc: 0.495 ;iou_acc: 0.590 ;time: 0:01:57
+batch: 200 ;loss: 2.246 ;acc: 0.585 ;iou_acc: 0.645 ;time: 0:02:06
+batch: 250 ;loss: 2.615 ;acc: 0.545 ;iou_acc: 0.645 ;time: 0:02:16
+
+*Test loss: 2.682 ;Test accuracy 0.548 ;Test IOU: 0.649 ;Time: 0:02:24
+================================================== 
+Train, epoch: 21
+batch:0 ;gs:6238 ;lr:0.050 ;loss:0.350 ;acc:0.945 ;iou:0.950 ;time: 0:00:00
+batch:50 ;gs:6288 ;lr:0.050 ;loss:0.437 ;acc:0.930 ;iou:0.960 ;time: 0:00:14
+batch:100 ;gs:6338 ;lr:0.050 ;loss:0.515 ;acc:0.900 ;iou:0.920 ;time: 0:00:30
+batch:150 ;gs:6388 ;lr:0.050 ;loss:0.495 ;acc:0.930 ;iou:0.935 ;time: 0:00:45
+batch:200 ;gs:6438 ;lr:0.050 ;loss:0.504 ;acc:0.895 ;iou:0.935 ;time: 0:01:00
+batch:250 ;gs:6488 ;lr:0.050 ;loss:0.950 ;acc:0.835 ;iou:0.850 ;time: 0:01:15
+
+*Train loss: 0.479 ;Train accuracy: 0.913 ;Train IOU: 0.932 ;Time: 0:01:28 
+
+Testing, epoch: 21
+batch: 0 ;loss: 2.739 ;acc: 0.540 ;iou_acc: 0.650 ;time: 0:01:28
+batch: 50 ;loss: 3.151 ;acc: 0.505 ;iou_acc: 0.575 ;time: 0:01:37
+batch: 100 ;loss: 2.898 ;acc: 0.540 ;iou_acc: 0.650 ;time: 0:01:47
+batch: 150 ;loss: 2.921 ;acc: 0.560 ;iou_acc: 0.675 ;time: 0:01:55
+batch: 200 ;loss: 2.417 ;acc: 0.570 ;iou_acc: 0.650 ;time: 0:02:04
+batch: 250 ;loss: 2.648 ;acc: 0.575 ;iou_acc: 0.685 ;time: 0:02:13
+
+*Test loss: 2.661 ;Test accuracy 0.568 ;Test IOU: 0.665 ;Time: 0:02:21
+================================================== 
+Train, epoch: 22
+batch:0 ;gs:6535 ;lr:0.050 ;loss:0.326 ;acc:0.960 ;iou:0.965 ;time: 0:00:01
+batch:50 ;gs:6585 ;lr:0.050 ;loss:0.306 ;acc:0.940 ;iou:0.955 ;time: 0:00:16
+batch:100 ;gs:6635 ;lr:0.050 ;loss:0.243 ;acc:0.960 ;iou:0.975 ;time: 0:00:31
+batch:150 ;gs:6685 ;lr:0.050 ;loss:0.326 ;acc:0.950 ;iou:0.955 ;time: 0:00:46
+batch:200 ;gs:6735 ;lr:0.050 ;loss:0.300 ;acc:0.950 ;iou:0.965 ;time: 0:01:01
+batch:250 ;gs:6785 ;lr:0.050 ;loss:0.394 ;acc:0.945 ;iou:0.950 ;time: 0:01:16
+
+*Train loss: 0.325 ;Train accuracy: 0.946 ;Train IOU: 0.958 ;Time: 0:01:30 
+
+Testing, epoch: 22
+batch: 0 ;loss: 3.192 ;acc: 0.510 ;iou_acc: 0.640 ;time: 0:01:30
+batch: 50 ;loss: 3.215 ;acc: 0.515 ;iou_acc: 0.615 ;time: 0:01:39
+batch: 100 ;loss: 2.851 ;acc: 0.570 ;iou_acc: 0.665 ;time: 0:01:48
+batch: 150 ;loss: 3.272 ;acc: 0.540 ;iou_acc: 0.650 ;time: 0:01:57
+batch: 200 ;loss: 2.719 ;acc: 0.570 ;iou_acc: 0.640 ;time: 0:02:06
+batch: 250 ;loss: 2.905 ;acc: 0.610 ;iou_acc: 0.720 ;time: 0:02:15
+
+*Test loss: 2.850 ;Test accuracy 0.572 ;Test IOU: 0.668 ;Time: 0:02:23
+================================================== 
+Train, epoch: 23
+batch:0 ;gs:6832 ;lr:0.050 ;loss:0.304 ;acc:0.950 ;iou:0.960 ;time: 0:00:01
+batch:50 ;gs:6882 ;lr:0.050 ;loss:0.222 ;acc:0.965 ;iou:0.985 ;time: 0:00:16
+batch:100 ;gs:6932 ;lr:0.050 ;loss:0.197 ;acc:0.975 ;iou:0.975 ;time: 0:00:31
+batch:150 ;gs:6982 ;lr:0.050 ;loss:0.253 ;acc:0.965 ;iou:0.980 ;time: 0:00:46
+batch:200 ;gs:7032 ;lr:0.050 ;loss:0.430 ;acc:0.915 ;iou:0.930 ;time: 0:01:01
+batch:250 ;gs:7082 ;lr:0.050 ;loss:0.232 ;acc:0.965 ;iou:0.970 ;time: 0:01:16
+
+*Train loss: 0.268 ;Train accuracy: 0.959 ;Train IOU: 0.967 ;Time: 0:01:30 
+
+Testing, epoch: 23
+batch: 0 ;loss: 3.059 ;acc: 0.515 ;iou_acc: 0.645 ;time: 0:01:30
+batch: 50 ;loss: 3.322 ;acc: 0.535 ;iou_acc: 0.635 ;time: 0:01:39
+batch: 100 ;loss: 2.845 ;acc: 0.550 ;iou_acc: 0.675 ;time: 0:01:48
+batch: 150 ;loss: 3.327 ;acc: 0.520 ;iou_acc: 0.625 ;time: 0:01:58
+batch: 200 ;loss: 2.869 ;acc: 0.620 ;iou_acc: 0.700 ;time: 0:02:07
+batch: 250 ;loss: 2.803 ;acc: 0.595 ;iou_acc: 0.740 ;time: 0:02:16
+
+*Test loss: 2.939 ;Test accuracy 0.577 ;Test IOU: 0.672 ;Time: 0:02:24
+================================================== 
+Train, epoch: 24
+batch:0 ;gs:7129 ;lr:0.050 ;loss:0.260 ;acc:0.960 ;iou:0.960 ;time: 0:00:01
+batch:50 ;gs:7179 ;lr:0.050 ;loss:0.116 ;acc:0.985 ;iou:0.985 ;time: 0:00:16
+batch:100 ;gs:7229 ;lr:0.050 ;loss:0.138 ;acc:0.990 ;iou:0.990 ;time: 0:00:31
+batch:150 ;gs:7279 ;lr:0.050 ;loss:0.155 ;acc:0.960 ;iou:0.970 ;time: 0:00:45
+batch:200 ;gs:7329 ;lr:0.050 ;loss:0.217 ;acc:0.960 ;iou:0.965 ;time: 0:01:00
+batch:250 ;gs:7379 ;lr:0.050 ;loss:0.143 ;acc:0.985 ;iou:0.990 ;time: 0:01:16
+
+*Train loss: 0.199 ;Train accuracy: 0.973 ;Train IOU: 0.978 ;Time: 0:01:29 
+
+Testing, epoch: 24
+batch: 0 ;loss: 2.895 ;acc: 0.605 ;iou_acc: 0.695 ;time: 0:01:30
+batch: 50 ;loss: 3.327 ;acc: 0.530 ;iou_acc: 0.600 ;time: 0:01:38
+batch: 100 ;loss: 2.690 ;acc: 0.555 ;iou_acc: 0.645 ;time: 0:01:47
+batch: 150 ;loss: 3.229 ;acc: 0.540 ;iou_acc: 0.625 ;time: 0:01:56
+batch: 200 ;loss: 2.721 ;acc: 0.575 ;iou_acc: 0.670 ;time: 0:02:05
+batch: 250 ;loss: 2.847 ;acc: 0.595 ;iou_acc: 0.730 ;time: 0:02:14
+
+*Test loss: 2.874 ;Test accuracy 0.589 ;Test IOU: 0.683 ;Time: 0:02:23
+================================================== 
+Train, epoch: 25
+batch:0 ;gs:7426 ;lr:0.050 ;loss:0.118 ;acc:0.985 ;iou:0.985 ;time: 0:00:00
+batch:50 ;gs:7476 ;lr:0.050 ;loss:0.064 ;acc:1.000 ;iou:1.000 ;time: 0:00:15
+batch:100 ;gs:7526 ;lr:0.050 ;loss:0.080 ;acc:0.990 ;iou:0.990 ;time: 0:00:31
+batch:150 ;gs:7576 ;lr:0.050 ;loss:0.099 ;acc:0.995 ;iou:0.995 ;time: 0:00:46
+batch:200 ;gs:7626 ;lr:0.050 ;loss:0.081 ;acc:0.990 ;iou:0.995 ;time: 0:01:00
+batch:250 ;gs:7676 ;lr:0.050 ;loss:0.275 ;acc:0.955 ;iou:0.960 ;time: 0:01:16
+
+*Train loss: 0.165 ;Train accuracy: 0.978 ;Train IOU: 0.982 ;Time: 0:01:29 
+
+Testing, epoch: 25
+batch: 0 ;loss: 2.987 ;acc: 0.620 ;iou_acc: 0.715 ;time: 0:01:29
+batch: 50 ;loss: 3.400 ;acc: 0.560 ;iou_acc: 0.630 ;time: 0:01:38
+batch: 100 ;loss: 2.696 ;acc: 0.585 ;iou_acc: 0.665 ;time: 0:01:47
+batch: 150 ;loss: 3.572 ;acc: 0.540 ;iou_acc: 0.655 ;time: 0:01:56
+batch: 200 ;loss: 3.428 ;acc: 0.580 ;iou_acc: 0.705 ;time: 0:02:04
+batch: 250 ;loss: 3.006 ;acc: 0.595 ;iou_acc: 0.710 ;time: 0:02:13
+
+*Test loss: 3.136 ;Test accuracy 0.587 ;Test IOU: 0.681 ;Time: 0:02:22
+================================================== 
+Train, epoch: 26
+batch:0 ;gs:7723 ;lr:0.050 ;loss:0.097 ;acc:0.990 ;iou:0.990 ;time: 0:00:00
+batch:50 ;gs:7773 ;lr:0.050 ;loss:0.097 ;acc:0.995 ;iou:0.995 ;time: 0:00:15
+batch:100 ;gs:7823 ;lr:0.050 ;loss:0.073 ;acc:1.000 ;iou:1.000 ;time: 0:00:30
+batch:150 ;gs:7873 ;lr:0.050 ;loss:0.168 ;acc:0.985 ;iou:0.990 ;time: 0:00:45
+batch:200 ;gs:7923 ;lr:0.050 ;loss:0.081 ;acc:0.995 ;iou:0.995 ;time: 0:01:00
+batch:250 ;gs:7973 ;lr:0.050 ;loss:0.092 ;acc:0.995 ;iou:0.995 ;time: 0:01:15
+
+*Train loss: 0.117 ;Train accuracy: 0.986 ;Train IOU: 0.988 ;Time: 0:01:29 
+
+Testing, epoch: 26
+batch: 0 ;loss: 3.690 ;acc: 0.565 ;iou_acc: 0.665 ;time: 0:01:29
+batch: 50 ;loss: 4.043 ;acc: 0.540 ;iou_acc: 0.625 ;time: 0:01:38
+batch: 100 ;loss: 2.924 ;acc: 0.580 ;iou_acc: 0.660 ;time: 0:01:47
+batch: 150 ;loss: 4.047 ;acc: 0.550 ;iou_acc: 0.670 ;time: 0:01:56
+batch: 200 ;loss: 3.143 ;acc: 0.600 ;iou_acc: 0.675 ;time: 0:02:05
+batch: 250 ;loss: 3.229 ;acc: 0.600 ;iou_acc: 0.715 ;time: 0:02:14
+
+*Test loss: 3.316 ;Test accuracy 0.592 ;Test IOU: 0.684 ;Time: 0:02:23
+================================================== 
+Train, epoch: 27
+batch:0 ;gs:8020 ;lr:0.050 ;loss:0.057 ;acc:1.000 ;iou:1.000 ;time: 0:00:00
+batch:50 ;gs:8070 ;lr:0.050 ;loss:0.096 ;acc:0.985 ;iou:0.990 ;time: 0:00:15
+batch:100 ;gs:8120 ;lr:0.050 ;loss:0.190 ;acc:0.970 ;iou:0.980 ;time: 0:00:30
+batch:150 ;gs:8170 ;lr:0.050 ;loss:0.074 ;acc:0.985 ;iou:0.990 ;time: 0:00:45
+batch:200 ;gs:8220 ;lr:0.050 ;loss:0.075 ;acc:0.995 ;iou:1.000 ;time: 0:01:00
+batch:250 ;gs:8270 ;lr:0.050 ;loss:0.121 ;acc:0.985 ;iou:0.985 ;time: 0:01:14
+
+*Train loss: 0.118 ;Train accuracy: 0.985 ;Train IOU: 0.988 ;Time: 0:01:28 
+
+Testing, epoch: 27
+batch: 0 ;loss: 3.314 ;acc: 0.610 ;iou_acc: 0.695 ;time: 0:01:28
+batch: 50 ;loss: 3.406 ;acc: 0.565 ;iou_acc: 0.630 ;time: 0:01:38
+batch: 100 ;loss: 3.147 ;acc: 0.565 ;iou_acc: 0.695 ;time: 0:01:46
+batch: 150 ;loss: 4.124 ;acc: 0.535 ;iou_acc: 0.650 ;time: 0:01:55
+batch: 200 ;loss: 3.506 ;acc: 0.590 ;iou_acc: 0.670 ;time: 0:02:04
+batch: 250 ;loss: 3.429 ;acc: 0.590 ;iou_acc: 0.710 ;time: 0:02:13
+
+*Test loss: 3.350 ;Test accuracy 0.595 ;Test IOU: 0.686 ;Time: 0:02:21
+================================================== 
+Train, epoch: 28
+batch:0 ;gs:8317 ;lr:0.050 ;loss:0.057 ;acc:1.000 ;iou:1.000 ;time: 0:00:00
+batch:50 ;gs:8367 ;lr:0.050 ;loss:0.082 ;acc:0.990 ;iou:0.990 ;time: 0:00:15
+batch:100 ;gs:8417 ;lr:0.050 ;loss:0.073 ;acc:0.985 ;iou:0.990 ;time: 0:00:30
+batch:150 ;gs:8467 ;lr:0.050 ;loss:0.171 ;acc:0.980 ;iou:0.980 ;time: 0:00:45
+batch:200 ;gs:8517 ;lr:0.050 ;loss:0.077 ;acc:0.995 ;iou:1.000 ;time: 0:01:00
+batch:250 ;gs:8567 ;lr:0.050 ;loss:0.059 ;acc:0.995 ;iou:0.995 ;time: 0:01:15
+
+*Train loss: 0.084 ;Train accuracy: 0.990 ;Train IOU: 0.992 ;Time: 0:01:29 
+
+Testing, epoch: 28
+batch: 0 ;loss: 4.255 ;acc: 0.565 ;iou_acc: 0.655 ;time: 0:01:29
+batch: 50 ;loss: 4.207 ;acc: 0.535 ;iou_acc: 0.615 ;time: 0:01:38
+batch: 100 ;loss: 3.555 ;acc: 0.570 ;iou_acc: 0.695 ;time: 0:01:47
+batch: 150 ;loss: 4.488 ;acc: 0.520 ;iou_acc: 0.650 ;time: 0:01:56
+batch: 200 ;loss: 3.818 ;acc: 0.595 ;iou_acc: 0.680 ;time: 0:02:05
+batch: 250 ;loss: 3.494 ;acc: 0.585 ;iou_acc: 0.710 ;time: 0:02:14
+
+*Test loss: 3.672 ;Test accuracy 0.588 ;Test IOU: 0.682 ;Time: 0:02:22
+================================================== 
+Train, epoch: 29
+batch:0 ;gs:8614 ;lr:0.050 ;loss:0.150 ;acc:0.985 ;iou:0.985 ;time: 0:00:01
+batch:50 ;gs:8664 ;lr:0.050 ;loss:0.072 ;acc:0.995 ;iou:0.995 ;time: 0:00:15
+batch:100 ;gs:8714 ;lr:0.050 ;loss:0.086 ;acc:0.990 ;iou:0.990 ;time: 0:00:30
+batch:150 ;gs:8764 ;lr:0.050 ;loss:0.025 ;acc:1.000 ;iou:1.000 ;time: 0:00:45
+batch:200 ;gs:8814 ;lr:0.050 ;loss:0.085 ;acc:0.995 ;iou:0.995 ;time: 0:01:01
+batch:250 ;gs:8864 ;lr:0.050 ;loss:0.077 ;acc:1.000 ;iou:1.000 ;time: 0:01:15
+
+*Train loss: 0.094 ;Train accuracy: 0.988 ;Train IOU: 0.990 ;Time: 0:01:28 
+
+Testing, epoch: 29
+batch: 0 ;loss: 3.682 ;acc: 0.595 ;iou_acc: 0.670 ;time: 0:01:29
+batch: 50 ;loss: 3.923 ;acc: 0.550 ;iou_acc: 0.640 ;time: 0:01:37
+batch: 100 ;loss: 3.282 ;acc: 0.555 ;iou_acc: 0.665 ;time: 0:01:47
+batch: 150 ;loss: 4.016 ;acc: 0.560 ;iou_acc: 0.665 ;time: 0:01:56
+batch: 200 ;loss: 3.531 ;acc: 0.635 ;iou_acc: 0.725 ;time: 0:02:05
+batch: 250 ;loss: 3.547 ;acc: 0.585 ;iou_acc: 0.725 ;time: 0:02:14
+
+*Test loss: 3.540 ;Test accuracy 0.602 ;Test IOU: 0.694 ;Time: 0:02:22
+================================================== 
+Train, epoch: 30
+batch:0 ;gs:8911 ;lr:0.050 ;loss:0.073 ;acc:1.000 ;iou:1.000 ;time: 0:00:01
+batch:50 ;gs:8961 ;lr:0.050 ;loss:0.155 ;acc:0.980 ;iou:0.980 ;time: 0:00:16
+batch:100 ;gs:9011 ;lr:0.050 ;loss:0.046 ;acc:1.000 ;iou:1.000 ;time: 0:00:30
+batch:150 ;gs:9061 ;lr:0.050 ;loss:0.037 ;acc:1.000 ;iou:1.000 ;time: 0:00:45
+batch:200 ;gs:9111 ;lr:0.050 ;loss:0.054 ;acc:0.995 ;iou:0.995 ;time: 0:01:01
+batch:250 ;gs:9161 ;lr:0.050 ;loss:0.052 ;acc:0.995 ;iou:0.995 ;time: 0:01:16
+
+*Train loss: 0.081 ;Train accuracy: 0.990 ;Train IOU: 0.992 ;Time: 0:01:29 
+
+Testing, epoch: 30
+batch: 0 ;loss: 3.882 ;acc: 0.590 ;iou_acc: 0.680 ;time: 0:01:30
+batch: 50 ;loss: 3.913 ;acc: 0.585 ;iou_acc: 0.665 ;time: 0:01:38
+batch: 100 ;loss: 3.199 ;acc: 0.595 ;iou_acc: 0.685 ;time: 0:01:47
+batch: 150 ;loss: 4.290 ;acc: 0.555 ;iou_acc: 0.660 ;time: 0:01:56
+batch: 200 ;loss: 3.566 ;acc: 0.600 ;iou_acc: 0.710 ;time: 0:02:05
+batch: 250 ;loss: 3.902 ;acc: 0.550 ;iou_acc: 0.695 ;time: 0:02:14
+
+*Test loss: 3.596 ;Test accuracy 0.598 ;Test IOU: 0.690 ;Time: 0:02:23
+================================================== 
+Train, epoch: 31
+batch:0 ;gs:9208 ;lr:0.050 ;loss:0.040 ;acc:1.000 ;iou:1.000 ;time: 0:00:00
+batch:50 ;gs:9258 ;lr:0.050 ;loss:0.039 ;acc:0.995 ;iou:0.995 ;time: 0:00:15
+batch:100 ;gs:9308 ;lr:0.050 ;loss:0.038 ;acc:0.995 ;iou:0.995 ;time: 0:00:30
+batch:150 ;gs:9358 ;lr:0.050 ;loss:0.039 ;acc:1.000 ;iou:1.000 ;time: 0:00:46
+batch:200 ;gs:9408 ;lr:0.050 ;loss:0.180 ;acc:0.980 ;iou:0.985 ;time: 0:01:01
+batch:250 ;gs:9458 ;lr:0.050 ;loss:0.198 ;acc:0.970 ;iou:0.975 ;time: 0:01:16
+
+*Train loss: 0.076 ;Train accuracy: 0.990 ;Train IOU: 0.992 ;Time: 0:01:30 
+
+Testing, epoch: 31
+batch: 0 ;loss: 4.035 ;acc: 0.590 ;iou_acc: 0.700 ;time: 0:01:30
+batch: 50 ;loss: 4.004 ;acc: 0.560 ;iou_acc: 0.610 ;time: 0:01:39
+batch: 100 ;loss: 3.664 ;acc: 0.570 ;iou_acc: 0.650 ;time: 0:01:48
+batch: 150 ;loss: 4.955 ;acc: 0.545 ;iou_acc: 0.655 ;time: 0:01:57
+batch: 200 ;loss: 4.173 ;acc: 0.600 ;iou_acc: 0.700 ;time: 0:02:06
+batch: 250 ;loss: 3.730 ;acc: 0.565 ;iou_acc: 0.695 ;time: 0:02:15
+
+*Test loss: 3.849 ;Test accuracy 0.595 ;Test IOU: 0.684 ;Time: 0:02:23
+================================================== 
+Train, epoch: 32
+batch:0 ;gs:9505 ;lr:0.050 ;loss:0.042 ;acc:0.990 ;iou:0.995 ;time: 0:00:00
+batch:50 ;gs:9555 ;lr:0.050 ;loss:0.023 ;acc:1.000 ;iou:1.000 ;time: 0:00:16
+batch:100 ;gs:9605 ;lr:0.050 ;loss:0.110 ;acc:1.000 ;iou:1.000 ;time: 0:00:31
+batch:150 ;gs:9655 ;lr:0.050 ;loss:0.049 ;acc:0.995 ;iou:0.995 ;time: 0:00:46
+batch:200 ;gs:9705 ;lr:0.050 ;loss:0.083 ;acc:0.995 ;iou:0.995 ;time: 0:01:02
+batch:250 ;gs:9755 ;lr:0.050 ;loss:0.163 ;acc:0.965 ;iou:0.975 ;time: 0:01:17
+
+*Train loss: 0.070 ;Train accuracy: 0.991 ;Train IOU: 0.993 ;Time: 0:01:30 
+
+Testing, epoch: 32
+batch: 0 ;loss: 4.096 ;acc: 0.575 ;iou_acc: 0.675 ;time: 0:01:30
+batch: 50 ;loss: 4.326 ;acc: 0.560 ;iou_acc: 0.635 ;time: 0:01:39
+batch: 100 ;loss: 3.732 ;acc: 0.625 ;iou_acc: 0.715 ;time: 0:01:48
+batch: 150 ;loss: 4.840 ;acc: 0.530 ;iou_acc: 0.640 ;time: 0:01:57
+batch: 200 ;loss: 3.649 ;acc: 0.595 ;iou_acc: 0.705 ;time: 0:02:06
+batch: 250 ;loss: 3.982 ;acc: 0.590 ;iou_acc: 0.695 ;time: 0:02:14
+
+*Test loss: 3.848 ;Test accuracy 0.594 ;Test IOU: 0.683 ;Time: 0:02:23
+================================================== 
+Train, epoch: 33
+batch:0 ;gs:9802 ;lr:0.050 ;loss:0.056 ;acc:0.995 ;iou:0.995 ;time: 0:00:00
+batch:50 ;gs:9852 ;lr:0.050 ;loss:0.029 ;acc:1.000 ;iou:1.000 ;time: 0:00:14
+batch:100 ;gs:9902 ;lr:0.050 ;loss:0.111 ;acc:0.975 ;iou:0.980 ;time: 0:00:29
+batch:150 ;gs:9952 ;lr:0.050 ;loss:0.066 ;acc:0.990 ;iou:0.995 ;time: 0:00:45
+batch:200 ;gs:10002 ;lr:0.045 ;loss:0.330 ;acc:0.955 ;iou:0.970 ;time: 0:01:00
+batch:250 ;gs:10052 ;lr:0.045 ;loss:0.070 ;acc:0.990 ;iou:0.995 ;time: 0:01:14
+
+*Train loss: 0.055 ;Train accuracy: 0.994 ;Train IOU: 0.995 ;Time: 0:01:28 
+
+Testing, epoch: 33
+batch: 0 ;loss: 4.280 ;acc: 0.580 ;iou_acc: 0.675 ;time: 0:01:28
+batch: 50 ;loss: 4.162 ;acc: 0.580 ;iou_acc: 0.665 ;time: 0:01:37
+batch: 100 ;loss: 3.772 ;acc: 0.610 ;iou_acc: 0.705 ;time: 0:01:46
+batch: 150 ;loss: 4.989 ;acc: 0.550 ;iou_acc: 0.660 ;time: 0:01:55
+batch: 200 ;loss: 3.617 ;acc: 0.625 ;iou_acc: 0.730 ;time: 0:02:04
+batch: 250 ;loss: 3.972 ;acc: 0.575 ;iou_acc: 0.730 ;time: 0:02:13
+
+*Test loss: 3.818 ;Test accuracy 0.606 ;Test IOU: 0.696 ;Time: 0:02:21
+================================================== 
+Train, epoch: 34
+batch:0 ;gs:10099 ;lr:0.045 ;loss:0.027 ;acc:1.000 ;iou:1.000 ;time: 0:00:00
+batch:50 ;gs:10149 ;lr:0.045 ;loss:0.020 ;acc:1.000 ;iou:1.000 ;time: 0:00:15
+batch:100 ;gs:10199 ;lr:0.045 ;loss:0.017 ;acc:1.000 ;iou:1.000 ;time: 0:00:30
+batch:150 ;gs:10249 ;lr:0.045 ;loss:0.022 ;acc:1.000 ;iou:1.000 ;time: 0:00:46
+batch:200 ;gs:10299 ;lr:0.045 ;loss:0.018 ;acc:1.000 ;iou:1.000 ;time: 0:01:01
+batch:250 ;gs:10349 ;lr:0.045 ;loss:0.017 ;acc:1.000 ;iou:1.000 ;time: 0:01:17
+
+*Train loss: 0.026 ;Train accuracy: 0.999 ;Train IOU: 0.999 ;Time: 0:01:31 
+
+Testing, epoch: 34
+batch: 0 ;loss: 4.156 ;acc: 0.590 ;iou_acc: 0.715 ;time: 0:01:31
+batch: 50 ;loss: 4.543 ;acc: 0.550 ;iou_acc: 0.620 ;time: 0:01:40
+batch: 100 ;loss: 3.881 ;acc: 0.570 ;iou_acc: 0.670 ;time: 0:01:49
+batch: 150 ;loss: 4.567 ;acc: 0.550 ;iou_acc: 0.670 ;time: 0:01:58
+batch: 200 ;loss: 3.816 ;acc: 0.580 ;iou_acc: 0.705 ;time: 0:02:07
+batch: 250 ;loss: 3.878 ;acc: 0.605 ;iou_acc: 0.740 ;time: 0:02:16
+
+*Test loss: 3.923 ;Test accuracy 0.607 ;Test IOU: 0.698 ;Time: 0:02:25
+================================================== 
+Train, epoch: 35
+batch:0 ;gs:10396 ;lr:0.045 ;loss:0.025 ;acc:1.000 ;iou:1.000 ;time: 0:00:00
+batch:50 ;gs:10446 ;lr:0.045 ;loss:0.015 ;acc:1.000 ;iou:1.000 ;time: 0:00:15
+batch:100 ;gs:10496 ;lr:0.045 ;loss:0.012 ;acc:1.000 ;iou:1.000 ;time: 0:00:30
+batch:150 ;gs:10546 ;lr:0.045 ;loss:0.034 ;acc:1.000 ;iou:1.000 ;time: 0:00:45
+batch:200 ;gs:10596 ;lr:0.045 ;loss:0.033 ;acc:1.000 ;iou:1.000 ;time: 0:01:00
+batch:250 ;gs:10646 ;lr:0.045 ;loss:0.020 ;acc:0.995 ;iou:1.000 ;time: 0:01:14
+
+*Train loss: 0.020 ;Train accuracy: 0.999 ;Train IOU: 0.999 ;Time: 0:01:28 
+
+Testing, epoch: 35
+batch: 0 ;loss: 4.604 ;acc: 0.560 ;iou_acc: 0.675 ;time: 0:01:28
+batch: 50 ;loss: 4.444 ;acc: 0.575 ;iou_acc: 0.650 ;time: 0:01:37
+batch: 100 ;loss: 3.878 ;acc: 0.605 ;iou_acc: 0.715 ;time: 0:01:46
+batch: 150 ;loss: 4.992 ;acc: 0.580 ;iou_acc: 0.675 ;time: 0:01:55
+batch: 200 ;loss: 3.926 ;acc: 0.615 ;iou_acc: 0.715 ;time: 0:02:04
+batch: 250 ;loss: 3.968 ;acc: 0.600 ;iou_acc: 0.715 ;time: 0:02:13
+
+*Test loss: 4.054 ;Test accuracy 0.607 ;Test IOU: 0.696 ;Time: 0:02:21
+================================================== 
+Train, epoch: 36
+batch:0 ;gs:10693 ;lr:0.045 ;loss:0.013 ;acc:1.000 ;iou:1.000 ;time: 0:00:00
+batch:50 ;gs:10743 ;lr:0.045 ;loss:0.153 ;acc:0.995 ;iou:1.000 ;time: 0:00:15
+batch:100 ;gs:10793 ;lr:0.045 ;loss:0.008 ;acc:1.000 ;iou:1.000 ;time: 0:00:30
+batch:150 ;gs:10843 ;lr:0.045 ;loss:0.013 ;acc:1.000 ;iou:1.000 ;time: 0:00:45
+batch:200 ;gs:10893 ;lr:0.045 ;loss:0.010 ;acc:1.000 ;iou:1.000 ;time: 0:01:01
+batch:250 ;gs:10943 ;lr:0.045 ;loss:0.010 ;acc:1.000 ;iou:1.000 ;time: 0:01:16
+
+*Train loss: 0.017 ;Train accuracy: 0.999 ;Train IOU: 0.999 ;Time: 0:01:30 
+
+Testing, epoch: 36
+batch: 0 ;loss: 4.382 ;acc: 0.595 ;iou_acc: 0.690 ;time: 0:01:30
+batch: 50 ;loss: 4.578 ;acc: 0.580 ;iou_acc: 0.660 ;time: 0:01:39
+batch: 100 ;loss: 4.216 ;acc: 0.595 ;iou_acc: 0.700 ;time: 0:01:47
+batch: 150 ;loss: 5.175 ;acc: 0.560 ;iou_acc: 0.690 ;time: 0:01:56
+batch: 200 ;loss: 4.082 ;acc: 0.620 ;iou_acc: 0.720 ;time: 0:02:05
+batch: 250 ;loss: 4.311 ;acc: 0.600 ;iou_acc: 0.715 ;time: 0:02:14
+
+*Test loss: 4.175 ;Test accuracy 0.606 ;Test IOU: 0.696 ;Time: 0:02:22
+================================================== 
+Train, epoch: 37
+batch:0 ;gs:10990 ;lr:0.045 ;loss:0.038 ;acc:0.995 ;iou:0.995 ;time: 0:00:01
+batch:50 ;gs:11040 ;lr:0.045 ;loss:0.007 ;acc:1.000 ;iou:1.000 ;time: 0:00:16
+batch:100 ;gs:11090 ;lr:0.045 ;loss:0.008 ;acc:1.000 ;iou:1.000 ;time: 0:00:32
+batch:150 ;gs:11140 ;lr:0.045 ;loss:0.011 ;acc:1.000 ;iou:1.000 ;time: 0:00:47
+batch:200 ;gs:11190 ;lr:0.045 ;loss:0.010 ;acc:1.000 ;iou:1.000 ;time: 0:01:02
+batch:250 ;gs:11240 ;lr:0.045 ;loss:0.012 ;acc:1.000 ;iou:1.000 ;time: 0:01:16
+
+*Train loss: 0.017 ;Train accuracy: 0.999 ;Train IOU: 1.000 ;Time: 0:01:30 
+
+Testing, epoch: 37
+batch: 0 ;loss: 4.668 ;acc: 0.580 ;iou_acc: 0.695 ;time: 0:01:30
+batch: 50 ;loss: 4.565 ;acc: 0.595 ;iou_acc: 0.670 ;time: 0:01:39
+batch: 100 ;loss: 4.232 ;acc: 0.560 ;iou_acc: 0.685 ;time: 0:01:48
+batch: 150 ;loss: 5.269 ;acc: 0.565 ;iou_acc: 0.670 ;time: 0:01:57
+batch: 200 ;loss: 3.922 ;acc: 0.605 ;iou_acc: 0.705 ;time: 0:02:06
+batch: 250 ;loss: 4.189 ;acc: 0.615 ;iou_acc: 0.735 ;time: 0:02:15
+
+*Test loss: 4.304 ;Test accuracy 0.605 ;Test IOU: 0.695 ;Time: 0:02:23
+================================================== 
+Train, epoch: 38
+batch:0 ;gs:11287 ;lr:0.045 ;loss:0.012 ;acc:1.000 ;iou:1.000 ;time: 0:00:01
+batch:50 ;gs:11337 ;lr:0.045 ;loss:0.015 ;acc:1.000 ;iou:1.000 ;time: 0:00:16
+batch:100 ;gs:11387 ;lr:0.045 ;loss:0.010 ;acc:1.000 ;iou:1.000 ;time: 0:00:31
+batch:150 ;gs:11437 ;lr:0.045 ;loss:0.029 ;acc:0.995 ;iou:0.995 ;time: 0:00:45
+batch:200 ;gs:11487 ;lr:0.045 ;loss:0.009 ;acc:1.000 ;iou:1.000 ;time: 0:01:00
+batch:250 ;gs:11537 ;lr:0.045 ;loss:0.019 ;acc:0.995 ;iou:0.995 ;time: 0:01:16
+
+*Train loss: 0.014 ;Train accuracy: 0.999 ;Train IOU: 1.000 ;Time: 0:01:30 
+
+Testing, epoch: 38
+batch: 0 ;loss: 4.875 ;acc: 0.590 ;iou_acc: 0.690 ;time: 0:01:31
+batch: 50 ;loss: 4.801 ;acc: 0.565 ;iou_acc: 0.645 ;time: 0:01:40
+batch: 100 ;loss: 4.011 ;acc: 0.595 ;iou_acc: 0.695 ;time: 0:01:49
+batch: 150 ;loss: 5.552 ;acc: 0.555 ;iou_acc: 0.700 ;time: 0:01:58
+batch: 200 ;loss: 4.066 ;acc: 0.600 ;iou_acc: 0.690 ;time: 0:02:07
+batch: 250 ;loss: 4.024 ;acc: 0.620 ;iou_acc: 0.730 ;time: 0:02:16
+
+*Test loss: 4.342 ;Test accuracy 0.609 ;Test IOU: 0.699 ;Time: 0:02:24
+================================================== 
+Train, epoch: 39
+batch:0 ;gs:11584 ;lr:0.045 ;loss:0.008 ;acc:1.000 ;iou:1.000 ;time: 0:00:00
+batch:50 ;gs:11634 ;lr:0.045 ;loss:0.006 ;acc:1.000 ;iou:1.000 ;time: 0:00:16
+batch:100 ;gs:11684 ;lr:0.045 ;loss:0.008 ;acc:1.000 ;iou:1.000 ;time: 0:00:31
+batch:150 ;gs:11734 ;lr:0.045 ;loss:0.007 ;acc:1.000 ;iou:1.000 ;time: 0:00:46
+batch:200 ;gs:11784 ;lr:0.045 ;loss:0.014 ;acc:1.000 ;iou:1.000 ;time: 0:01:02
+batch:250 ;gs:11834 ;lr:0.045 ;loss:0.026 ;acc:0.995 ;iou:1.000 ;time: 0:01:16
+
+*Train loss: 0.018 ;Train accuracy: 0.999 ;Train IOU: 0.999 ;Time: 0:01:30 
+
+Testing, epoch: 39
+batch: 0 ;loss: 4.891 ;acc: 0.585 ;iou_acc: 0.670 ;time: 0:01:31
+batch: 50 ;loss: 5.064 ;acc: 0.555 ;iou_acc: 0.645 ;time: 0:01:39
+batch: 100 ;loss: 4.790 ;acc: 0.555 ;iou_acc: 0.670 ;time: 0:01:48
+batch: 150 ;loss: 5.338 ;acc: 0.565 ;iou_acc: 0.700 ;time: 0:01:57
+batch: 200 ;loss: 4.072 ;acc: 0.595 ;iou_acc: 0.705 ;time: 0:02:06
+batch: 250 ;loss: 4.733 ;acc: 0.565 ;iou_acc: 0.700 ;time: 0:02:15
+
+*Test loss: 4.533 ;Test accuracy 0.603 ;Test IOU: 0.694 ;Time: 0:02:23
+================================================== 
+Train, epoch: 40
+batch:0 ;gs:11881 ;lr:0.045 ;loss:0.042 ;acc:0.995 ;iou:1.000 ;time: 0:00:00
+batch:50 ;gs:11931 ;lr:0.045 ;loss:0.007 ;acc:1.000 ;iou:1.000 ;time: 0:00:16
+batch:100 ;gs:11981 ;lr:0.045 ;loss:0.010 ;acc:1.000 ;iou:1.000 ;time: 0:00:32
+batch:150 ;gs:12031 ;lr:0.045 ;loss:0.011 ;acc:1.000 ;iou:1.000 ;time: 0:00:46
+batch:200 ;gs:12081 ;lr:0.045 ;loss:0.008 ;acc:1.000 ;iou:1.000 ;time: 0:01:01
+batch:250 ;gs:12131 ;lr:0.045 ;loss:0.004 ;acc:1.000 ;iou:1.000 ;time: 0:01:16
+
+*Train loss: 0.020 ;Train accuracy: 0.999 ;Train IOU: 0.999 ;Time: 0:01:30 
+
+Testing, epoch: 40
+batch: 0 ;loss: 5.288 ;acc: 0.575 ;iou_acc: 0.690 ;time: 0:01:30
+batch: 50 ;loss: 5.101 ;acc: 0.580 ;iou_acc: 0.650 ;time: 0:01:39
+batch: 100 ;loss: 4.832 ;acc: 0.585 ;iou_acc: 0.700 ;time: 0:01:48
+batch: 150 ;loss: 5.546 ;acc: 0.565 ;iou_acc: 0.665 ;time: 0:01:57
+batch: 200 ;loss: 4.096 ;acc: 0.630 ;iou_acc: 0.730 ;time: 0:02:06
+batch: 250 ;loss: 4.353 ;acc: 0.595 ;iou_acc: 0.740 ;time: 0:02:15
+
+*Test loss: 4.553 ;Test accuracy 0.605 ;Test IOU: 0.694 ;Time: 0:02:23
+================================================== 
+Train, epoch: 41
+batch:0 ;gs:12178 ;lr:0.045 ;loss:0.018 ;acc:1.000 ;iou:1.000 ;time: 0:00:01
+batch:50 ;gs:12228 ;lr:0.045 ;loss:0.011 ;acc:1.000 ;iou:1.000 ;time: 0:00:16
+batch:100 ;gs:12278 ;lr:0.045 ;loss:0.069 ;acc:0.985 ;iou:0.990 ;time: 0:00:30
+batch:150 ;gs:12328 ;lr:0.045 ;loss:0.005 ;acc:1.000 ;iou:1.000 ;time: 0:00:45
+batch:200 ;gs:12378 ;lr:0.045 ;loss:0.090 ;acc:0.995 ;iou:0.995 ;time: 0:01:01
+batch:250 ;gs:12428 ;lr:0.045 ;loss:0.078 ;acc:0.990 ;iou:0.990 ;time: 0:01:16
+
+*Train loss: 0.024 ;Train accuracy: 0.998 ;Train IOU: 0.998 ;Time: 0:01:29 
+
+Testing, epoch: 41
+batch: 0 ;loss: 5.315 ;acc: 0.555 ;iou_acc: 0.650 ;time: 0:01:29
+batch: 50 ;loss: 4.837 ;acc: 0.570 ;iou_acc: 0.640 ;time: 0:01:38
+batch: 100 ;loss: 4.510 ;acc: 0.590 ;iou_acc: 0.685 ;time: 0:01:47
+batch: 150 ;loss: 5.319 ;acc: 0.565 ;iou_acc: 0.670 ;time: 0:01:56
+batch: 200 ;loss: 4.671 ;acc: 0.560 ;iou_acc: 0.680 ;time: 0:02:05
+batch: 250 ;loss: 4.574 ;acc: 0.590 ;iou_acc: 0.720 ;time: 0:02:13
+
+*Test loss: 4.637 ;Test accuracy 0.605 ;Test IOU: 0.694 ;Time: 0:02:22
+================================================== 
+Train, epoch: 42
+batch:0 ;gs:12475 ;lr:0.045 ;loss:0.015 ;acc:1.000 ;iou:1.000 ;time: 0:00:00
+batch:50 ;gs:12525 ;lr:0.045 ;loss:0.013 ;acc:1.000 ;iou:1.000 ;time: 0:00:14
+batch:100 ;gs:12575 ;lr:0.045 ;loss:0.007 ;acc:1.000 ;iou:1.000 ;time: 0:00:29
+batch:150 ;gs:12625 ;lr:0.045 ;loss:0.016 ;acc:1.000 ;iou:1.000 ;time: 0:00:43
+batch:200 ;gs:12675 ;lr:0.045 ;loss:0.037 ;acc:0.995 ;iou:1.000 ;time: 0:00:58
+batch:250 ;gs:12725 ;lr:0.045 ;loss:0.023 ;acc:0.995 ;iou:0.995 ;time: 0:01:13
+
+*Train loss: 0.033 ;Train accuracy: 0.996 ;Train IOU: 0.997 ;Time: 0:01:27 
+
+Testing, epoch: 42
+batch: 0 ;loss: 4.752 ;acc: 0.585 ;iou_acc: 0.670 ;time: 0:01:28
+batch: 50 ;loss: 5.430 ;acc: 0.540 ;iou_acc: 0.625 ;time: 0:01:37
+batch: 100 ;loss: 4.217 ;acc: 0.570 ;iou_acc: 0.675 ;time: 0:01:46
+batch: 150 ;loss: 5.845 ;acc: 0.520 ;iou_acc: 0.650 ;time: 0:01:55
+batch: 200 ;loss: 4.212 ;acc: 0.625 ;iou_acc: 0.710 ;time: 0:02:04
+batch: 250 ;loss: 4.792 ;acc: 0.585 ;iou_acc: 0.735 ;time: 0:02:13
+
+*Test loss: 4.796 ;Test accuracy 0.599 ;Test IOU: 0.688 ;Time: 0:02:21
+================================================== 
+Train, epoch: 43
+batch:0 ;gs:12772 ;lr:0.045 ;loss:0.026 ;acc:0.995 ;iou:0.995 ;time: 0:00:00
+batch:50 ;gs:12822 ;lr:0.045 ;loss:0.023 ;acc:0.995 ;iou:0.995 ;time: 0:00:15
+batch:100 ;gs:12872 ;lr:0.045 ;loss:0.015 ;acc:1.000 ;iou:1.000 ;time: 0:00:31
+batch:150 ;gs:12922 ;lr:0.045 ;loss:0.055 ;acc:0.995 ;iou:0.995 ;time: 0:00:46
+batch:200 ;gs:12972 ;lr:0.045 ;loss:0.178 ;acc:0.975 ;iou:0.980 ;time: 0:01:01
+batch:250 ;gs:13022 ;lr:0.045 ;loss:0.038 ;acc:0.995 ;iou:0.995 ;time: 0:01:16
+
+*Train loss: 0.116 ;Train accuracy: 0.982 ;Train IOU: 0.985 ;Time: 0:01:30 
+
+Testing, epoch: 43
+batch: 0 ;loss: 5.612 ;acc: 0.550 ;iou_acc: 0.670 ;time: 0:01:30
+batch: 50 ;loss: 5.365 ;acc: 0.570 ;iou_acc: 0.655 ;time: 0:01:39
+batch: 100 ;loss: 4.772 ;acc: 0.570 ;iou_acc: 0.685 ;time: 0:01:48
+batch: 150 ;loss: 6.070 ;acc: 0.540 ;iou_acc: 0.660 ;time: 0:01:57
+batch: 200 ;loss: 4.281 ;acc: 0.585 ;iou_acc: 0.680 ;time: 0:02:06
+batch: 250 ;loss: 4.674 ;acc: 0.590 ;iou_acc: 0.725 ;time: 0:02:15
+
+*Test loss: 4.890 ;Test accuracy 0.593 ;Test IOU: 0.684 ;Time: 0:02:23
+================================================== 
+Train, epoch: 44
+batch:0 ;gs:13069 ;lr:0.045 ;loss:0.040 ;acc:1.000 ;iou:1.000 ;time: 0:00:00
+batch:50 ;gs:13119 ;lr:0.045 ;loss:0.133 ;acc:0.980 ;iou:0.980 ;time: 0:00:16
+batch:100 ;gs:13169 ;lr:0.045 ;loss:0.069 ;acc:0.990 ;iou:0.990 ;time: 0:00:31
+batch:150 ;gs:13219 ;lr:0.045 ;loss:0.094 ;acc:0.985 ;iou:0.985 ;time: 0:00:45
+batch:200 ;gs:13269 ;lr:0.045 ;loss:0.032 ;acc:1.000 ;iou:1.000 ;time: 0:01:01
+batch:250 ;gs:13319 ;lr:0.045 ;loss:0.091 ;acc:0.985 ;iou:0.985 ;time: 0:01:16
+
+*Train loss: 0.108 ;Train accuracy: 0.983 ;Train IOU: 0.986 ;Time: 0:01:30 
+
+Testing, epoch: 44
+batch: 0 ;loss: 4.463 ;acc: 0.610 ;iou_acc: 0.710 ;time: 0:01:30
+batch: 50 ;loss: 4.922 ;acc: 0.550 ;iou_acc: 0.615 ;time: 0:01:39
+batch: 100 ;loss: 4.312 ;acc: 0.605 ;iou_acc: 0.690 ;time: 0:01:48
+batch: 150 ;loss: 5.615 ;acc: 0.540 ;iou_acc: 0.665 ;time: 0:01:57
+batch: 200 ;loss: 4.502 ;acc: 0.560 ;iou_acc: 0.670 ;time: 0:02:06
+batch: 250 ;loss: 4.844 ;acc: 0.570 ;iou_acc: 0.715 ;time: 0:02:14
+
+*Test loss: 4.494 ;Test accuracy 0.600 ;Test IOU: 0.690 ;Time: 0:02:23
+================================================== 
+Train, epoch: 45
+batch:0 ;gs:13366 ;lr:0.045 ;loss:0.074 ;acc:0.985 ;iou:0.990 ;time: 0:00:00
+batch:50 ;gs:13416 ;lr:0.045 ;loss:0.018 ;acc:1.000 ;iou:1.000 ;time: 0:00:15
+batch:100 ;gs:13466 ;lr:0.045 ;loss:0.017 ;acc:1.000 ;iou:1.000 ;time: 0:00:30
+batch:150 ;gs:13516 ;lr:0.045 ;loss:0.030 ;acc:1.000 ;iou:1.000 ;time: 0:00:44
+batch:200 ;gs:13566 ;lr:0.045 ;loss:0.023 ;acc:1.000 ;iou:1.000 ;time: 0:00:59
+batch:250 ;gs:13616 ;lr:0.045 ;loss:0.012 ;acc:1.000 ;iou:1.000 ;time: 0:01:14
+
+*Train loss: 0.038 ;Train accuracy: 0.996 ;Train IOU: 0.997 ;Time: 0:01:27 
+
+Testing, epoch: 45
+batch: 0 ;loss: 4.640 ;acc: 0.615 ;iou_acc: 0.710 ;time: 0:01:28
+batch: 50 ;loss: 4.902 ;acc: 0.570 ;iou_acc: 0.665 ;time: 0:01:37
+batch: 100 ;loss: 3.953 ;acc: 0.590 ;iou_acc: 0.700 ;time: 0:01:46
+batch: 150 ;loss: 5.144 ;acc: 0.575 ;iou_acc: 0.700 ;time: 0:01:55
+batch: 200 ;loss: 3.842 ;acc: 0.605 ;iou_acc: 0.695 ;time: 0:02:04
+batch: 250 ;loss: 4.579 ;acc: 0.550 ;iou_acc: 0.710 ;time: 0:02:13
+
+*Test loss: 4.341 ;Test accuracy 0.604 ;Test IOU: 0.693 ;Time: 0:02:21
+================================================== 
+Train, epoch: 46
+batch:0 ;gs:13663 ;lr:0.045 ;loss:0.033 ;acc:1.000 ;iou:1.000 ;time: 0:00:00
+batch:50 ;gs:13713 ;lr:0.045 ;loss:0.016 ;acc:1.000 ;iou:1.000 ;time: 0:00:15
+batch:100 ;gs:13763 ;lr:0.045 ;loss:0.013 ;acc:1.000 ;iou:1.000 ;time: 0:00:31
+batch:150 ;gs:13813 ;lr:0.045 ;loss:0.010 ;acc:1.000 ;iou:1.000 ;time: 0:00:46
+batch:200 ;gs:13863 ;lr:0.045 ;loss:0.078 ;acc:0.990 ;iou:0.990 ;time: 0:01:01
+batch:250 ;gs:13913 ;lr:0.045 ;loss:0.008 ;acc:1.000 ;iou:1.000 ;time: 0:01:15
+
+*Train loss: 0.020 ;Train accuracy: 0.999 ;Train IOU: 0.999 ;Time: 0:01:29 
+
+Testing, epoch: 46
+batch: 0 ;loss: 4.872 ;acc: 0.570 ;iou_acc: 0.690 ;time: 0:01:29
+batch: 50 ;loss: 4.924 ;acc: 0.530 ;iou_acc: 0.605 ;time: 0:01:38
+batch: 100 ;loss: 3.893 ;acc: 0.595 ;iou_acc: 0.690 ;time: 0:01:47
+batch: 150 ;loss: 5.271 ;acc: 0.560 ;iou_acc: 0.660 ;time: 0:01:56
+batch: 200 ;loss: 4.123 ;acc: 0.590 ;iou_acc: 0.705 ;time: 0:02:05
+batch: 250 ;loss: 4.172 ;acc: 0.570 ;iou_acc: 0.735 ;time: 0:02:14
+
+*Test loss: 4.332 ;Test accuracy 0.607 ;Test IOU: 0.696 ;Time: 0:02:22
+================================================== 
+Train, epoch: 47
+batch:0 ;gs:13960 ;lr:0.045 ;loss:0.010 ;acc:1.000 ;iou:1.000 ;time: 0:00:00
+batch:50 ;gs:14010 ;lr:0.045 ;loss:0.007 ;acc:1.000 ;iou:1.000 ;time: 0:00:15
+batch:100 ;gs:14060 ;lr:0.045 ;loss:0.010 ;acc:1.000 ;iou:1.000 ;time: 0:00:30
+batch:150 ;gs:14110 ;lr:0.045 ;loss:0.011 ;acc:1.000 ;iou:1.000 ;time: 0:00:46
+batch:200 ;gs:14160 ;lr:0.045 ;loss:0.013 ;acc:1.000 ;iou:1.000 ;time: 0:01:01
+batch:250 ;gs:14210 ;lr:0.045 ;loss:0.015 ;acc:1.000 ;iou:1.000 ;time: 0:01:16
+
+*Train loss: 0.014 ;Train accuracy: 1.000 ;Train IOU: 1.000 ;Time: 0:01:30 
+
+Testing, epoch: 47
+batch: 0 ;loss: 4.821 ;acc: 0.600 ;iou_acc: 0.705 ;time: 0:01:30
+batch: 50 ;loss: 4.986 ;acc: 0.545 ;iou_acc: 0.625 ;time: 0:01:39
+batch: 100 ;loss: 4.114 ;acc: 0.585 ;iou_acc: 0.690 ;time: 0:01:48
+batch: 150 ;loss: 5.138 ;acc: 0.560 ;iou_acc: 0.690 ;time: 0:01:57
+batch: 200 ;loss: 3.965 ;acc: 0.600 ;iou_acc: 0.705 ;time: 0:02:06
+batch: 250 ;loss: 4.371 ;acc: 0.575 ;iou_acc: 0.705 ;time: 0:02:15
+
+*Test loss: 4.356 ;Test accuracy 0.610 ;Test IOU: 0.700 ;Time: 0:02:24
+================================================== 
+Train, epoch: 48
+batch:0 ;gs:14257 ;lr:0.045 ;loss:0.008 ;acc:1.000 ;iou:1.000 ;time: 0:00:00
+batch:50 ;gs:14307 ;lr:0.045 ;loss:0.007 ;acc:1.000 ;iou:1.000 ;time: 0:00:16
+batch:100 ;gs:14357 ;lr:0.045 ;loss:0.006 ;acc:1.000 ;iou:1.000 ;time: 0:00:30
+batch:150 ;gs:14407 ;lr:0.045 ;loss:0.014 ;acc:1.000 ;iou:1.000 ;time: 0:00:44
+batch:200 ;gs:14457 ;lr:0.045 ;loss:0.012 ;acc:1.000 ;iou:1.000 ;time: 0:00:59
+batch:250 ;gs:14507 ;lr:0.045 ;loss:0.005 ;acc:1.000 ;iou:1.000 ;time: 0:01:14
+
+*Train loss: 0.009 ;Train accuracy: 1.000 ;Train IOU: 1.000 ;Time: 0:01:28 
+
+Testing, epoch: 48
+batch: 0 ;loss: 5.111 ;acc: 0.580 ;iou_acc: 0.700 ;time: 0:01:28
+batch: 50 ;loss: 5.211 ;acc: 0.545 ;iou_acc: 0.625 ;time: 0:01:37
+batch: 100 ;loss: 4.124 ;acc: 0.570 ;iou_acc: 0.680 ;time: 0:01:46
+batch: 150 ;loss: 5.267 ;acc: 0.540 ;iou_acc: 0.670 ;time: 0:01:55
+batch: 200 ;loss: 3.918 ;acc: 0.615 ;iou_acc: 0.720 ;time: 0:02:03
+batch: 250 ;loss: 4.193 ;acc: 0.595 ;iou_acc: 0.740 ;time: 0:02:12
+
+*Test loss: 4.431 ;Test accuracy 0.610 ;Test IOU: 0.699 ;Time: 0:02:21
+================================================== 
+Train, epoch: 49
+batch:0 ;gs:14554 ;lr:0.045 ;loss:0.005 ;acc:1.000 ;iou:1.000 ;time: 0:00:00
+batch:50 ;gs:14604 ;lr:0.045 ;loss:0.006 ;acc:1.000 ;iou:1.000 ;time: 0:00:15
+batch:100 ;gs:14654 ;lr:0.045 ;loss:0.008 ;acc:1.000 ;iou:1.000 ;time: 0:00:30
+batch:150 ;gs:14704 ;lr:0.045 ;loss:0.004 ;acc:1.000 ;iou:1.000 ;time: 0:00:45
+batch:200 ;gs:14754 ;lr:0.045 ;loss:0.010 ;acc:1.000 ;iou:1.000 ;time: 0:01:00
+batch:250 ;gs:14804 ;lr:0.045 ;loss:0.009 ;acc:1.000 ;iou:1.000 ;time: 0:01:15
+
+*Train loss: 0.010 ;Train accuracy: 1.000 ;Train IOU: 1.000 ;Time: 0:01:28 
+
+Testing, epoch: 49
+batch: 0 ;loss: 4.914 ;acc: 0.560 ;iou_acc: 0.685 ;time: 0:01:29
+batch: 50 ;loss: 5.368 ;acc: 0.545 ;iou_acc: 0.625 ;time: 0:01:38
+batch: 100 ;loss: 4.181 ;acc: 0.600 ;iou_acc: 0.695 ;time: 0:01:47
+batch: 150 ;loss: 5.980 ;acc: 0.525 ;iou_acc: 0.655 ;time: 0:01:55
+batch: 200 ;loss: 4.317 ;acc: 0.585 ;iou_acc: 0.670 ;time: 0:02:05
+batch: 250 ;loss: 4.511 ;acc: 0.580 ;iou_acc: 0.710 ;time: 0:02:13
+
+*Test loss: 4.478 ;Test accuracy 0.611 ;Test IOU: 0.700 ;Time: 0:02:21
+================================================== 
+
+
+****************************************************************************************************
+****************************************************************************************************
+**************************************************************************************************** 
+
