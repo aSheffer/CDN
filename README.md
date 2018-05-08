@@ -65,6 +65,7 @@ GroundeR|0.819|1|3.15|0.004
 SBN|0.831| 0.95|1.245|0.519
 SG+CDN|0.845|0.948|1.11|0.475
 SGD+CDN|0.851|0.93|1.04|0.6
+
 <br><br>
 The following table shows the results for SG with no BN (Batch Normalization), BN over the language model, image model, both and with scaled BN (adding BN layers over both language and image models and scaling the BN outputs)
 
@@ -75,6 +76,7 @@ Image|0.726|0.994|3.2|0.1
 Language|0.8|1|3.03|0.002
 Both|0.819|1|3.15|0.004
 scaled|0.831|0.95|1.245|0.52
+
 <br><br>
 The graphs below show the dramatic effect of CDN in terms of acuuracy, regularization and training speed.<br><br><br><br> 
 
