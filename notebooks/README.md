@@ -1,6 +1,6 @@
 # Notebooks
 
-This folder contains all the project's notebooks with which you can examine the results and test everything yourself (Some graphs and tables might be more readable after downloading the notebooks to your on computer). Note that all the tests outputs can be found in ```/notebooks/logs/``` and the code of the models themselves can be found in ```/root/modedels/``` (where ```root``` is the project root directory).
+This folder contains all the project's notebooks with which you can examine the results and test everything yourself (Some graphs and tables might be more readable after downloading the notebooks to your on computer). Note that all the tests outputs can be found in ```root/notebooks/logs/``` (where ```root``` is the project root directory) and the code of the models themselves can be found in ```root/models/``` .
 
 ### Notebooks Overview
 
