@@ -76,3 +76,13 @@ Language|0.8|1|3.03|0.002
 Both|0.819|1|3.15|0.004
 scaled|0.831|0.95|1.245|0.52
 
+The graphs below show the dramatic effect of CDN in terms of acuuracy, regularization and training speed. 
+
+<p align="center">
+   <b>SG</b><br>
+  <img src="https://raw.githubusercontent.com/aSheffer/Cross-Domain-Normalization-for-Natural-Language-Object-Retrieval/master/graphs/simpleRes.png"><br><br>
+    <b>SG with BN layers over the image and language models</b><br>
+  <img src="https://raw.githubusercontent.com/aSheffer/Cross-Domain-Normalization-for-Natural-Language-Object-Retrieval/master/graphs/BNRes.png"><br><br>
+    <b>SG with CDN</b><br>
+  <img src="https://github.com/aSheffer/Cross-Domain-Normalization-for-Natural-Language-Object-Retrieval/blob/master/graphs/cdnRes.png">
+</p>
