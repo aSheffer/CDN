@@ -78,7 +78,7 @@ Both|0.819|1|3.15|0.004
 scaled|0.831|0.95|1.245|0.52
 
 <br><br>
-The graphs below show the dramatic effect of CDN in terms of acuuracy, regularization and training speed.<br><br><br><br> 
+The graphs below show the dramatic effect of CDN in terms of acuuracy, regularization and training speed.<br><br>
 
 <p align="center">
    <b>SG</b><br>
