@@ -19,4 +19,4 @@ This folder contains all the project's notebooks with which you can examine the 
 
 - Finally, we've added two baselines which you can find in ```Rand.ipynb``` and ```CBoWG.ipynb```.
 
-- In ```demo.ipynb``` you'll find our demo where you can run our model (CDND) with different images. ```root/demo_images``` contains some images with which you can run the demo (none of these images were seen during training). Note that the demo uses Mask-RCNN (with Tensorflow), thus, you'll need to have the proper installation (see the README file in the project root).
+- In ```demo.ipynb``` you'll find our demo where you can run our model (CDND) with different images. ```root/demo_images``` contains some images with which you can run the demo (none of these images were seen during training). Note that the demo uses Mask-RCNN (with Tensorflow), thus you'll need to have the proper installation (see the README file in the project's root).
