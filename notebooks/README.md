@@ -1,6 +1,6 @@
 # Notebooks
 
-This folder contains all the project's notebooks with which you can examine the results and test everything yourself (Some graphs and tables might be more readable after downloading the notebooks to your on computer). Note that all the tests outputs can be found in ```root/notebooks/logs``` (where ```root``` is the project root directory) and the code of the models themselves can be found in ```root/models``` .
+This folder contains all the project's notebooks with which you can examine the results and test everything yourself (Some graphs and tables might be more readable after downloading the notebooks to your on computer). Note that all the tests outputs can be found in ```root/notebooks/logs``` (where ```root``` is the project root directory) and the code of the models (and some other modules) can be found in ```root/models``` .
 
 <b>Notes that unlike the paper, all the results shown in the notebooks are the best results for the test and the train sets (not necessarily from the same epoch)</b>
 
