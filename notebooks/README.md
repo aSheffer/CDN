@@ -2,7 +2,7 @@
 
 This folder contains all the project's notebooks with which you can examine the results and test everything yourself (Some graphs and tables might be more readable after downloading the notebooks to your on computer). Note that all the tests outputs can be found in ```/notebooks/logs/``` and the code of the models themselves can be found in ```/root/modedels/``` (where ```root``` is the project root directory).
 
-## Notebooks Overview
+### Notebooks Overview
 
 <ul>
 <li> <b>SG.ipynb</b> shows the results of SG without BN (Batch Normalization) nor CDN. We test the model with different hyperparameters and different mechanisms (bidirectional RNN and attention) </li><br>
