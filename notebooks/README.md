@@ -1,6 +1,6 @@
 # Notebooks
 
-This folder contains all the project's notebooks with which you can examine the results and test everything yourself (Some graphs and tables might be more readable after downloading the notebooks to your on computer). Note that all the tests outputs can be found in ```root/notebooks/logs/``` (where ```root``` is the project root directory) and the code of the models themselves can be found in ```root/models/``` .
+This folder contains all the project's notebooks with which you can examine the results and test everything yourself (Some graphs and tables might be more readable after downloading the notebooks to your on computer). Note that all the tests outputs can be found in ```root/notebooks/logs``` (where ```root``` is the project root directory) and the code of the models themselves can be found in ```root/models``` .
 
 ### Notebooks Overview
 
@@ -19,4 +19,4 @@ This folder contains all the project's notebooks with which you can examine the 
 
 - Finally, we've added two baselines which you can find in ```Rand.ipynb``` and ```CBoWG.ipynb```.
 
-- In ```demo.ipynb``` you'll find our demo where you can run our model (CDND) with different images. ```root/demo_images/``` contains some images with which you can run the demo. Note that the demo uses Mask-RCNN (with Tensorflow), thus, you'll need to have the proper installation (see the README file in the project root).
+- In ```demo.ipynb``` you'll find our demo where you can run our model (CDND) with different images. ```root/demo_images``` contains some images with which you can run the demo. Note that the demo uses Mask-RCNN (with Tensorflow), thus, you'll need to have the proper installation (see the README file in the project root).
