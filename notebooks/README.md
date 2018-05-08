@@ -5,7 +5,7 @@ This folder contains all the project's notebooks with which you can examine the 
 ### Notebooks Overview
 
 <ul>
-<li> <b>SG.ipynb</b> shows the results of SG without BN (Batch Normalization) nor CDN. We test the model with different hyperparameters and different mechanisms (bidirectional RNN and attention) </li><br>
+<li> <b>SG.ipynb</b> shows the results of SG without BN (Batch Normalization) nor CDN (Cross Domain Normalization). We test the model with different hyperparameters and different mechanisms (bidirectional RNN and attention) </li><br>
   
 <li> Next you'll find in <b>SGBN.ipynb</b> the results for SG with BN over the image domain, language domain and both. In these experiments the number of the LSTM hidden units is set to 50, 100 and 150.</li><br>  
  
@@ -13,7 +13,7 @@ This folder contains all the project's notebooks with which you can examine the 
 
 <li> In <b>SBN_Analysis.ipynb</b> we've analysed the performances, statistics and update rates of SG with SBN (Scaled Batch Nornalization) </li><br>
   
-<li> We've then tested CDN (Cross Domain Normalization) in <b>CDN_Analysis.ipynb</b>. We've also tested CDN with attention, bidirectional RNN and both. Again, we've gathered and analysed the domains statistics and update rates for each experiment</li><br>
+<li> We've then tested CDN in <b>CDN_Analysis.ipynb</b>. We've also tested CDN with attention, bidirectional RNN and both. Again, we've gathered and analysed the domains statistics and update rates for each experiment</li><br>
 
 <li> For ablation, in <b>NoSpat.ipynb</b> we've tested the effect of removing the spatial features. In <b>imagesOnly.ipynb</b> we've removed the textual queries altogether, leaving only the images. This helps us understand the amount of information we can extract from the images alone and the model ability to overfit the images.  <br>
 
