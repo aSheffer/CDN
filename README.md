@@ -62,9 +62,12 @@ RAND|0.294|-|-|-
 CBoWG|0.6|0.74|2.03|1.93
 SCRC|0.68|1|2.05|0.35
 GroundeR|0.819|1|3.15|0.004
+SG|0.66|0.99|3.64|0.47
 SBN|0.831| 0.95|1.245|0.519
 SG+CDN|0.845|0.948|1.11|0.475
 SGD+CDN|0.851|0.93|1.04|0.6
+SG+BiCDN|0.86|0.96|1.04|0.44
+
 
 <br><br>
 The following table shows the results for SG with no BN (Batch Normalization), BN over the language model, image model, both and with scaled BN (adding BN layers over both language and image models and scaling the BN outputs)
