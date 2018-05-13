@@ -59,7 +59,7 @@ Run the demo in ``` notbooks/demo.ipynb``` for examples to get the object's segm
 Model |Test P@1|Train P@1|Test Loss|Train Loss 
 ------|--------|---------|---------|-----------
 RAND|0.294|-|-|-
-CBoWG|0.6|0.74|2.03|1.93
+CBoWG|0.62|0.706|1.944|2.03
 SCRC|0.68|1|2.05|0.35
 GroundeR|0.819|1|3.15|0.004
 SG|0.66|0.99|3.64|0.47
