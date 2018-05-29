@@ -176,7 +176,8 @@ class Model():
         vocab['<unk>'] = len(vocab)
 
         # Words vectors
-        embed_vecs = np.load(open(embed_path, 'rb')).astype(np.float32)
+        embed_vecs = np.load(open(embed_path, 'rb'))
+        embed_vecs = np.concatenate([embed_vecs, np.zeros((1, 100))], 0).astype(np.float32)
 
         return vocab, embed_vecs
     
