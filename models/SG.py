@@ -185,12 +185,12 @@ class Model():
         '''
         Each query atteched to a different number of BBOXes, hence, 
         we've padded each query BBOXes candidates with zeros (in attn_vecs). When using 
-        batch normlization, this might effect he mean and std which the BN calculates. Therefore, 
+        batch normlization, this might effect the mean and std which the BN calculates. Therefore, 
         we change the paddings s.t it won't affect the statistics. This is done 
         by:
         
-            1. Let the i features set be the set of all the batch's BBOXes
-               i dimension. We first calculate the std and mean of all the 
+            1. Let the i-th features set contain the i-th feature of each BBOX
+               in the batch. We first calculate the std and mean of all the 
                values in this set which are not paddings.
                
             2. We build a random tensor (bbox_padded) with the shape of attn_vecs s.t in 
@@ -201,8 +201,8 @@ class Model():
             3. We than replace only the padded features in attn_vecs by their correspond
                features in bbox_padded.
             
-        It's easy to show mathematicly that bath normelizing the resulted tensor will have 
-        the same effect as bath normelizing attn_vecs.
+        It's easy to show mathematicly that batch normelizing the resulted tensor will have 
+        the same effect as batch normelizing attn_vecs.
             
             
         Params:
