@@ -35,7 +35,9 @@ python ./exp-referit/test_cache_referit_local_features.py
 
 ### Training the models
 
-You can train and validate the paper's different models (using the manually annotated bounding boxes) via the notebooks in ```root/notebooks```, where root is the project's directory (the code for the models is in ```root/models```). This will allow you to examine the effect of different hyperparameters on the domains update rates, their statistics and the models performances. You can also run ```python ./train.py``` in order to train SG+CDND (see the paper for more details about SG+CDND). In order to train the models with proposals which were generated automatically, please do the following:
+You can train and validate the paper's different models (using the manually annotated bounding boxes) via the notebooks in ```root/notebooks```, where root is the project's directory (the code for the models is in ```root/models```). This will allow you to examine the effect of different hyperparameters on the domains update rates, their statistics and the models performances. You can also run ```python ./train.py``` in order to train SG+CDND (see the paper for more details about SG+CDND). 
+
+In order to train the models with proposals which were generated automatically, please do the following:
 
 1. Build the training and testing batches: 
 ```
@@ -81,17 +83,18 @@ SG+BiCDN|0.86|0.96|1.04|0.44
 
 <b>Automatically generate bounding boxes:</b>
 
-Model |Test P@1|Train P@1|Test Loss|Train Loss 
-------|--------|---------|---------|-----------
-RAND|0.294|-|-|-
-CBoWG|0.62|0.706|1.944|2.03
-SCRC|0.68|1|2.05|0.35
-GroundeR|0.819|1|3.15|0.004
-SG|0.66|0.99|3.64|0.47
-SBN|0.831| 0.95|1.245|0.519
-SG+CDN|0.845|0.948|1.11|0.475
-SGD+CDN|0.851|0.93|1.04|0.6
-SG+BiCDN|0.86|0.96|1.04|0.44
+Model |Test P@1
+------|--------
+SCRC|17.93
+GroundeR|26.93
+MCB|28.91
+Comprehension|31.85
+SG|22.40
+SG+CDN|33.60
+SGD+CDN|34.00
+SG+BiCDN|34.40
+P@1 upperbound|89.38
+
 
 
 <br><br>
