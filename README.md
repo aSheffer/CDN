@@ -38,14 +38,17 @@ python ./exp-referit/test_cache_referit_local_features.py
 You can train and validate the paper's different models (using the manually annotated bounding boxes) via the notebooks in ```root/notebooks```, where root is the project's directory (the code for the models is in ```root/models```). This will allow you to examine the effect of different hyperparameters on the domains update rates, their statistics and the models performances. You can also run ```python ./train.py``` in order to train SG+CDND (see the paper for more details about SG+CDND). 
 
 In order to train the models with proposals which were generated automatically, please do the following:
-
-1. Build the training and testing batches: 
+1. Download the spatial locations of the automatically generated boxes"
+```
+./data/download_edgebox_proposals.sh
+```
+2. Build the training and testing batches: 
 ```
 python ./exp-referit/train_buildBatches_edgebox.py
 python ./exp-referit/test_buildBatches_edgebox.py
 ```
 
-2. Train the model by 
+3. Train the model by 
 ```python ./train_edgebox.py```
    : This will train SG+CDN. You can add the arguments ```-CDND True``` or ```-BiCDN True``` to run SGD+CDN or SG+BiCDN
 
