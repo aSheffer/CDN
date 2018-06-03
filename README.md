@@ -35,8 +35,17 @@ python ./exp-referit/test_cache_referit_local_features.py
 
 ### Training the models
 
-You can train and validate the paper's different models via the notebooks in ```root/notebooks```, where root is the project's directory (the code for the models is in ```root/models```). This will allow you to examine the effect of different hyperparameters on the domains update rates, their statistics and the models performances.
-You can also run ```python ./train.py``` in order to train SG+CDND (see the paper for more details about SG+CDND).
+You can train and validate the paper's different models (using the manually annotated bounding boxes) via the notebooks in ```root/notebooks```, where root is the project's directory (the code for the models is in ```root/models```). This will allow you to examine the effect of different hyperparameters on the domains update rates, their statistics and the models performances. You can also run ```python ./train.py``` in order to train SG+CDND (see the paper for more details about SG+CDND). In order to train the models with proposals which were generated automatically, please do the following:
+
+1. Build the training and testing batches: 
+```
+python ./exp-referit/train_buildBatches_edgebox.py
+python ./exp-referit/test_buildBatches_edgebox.py
+```
+
+2. Train the model by 
+```python ./train_edgebox.py```
+   : This will train SG+CDN. You can add the arguments ```-CDND True``` or ```-BiCDN True``` to run SG+CDND or SG+BiCDN
 
 To train the models we've used GPU (GeForce GTX 1080). The basic model (SG) took about 3.5 houres to converge while SG with CDN took about 2 hours. However, note that SG+CDN took about 2.5 minutes (one ephoc) to outperform the results we got without CDN. 
 
@@ -56,6 +65,22 @@ Run the demo in ``` notbooks/demo.ipynb``` for examples to get the object's segm
 
 ## Performances
 
+<b>Manually annotated bounding boxes:</b>
+
+Model |Test P@1|Train P@1|Test Loss|Train Loss 
+------|--------|---------|---------|-----------
+RAND|0.294|-|-|-
+CBoWG|0.62|0.706|1.944|2.03
+SCRC|0.68|1|2.05|0.35
+GroundeR|0.819|1|3.15|0.004
+SG|0.66|0.99|3.64|0.47
+SBN|0.831| 0.95|1.245|0.519
+SG+CDN|0.845|0.948|1.11|0.475
+SGD+CDN|0.851|0.93|1.04|0.6
+SG+BiCDN|0.86|0.96|1.04|0.44
+
+<b>Automatically generate bounding boxes:</b>
+
 Model |Test P@1|Train P@1|Test Loss|Train Loss 
 ------|--------|---------|---------|-----------
 RAND|0.294|-|-|-
@@ -70,7 +95,7 @@ SG+BiCDN|0.86|0.96|1.04|0.44
 
 
 <br><br>
-The following table shows the results for SG with no BN (Batch Normalization), BN over the language model, image model, both and with scaled BN (adding BN layers over both language and image models and scaling the BN outputs)
+The following table shows the results for SG with no BN (Batch Normalization), BN over the language model, image model, both and with scaled BN (adding BN layers over both language and image models and scaling the BN outputs). For these results and the grpah below we've used manually annotated bounding boxes
 
 BN |Test P@1|Train P@1|Test Loss|Train Loss 
 ------|--------|---------|---------|-----------
