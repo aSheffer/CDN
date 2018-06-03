@@ -47,7 +47,7 @@ python ./exp-referit/test_buildBatches_edgebox.py
 
 2. Train the model by 
 ```python ./train_edgebox.py```
-   : This will train SG+CDN. You can add the arguments ```-CDND True``` or ```-BiCDN True``` to run SG+CDND or SG+BiCDN
+   : This will train SG+CDN. You can add the arguments ```-CDND True``` or ```-BiCDN True``` to run SGD+CDN or SG+BiCDN
 
 To train the models we've used GPU (GeForce GTX 1080). The basic model (SG) took about 3.5 houres to converge while SG with CDN took about 2 hours. However, note that SG+CDN took about 2.5 minutes (one ephoc) to outperform the results we got without CDN. 
 
@@ -79,7 +79,7 @@ SG|0.66|0.99|3.64|0.47
 SBN|0.831| 0.95|1.245|0.519
 SG+CDN|0.845|0.948|1.11|0.475
 SGD+CDN|0.851|0.93|1.04|0.6
-SG+BiCDN|0.86|0.96|1.04|0.44
+SG+BiCDN|<b>0.86</b>|<b>0.96</b>|<b>1.04</b>|<b>0.44</b>
 
 <b>Automatically generate bounding boxes:</b>
 
@@ -92,8 +92,8 @@ Comprehension|31.85
 SG|22.40
 SG+CDN|33.60
 SGD+CDN|34.00
-SG+BiCDN|34.40
-P@1 upperbound|89.38
+SG+BiCDN|<b>34.40</b>
+P@1 upperbound|59.38
 
 
 
